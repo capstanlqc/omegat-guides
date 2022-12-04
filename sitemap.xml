@@ -36,11 +36,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/tec-cb-ome-ins-ver/</loc>
-         <lastmod>2022-12-04</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://capstanlqc.github.com/omegat-guides/tec-cb-ome-ins/</loc>
          <lastmod>2022-12-04</lastmod>
          <changefreq>daily</changefreq>
@@ -92,6 +87,11 @@
     </url>
     <url>
          <loc>https://capstanlqc.github.com/omegat-guides/_includes/omt-chara/</loc>
+         <lastmod>2022-12-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/_includes/omt-conc/</loc>
          <lastmod>2022-12-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -167,11 +167,6 @@
     </url>
     <url>
          <loc>https://capstanlqc.github.com/omegat-guides/_includes/omt-targets/</loc>
-         <lastmod>2022-12-04</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/_includes/omtconc/</loc>
          <lastmod>2022-12-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
