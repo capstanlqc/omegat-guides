@@ -1,4 +1,4 @@
-# OmegaT installation and customization
+# Installation and customization
 
 <div style="width: 100%">
 

@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-# OmegaT User Guides [cApStAn]
+# Markdown
 
 Welcome to the **OmegaT user guides**, maintained by the [cApStAn](http://www.capstan.be) Tech Team.
 
@@ -132,8 +132,8 @@ replace
 /lib/exe/detail.php\?id=ug%3A(.+?&amp;)?media=ug:
 and
 /lib/exe/(fetch|detail).php\?(w=\d+?&amp;)?(tok=.+?&amp;)?media=ug:
-
 with
+
 https://pisawiki.capstan.be/lib/exe/fetch.php?
 
 or download wget 
