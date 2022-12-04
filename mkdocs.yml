@@ -2,11 +2,6 @@ site_name: OmegaT guides [cApStAn]
 site_url: https://capstanlqc.github.com/omegat-guides
 nav:
     - Contents: index.md
-    - Misc:
-        - About: about.md
-        - Cheatsheet (shortcuts): cheatsheet.md
-        - Bidirectionality: tec-omt-rtl.md
-        - FAQ: tec-cb-ome-faq.md
     - User Guides: 
         - Installation and customization: tec-cb-ome-ins.md
         - Translation: tec-cb-ome-tra.md
@@ -15,6 +10,11 @@ nav:
         - Proofreading: tec-cb-ome-prf.md
         - Verification: tec-cb-ome-ver.md
         - Verification CG: tec-cb-ome-ver-cg.md
+    - Misc:
+        - About: about.md
+        - Cheatsheet (shortcuts): cheatsheet.md
+        - Bidirectionality: tec-omt-rtl.md
+        - FAQ: tec-cb-ome-faq.md
     - Technical:
         - Security information: tec-cb-ome-sec.md
         - Markdown: markdown.md
@@ -22,12 +22,15 @@ theme:
   name: material
   features:
     - toc.follow
-    - navigation.indexes 
+    - navigation.indexes
 markdown_extensions:
     - toc:
         baselevel: 2
         permalink: True
         separator: "_"
+        toc_depth: 2-3
+    - attr_list
+    - md_in_html
 extra_css:
   - stylesheets/extra.css
 extra_javascript:
