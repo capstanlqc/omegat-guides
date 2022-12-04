@@ -1,4 +1,4 @@
-# Security information about OmegaT
+# Security information
 
 OmegaT is the translation tool selected for the language tasks of various projects. cApStAn is responsible for customizing this tool so that it can interact optimally with the XLIFF files that will be prepared for those projects, and to streamline language tasks and reduce support requests. 
 

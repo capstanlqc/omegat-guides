@@ -1,4 +1,4 @@
-# OmegaT - Reconciliation guide
+# Reconciliation
 
 OmegaT is the open source computer-assisted translation tool (CAT tool) which will be used to translate, reconcile, adapt, review and verify materials. The software has been customized to enable you to perform your task.
 
@@ -12,12 +12,10 @@ OmegaT is the open source computer-assisted translation tool (CAT tool) which wi
 
   * All segments will appear **untranslated** in the Editor pane (the main pane of OmegaT, which contains the source text). To find out how to recognize reconciled segments from unreconciled ones and from potential trend segments, please refer to the section 
   * The** suggestions from Translator 1 and Translator 2** for the active segment (green) appear below, in the **Fuzzy matches pane** 
-
-[<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:reconciliation_task.jpg" class="media" alt="" width="800" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:reconciliation_task.jpg) 
+  [<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:reconciliation_task.jpg" class="media" alt="" width="800" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:reconciliation_task.jpg) 
 
   * In the Fuzzy matches pane, the suggestions from the 2 translators display the __source text of the active segment__, the __suggested translation for the active segment__ as well as the __identity of the author__. 
-
- [<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:40_fuzzy_parts.jpg" class="media" alt="" width="400" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:40_fuzzy_parts.jpg) 
+  [<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:40_fuzzy_parts.jpg" class="media" alt="" width="400" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:40_fuzzy_parts.jpg) 
 
   * By default, the suggestion from translator 1 appears in bold. It means it is selected. If you want to insert it, no need to retype the text, you can simply press **Ctrl+I** on your keyboard and it will appear below the active segment. 
   * To learn how to reconcile and insert the suggestions from translator 2 or how to combine both, please read the section 

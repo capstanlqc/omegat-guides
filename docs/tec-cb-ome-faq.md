@@ -1,4 +1,4 @@
-# OmegaT FAQ
+# FAQ
 
 ## [ALL] How can I contact the helpdesk ?
 
