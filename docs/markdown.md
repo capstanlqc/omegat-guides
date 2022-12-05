@@ -146,3 +146,7 @@ https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:38_concordance_search.jpg
 we want to create links to sections within guides
 
 http://127.0.0.1:8000/omegat-guides/tec-cb-ome-ver/#most_common_html_tags
+
+## Problems
+
+Exclude `_excludes` from search?

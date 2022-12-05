@@ -1,4 +1,4 @@
-# Handling bidirectionality
+<!-- # Handling bidirectionality -->
 
 ## Text direction and text alignment 
 
