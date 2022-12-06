@@ -133,7 +133,7 @@ To correct this issue, you would have to perform the following steps:
 
   * **double click** on the first incorrectly inserted tag in the target segment to select it and press **Backspace** on your keyboard to delete it 
   * repeat the operation until you deleted all incorrectly inserted tags
-  * place your mouse where the first tag should be correctly inserted and press **Ctrl+T** on your keyboard to insert the first tag
+  * place your mouse where the first tag should be correctly inserted and press ++ctrl+t++ on your keyboard to insert the first tag
   * insert all other missing tags.
 
 [<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:11a_tag_order_ada.jpg" class="media" alt="" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:11a_tag_order_ada.jpg)
@@ -153,11 +153,11 @@ The source in the fuzzy matches pane shows the difference between the active seg
 
 Do not hesitate to consult the fuzzy matches pane to ensure you make the same changes consistently throughout. 
 
-You can insert a fuzzy match or a part of a fuzzy match with **Ctrl+I**:
+You can insert a fuzzy match or a part of a fuzzy match with ++ctrl+I++:
 
   * Activate the fuzzy match you wish to use by **double clicking** on it. 
   * With your mouse, **select** the part you wish to insert.
-  * Press **Ctrl+I** on your keyboard to insert it.
+  * Press ++ctrl+I++ on your keyboard to insert it.
   * Do not forget to **delete** all unnecessary/remaining text from the target segment to ensure everything is correct.
 
 [<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:14a_select_part_fuzzy_ada.jpg" class="media" alt="" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:14a_select_part_fuzzy_ada.jpg)
@@ -217,7 +217,7 @@ In some cases, you may not wish to modify the translation of all repeated segmen
 
 [<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:18_create_alternative_translation.jpg" class="media" alt="" width="400" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:18_create_alternative_translation.jpg)
 
-  * Change the translation of your active segment and then either press **Ctrl+S** or move to the next one.
+  * Change the translation of your active segment and then either press ++ctrl+s++ or move to the next one.
 
 [<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:19_alternative_translation_created.jpg" class="media" alt="" width="800" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:19_alternative_translation_created.jpg)
 
@@ -235,7 +235,7 @@ If you return on the repeated segment, you will see the different translations a
 
 When you arrive in a segment in which you need to insert a special character, perform the following steps:
 
-  * Press **Ctrl+Space** on your keyboard several times until you reach the special characters table.
+  * Press ++ctrl+space++ on your keyboard several times until you reach the special characters table.
 
 [<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:25_character_table.jpg" class="media" alt="" width="400" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:25_character_table.jpg)
 
@@ -248,7 +248,7 @@ When you arrive in a segment in which you need to insert a special character, pe
 
 In order to insert non-breaking spaces in OmegaT, please make sure you have installed **Auto Hot Key**. If you haven't installed it yet, please check the **Third Party Tools** section of the [OmegaT Installation guide](/doku.php?id=ug:tec-cb-ome-ins)
 
-Once **Auto Hot Key** is installed, you can insert non-breaking spaces with the same keyboard shortcut as in Word: **Ctrl+Shift+Space**. You can recognize a non breaking space because it is gray. 
+Once **Auto Hot Key** is installed, you can insert non-breaking spaces with the same keyboard shortcut as in Word: ++ctrl+shift+space++. You can recognize a non breaking space because it is gray. 
 
 [<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:27_non-breaking_spaces.jpg" class="media" alt="" width="300" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:27_non-breaking_spaces.jpg)
 
@@ -257,7 +257,7 @@ Once **Auto Hot Key** is installed, you can insert non-breaking spaces with the 
 A concordance search allows you to look for words and expressions in the translation memory and the glossary. To perform a search follow the steps below:
 
   * In the active segment, select the word you want to search for with your mouse.
-  * Press **Ctrl+F** on your keyboard.
+  * Press ++ctrl+f++ on your keyboard.
   * The Search window will open.
   * Press Search. 
   * The results will be displayed.
@@ -282,7 +282,7 @@ All segments of the OmegaT package must have a translation. To ensure that is th
   * **NOT OK**: the **Number of unique segments** __is different from__ the number of **Translated unique segments**. To correct: 
 
   1. Close the Project Files Pane
-  1. Press **Ctrl+U** on your keyboard to jump to the __Next Untranslated Segment__. 
+  1. Press ++ctrl+u++ on your keyboard to jump to the __Next Untranslated Segment__. 
   1. When the cursor stops moving from the active segment then all segments have a translation.
 
 Recheck for completion, to make sure by opening the Project Files pane.
@@ -306,7 +306,7 @@ By default, other types of checks (Spelling, Terminology, LanguageTool) are tick
 
   1. Correct the issue by clicking on **Jump to Segment**. 
   1. You will arrive at the appropriate segment in the editor pane. 
-  1. Place your cursor where the missing tag needs to be inserted and press **Ctrl+T** to insert the missing tag.
+  1. Place your cursor where the missing tag needs to be inserted and press ++ctrl+t++ to insert the missing tag.
   1. Press Enter to move to the next segment.
   1. Open the Error report again. It has automatically refreshed.
   1. Finish going through the issues.
@@ -333,7 +333,7 @@ You can check whether the translation adheres to the glossary and key terms have
 
 ## Creating target files
 
-Press **Ctrl+Shift+D** to create the target file you were working on. This will allow you to preview the translated file with your changes.
+Press ++ctrl+shift+d++ to create the target file you were working on. This will allow you to preview the translated file with your changes.
 
 To access the file, go to **Project>Access Project Contents>Target Files**. A window with the contents of the "target" folder will open. Find the file you were working on, if there are several files and preview it to read the translation in context.
 
@@ -372,18 +372,18 @@ This is the file you have to deliver.
 
 Here is a table summarizing all functions you need to remember to work in OmegaT. Shortcuts (keyboard combinations) are provided if they are frequently used.
  Shortcut         | Menu/Action                                       | Function                                                     
-| **Ctrl+L**        | Project > Project Files                           | Open the Project Files window                                
-| **Ctrl+J**        | Go To > Segment Number…                         | Go to the segment thus numbered                              
-| **Ctrl+Space**    | N/A                                               | Press several times to open Character table                  
-| **Ctrl+U**        | Go To > Next Untranslated Segment                 | Go to the next untranslated segment                          
-| **Ctrl+T**        | Edit > Insert Next Missing Tag                    | Insert the next missing tag                                  
+| ++ctrl+L++        | Project > Project Files                           | Open the Project Files window                                
+| ++ctrl+J++        | Go To > Segment Number…                         | Go to the segment thus numbered                              
+| ++ctrl+space++    | N/A                                               | Press several times to open Character table                  
+| ++ctrl+u++        | Go To > Next Untranslated Segment                 | Go to the next untranslated segment                          
+| ++ctrl+t++        | Edit > Insert Next Missing Tag                    | Insert the next missing tag                                  
 | **Enter**         |                                                   | Go to Next Segment                                           
-| **Ctrl+I**        |                                                   | Insert active fuzzy match or selection of fuzzy match        
+| ++ctrl+I++        |                                                   | Insert active fuzzy match or selection of fuzzy match        
 |                   | **Right click > Create Alternative Translation**  | Mark a segment as alternative translation                    
-| **Ctrl+Shift+S**  |                                                   | Mark a segment as a translation identical to the source      
+| ++ctrl+shift+s++  |                                                   | Mark a segment as a translation identical to the source      
 | **Ctrl+Shift+V**      | Tools > Check issues                              | Run the QA checks                                            
-| **Ctrl+Shift+D**      | Project > Create Current Translated Document      | Export or generate the target file for the current document  
-| **Ctrl+D**            | Project > Create Translated Documents             | Export or generate all target files                          
+| ++ctrl+shift+d++      | Project > Create Current Translated Document      | Export or generate the target file for the current document  
+| ++ctrl+D++            | Project > Create Translated Documents             | Export or generate all target files                          
 |                   | **Project > Access Project Contents > …**       | Go to the project folders                                    
 | **Shift+F3**          |                                                   | Change capitalization of selected text                       
 

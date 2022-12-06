@@ -22,7 +22,7 @@ All the above steps are also described in the following
 
 ## [VER] How can I make sure I always see the country's version in the Fuzzy matches pane ?
 
-Before you make any changes in the project, press **Ctrl+D** on your keyboard to generate the target files. Then go to **Project>Access project contents>root**. 
+Before you make any changes in the project, press ++ctrl+D++ on your keyboard to generate the target files. Then go to **Project>Access project contents>root**. 
 
 You will see 3 different translation memories (.tmx) files. Copy the last one ending with "-omegat.tmx" and paste it in the **tm** folder. 
 
@@ -118,7 +118,7 @@ The answer is no. OmegaT was specifically customized to edit the files you are w
 
 ## In omegaT is it possible to search for translation by the target? Or it’s only possible by source?
 
-The answer is yes. Press **Ctrl+F** on your keyboard (without selecting anything in the source segment). The search window opens. Type the text in your language you are searching for and press the** Search** button. 
+The answer is yes. Press ++ctrl+f++ on your keyboard (without selecting anything in the source segment). The search window opens. Type the text in your language you are searching for and press the** Search** button. 
 
 [<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:search_chinese.jpg" class="media" alt="" width="500" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:search_chinese.jpg)
 
@@ -130,7 +130,7 @@ The answer is yes. When you only see 1 suggestion in the fuzzy matches pane, it 
 
 It is required that all segments are translated at the end of both translation and reconciliation tasks. To ensure this is the case, uploaded projects are checked for completion in every workflow step when you try to finish the task. If it is detected that some segments are not translated in the project, it is not possible to finish the task. 
 
-How do you know whether all segments are translated in your project? You can go to **Tools > Statistics** to obtain a report of the project statistics. If the "Remaining" or "Unique remaining" rows do not show "0", that means that some segments are not translated. Also, if you press shortcut **Ctrl+U**, OmegaT will open the next untranslated segment.
+How do you know whether all segments are translated in your project? You can go to **Tools > Statistics** to obtain a report of the project statistics. If the "Remaining" or "Unique remaining" rows do not show "0", that means that some segments are not translated. Also, if you press shortcut ++ctrl+u++, OmegaT will open the next untranslated segment.
 
 How can you fix this? You guessed it! Translate all remaining segments, then export the OMT package again, upload it again and then try to finis the task again. 
 

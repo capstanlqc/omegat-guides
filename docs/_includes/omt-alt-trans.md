@@ -5,7 +5,7 @@ In some cases, you may not wish to modify the translation of all repeated segmen
 
 [<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:18_create_alternative_translation.jpg" class="media" alt="" width="400" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:18_create_alternative_translation.jpg)
 
-  * Change the translation of your active segment and then either press **Ctrl+S** or move to the next one.
+  * Change the translation of your active segment and then either press ++ctrl+s++ or move to the next one.
 
 [<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:19_alternative_translation_created.jpg" class="media" alt="" width="800" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:19_alternative_translation_created.jpg)
 
