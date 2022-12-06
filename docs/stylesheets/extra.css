@@ -2,6 +2,15 @@
   display: block;
 }
 
+.md-tabs {
+  display: block;
+}
+
+.md-header__button {
+  display: block;
+}
+
 .md-grid {
   max-width: 1440px; 
 }
+

@@ -1,3 +1,11 @@
+---
+tags:
+  - Translation
+  - Reconciliation
+  - Verification
+---
+
+
 <!-- Installation and customization -->
 
 <div style="width: 100%">

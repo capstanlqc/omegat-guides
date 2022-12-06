@@ -150,3 +150,16 @@ http://127.0.0.1:8000/omegat-guides/tec-cb-ome-ver/#most_common_html_tags
 ## Problems
 
 Exclude `_excludes` from search?
+
+## Style guide 
+
+Don't: 
+
+
+Do: 
+
+Comment
+
+| Don't | Do  | Comment |
+|-------|-----|---------|
+| **Project>Open Recent Project**    | **Project** > **Open Recent Project** | Separate both items in the path with " > ". Bold each separately     |

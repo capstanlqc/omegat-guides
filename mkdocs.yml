@@ -3,8 +3,9 @@ site_url: https://capstanlqc.github.com/omegat-guides
 nav:
     - Contents: index.md
     - Tags: tags.md
+    - Translation: 
+        - Introduction: tasks/tra-intro.md
     - User Guides: 
-        - Installation and customization: tec-cb-ome-ins.md
         - Translation: tec-cb-ome-tra.md
         - Reconciliation: tec-cb-ome-rec.md
         - Adaptation: tec-cb-ome-adp.md
@@ -13,6 +14,7 @@ nav:
         - Verification CG: tec-cb-ome-ver-cg.md
     - Misc:
         - About: about.md
+        - Installation and customization: tec-cb-ome-ins.md
         - Cheatsheet (shortcuts): cheatsheet.md
         - Bidirectionality: tec-omt-rtl.md
         - FAQ: tec-cb-ome-faq.md
@@ -25,9 +27,11 @@ theme:
     code: Hack
   name: material
   features:
+    #- toc.integrate
     - navigation.instant
     - navigation.prune
-    - navigation.sections    
+    #- navigation.sections    
+    - navigation.tabs
     - toc.follow
     - navigation.indexes
 markdown_extensions:
@@ -46,6 +50,13 @@ plugins:
   - search
   - tags:
       tags_file: tags.md
+      tags_slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+      tags_allowed:
+        - Translation
+        - Reconciliation
+        - Verification
   - macros:
       verbose: true
       include_dir: docs/_includes
