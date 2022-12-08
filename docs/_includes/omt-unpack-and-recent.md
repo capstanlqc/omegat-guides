@@ -28,7 +28,7 @@ The following steps need to be performed __only once per OmegaT package__: when 
 
 4. You can now perform your task in the project.
 
-When you are done working for the day, quit OmegaT (`Ctrl+Q`).
+When you are done working for the day, quit OmegaT (++ctrl+q++).
 
 ## Accessing the project after it has been unpacked
 

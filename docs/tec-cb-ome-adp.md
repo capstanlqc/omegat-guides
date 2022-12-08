@@ -96,7 +96,7 @@ All segments should appear translated in a project for adaptation either in gray
 
 [<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:08_color_coding.jpg" class="media" alt="" width="600" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:08_color_coding.jpg)
 
-## Handling tags (Ctrl+T)
+## Handling tags (++ctrl+t++)
 
 ### Recognizing tags
 
@@ -134,7 +134,7 @@ Below you will find the most common HTML tags you may encounter.
 
 [<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:11_b_tags_html.jpg" class="media" alt="" width="400" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:11_b_tags_html.jpg)
 
-## Using Fuzzy matches (`Ctrl+i`)
+## Using Fuzzy matches (++ctrl+i++)
 
 Any changes you make during adaptation are saved in the translation memory of the project. When you activate a segment which is similar to one you have already adapted, you may see suggestions in the fuzzy matches pane. 
 
@@ -147,11 +147,11 @@ The source in the fuzzy matches pane shows the difference between the active seg
 
 Do not hesitate to consult the fuzzy matches pane to ensure you make the same changes consistently throughout. 
 
-You can insert a fuzzy match or a part of a fuzzy match with `Ctrl+i`:
+You can insert a fuzzy match or a part of a fuzzy match with ++ctrl+i++:
 
   * Activate the fuzzy match you wish to use by **double clicking** on it. 
   * With your mouse, **select** the part you wish to insert.
-  * Press `Ctrl+i` on your keyboard to insert it.
+  * Press ++ctrl+i++ on your keyboard to insert it.
   * Do not forget to **delete** all unnecessary/remaining text from the target segment to ensure everything is correct.
 
 [<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:14a_select_part_fuzzy_ada.jpg" class="media" alt="" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:14a_select_part_fuzzy_ada.jpg)
@@ -255,7 +255,7 @@ A concordance search allows you to look for words and expressions in the transla
   * The Search window will open.
   * Press Search. 
   * The results will be displayed.
-  * You can copy (select with mouse and press Ctrl+C on your keyboard) what you need from the results and paste it in the target translation at the right place.
+  * You can copy (select with mouse and press ++ctrl+c++ on your keyboard) what you need from the results and paste it in the target translation at the right place.
 
 [<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:38_concordance_search.jpg" class="media" alt="" width="500" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:38_concordance_search.jpg)
 
@@ -354,22 +354,5 @@ Once you have finished editing the OmegaT package and have performed the appropr
 
 This is the file you have to deliver.
 
-## Shortcuts cheatsheet
-
-Here is a table summarizing all functions you need to remember to work in OmegaT. Shortcuts (keyboard combinations) are provided if they are frequently used.
- Shortcut         | Menu/Action                                       | Function                                                     
-| ++ctrl+L++        | Project > Project Files                           | Open the Project Files window                                
-| ++ctrl+J++        | Go To > Segment Number…                         | Go to the segment thus numbered                              
-| ++ctrl+space++    | N/A                                               | Press several times to open Character table                  
-| ++ctrl+u++        | Go To > Next Untranslated Segment                 | Go to the next untranslated segment                          
-| ++ctrl+t++        | Edit > Insert Next Missing Tag                    | Insert the next missing tag                                  
-| **Enter**         |                                                   | Go to Next Segment                                           
-| `Ctrl+i`        |                                                   | Insert active fuzzy match or selection of fuzzy match        
-|                   | **Right click > Create Alternative Translation**  | Mark a segment as alternative translation                    
-| ++ctrl+shift+s++  |                                                   | Mark a segment as a translation identical to the source      
-| **Ctrl+Shift+V**      | Tools > Check issues                              | Run the QA checks                                            
-| ++ctrl+shift+d++      | Project > Create Current Translated Document      | Export or generate the target file for the current document  
-| ++ctrl+D++            | Project > Create Translated Documents             | Export or generate all target files                          
-|                   | **Project > Access Project Contents > …**       | Go to the project folders                                    
-| **Shift+F3**          |                                                   | Change capitalization of selected text                       
-
+<!-- section: repetitions -->
+{% include 'cheatsheet.md' %}
