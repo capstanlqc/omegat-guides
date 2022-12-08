@@ -17,10 +17,10 @@ tags:
 <!-- section: navigation -->
 {% include 'omt-nav.md' %}
 
-<!-- section: navigation -->
+<!-- section: tags (tra) -->
 {% include 'omt-tra-tags.md' %}
 
-<!-- section: fuzzy matches -->
+<!-- section: fuzzy matches (tra) -->
 {% include 'omt-tra-fuz.md' %}
 
 <!-- section: glossary -->
@@ -29,7 +29,7 @@ tags:
 <!-- section: repetitions -->
 {% include 'omt-reps.md' %}
 
-<!-- section: repetitions -->
+<!-- section: other useful -->
 {% include 'omt-other.md' %}
 
 <!-- section: qa -->

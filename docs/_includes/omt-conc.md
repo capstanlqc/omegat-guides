@@ -11,8 +11,11 @@ A concordance search allows you to look for words and expressions in the transla
 
 ![](assets/38_concordance_search.jpg)
 
-{==
+<!-- {==
 
 :point_right_tone4: There might be small differences (in punctuation, spacing, etc.) between the text you're searching for and other occurrences of the same text that would prevent an *exact match*. The option "Keyword search" might help overcome that problem, please use it if you don't get the results you were expecting.
 
-==}
+==} -->
+
+!!! note
+    There might be small differences (in punctuation, spacing, etc.) between the text you're searching for and other occurrences of the same text that would prevent an *exact match*. The option "Keyword search" might help overcome that problem, please use it if you don't get the results you were expecting.

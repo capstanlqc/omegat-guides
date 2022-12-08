@@ -15,13 +15,16 @@ By default, other types of checks (Spelling, Terminology, LanguageTool) are tick
 
   * Go through the issues one by one:
 
-  1. Correct the issue by clicking on **Jump to Segment**. 
-  1. You will arrive at the appropriate segment in the editor pane. 
-  1. Place your cursor where the missing tag needs to be inserted and press ++ctrl+t++ to insert the missing tag.
-  1. Press Enter to move to the next segment.
-  1. Open the Error report again. It has automatically refreshed.
-  1. Finish going through the issues.
+    1. Correct the issue by clicking on **Jump to Segment**. 
+    2. You will arrive at the appropriate segment in the editor pane. 
+    3. Place your cursor where the missing tag needs to be inserted and press ++ctrl+t++ to insert the missing tag.
+    4. Press Enter to move to the next segment.
+    5. Open the Error report again. It has automatically refreshed.
+    6. Finish going through the issues.
 
-**TIP**: If in the source there are tags that you do not use in your language which are present in the source segment, to avoid having false positives in the error report, you can insert them at the end of the segment. They would not have an impact on any text.
+!!! caution
+    Please do not click on "Apply fix", fix each issue manually.
 
-**CAUTION**: Please do not click on "Apply fix", fix each issue manually.
+!!! info "Note"
+    If in the source there are tags that you do not use in your language which are present in the source segment, to avoid having false positives in the error report, you can insert them at the end of the segment. They would not have an impact on any text.
+

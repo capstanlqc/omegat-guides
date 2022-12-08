@@ -167,3 +167,9 @@ Comment
 
 
 https://www.bookstackapp.com/
+
+Style:
+
+How to do x
+Doing x
+Do x

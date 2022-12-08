@@ -7,7 +7,7 @@
 }
 
 .md-header__button {
-  display: none;
+  display: none !important;;
 }
 
 .md-grid {
