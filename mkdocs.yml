@@ -41,9 +41,10 @@ theme:
   logo: _assets/img/cApStAn_symbolesensemble_blanc.png
   favicon: _assets/favicon.ico
   features:
-    - toc.integrate
+    #- toc.integrate
     - navigation.instant
     - navigation.prune
+    - navigation.top
     #- navigation.sections
     - navigation.tabs
     - toc.follow
