@@ -83,7 +83,8 @@ Hosting site: readthedocs.org)
 ## Embedding
 
 ```html
-<embed src="https://capstanlqc.github.io/ttt_docs/omegat/index.html" scrolling="no" frameborder="0" width="100%" height="600">
+<embed src="https://github.com/capstanlqc/omegat-guides/translation/" 
+    scrolling="no" frameborder="0" width="100%" height="600">
 ``` 
 
 ## Tips for writing guides
