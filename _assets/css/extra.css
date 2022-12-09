@@ -22,6 +22,6 @@ a.md-footer__link--prev[aria-label="Previous: Tags"]
   font-size: xx-large;
 }
 
-div.about-ansible .section {
+.page-content, .rst-content, .wy-nav-content {
   min-width: 600px !important;
 }
