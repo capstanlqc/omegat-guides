@@ -10,7 +10,7 @@
       
         <link rel="canonical" href="https://capstanlqc.github.com/omegat-guides/tec-omt-rtl/">
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../_assets/favicon.ico">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
     
     
@@ -39,7 +39,7 @@
       
     
     
-      <link rel="stylesheet" href="../stylesheets/extra.css">
+      <link rel="stylesheet" href="../_assets/css/extra.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#handling_bidirectionality" class="md-skip">
+        <a href="#text-direction-and-text-alignment" class="md-skip">
           Skip to content
         </a>
       
@@ -82,8 +82,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href=".." title="OmegaT guides [cApStAn]" class="md-header__button md-logo" aria-label="OmegaT guides [cApStAn]" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+  <img src="../_assets/img/cApStAn_symbolesensemble_blanc.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -108,6 +107,39 @@
     
     
     
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
     
   </nav>
   
@@ -117,6 +149,121 @@
       
       
         
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      Contents
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../tags/" class="md-tabs__link">
+      Tags
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../translation/introduction/" class="md-tabs__link">
+        Translation
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../reconciliation/rec-intro/" class="md-tabs__link">
+        Reconciliation
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../tec-cb-ome-tra/" class="md-tabs__link">
+        User Guides
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../about/" class="md-tabs__link md-tabs__link--active">
+        Misc
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../tec-cb-ome-sec/" class="md-tabs__link">
+        Technical
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
           
         
       
@@ -130,13 +277,16 @@
                   <div class="md-sidebar__inner">
                     
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="OmegaT guides [cApStAn]" class="md-nav__button md-logo" aria-label="OmegaT guides [cApStAn]" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+  <img src="../_assets/img/cApStAn_symbolesensemble_blanc.png" alt="logo">
 
     </a>
     OmegaT guides [cApStAn]
@@ -166,11 +316,26 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        Tags
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
     
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
       
       
       
@@ -189,17 +354,29 @@
         
           
         
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
       
       
-        <label class="md-nav__link" for="__nav_2">
-          User Guides
+        <label class="md-nav__link" for="__nav_3">
+          Translation
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="User Guides" data-md-level="1">
-        <label class="md-nav__title" for="__nav_2">
+      <nav class="md-nav" aria-label="Translation" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
-          User Guides
+          Translation
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -209,13 +386,311 @@
   
   
     <li class="md-nav__item">
-      <a href="../tec-cb-ome-ins/" class="md-nav__link">
+      <a href="../translation/introduction/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../translation/installation-and-customization/" class="md-nav__link">
+        Installation and setup
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../translation/accessing-the-project/" class="md-nav__link">
+        Accessing the project
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../translation/navigation/" class="md-nav__link">
+        Navigation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../translation/handling-tags/" class="md-nav__link">
+        Handling tags
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../translation/using-matches/" class="md-nav__link">
+        Using matches
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../translation/using-the-glossary/" class="md-nav__link">
+        Using the glossary
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../translation/handling-repeated-segments/" class="md-nav__link">
+        Handling repeated segments
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../translation/other-useful-features/" class="md-nav__link">
+        Other useful features
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../translation/qa-checks/" class="md-nav__link">
+        QA checks
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../translation/creating-target-files/" class="md-nav__link">
+        Creating target files
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../translation/creating-your-deliverable/" class="md-nav__link">
+        Creating your deliverable
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../translation/shortcuts/" class="md-nav__link">
+        Shortcuts
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Reconciliation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Reconciliation" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Reconciliation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reconciliation/rec-intro/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reconciliation/rec-install/" class="md-nav__link">
         Installation and customization
       </a>
     </li>
   
 
             
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../_includes/omt-unpack-and-recent/" class="md-nav__link">
+        Accessing the project
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          User Guides
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="User Guides" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          User Guides
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
           
             
               
@@ -287,20 +762,6 @@
 
             
           
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../tec-cb-ome-ver-cg/" class="md-nav__link">
-        Verification CG
-      </a>
-    </li>
-  
-
-            
-          
         </ul>
       </nav>
     </li>
@@ -320,7 +781,7 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" checked>
       
       
       
@@ -333,15 +794,17 @@
         
           
         
+          
+        
       
       
-        <label class="md-nav__link" for="__nav_3">
+        <label class="md-nav__link" for="__nav_6">
           Misc
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Misc" data-md-level="1">
-        <label class="md-nav__title" for="__nav_3">
+        <label class="md-nav__title" for="__nav_6">
           <span class="md-nav__icon md-icon"></span>
           Misc
         </label>
@@ -367,7 +830,21 @@
   
   
     <li class="md-nav__item">
-      <a href="../cheatsheet/" class="md-nav__link">
+      <a href="../tec-cb-ome-ins/" class="md-nav__link">
+        Installation and customization
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cheatsheet.md" class="md-nav__link">
         Cheatsheet (shortcuts)
       </a>
     </li>
@@ -411,44 +888,51 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#handling_bidirectionality" class="md-nav__link">
-    Handling bidirectionality
-  </a>
-  
-    <nav class="md-nav" aria-label="Handling bidirectionality">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#text_direction_and_text_alignment" class="md-nav__link">
+  <a href="#text-direction-and-text-alignment" class="md-nav__link">
     Text direction and text alignment
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#bidirectionality_mode" class="md-nav__link">
+      
+        <li class="md-nav__item">
+  <a href="#bidirectionality-mode" class="md-nav__link">
     Bidirectionality mode
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#strong_and_weak_directionality" class="md-nav__link">
+      
+        <li class="md-nav__item">
+  <a href="#strong-and-weak-directionality" class="md-nav__link">
     Strong and weak directionality
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#orientation" class="md-nav__link">
     Orientation
   </a>
   
 </li>
+      
+        <li class="md-nav__item">
+  <a href="#bidirectionality-control-characters" class="md-nav__link">
+    Bidirectionality control characters
+  </a>
+  
+    <nav class="md-nav" aria-label="Bidirectionality control characters">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#bidirectionality_control_characters" class="md-nav__link">
-    Bidirectionality control characters
+  <a href="#marks" class="md-nav__link">
+    Marks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#embeddings" class="md-nav__link">
+    Embeddings
   </a>
   
 </li>
@@ -498,7 +982,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
       
       
       
@@ -509,13 +993,13 @@
         
       
       
-        <label class="md-nav__link" for="__nav_4">
+        <label class="md-nav__link" for="__nav_7">
           Technical
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Technical" data-md-level="1">
-        <label class="md-nav__title" for="__nav_4">
+        <label class="md-nav__title" for="__nav_7">
           <span class="md-nav__icon md-icon"></span>
           Technical
         </label>
@@ -562,126 +1046,58 @@
               </div>
             
             
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#handling_bidirectionality" class="md-nav__link">
-    Handling bidirectionality
-  </a>
-  
-    <nav class="md-nav" aria-label="Handling bidirectionality">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#text_direction_and_text_alignment" class="md-nav__link">
-    Text direction and text alignment
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#bidirectionality_mode" class="md-nav__link">
-    Bidirectionality mode
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#strong_and_weak_directionality" class="md-nav__link">
-    Strong and weak directionality
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#orientation" class="md-nav__link">
-    Orientation
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#bidirectionality_control_characters" class="md-nav__link">
-    Bidirectionality control characters
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
                   
+  
+
+
 
 
   <h1>Bidirectionality</h1>
 
-<h2 id="handling_bidirectionality">Handling bidirectionality<a class="headerlink" href="#handling_bidirectionality" title="Permanent link">&para;</a></h2>
-<h3 id="text_direction_and_text_alignment">Text direction and text alignment<a class="headerlink" href="#text_direction_and_text_alignment" title="Permanent link">&para;</a></h3>
+<!-- # Handling bidirectionality -->
+
+<h2 id="text-direction-and-text-alignment">Text direction and text alignment<a class="headerlink" href="#text-direction-and-text-alignment" title="Permanent link">&para;</a></h2>
 <p>By default, text direction in the translation editor is left to right (LTR) and text is aligned to the left. That applies to text in any language except languages written in a right-to-left (RTL) script, like Arabic, Hebrew, Syriac, etc., in which case the segment flows from right to left (RTL) and is aligned to the right.</p>
 <p>Global text <strong>direction</strong> and <strong>alignment</strong> of source and target segments is determined by the source and target languages, respectively, indicated in the project settings. Depending on the language, segments are aligned either to the left or to the right. On the other hand, while text direction at the segment level is determined by the project settings, text direction might change inside the segment depending on the script used. For example, English text in a LTR segment will flow left to right but a quotation in Arabic in that same segment will flow right to left.</p>
 <blockquote>
 <p>Since OmegaT users are only responsible for producing the translation, let’s focus on what happens in target segments. Everything that follows applies to source segments too, with the difference that they are not directly editable in the translation editor in OmegaT.</p>
 </blockquote>
-<h3 id="bidirectionality_mode">Bidirectionality mode<a class="headerlink" href="#bidirectionality_mode" title="Permanent link">&para;</a></h3>
+<h2 id="bidirectionality-mode">Bidirectionality mode<a class="headerlink" href="#bidirectionality-mode" title="Permanent link">&para;</a></h2>
 <p>The bidirectionality mode activates either when at least one of the two languages in the project uses a RTL script or when some text in a RTL is inserted. When the bidirectionality mode is activated, text direction is indicated by a flag on the top of the cursor. In the image below, notice how by default the cursor flag points left in a RTL segment but it may point left or right depending on the previous character:</p>
-<p><img alt="Cursor flag" src="../assets/bidi_%D9%86%D8%B5%D9%A1%D9%A2%D9%A3.gif" /></p>
+<p><img alt="Cursor flag" src="../_assets/img/bidi_نص١٢٣.gif" /></p>
 <p>In text written in an LTR script, text flows from left to right, which means that the cursor flag points right and every character typed in LTR script always appears to the right of the previous one. That is always the case for the whole LTR segment unless it contains some fragment in an RTL script, in which case the rules for RTL text apply within that fragment. </p>
-<h3 id="strong_and_weak_directionality">Strong and weak directionality<a class="headerlink" href="#strong_and_weak_directionality" title="Permanent link">&para;</a></h3>
+<h2 id="strong-and-weak-directionality">Strong and weak directionality<a class="headerlink" href="#strong-and-weak-directionality" title="Permanent link">&para;</a></h2>
 <p>In text written in an RTL script, text flows from right to left or left to right depending on the characters typed. Alphabetic characters have a RTL directionality: after each alphabetical character, the cursor flag points left, which means that if a new character is inserted, it will appear to the left of the cursor. On the other hand, numeric characters have a LTR directionality: after each number, the cursor flag points right, which means that if a new number is inserted, it will appear to the right of the cursor. Strings in LTR script will behave like numbers.</p>
 <p>Letters and numbers have a strong directionality, which means that they always flow in the same direction: letters in RTL script flow from right to left, letters in LTR flow from left to right, and numbers in any script always flow from left to right too. However, other characters like punctuation symbols do not have an intrinsic directionality of their own and will inherit the directionality of the segment (hence called of weak or neutral directionality): one same character (e.g. +, as in the image above) will flow right to left in a RTL segment, whereas it will flow left to right in a LTR segment. </p>
-<h3 id="orientation">Orientation<a class="headerlink" href="#orientation" title="Permanent link">&para;</a></h3>
+<h2 id="orientation">Orientation<a class="headerlink" href="#orientation" title="Permanent link">&para;</a></h2>
 <p>Some characters, such as quotation marks, are purely bidirectional and may also have a different orientation depending on the directionality of the segment. For example, the opening double angle quotation mark (Unicode U+00AB) points left when used in a LTR segment, but the same character points right when used in a RTL segment. In the image below, an autotext entry is used to insert that character in an LTR segment:</p>
-<p><img alt="LTR orientation" src="../assets/foo_ltr.gif" /></p>
+<p><img alt="LTR orientation" src="../_assets/img/foo_ltr.gif" /></p>
 <p>In the image below, in turn, the same autotext entry is used to insert the same character in a LTR segment: </p>
-<p><img alt="RTL orientation" src="../assets/foo_rtl.gif" /></p>
+<p><img alt="RTL orientation" src="../_assets/img/foo_rtl.gif" /></p>
 <p>The same thing would happen with any other double characters with neutral directionality, such as parenthesis, square brackets, curly brackets, etc. The opening character will point left or right depending on the directionality of the text stretch where it is inserted.</p>
-<h3 id="bidirectionality_control_characters">Bidirectionality control characters<a class="headerlink" href="#bidirectionality_control_characters" title="Permanent link">&para;</a></h3>
+<h2 id="bidirectionality-control-characters">Bidirectionality control characters<a class="headerlink" href="#bidirectionality-control-characters" title="Permanent link">&para;</a></h2>
 <p>Often the default behaviour described above is fine, but when you’re mixing RTL text and LTR text or using special characters with weak directionality in RTL, you might need to use Unicode bidirectionality control characters (or bidi characters for short) to achieve the expected directionality. Bidi control characters can be found in the menu <strong>Edit &gt; Insert Unicode Control Characters</strong> and may be used to:</p>
 <ol>
 <li>insert an invisible character with a certain strong directionality to force a specific position for a character with weak directionality</li>
 <li>create an embedding which works as a sort of protective environment within which text can flow in the opposite direction of the segment.</li>
 </ol>
 <p>These control characters are invisible, nothing is display or printed, but they change directionality. If you want to see where these characters are inserted, you can activate option <strong>View &gt; Mark Bidirectional Algorithm Control Characters</strong>.</p>
-<h4 id="marks">Marks<a class="headerlink" href="#marks" title="Permanent link">&para;</a></h4>
+<h3 id="marks">Marks<a class="headerlink" href="#marks" title="Permanent link">&para;</a></h3>
 <p>Let’s see a few examples. Some expressions and brand names combine symbols with letters, e.g. Yahoo!, C++, C#, Hola!, Chips Ahoy!, etc. If you must write, say, “C++” in Arabic, you will notice that by default the + characters will appear to the left of the letter C:</p>
-<p><img alt="Wrong position of characters with weak directionalty" src="../assets/wrong-c%2B.png" /></p>
+<p><img alt="Wrong position of characters with weak directionalty" src="../_assets/img/wrong-c+.png" /></p>
 <p>That is obviously incorrect. To force the correct position of the ++ characters, type C, then ++, then insert a left-to-right mark (or LRM for short) at the end. The ++ part will then be surrounded by two characters with strong LTR directionality (namely, the letter C and the LRM) and therefore will inherit the directionality of those characters and flow left to right instead of inheriting the directionality of the segment and flow right to left. See that in action in the following image: </p>
-<p><img alt="Tweak directionality of weak characters with LRM" src="../assets/C%2B%2B.gif" /></p>
+<p><img alt="Tweak directionality of weak characters with LRM" src="../_assets/img/C++.gif" /></p>
 <p>You might be tempted to type characters in reverse order: first ++, then C. Even though that might look good, that is logically wrong and could bring about issues when the text is further processed later or subjected to different uses. For example, if you type ++C in Arabic, even if it looks visually correct in the translation editor, it will not appear in search results when a user looks for “C++” in the Arabic document. Let alone the fact that often, if the expression is a bit complex, you’ll struggle with trial and error until you obtain something that (only) looks as expected (although underneath it is wrong). Don’t try to fake the looks.</p>
 <p>LRM and RLM (marks) characters are enough when you must change the directionality and position of one character only at the end or beginning of one homogeneous chunk of text. However, when the expression that must flow in the opposite direction contains several parts separated by spaces, or contains non-alphanumeric characters as well as alphanumeric characters, it’s often better to use RTL or LTR embeddings.</p>
-<h4 id="embeddings">Embeddings<a class="headerlink" href="#embeddings" title="Permanent link">&para;</a></h4>
+<h3 id="embeddings">Embeddings<a class="headerlink" href="#embeddings" title="Permanent link">&para;</a></h3>
 <p>The behaviour of embeddings is a bit different from that of marks. For starters, two characters must be inserted: one to start the embedding and another one to pop out of it. For example, to create a LTR embedding in an RTL segment, you would insert a left-to-right embedding (LRE) character, then the LTR text, then the pop directional formatting (PDF) character. Likewise, to create a RTL embedding in an LTR segment, you would insert a right-to-left embedding (RLE) character, then the RTL text, then the PDF character. </p>
 <p>Let’s see an example. Equations, formulas and mathematical notation in general are expressions that must normally run left-to-right in bidirectional languages like Arabic or Hebrew, just like in English. Simply typing or copy-pasting an equation in Arabic will not produce the correct result, as can be seen in the image below:</p>
-<p><img alt="What happens with embeddings" src="../assets/embedding_wrong_right.gif" /></p>
+<p><img alt="What happens with embeddings" src="../_assets/img/embedding_wrong_right.gif" /></p>
 <p>Instead, you should proceed in this way to create a LTR embedding: </p>
 <ol>
 <li>insert the LRE character, </li>
@@ -689,7 +1105,7 @@
 <li>finally insert the PDF character. </li>
 </ol>
 <p>See that in action:</p>
-<p><img alt="How to create a LTR embedding" src="../assets/equation_bidi.gif" /></p>
+<p><img alt="How to create a LTR embedding" src="../_assets/img/equation_bidi.gif" /></p>
 <p>Notice how the red square rim appears around the LTR embedding right after inserting the PDF character, when the option Mark Bidirectional Algorithm Control Characters is activated in the View menu.</p>
 
 
@@ -711,7 +1127,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../cheatsheet/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Cheatsheet (shortcuts)" rel="prev">
+        <a href="../tec-cb-ome-ins/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Installation and customization" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -720,7 +1136,7 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Cheatsheet (shortcuts)
+              Installation and customization
             </div>
           </div>
         </a>
@@ -764,12 +1180,12 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["toc.follow", "navigation.indexes"], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["toc.integrate", "navigation.instant", "navigation.prune", "navigation.tabs", "toc.follow", "navigation.indexes"], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
       <script src="../assets/javascripts/bundle.5a2dcb6a.min.js"></script>
       
-        <script src="../javascripts/extra.js"></script>
+        <script src="../_assets/js/extra.js"></script>
       
     
     
