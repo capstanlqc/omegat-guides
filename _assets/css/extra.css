@@ -12,10 +12,13 @@ table colgroup col {
 
 .md-tabs,
 .md-header__button, 
-.md-copyrigh,
+.md-copyright,
 a.md-footer__link--next[aria-label="Next: Introduction"], 
 a.md-footer__link--prev[aria-label="Previous: Tags"] 
 {
   display: none !important;
 }
 
+.md-content {
+
+}
