@@ -23,20 +23,7 @@ a.md-footer__link--prev[aria-label="Previous: Tags"],
   font-size: x-large;
 }
 
-.page-content, .rst-content, .wy-nav-content {
-  min-width: 600px !important;
-}
-
 .md-content {
-  max-width: 900px !important;
+  max-width: 800px !important;
 }
 
-@media screen and (min-width: 76.25em) {
-  html .md-nav__link[for=__toc] ~ .md-nav--secondary {
-    display: block;
-    max-height: none;
-  }
-  html .md-nav__link[for=__toc] ~ .md-nav--secondary .md-nav__title {
-    display: none;
-  }
-}
