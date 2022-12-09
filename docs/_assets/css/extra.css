@@ -20,5 +20,5 @@ a.md-footer__link--prev[aria-label="Previous: Tags"]
 }
 
 .md-content {
-
+  max-width: 900px;
 }
