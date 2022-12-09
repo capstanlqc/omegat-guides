@@ -2,7 +2,7 @@
 
 Welcome to the **OmegaT user guides** repository, maintained by the [cApStAn](http://www.capstan.be) Tech Team.
 
-This repository contains different OmegaT user guides authored as Markdown files with a modular approach, meant to be built as a static website with MkDocs.
+This repository contains different OmegaT user guides authored as Markdown files with, meant to be built as a static website with MkDocs and the Material theme
 
 ## Commands
 
@@ -50,11 +50,13 @@ Alternative appraoch using Jekyll: https://jekyllrb.com/docs/includes/
 Create documentation that is:
 
 + Easy to maintain with version control
-+ Flexible and minimalistic editing
++ Flexible and minimalistic to edit
 + Compatible with many output formats
 + Reusable and platform-independent
-+ Clean display
-+ Compatible with custom domains and with embedding
++ Leading to a clean and responsive display
++ Compatible with embedding
+
+The means to achieve all those points is Markdown.
 
 Also, issues that we try to solve or avoid: 
 
@@ -78,7 +80,7 @@ Hosting site: readthedocs.org)
 + Test other themes
 + Test other authoring formats like reStructuredText, AsciiDoc, Wiki etc.
 + Consider a custom URL in a cApStAn domain, info [here](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
-
++ Test export to PDF and ePub
 
 ## Embedding
 
