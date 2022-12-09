@@ -13,13 +13,14 @@ table colgroup col {
 .md-tabs,
 .md-copyright,
 a.md-footer__link--next[aria-label="Next: Introduction"], 
-a.md-footer__link--prev[aria-label="Previous: Tags"] 
+a.md-footer__link--prev[aria-label="Previous: Tags"],
+.md-nav__icon
 {
   display: none !important;
 }
 
 .md-nav__link--index {
-  font-size: xx-large;
+  font-size: x-large;
 }
 
 .page-content, .rst-content, .wy-nav-content {
