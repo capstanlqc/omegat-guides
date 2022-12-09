@@ -186,3 +186,7 @@ types of guide:
 
 Edits: 
 
+
+
+Documenting with high flexibility, combined with version control, continuous delivery and a variety of output format
+
