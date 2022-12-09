@@ -1,4 +1,4 @@
-## Navigation between the different panes
+## Navigation across panes
 
 When you open OmegaT you will notice the screen is split in several panes:
 
@@ -7,4 +7,4 @@ When you open OmegaT you will notice the screen is split in several panes:
   * The **Glossary pane** will display the existing glossary entries and the ones you may add.
   * The **Multiple Translations pane** will show you if a repeated segment was translated differently.
 
-  ![](assets/05_omegat_panes.jpg)
+  ![](../_assets/img/05_omegat_panes.jpg)

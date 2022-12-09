@@ -4,14 +4,29 @@ nav:
     - Contents: index.md
     - Tags: tags.md
     - Translation: 
-        - Introduction: tasks/tra-intro.md
+        - translation/introduction.md
+        - Installation and setup: translation/installation-and-customization.md
+        - translation/accessing-the-project.md
+        - translation/navigation.md
+        - translation/handling-tags.md
+        - translation/using-matches.md
+        - translation/using-the-glossary.md
+        - translation/handling-repeated-segments.md
+        - translation/other-useful-features.md
+        - QA checks: translation/qa-checks.md
+        - translation/creating-target-files.md
+        - translation/creating-your-deliverable.md
+        - translation/shortcuts.md
+    - Reconciliation: 
+        - Introduction: reconciliation/rec-intro.md
+        - Installation and customization: reconciliation/rec-install.md
+        - Accessing the project: _includes/omt-unpack-and-recent.md    
     - User Guides: 
         - Translation: tec-cb-ome-tra.md
         - Reconciliation: tec-cb-ome-rec.md
         - Adaptation: tec-cb-ome-adp.md
         - Proofreading: tec-cb-ome-prf.md
         - Verification: tec-cb-ome-ver.md
-        - Verification CG: tec-cb-ome-ver-cg.md
     - Misc:
         - About: about.md
         - Installation and customization: tec-cb-ome-ins.md
@@ -23,36 +38,41 @@ nav:
         - Markdown: markdown.md
 theme:
   name: material
+  logo: _assets/img/cApStAn_symbolesensemble_blanc.png
+  favicon: _assets/favicon.ico
   features:
-    #- toc.integrate
+    - toc.integrate
     - navigation.instant
     - navigation.prune
-    #- navigation.sections    
+    #- navigation.sections
     - navigation.tabs
     - toc.follow
     - navigation.indexes
 markdown_extensions:
   - toc:
-      baselevel: 2
+      #baselevel: 2
       permalink: True
-      separator: "_"
+      separator: "-"
       toc_depth: 1-3
   - attr_list
   - md_in_html
   - tables
   - admonition
+  - pymdownx.snippets
+  - pymdownx.details
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys
   - pymdownx.mark
-  - pymdownx.tilde    
+  - pymdownx.tilde
+  - pymdownx.betterem
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg  
 extra_css:
-  - stylesheets/extra.css
+  - _assets/css/extra.css
 extra_javascript:
-  - javascripts/extra.js
+  - _assets/js/extra.js
 plugins:
   - search
   - tags:

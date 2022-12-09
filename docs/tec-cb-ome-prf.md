@@ -271,7 +271,8 @@ By default, other types of checks (Spelling, Terminology, LanguageTool) are tick
 
 **TIP**: If in the source there are tags that you do not use in your language which are present in the source segment, to avoid having false positives in the error report, you can insert them at the end of the segment. They would not have an impact on any text.
 
-**CAUTION**: Please do not click on "Apply fix", fix each issue manually.
+!!! caution
+    Please do not click on "Apply fix", fix each issue manually.
 
 ## Creating target files
 

@@ -9,10 +9,10 @@
     + All segments will appear **untranslated** in the Editor pane (the main pane of OmegaT, which contains the source text). To find out how to recognize reconciled segments from unreconciled ones and from potential trend segments, please refer to the section 
   
     + The** suggestions from Translator 1 and Translator 2** for the active segment (green) appear below, in the **Fuzzy matches pane** 
-    ![](assets/reconciliation_task.jpg) 
+    ![](../_assets/img/reconciliation_task.jpg) 
 
     + In the Fuzzy matches pane, the suggestions from the 2 translators display the __source text of the active segment__, the __suggested translation for the active segment__ as well as the __identity of the author__. 
-    ![](assets/40_fuzzy_parts.jpg) 
+    ![](../_assets/img/40_fuzzy_parts.jpg) 
 
     + By default, the suggestion from translator 1 appears in bold. It means it is selected. If you want to insert it, no need to retype the text, you can simply press ++ctrl+i++ on your keyboard and it will appear below the active segment. 
   

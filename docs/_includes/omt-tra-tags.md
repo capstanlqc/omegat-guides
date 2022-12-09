@@ -1,4 +1,4 @@
-# Handling tags (++ctrl+t++)
+# Handling tags
 <!-- todo: use autocompleter -->
 
 <!-- section: recognzing tags -->

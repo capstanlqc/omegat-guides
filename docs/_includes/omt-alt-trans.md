@@ -4,10 +4,10 @@ In some cases, you may not wish to modify the translation of repeated segments. 
 
   * **Right click** on the segment 
   * Choose **Create Alternative Translation** from the contextual menu
-    ![](../assets/18_create_alternative_translation.jpg)
+    ![](../_assets/18_create_alternative_translation.jpg)
 
   * Change the translation of your active segment and then either press ++ctrl+s++ or move to the next one.
 
-  ![](../assets/19_alternative_translation_created.jpg)
+  ![](../_assets/19_alternative_translation_created.jpg)
 
 If you return on the repeated segment, you will see the different translations appear in the Multiple Translations pane.

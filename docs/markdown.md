@@ -173,3 +173,16 @@ Style:
 How to do x
 Doing x
 Do x
+
+
+types of guide: 
+- produce new translation
+    - translation
+    - reconciliaton
+- edit an existing translation
+    - verification
+    - adaptation
+
+
+Edits: 
+

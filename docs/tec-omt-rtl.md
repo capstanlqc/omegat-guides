@@ -12,7 +12,7 @@ Global text **direction** and **alignment** of source and target segments is det
 
 The bidirectionality mode activates either when at least one of the two languages in the project uses a RTL script or when some text in a RTL is inserted. When the bidirectionality mode is activated, text direction is indicated by a flag on the top of the cursor. In the image below, notice how by default the cursor flag points left in a RTL segment but it may point left or right depending on the previous character:
 
-![Cursor flag](assets/bidi_نص١٢٣.gif)
+![Cursor flag](../_assets/img/bidi_نص١٢٣.gif)
 
 In text written in an LTR script, text flows from left to right, which means that the cursor flag points right and every character typed in LTR script always appears to the right of the previous one. That is always the case for the whole LTR segment unless it contains some fragment in an RTL script, in which case the rules for RTL text apply within that fragment. 
 
@@ -26,11 +26,11 @@ Letters and numbers have a strong directionality, which means that they always f
 
 Some characters, such as quotation marks, are purely bidirectional and may also have a different orientation depending on the directionality of the segment. For example, the opening double angle quotation mark (Unicode U+00AB) points left when used in a LTR segment, but the same character points right when used in a RTL segment. In the image below, an autotext entry is used to insert that character in an LTR segment:
 
-![LTR orientation](assets/foo_ltr.gif)
+![LTR orientation](../_assets/img/foo_ltr.gif)
 
 In the image below, in turn, the same autotext entry is used to insert the same character in a LTR segment: 
 
-![RTL orientation](assets/foo_rtl.gif)
+![RTL orientation](../_assets/img/foo_rtl.gif)
 
 The same thing would happen with any other double characters with neutral directionality, such as parenthesis, square brackets, curly brackets, etc. The opening character will point left or right depending on the directionality of the text stretch where it is inserted.
 
@@ -47,11 +47,11 @@ These control characters are invisible, nothing is display or printed, but they 
 
 Let’s see a few examples. Some expressions and brand names combine symbols with letters, e.g. Yahoo!, C++, C#, Hola!, Chips Ahoy!, etc. If you must write, say, “C++” in Arabic, you will notice that by default the + characters will appear to the left of the letter C:
 
-![Wrong position of characters with weak directionalty](assets/wrong-c+.png)
+![Wrong position of characters with weak directionalty](../_assets/img/wrong-c+.png)
 
 That is obviously incorrect. To force the correct position of the ++ characters, type C, then ++, then insert a left-to-right mark (or LRM for short) at the end. The ++ part will then be surrounded by two characters with strong LTR directionality (namely, the letter C and the LRM) and therefore will inherit the directionality of those characters and flow left to right instead of inheriting the directionality of the segment and flow right to left. See that in action in the following image: 
 
-![Tweak directionality of weak characters with LRM](assets/C++.gif)
+![Tweak directionality of weak characters with LRM](../_assets/img/C++.gif)
 
 You might be tempted to type characters in reverse order: first ++, then C. Even though that might look good, that is logically wrong and could bring about issues when the text is further processed later or subjected to different uses. For example, if you type ++C in Arabic, even if it looks visually correct in the translation editor, it will not appear in search results when a user looks for “C++” in the Arabic document. Let alone the fact that often, if the expression is a bit complex, you’ll struggle with trial and error until you obtain something that (only) looks as expected (although underneath it is wrong). Don’t try to fake the looks.
 
@@ -63,7 +63,7 @@ The behaviour of embeddings is a bit different from that of marks. For starters,
 
 Let’s see an example. Equations, formulas and mathematical notation in general are expressions that must normally run left-to-right in bidirectional languages like Arabic or Hebrew, just like in English. Simply typing or copy-pasting an equation in Arabic will not produce the correct result, as can be seen in the image below:
 
-![What happens with embeddings](assets/embedding_wrong_right.gif)
+![What happens with embeddings](../_assets/img/embedding_wrong_right.gif)
 
 Instead, you should proceed in this way to create a LTR embedding: 
 
@@ -73,6 +73,6 @@ Instead, you should proceed in this way to create a LTR embedding:
 
 See that in action:
 
-![How to create a LTR embedding](assets/equation_bidi.gif)
+![How to create a LTR embedding](../_assets/img/equation_bidi.gif)
 
 Notice how the red square rim appears around the LTR embedding right after inserting the PDF character, when the option Mark Bidirectional Algorithm Control Characters is activated in the View menu.

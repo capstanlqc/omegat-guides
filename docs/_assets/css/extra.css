@@ -1,0 +1,25 @@
+.md-sidebar--primary {
+  display: block;
+}
+
+.md-tabs {
+  display: none;
+}
+
+/* .md-header__button md-icon, .md-header__button md-logo */
+.md-header__button, .md-copyright {
+  display: none !important;;
+}
+
+.md-grid {
+  max-width: 1440px; 
+}
+
+table colgroup col {
+    width: auto !important;
+}
+
+a.md-footer__link--next[aria-label="Next: Introduction"], a.md-footer__link--prev[aria-label="Previous: Tags"] {
+  display: none;
+}
+

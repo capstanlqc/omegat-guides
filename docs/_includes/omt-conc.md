@@ -9,7 +9,7 @@ A concordance search allows you to look for words and expressions in the transla
   * The results will be displayed.
   * You can copy (select with mouse and press ++ctrl+c++ on your keyboard) what you need from the results and paste it in the target translation at the right place.
 
-![](assets/38_concordance_search.jpg)
+![](../_assets/img/38_concordance_search.jpg)
 
 <!-- {==
 

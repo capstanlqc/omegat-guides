@@ -4,14 +4,14 @@ To ensure that all tags have been inserted correctly:
 
   * Go to **Tools** > **Check Issues**. A pop up window will open.
 
-    ![](assets/33_check_issues.jpg)
+    ![](../_assets/img/33_check_issues.jpg)
 
 By default, other types of checks (Spelling, Terminology, LanguageTool) are ticked. If you want to check for issues related to tags before performing the rest of the checks, you can untick them. You will notice that the **Tag Issues** box cannot be unticked.
 
   * Press **OK**.
   * An error report will open.
 
-    ![](assets/34_error_report.jpg)
+    ![](../_assets/img/34_error_report.jpg)
 
   * Go through the issues one by one:
 

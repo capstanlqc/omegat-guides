@@ -6,7 +6,7 @@ All segments of the OmegaT package must have a translation. To ensure that is th
   * The project files pane will open
   * **OK:** If the **Number of unique segments** __is equal to__ the number of **Translated unique segments**.
 
-    ![](../assets/32_completion.jpg)
+    ![](../_assets/32_completion.jpg)
 
   * **NOT OK**: the **Number of unique segments** __is different from__ the number of **Translated unique segments**. 
 
