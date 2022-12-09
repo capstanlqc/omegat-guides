@@ -75,8 +75,7 @@ Also, issues that we try to solve or avoid:
 
 + Update images
 + Look for @todo in the files and find things to do
-+ Test other building tools such as Pandoc, Sphinx, Jekyll, etc. and other hosting sites such as [BookStack](https://www.bookstackapp.com/), [GitBook](Gitbook) or [RTfD])
-Hosting site: readthedocs.org)
++ Test other building tools such as Pandoc, Sphinx, Jekyll, etc. and other hosting sites such as [BookStack](https://www.bookstackapp.com/), [GitBook](Gitbook) or [RTfD](http://www.readthedocs.org)
 + Test other themes
 + Test other authoring formats like reStructuredText, AsciiDoc, Wiki etc.
 + Consider a custom URL in a cApStAn domain, info [here](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
