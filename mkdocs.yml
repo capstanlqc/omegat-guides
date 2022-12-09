@@ -4,7 +4,7 @@ nav:
     - Contents: index.md
     - Tags: tags.md
     - Translation: 
-        - translation/introduction.md
+        - Introduction: translation/index.md
         - Installation and setup: translation/installation-and-customization.md
         - translation/accessing-the-project.md
         - translation/navigation.md
