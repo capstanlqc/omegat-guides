@@ -296,6 +296,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/translation/</loc>
+         <lastmod>2022-12-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://capstanlqc.github.com/omegat-guides/translation/accessing-the-project/</loc>
          <lastmod>2022-12-09</lastmod>
          <changefreq>daily</changefreq>
@@ -322,11 +327,6 @@
     </url>
     <url>
          <loc>https://capstanlqc.github.com/omegat-guides/translation/installation-and-customization/</loc>
-         <lastmod>2022-12-09</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/translation/introduction/</loc>
          <lastmod>2022-12-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
