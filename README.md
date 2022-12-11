@@ -10,19 +10,19 @@ To start the live-reloading docs server:
 
 ```
 mkdocs serve
-``` 
+```
 
 To build the static documentation site:
 
 ```
 mkdocs build
-``` 
+```
 
 To print help message and exit:
 
 ```
 mkdocs -h
-``` 
+```
 
 To commit changes to this Github repository:
 
@@ -30,13 +30,13 @@ To commit changes to this Github repository:
 git add .
 git commit -m "A description of the changes"
 git push
-``` 
+```
 
 To deploy the static website to [GitHub Pages](https://capstanlqc.github.io/omegat-guides/):
 
 ```
 mkdocs gh-deploy
-``` 
+```
 
 
 ## Block inclusion for modularity
@@ -49,6 +49,7 @@ Alternative appraoch using Jekyll: https://jekyllrb.com/docs/includes/
 
 Create documentation that is:
 
++ Straightforward to write with simple syntax
 + Easy to maintain with version control
 + Flexible and minimalistic to edit
 + Compatible with many output formats
@@ -58,7 +59,7 @@ Create documentation that is:
 
 The means to achieve all those points is Markdown.
 
-Also, issues that we try to solve or avoid: 
+Also, issues that we try to solve or avoid:
 
 - copy-pasting
 - anyone can edit our guide in PISA Connect's documentation dashboard
@@ -84,9 +85,9 @@ Also, issues that we try to solve or avoid:
 ## Embedding
 
 ```html
-<embed src="https://github.com/capstanlqc/omegat-guides/translation/" 
+<embed src="https://github.com/capstanlqc/omegat-guides/translation/"
     scrolling="no" frameborder="0" width="100%" height="600">
-``` 
+```
 
 ## Tips for writing guides
 
@@ -99,5 +100,3 @@ Also, issues that we try to solve or avoid:
 | Don't | Do  | Comment |
 |-------|-----|---------|
 | **Project>Open Recent Project**    | **Project** > **Open Recent Project** | Separate both items in the path with " > ". Bold each separately     |
-
-
