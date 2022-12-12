@@ -55,7 +55,7 @@ Please remember that the Excel file cannot be reimported in OmegaT. Any change y
 The answer is yes. To change the font size go to **Options>Preferences>Font**. 
 Increase the font size to one you find suitable. This has not impact on the actual font size in the target files. It only changes the display in OmegaT.
 
-[<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:qa01_font.jpg" class="media" alt="" width="500" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:qa01_font.jpg)
+![](../assets/img/qa01_font.jpg)
 
 ## How do I install the spellchecker files?
 
