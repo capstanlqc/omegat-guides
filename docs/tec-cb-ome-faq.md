@@ -62,6 +62,8 @@ Increase the font size to one you find suitable. This has not impact on the actu
 A spellchecker is available in OmegaT. Go to **Options > Preferences > Spellchecker.**
 Click on **Install new dictionary** and choose the spellchecker for your language.
 
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/780395752?h=5a92c211b3" width="640" height="447" frameborder="0" allowfullscreen></iframe>
+
 [<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:qa_02_spellcheck.jpg" class="media" alt="" width="500" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:qa_02_spellcheck.jpg)
 
 You should see the URL `[https://cat.capstan.be/OmegaT/hunspell/](https://cat.capstan.be/OmegaT/hunspell/)`.
