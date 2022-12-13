@@ -33,6 +33,7 @@ nav:
         - Cheatsheet (shortcuts): cheatsheet.md
         - Bidirectionality: tec-omt-rtl.md
         - FAQ: tec-cb-ome-faq.md
+        - Videos: videos.md
     - Technical:
         - Security information: tec-cb-ome-sec.md
         - Markdown: markdown.md
@@ -41,7 +42,7 @@ theme:
   logo: _assets/img/cApStAn_symbolesensemble_blanc.png
   favicon: _assets/favicon.ico
   features:
-    - toc.integrate
+    #- toc.integrate
     - navigation.instant
     - navigation.prune
     - navigation.top
