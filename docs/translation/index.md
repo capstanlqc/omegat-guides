@@ -1,3 +1,8 @@
+---
+tags:
+  - Translation
+---
+
 <!-- # Translation -->
 
 # Welcome to the OmegaT translation guide!

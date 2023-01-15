@@ -21,7 +21,7 @@ nav:
         - Introduction: reconciliation/rec-intro.md
         - Installation and customization: reconciliation/rec-install.md
         - Accessing the project: _includes/omt-unpack-and-recent.md    
-    - User Guides: 
+    - User Guides (TEMPORARY):
         - Translation: tec-cb-ome-tra.md
         - Reconciliation: tec-cb-ome-rec.md
         - Adaptation: tec-cb-ome-adp.md
@@ -34,9 +34,8 @@ nav:
         - Bidirectionality: tec-omt-rtl.md
         - FAQ: tec-cb-ome-faq.md
         - Videos: videos.md
-    - Technical:
+        - Tips and tricks: tips.md
         - Security information: tec-cb-ome-sec.md
-        - Markdown: markdown.md
 theme:
   name: material
   logo: _assets/img/cApStAn_symbolesensemble_blanc.png

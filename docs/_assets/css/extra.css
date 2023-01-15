@@ -3,7 +3,7 @@
 }
 
 table colgroup col {
-    width: auto !important;
+  width: auto !important;
 }
 
 .md-sidebar--primary {
@@ -16,7 +16,7 @@ a.md-footer__link--next[aria-label="Next: Introduction"],
 a.md-footer__link--prev[aria-label="Previous: Tags"],
 .md-nav__icon
 {
-  display: none !important;
+  display: block !important;
 }
 
 .md-nav__link--index {
@@ -27,3 +27,13 @@ a.md-footer__link--prev[aria-label="Previous: Tags"],
   max-width: 800px !important;
 }
 
+            
+h3 {
+    border-bottom:1px solid #CCC; /* #f9dd94; */
+    padding-bottom:3px;
+}
+
+h2 {
+    border-bottom:2px solid #CCC; /* #f9dd94; */
+    padding-bottom:3px;
+}

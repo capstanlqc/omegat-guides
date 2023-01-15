@@ -92,11 +92,9 @@ Also, issues that we try to solve or avoid:
 ## Tips for writing guides
 
 + Use the Markdown [Tables Generator](https://www.tablesgenerator.com/markdown_tables) to create or edit markdown tables easily.
-
 + Keep it short (instructions don't need to be long or verbose to be clear)
-
 + Do's and dont's
-
 | Don't | Do  | Comment |
 |-------|-----|---------|
 | **Project>Open Recent Project**    | **Project** > **Open Recent Project** | Separate both items in the path with " > ". Bold each separately     |
+
