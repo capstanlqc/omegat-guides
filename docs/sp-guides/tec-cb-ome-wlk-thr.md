@@ -18,12 +18,12 @@
   
     + To learn how to reconcile and insert the suggestions from translator 2 or how to combine both, please read the section 
   
-    + You can preview the file you are reconciling on the portal. Please consult the section [Creating the target file](_includes/omt-targets.md) to learn how to create and access the reconciled file. This is the file you will have to drag and drop on the portal for preview.
+    + You can preview the file you are reconciling on the portal. Please consult the section [Creating the target file](../_includes/omt-targets.md) to learn how to create and access the reconciled file. This is the file you will have to drag and drop on the portal for preview.
   
-    + If you notice **errors in formatting** while previewing (e.g. words that are bolded in your language but were not bolded in the source, or vice-versa), please consult the section [Fixing tag issues](_includes/omt-tag-iss.md) to learn how to correct them.
+    + If you notice **errors in formatting** while previewing (e.g. words that are bolded in your language but were not bolded in the source, or vice-versa), please consult the section [Fixing tag issues](../_includes/omt-tag-iss.md) to learn how to correct them.
 
-    + If you notice identical source sentences that need to be reconciled differently, please consult the section [Create alternative translation](_includes/omt-alt-trans.md)
+    + If you notice identical source sentences that need to be reconciled differently, please consult the section [Create alternative translation](../_includes/omt-alt-trans.md)
 
-4. After performing a few **QA checks**, most importantly the [Completion check](_includes/omt-qa-comp.md), you can create the reconciled package and deliver it on the portal. 
+4. After performing a few **QA checks**, most importantly the [Completion check](../_includes/omt-qa-comp.md), you can create the reconciled package and deliver it on the portal. 
 
-5. To **create the reconciled package**, go to **Project>Export OMT package** in OmegaT. More details about how to create the package for delivery can be found in the section [Exporting the package for delivery](_includes/omt-pack.md)
+5. To **create the reconciled package**, go to **Project>Export OMT package** in OmegaT. More details about how to create the package for delivery can be found in the section [Exporting the package for delivery](../_includes/omt-pack.md)

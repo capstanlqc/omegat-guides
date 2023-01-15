@@ -2,44 +2,114 @@ site_name: OmegaT guides [cApStAn]
 site_url: https://capstanlqc.github.com/omegat-guides
 nav:
     - Contents: index.md
-    - Tags: tags.md
+    - Tags: misc/tags.md
     - Translation: 
-        - Introduction: translation/index.md
+        - Translation: translation/index.md
         - Installation and setup: translation/installation-and-customization.md
         - translation/accessing-the-project.md
         - translation/navigation.md
         - translation/handling-tags.md
         - translation/using-matches.md
         - translation/using-the-glossary.md
-        - translation/handling-repeated-segments.md
+        - translation/handling-repetitions.md
         - translation/other-useful-features.md
         - QA checks: translation/qa-checks.md
         - translation/creating-target-files.md
         - translation/creating-your-deliverable.md
         - translation/shortcuts.md
     - Reconciliation: 
-        - Introduction: reconciliation/rec-intro.md
-        - Installation and customization: reconciliation/rec-install.md
-        - Accessing the project: _includes/omt-unpack-and-recent.md    
+        - Introduction: reconciliation/index.md
+        - Installation and setup: reconciliation/installation-and-customization.md
+        - reconciliation/accessing-the-project.md
+        - reconciliation/navigation.md
+        - reconciliation/handling-tags.md
+        - reconciliation/using-matches.md
+        - reconciliation/using-the-glossary.md
+        - reconciliation/handling-repetitions.md
+        - reconciliation/other-useful-features.md
+        - QA checks: reconciliation/qa-checks.md
+        - reconciliation/creating-target-files.md
+        - reconciliation/creating-your-deliverable.md
+        - reconciliation/shortcuts.md
+    - Adaptation: 
+        - Adaptation: adaptation/index.md
+        - Installation and setup: adaptation/installation-and-customization.md
+        - adaptation/accessing-the-project.md
+        - adaptation/navigation.md
+        - adaptation/handling-tags.md
+        - adaptation/using-matches.md
+        - adaptation/using-the-glossary.md
+        - adaptation/handling-repetitions.md
+        - adaptation/other-useful-features.md
+        - QA checks: adaptation/qa-checks.md
+        - adaptation/creating-target-files.md
+        - adaptation/creating-your-deliverable.md
+        - adaptation/shortcuts.md
+    - Verification: 
+        - Editing: verification/index.md
+        - Installation and setup: verification/installation-and-customization.md
+        - verification/accessing-the-project.md
+        - verification/navigation.md
+        - verification/handling-tags.md
+        - verification/using-matches.md
+        - verification/using-the-glossary.md
+        - verification/handling-repetitions.md
+        - verification/other-useful-features.md
+        - QA checks: verification/qa-checks.md
+        - verification/creating-target-files.md
+        - verification/creating-your-deliverable.md
+        - verification/shortcuts.md           
+    - Proofreading: 
+        - Proofreading: proofreading/index.md
+        - Installation and setup: proofreading/installation-and-customization.md
+        - proofreading/accessing-the-project.md
+        - proofreading/navigation.md
+        - proofreading/handling-tags.md
+        - proofreading/using-matches.md
+        - proofreading/using-the-glossary.md
+        - proofreading/handling-repetitions.md
+        - proofreading/other-useful-features.md
+        - QA checks: proofreading/qa-checks.md
+        - proofreading/creating-target-files.md
+        - proofreading/creating-your-deliverable.md
+        - proofreading/shortcuts.md                  
     - User Guides (TEMPORARY):
-        - Translation: tec-cb-ome-tra.md
-        - Reconciliation: tec-cb-ome-rec.md
-        - Adaptation: tec-cb-ome-adp.md
-        - Proofreading: tec-cb-ome-prf.md
-        - Verification: tec-cb-ome-ver.md
+        - Single-Page Guides: sp-guides/index.md
+        - Translation: sp-guides/tec-cb-ome-tra.md
+        - Reconciliation: sp-guides/tec-cb-ome-rec.md
+        - Adaptation: sp-guides/tec-cb-ome-adp.md
+        - Proofreading: sp-guides/tec-cb-ome-prf.md
+        - Verification: sp-guides/tec-cb-ome-ver.md
     - Misc:
-        - About: about.md
-        - Installation and customization: tec-cb-ome-ins.md
-        - Cheatsheet (shortcuts): cheatsheet.md
-        - Bidirectionality: tec-omt-rtl.md
-        - FAQ: tec-cb-ome-faq.md
-        - Videos: videos.md
-        - Tips and tricks: tips.md
-        - Security information: tec-cb-ome-sec.md
+        - Misc: misc/index.md
+        - About: misc/about.md
+        - Bidirectionality: misc/tec-omt-rtl.md
+        - FAQ: misc/tec-cb-ome-faq.md
+        - Videos: misc/videos.md
+        - Tips and tricks: misc/tips.md
+        - Security information: misc/tec-cb-ome-sec.md
 theme:
   name: material
   logo: _assets/img/cApStAn_symbolesensemble_blanc.png
   favicon: _assets/favicon.ico
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
   features:
     #- toc.integrate
     - navigation.instant
@@ -55,11 +125,15 @@ markdown_extensions:
       permalink: True
       separator: "-"
       toc_depth: 1-3
+  - abbr
   - attr_list
   - md_in_html
   - tables
   - admonition
-  - pymdownx.snippets
+  - footnotes
+  - pymdownx.snippets:
+      auto_append:
+        - _includes/abbreviations.md
   - pymdownx.details
   - pymdownx.critic
   - pymdownx.caret
@@ -77,14 +151,17 @@ extra_javascript:
 plugins:
   - search
   - tags:
-      tags_file: tags.md
+      tags_file: misc/tags.md
       tags_slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:
           case: lower
       tags_allowed:
         - Translation
         - Reconciliation
+        - Adaptation
         - Verification
+        - Proofreading
   - macros:
       verbose: true
       include_dir: docs/_includes
+#  - awesome-pages

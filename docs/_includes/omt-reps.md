@@ -1,13 +1,16 @@
-# Handling repeated segments
+# Handling repetitions
 
-Some segments may be repeated. The translation of a repeated segment is is __autopropagated__ to all its instances.
+Some segments may be **repeated**. By default, the translation of a repeated segment is is __autopropagated__ to all its instances.
 
 ## Identifying repeated segments
 
 You can recognize that you are in a repeated segment because it has gray font.
 When a repeated segment is active, the segment number will indicate how many repetitions exist: 
 
-  ![](../_assets/img/15_repeated_segment.jpg)
+  ![](../_assets/img/repetition-with-labels.png)
+  <!-- ![](../_assets/img/15_repeated_segment.jpg) -->
+   
+  <!-- @todo: harmonize font size across all screenshots and gifs -->
 
 If you **right click** on a repeated segment, the contextual menu will point out the other occurrences of a repeated segment. It can be useful to jump to them (by selecting them from the contextual menu) to see the different contexts in which a repeated segment appears.
 
@@ -31,5 +34,6 @@ In some cases, you may not wish to modify the translation of all repeated segmen
   * Change the translation of your active segment and then either press ++ctrl+s++ or move to the next one.
 
     ![](../_assets/img/19_alternative_translation_created.jpg)
+    <!-- @todo: use the example from the slides -->
 
 If you return on the repeated segment, you will see the different translations appear in the Multiple Translations pane.

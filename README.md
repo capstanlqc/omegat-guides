@@ -98,3 +98,10 @@ Also, issues that we try to solve or avoid:
 |-------|-----|---------|
 | **Project>Open Recent Project**    | **Project** > **Open Recent Project** | Separate both items in the path with " > ". Bold each separately     |
 
+
+## Images
+
++ Width: 745 px (or same as videos?)
++ Font: Dialog 14
++ Labels: orange, padding? 
++ Arrow: thickness, color, etc.

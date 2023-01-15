@@ -1,6 +1,19 @@
+---
+tags:
+  - Translation
+---
+
 <!-- # Translation -->
 
-Welcome to the OmegaT translation guide. 
+<style>
+a.md-footer__link--prev[aria-label^="Previous:"],
+.md-nav__icon
+{
+  display: none !important;
+}
+</style>
+
+# Welcome to the OmegaT proofreading guide!
 
 <!-- section: omegat intro -->
 {% include 'omt-intro.md' %}

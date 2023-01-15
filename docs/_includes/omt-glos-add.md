@@ -1,13 +1,12 @@
-## Adding terms to the glossary
+## Adding term entries to the glossary
 
-If the project you are working on contains technical terms or you notice certain terms keep repeating, you can add them to the glossary. To add a term:
+Feeding the glossary with technical or sensitive wording or terms or expressions that appear frequently is a good idea. 
 
-  1. In the active segment, **select the term** you want to insert with your mouse
-  2. **Right click** and choose **Add glossary entry** from the contextual menu
+To add a new term entry to the glossary:
 
+  1. In the active segment, drag your mouse over the term you want to insert **to select it**.
+  2. **Right click** and choose **Add glossary entry** from the contextual menu.
 	![](../_assets/img/22_add_glossary_entry.jpg)
-
-  3. A pop-up window will open
-  4. Enter the Target term and press the **OK** button.
-
+  3. In the **Create Glossary Entry** that will pop up, enter the target term (and any comments).
 	![](../_assets/img/23_glossary_term.jpg)
+  4. Press the **OK** button to save the new entry.

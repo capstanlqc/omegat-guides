@@ -1,7 +1,7 @@
 ## Inserting glossary matches
 
-When you arrive in an active segment which contains a glossary term, the respective term is underlined in blue in the source segment. 
-You will see the suggested target term in the **Glossary pane**, on the right.
+When the active segment contains a term that is in the glossary, it is _underlined in blue_{ .term } in the source segment. 
+You will see the suggested target term in the **Glossary** pane, on the right.
 
 ![](../_assets/img/20_glossary_term.jpg)
 

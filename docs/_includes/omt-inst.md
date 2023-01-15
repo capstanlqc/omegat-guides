@@ -1,6 +1,6 @@
 # Installation and setup
 
-To install and customize OmegaT on a computer running on Windows, please consult the steps in the following slides:
+To install and customize OmegaT on a computer running Windows, please follow these steps:
 
 <div style="width: 100%">
 
@@ -15,6 +15,7 @@ webkitallowfullscreen mozallowfullscreen allowfullscreen>
 
 </div>
 
+If you use Mac or Linux, please get in touch with our Helpdesk.
 
 <!-- To install and customize OmegaT on a computer running on Windows, please consult the steps in the [OmegaT installation and customization guide](../tec-cb-ome-ins). -->
 
