@@ -223,7 +223,7 @@
   
     <li class="md-tabs__item">
       <a href="../tec-cb-ome-tra/" class="md-tabs__link md-tabs__link--active">
-        User Guides
+        User Guides (TEMPORARY)
       </a>
     </li>
   
@@ -240,22 +240,6 @@
     <li class="md-tabs__item">
       <a href="../about/" class="md-tabs__link">
         Misc
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-
-
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../tec-cb-ome-sec/" class="md-tabs__link">
-        Technical
       </a>
     </li>
   
@@ -677,14 +661,14 @@
       
       
         <label class="md-nav__link" for="__nav_5">
-          User Guides
+          User Guides (TEMPORARY)
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="User Guides" data-md-level="1">
+      <nav class="md-nav" aria-label="User Guides (TEMPORARY)" data-md-level="1">
         <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
-          User Guides
+          User Guides (TEMPORARY)
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -802,6 +786,10 @@
         
           
         
+          
+        
+          
+        
       
       
         <label class="md-nav__link" for="__nav_6">
@@ -900,54 +888,14 @@
 
             
           
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
-      
-      
-      
-        
-          
-        
-          
-        
-      
-      
-        <label class="md-nav__link" for="__nav_7">
-          Technical
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Technical" data-md-level="1">
-        <label class="md-nav__title" for="__nav_7">
-          <span class="md-nav__icon md-icon"></span>
-          Technical
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
             
               
   
   
   
     <li class="md-nav__item">
-      <a href="../tec-cb-ome-sec/" class="md-nav__link">
-        Security information
+      <a href="../tips/" class="md-nav__link">
+        Tips and tricks
       </a>
     </li>
   
@@ -960,8 +908,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../markdown/" class="md-nav__link">
-        Markdown
+      <a href="../tec-cb-ome-sec/" class="md-nav__link">
+        Security information
       </a>
     </li>
   
@@ -1043,31 +991,44 @@ webkitallowfullscreen mozallowfullscreen allowfullscreen>
 
 <!-- section: installation and customization -->
 <h1 id="accessing-the-project">Accessing the project<a class="headerlink" href="#accessing-the-project" title="Permanent link">&para;</a></h1>
-<p>There are two ways you can access a project, depending on whether it's the first time or not: </p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>It's important that you give some thought to the organization of your files and folders before you proceed with the steps below. We provide some tips <a href="../../tips/#file-organization" target="_blank">here</a>.
+<!-- @todo: add file organization tips --></p>
+</div>
+<h2 id="accessing-a-new-project">Accessing a new project<a class="headerlink" href="#accessing-a-new-project" title="Permanent link">&para;</a></h2>
+<p>There are two ways you may access a project for the first time, depending on whether it is an <strong>online project</strong> (or <em>team project</em>) or an <strong>offline project</strong>. </p>
 <ul>
-<li>If you receive a new project package, you need to unpack it to create the project in OmegaT and access it for the first time.</li>
-<li>After you have already unpacked a project, you can access it any time from the list of recent projects.</li>
+<li>
+<p>If you must work on an <strong>offline project</strong>, you will receive a new OmegaT project package (aka an OMT package, or a file with <code>.omt</code> extension). Go to the section <a href="#unpacking-an-offline-project">Unpacking an offline project</a> below to see what you must do to unpack a project package.</p>
+</li>
+<li>
+<p>If you must work on an <strong>online project</strong> (or <strong>team project</strong>), you will receive the URL to the repository where the OmegaT project is hosted. Go to the section <a href="#downloading-a-team-project">Downloading a team project</a> below to see what you must to do download a team project from a repository.</p>
+</li>
 </ul>
-<h2 id="unpacking-a-new-project">Unpacking a new project<a class="headerlink" href="#unpacking-a-new-project" title="Permanent link">&para;</a></h2>
-<p>You must unpack a project (from the OMT package) to access it for the first time. </p>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>Unpacking or downloading an OmegaT project (depending on the distribution mode) needs to be done <em>only once</em> for each project. After you have unpacked or downloaded a project, you can simply <a href="re-opening-an-existing-project">re-open it from the list of recent projects</a>.
+<!-- @todo: " If you unpack the OMT file again, you might overwrite your changes and lose your work." to be tested... --></p>
+</div>
+<h3 id="unpacking-an-offline-project">Unpacking an offline project<a class="headerlink" href="#unpacking-an-offline-project" title="Permanent link">&para;</a></h3>
+<p>If you receive an OMT package, you must unpack the project (from the OMT package) to access the project for the first time. </p>
 <p>To unpack a project, follow these steps: </p>
 <ol>
 <li>
-<p>Download the <strong>OMT package</strong>.</p>
+<p>Store the OMT package in the folder where you would like to create the OmegaT project.<!-- @todo: tips on file organization --></p>
 </li>
 <li>
-<p>Store the <strong>OMT package</strong> in the folder where you would like your OmegaT project folder to be created.<!-- @todo: tips on file organization --></p>
-</li>
-<li>
-<p>Unpack the project from the <strong>OMT package</strong>:</p>
+<p>To unpack the project from the OMT package:</p>
 <ul>
 <li>
 <p>Launch OmegaT.</p>
 </li>
 <li>
 <p>Go to <strong>Project</strong> &gt; <strong>Unpack project from OMT file</strong>:<!-- @todo: update screenshot --></p>
-<p><img alt="" src="../_assets/img/01_import_omt_package.jpg" /></p>
-<!-- <a href="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:01_import_omt_package.jpg">klzzwxh:0163</a>{ align=right } -->
+<p><img alt="" src="../_assets/img/01_import_omt_package.jpg" />
+<!-- @todo: update screenshot, current version --></p>
+<!-- <a href="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:01_import_omt_package.jpg">klzzwxh:0192</a>{ align=right } -->
 </li>
 <li>
 <p>Navigate to the location where you stored the OMT package. Select the <strong>OMT package</strong> and click on Open:</p>
@@ -1083,18 +1044,60 @@ webkitallowfullscreen mozallowfullscreen allowfullscreen>
 <p>You can now perform your task in the project.</p>
 </li>
 </ol>
-<p>When you are done working for the day, quit OmegaT (<span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-q">Q</kbd></span>).</p>
+<h3 id="downloading-a-team-project">Downloading a team project<a class="headerlink" href="#downloading-a-team-project" title="Permanent link">&para;</a></h3>
+<p>If you receive a URL to a git repository, you must download the team project from that repository to access the project for the first time.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>The URL should look a bit like this: <code>https://some-bar-domain.com/some/path/to/the/foo-repository.git</code>.</p>
+</div>
+<p>To download the team project, follow these steps: </p>
+<ol>
+<li>
+<p>Define a location in your machine where you would like to create the OmegaT project. Let's assume it's <code>C:/Work/</code> (but please use whatever path is appropriate on your end). <!-- @todo: tips on file organization --></p>
+</li>
+<li>
+<p><a href="../../tips/#how-to-copy-paste-a-url" target="_blank">Copy</a> the URL of the project repository.
+    <img alt="" src="../_assets/img/copy-url.gif" /></p>
+</li>
+<li>
+<p>In OmegaT, go to <strong>Project</strong> &gt; <strong>Download Team Project</strong>.
+    <!-- @todo: update screenshot -->
+    <!-- <img alt="" src="../_assets/img/download-team-project.png" /> --></p>
+<p><!-- That will open the **Download Team Project** dialog. -->
+<!-- <img alt="" src="../_assets/img/download-git-dialog.png" /> --></p>
+</li>
+<li>
+<p>In the <strong>Download Team Project</strong> dialog, click in the <strong>Repository URL</strong> field and then press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-v">V</kbd></span> to paste the URL from your clipboard.</p>
+</li>
+<li>
+<p>Click in the <strong>New Local Project Folder</strong> field. OmegaT will propose a path to the location where it will create the project folder. 
+    <!-- <img alt="" src="../_assets/img/download-git-dialog-default-values.png" /> -->
+    <img alt="" src="../_assets/img/download-team-project.gif" /></p>
+</li>
+<li>
+<p>You might want to modify that path to create the folder in the location that you have defined in the first step above. To do that:</p>
+<ul>
+<li>Copy the path to the location where you want to create the project, e.g. <code>C:/Work/</code>. 
+<img alt="" src="../_assets/img/download-git-dialog-copy-path.gif" /></li>
+<li>Then, in the <strong>New Local Project Folder</strong> field, select the part of the path up to the slash before the project folder and delete it.</li>
+<li>Then, press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-v">V</kbd></span> to paste your path in replacemenet of the deleted part. 
+<img alt="" src="../_assets/img/download-git-dialog-update-path.gif" /></li>
+</ul>
 <div class="admonition caution">
 <p class="admonition-title">Caution</p>
-<p>Unpacking a project needs to be performed <em>only once</em> for each OmegaT package. After you have unpacked the project, you can simply open it from the list of recent projects, as explaind below. If you unpack the OMT file again, you might overwrite your changes and lose your work.
-<!-- @todo: to be tested... --></p>
+<p>Make sure there's a slash between the path that you paste and the project folder name.</p>
 </div>
-<h2 id="accessing-an-unpacked-project">Accessing an unpacked project<a class="headerlink" href="#accessing-an-unpacked-project" title="Permanent link">&para;</a></h2>
+</li>
+</ol>
+<h2 id="closing-the-project">Closing the project<a class="headerlink" href="#closing-the-project" title="Permanent link">&para;</a></h2>
+<p>When you are done working for the day, quit OmegaT (<span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-q">Q</kbd></span>).</p>
+<h2 id="re-opening-an-existing-project">Re-opening an existing project<a class="headerlink" href="#re-opening-an-existing-project" title="Permanent link">&para;</a></h2>
+<p>After you have received and opened a project for the first time, the project exists in your machine and OmegaT will remember it. </p>
 <p>The next times you want to access the project in OmegaT, go to <strong>Project</strong> &gt; <strong>Open Recent Project</strong>. The project you were working on will appear in the list:</p>
 <p><img alt="" src="../_assets/img/04_open_recent_project.jpg" /></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Make sure the disctinction between "opening" a project and "unpacking" a project is clear for you. You open a project that already exists because you have already unpacked it, whereas you unpack a project that doesn't exist yet. Before you can open a new project, you must unpack it from the OMT file.</p>
+<p>Make sure the disctinction between <em>opening</em> a recent project and <em>downloading</em> or <em>unpacking</em> a project (depending on the distribution mode) is clear. You can open a project that already exists only after you have already unpacked it or downloaded it. In turn, you only download or unpack a project that doesn't exist yet in your machine.</p>
 </div>
 <!-- section: navigation -->
 <h1 id="navigation">Navigation<a class="headerlink" href="#navigation" title="Permanent link">&para;</a></h1>
@@ -1298,7 +1301,7 @@ When a repeated segment is active, the segment number will indicate how many rep
 <li>The project files pane will open</li>
 <li>
 <p><strong>OK:</strong> If the <strong>Number of unique segments</strong> <strong>is equal to</strong> the number of <strong>Translated unique segments</strong>.</p>
-<p><img alt="" src="../_assets/32_completion.jpg" /></p>
+<p><img alt="" src="../_assets/img/32_completion.jpg" /></p>
 </li>
 <li>
 <p><strong>NOT OK</strong>: the <strong>Number of unique segments</strong> <strong>is different from</strong> the number of <strong>Translated unique segments</strong>. </p>
