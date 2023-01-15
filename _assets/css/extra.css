@@ -16,7 +16,11 @@ a.md-footer__link--next[aria-label="Next: Introduction"],
 a.md-footer__link--prev[aria-label="Previous: Tags"],
 .md-nav__icon
 {
-  display: none !important;
+  display: block !important;
+}
+
+.md-nav__icon, .md-icon {
+  display: none !important; 
 }
 
 .md-nav__link--index {
@@ -36,4 +40,41 @@ h3 {
 h2 {
     border-bottom:2px solid #CCC; /* #f9dd94; */
     padding-bottom:3px;
+}
+
+.thumb-up {
+  color: transparent;  
+  text-shadow: 0 0 0 #34a853;
+}
+
+.thumb-down {
+  color: transparent;  
+  text-shadow: 0 0 0 #dd2c00;
+}
+
+del.critic {
+  color: red;
+}
+
+ins.critic {
+  color: blue;
+}
+
+@keyframes heart {
+  0%, 40%, 80%, 100% {
+    transform: scale(1);
+  }
+  20%, 60% {
+    transform: scale(1.15);
+  }
+}
+.heart {
+  animation: heart 1000ms infinite;
+}
+
+.tag { color: red; }
+
+.term {
+  display: inline;
+  border-bottom: 2px solid blue;
 }

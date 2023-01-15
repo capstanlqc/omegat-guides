@@ -53,12 +53,16 @@
   
     
     
+      
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="None" data-md-color-accent="None">
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
   
     
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -104,6 +108,40 @@
         </div>
       </div>
     </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_3" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9h-1.9M20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69m-9.15 3.96h2.3L12 9l-1.15 3.65Z"/></svg>
+            </label>
+          
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_3">
+          
+            <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
     
     
     
@@ -173,7 +211,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../../tags/" class="md-tabs__link">
+    <a href="../../misc/tags/" class="md-tabs__link">
       Tags
     </a>
   </li>
@@ -204,7 +242,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../reconciliation/rec-intro/" class="md-tabs__link">
+      <a href="../../reconciliation/" class="md-tabs__link">
         Reconciliation
       </a>
     </li>
@@ -220,7 +258,55 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../tec-cb-ome-tra/" class="md-tabs__link">
+      <a href="../../adaptation/" class="md-tabs__link">
+        Adaptation
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../verification/" class="md-tabs__link">
+        Verification
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../proofreading/" class="md-tabs__link">
+        Proofreading
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../sp-guides/" class="md-tabs__link">
         User Guides (TEMPORARY)
       </a>
     </li>
@@ -236,7 +322,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../about/" class="md-tabs__link">
+      <a href="../../misc/" class="md-tabs__link">
         Misc
       </a>
     </li>
@@ -297,7 +383,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tags/" class="md-nav__link">
+      <a href="../../misc/tags/" class="md-nav__link">
         Tags
       </a>
     </li>
@@ -460,8 +546,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../translation/handling-repeated-segments/" class="md-nav__link">
-        Handling repeated segments
+      <a href="../../translation/handling-repetitions.md" class="md-nav__link">
+        None
       </a>
     </li>
   
@@ -561,6 +647,28 @@
       
         
           
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
         
           
         
@@ -568,10 +676,16 @@
         
       
       
-        <label class="md-nav__link" for="__nav_4">
-          Reconciliation
-          <span class="md-nav__icon md-icon"></span>
-        </label>
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../reconciliation/">Reconciliation</a>
+          
+            <label for="__nav_4">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
       
       <nav class="md-nav" aria-label="Reconciliation" data-md-level="1">
         <label class="md-nav__title" for="__nav_4">
@@ -581,13 +695,15 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+          
+            
               
   
   
   
     <li class="md-nav__item">
-      <a href="../../reconciliation/rec-intro/" class="md-nav__link">
-        Introduction
+      <a href="../../reconciliation/installation-and-customization/" class="md-nav__link">
+        Installation and setup
       </a>
     </li>
   
@@ -600,22 +716,148 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reconciliation/rec-install/" class="md-nav__link">
-        Installation and customization
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../omt-unpack-and-recent/" class="md-nav__link">
+      <a href="../../reconciliation/accessing-the-project/" class="md-nav__link">
         Accessing the project
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reconciliation/navigation/" class="md-nav__link">
+        Navigation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reconciliation/handling-tags/" class="md-nav__link">
+        Handling tags
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reconciliation/using-matches/" class="md-nav__link">
+        Using matches
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reconciliation/using-the-glossary/" class="md-nav__link">
+        Using the glossary
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reconciliation/handling-repetitions/" class="md-nav__link">
+        Handling repetitions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reconciliation/other-useful-features/" class="md-nav__link">
+        Other useful features
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reconciliation/qa-checks/" class="md-nav__link">
+        QA checks
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reconciliation/creating-target-files/" class="md-nav__link">
+        Creating target files
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reconciliation/creating-your-deliverable/" class="md-nav__link">
+        Creating your deliverable
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reconciliation/shortcuts/" class="md-nav__link">
+        Shortcuts
       </a>
     </li>
   
@@ -645,6 +887,24 @@
       
         
           
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
         
           
         
@@ -656,26 +916,34 @@
         
       
       
-        <label class="md-nav__link" for="__nav_5">
-          User Guides (TEMPORARY)
-          <span class="md-nav__icon md-icon"></span>
-        </label>
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../adaptation/">Adaptation</a>
+          
+            <label for="__nav_5">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
       
-      <nav class="md-nav" aria-label="User Guides (TEMPORARY)" data-md-level="1">
+      <nav class="md-nav" aria-label="Adaptation" data-md-level="1">
         <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
-          User Guides (TEMPORARY)
+          Adaptation
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+          
+            
               
   
   
   
     <li class="md-nav__item">
-      <a href="../../tec-cb-ome-tra/" class="md-nav__link">
-        Translation
+      <a href="../../adaptation/installation-and-customization/" class="md-nav__link">
+        Installation and setup
       </a>
     </li>
   
@@ -688,8 +956,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tec-cb-ome-rec/" class="md-nav__link">
-        Reconciliation
+      <a href="../../adaptation/accessing-the-project/" class="md-nav__link">
+        Accessing the project
       </a>
     </li>
   
@@ -702,8 +970,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tec-cb-ome-adp/" class="md-nav__link">
-        Adaptation
+      <a href="../../adaptation/navigation/" class="md-nav__link">
+        Navigation
       </a>
     </li>
   
@@ -716,8 +984,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tec-cb-ome-prf/" class="md-nav__link">
-        Proofreading
+      <a href="../../adaptation/handling-tags/" class="md-nav__link">
+        Handling tags
       </a>
     </li>
   
@@ -730,8 +998,106 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tec-cb-ome-ver/" class="md-nav__link">
-        Verification
+      <a href="../../adaptation/using-matches/" class="md-nav__link">
+        Using matches
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../adaptation/using-the-glossary/" class="md-nav__link">
+        Using the glossary
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../adaptation/handling-repetitions.md" class="md-nav__link">
+        None
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../adaptation/other-useful-features/" class="md-nav__link">
+        Other useful features
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../adaptation/qa-checks/" class="md-nav__link">
+        QA checks
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../adaptation/creating-target-files/" class="md-nav__link">
+        Creating target files
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../adaptation/creating-your-deliverable/" class="md-nav__link">
+        Creating your deliverable
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../adaptation/shortcuts/" class="md-nav__link">
+        Shortcuts
       </a>
     </li>
   
@@ -761,6 +1127,18 @@
       
         
           
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
         
           
         
@@ -778,17 +1156,25 @@
         
       
       
-        <label class="md-nav__link" for="__nav_6">
-          Misc
-          <span class="md-nav__icon md-icon"></span>
-        </label>
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../verification/">Verification</a>
+          
+            <label for="__nav_6">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
       
-      <nav class="md-nav" aria-label="Misc" data-md-level="1">
+      <nav class="md-nav" aria-label="Verification" data-md-level="1">
         <label class="md-nav__title" for="__nav_6">
           <span class="md-nav__icon md-icon"></span>
-          Misc
+          Verification
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
+          
+            
           
             
               
@@ -796,7 +1182,603 @@
   
   
     <li class="md-nav__item">
-      <a href="../../about/" class="md-nav__link">
+      <a href="../../verification/installation-and-customization/" class="md-nav__link">
+        Installation and setup
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verification/accessing-the-project/" class="md-nav__link">
+        Accessing the project
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verification/navigation/" class="md-nav__link">
+        Navigation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verification/handling-tags/" class="md-nav__link">
+        Handling tags
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verification/using-matches/" class="md-nav__link">
+        Using matches
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verification/using-the-glossary/" class="md-nav__link">
+        Using the glossary
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verification/handling-repetitions.md" class="md-nav__link">
+        None
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verification/other-useful-features/" class="md-nav__link">
+        Other useful features
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verification/qa-checks/" class="md-nav__link">
+        QA checks
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verification/creating-target-files/" class="md-nav__link">
+        Creating target files
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verification/creating-your-deliverable/" class="md-nav__link">
+        Creating your deliverable
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verification/shortcuts/" class="md-nav__link">
+        Shortcuts
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../proofreading/">Proofreading</a>
+          
+            <label for="__nav_7">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Proofreading" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Proofreading
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../proofreading/installation-and-customization/" class="md-nav__link">
+        Installation and setup
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../proofreading/accessing-the-project/" class="md-nav__link">
+        Accessing the project
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../proofreading/navigation/" class="md-nav__link">
+        Navigation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../proofreading/handling-tags/" class="md-nav__link">
+        Handling tags
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../proofreading/using-matches/" class="md-nav__link">
+        Using matches
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../proofreading/using-the-glossary/" class="md-nav__link">
+        Using the glossary
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../proofreading/handling-repetitions.md" class="md-nav__link">
+        None
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../proofreading/other-useful-features/" class="md-nav__link">
+        Other useful features
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../proofreading/qa-checks/" class="md-nav__link">
+        QA checks
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../proofreading/creating-target-files/" class="md-nav__link">
+        Creating target files
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../proofreading/creating-your-deliverable/" class="md-nav__link">
+        Creating your deliverable
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../proofreading/shortcuts/" class="md-nav__link">
+        Shortcuts
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../sp-guides/">User Guides (TEMPORARY)</a>
+          
+            <label for="__nav_8">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="User Guides (TEMPORARY)" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          User Guides (TEMPORARY)
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sp-guides/tec-cb-ome-tra/" class="md-nav__link">
+        Translation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sp-guides/tec-cb-ome-rec/" class="md-nav__link">
+        Reconciliation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sp-guides/tec-cb-ome-adp/" class="md-nav__link">
+        Adaptation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sp-guides/tec-cb-ome-prf/" class="md-nav__link">
+        Proofreading
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sp-guides/tec-cb-ome-ver/" class="md-nav__link">
+        Verification
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../misc/">Misc</a>
+          
+            <label for="__nav_9">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Misc" data-md-level="1">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          Misc
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../misc/about/" class="md-nav__link">
         About
       </a>
     </li>
@@ -810,35 +1792,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tec-cb-ome-ins/" class="md-nav__link">
-        Installation and customization
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../cheatsheet.md" class="md-nav__link">
-        Cheatsheet (shortcuts)
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../tec-omt-rtl/" class="md-nav__link">
+      <a href="../../misc/tec-omt-rtl/" class="md-nav__link">
         Bidirectionality
       </a>
     </li>
@@ -852,7 +1806,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tec-cb-ome-faq/" class="md-nav__link">
+      <a href="../../misc/tec-cb-ome-faq/" class="md-nav__link">
         FAQ
       </a>
     </li>
@@ -866,7 +1820,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../videos/" class="md-nav__link">
+      <a href="../../misc/videos/" class="md-nav__link">
         Videos
       </a>
     </li>
@@ -880,7 +1834,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tips/" class="md-nav__link">
+      <a href="../../misc/tips/" class="md-nav__link">
         Tips and tricks
       </a>
     </li>
@@ -894,7 +1848,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tec-cb-ome-sec/" class="md-nav__link">
+      <a href="../../misc/tec-cb-ome-sec/" class="md-nav__link">
         Security information
       </a>
     </li>
@@ -960,8 +1914,8 @@
   <h1>Omt glos ins</h1>
 
 <h2 id="inserting-glossary-matches">Inserting glossary matches<a class="headerlink" href="#inserting-glossary-matches" title="Permanent link">&para;</a></h2>
-<p>When you arrive in an active segment which contains a glossary term, the respective term is underlined in blue in the source segment. 
-You will see the suggested target term in the <strong>Glossary pane</strong>, on the right.</p>
+<p>When the active segment contains a term that is in the glossary, it is <em class="term">underlined in blue</em> in the source segment. 
+You will see the suggested target term in the <strong>Glossary</strong> pane, on the right.</p>
 <p><img alt="" src="../../_assets/img/20_glossary_term.jpg" /></p>
 <p>OmegaT has <strong>predictive typing</strong>: when you start typing the first character of the target term in the glossary, the auto-completer will suggest the term. To insert it, press <span class="keys"><kbd class="key-enter">Enter</kbd></span> on your keyboard.</p>
 <p><img alt="" src="../../_assets/img/21_predictive_typing.jpg" /></p>
