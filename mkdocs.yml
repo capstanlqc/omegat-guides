@@ -18,7 +18,7 @@ nav:
         - translation/creating-your-deliverable.md
         - translation/shortcuts.md
     - Reconciliation: 
-        - Introduction: reconciliation/index.md
+        - Reconciliation: reconciliation/index.md
         - Installation and setup: reconciliation/installation-and-customization.md
         - reconciliation/accessing-the-project.md
         - reconciliation/navigation.md
