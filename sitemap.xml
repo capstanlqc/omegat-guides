@@ -241,7 +241,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/adaptation/handling-repeated-segments/</loc>
+         <loc>https://capstanlqc.github.com/omegat-guides/adaptation/handling-repetitions/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -287,6 +287,76 @@
     </url>
     <url>
          <loc>https://capstanlqc.github.com/omegat-guides/adaptation/using-the-glossary/</loc>
+         <lastmod>2023-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/editing/</loc>
+         <lastmod>2023-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/editing/accessing-the-project/</loc>
+         <lastmod>2023-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/editing/creating-target-files/</loc>
+         <lastmod>2023-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/editing/creating-your-deliverable/</loc>
+         <lastmod>2023-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/editing/handling-repetitions/</loc>
+         <lastmod>2023-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/editing/handling-tags/</loc>
+         <lastmod>2023-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/editing/hidden/</loc>
+         <lastmod>2023-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/editing/installation-and-customization/</loc>
+         <lastmod>2023-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/editing/navigation/</loc>
+         <lastmod>2023-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/editing/other-useful-features/</loc>
+         <lastmod>2023-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/editing/qa-checks/</loc>
+         <lastmod>2023-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/editing/shortcuts/</loc>
+         <lastmod>2023-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/editing/using-matches/</loc>
+         <lastmod>2023-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/editing/using-the-glossary/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -351,7 +421,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/proofreading/handling-repeated-segments/</loc>
+         <loc>https://capstanlqc.github.com/omegat-guides/proofreading/handling-repetitions/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -531,7 +601,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/translation/handling-repeated-segments/</loc>
+         <loc>https://capstanlqc.github.com/omegat-guides/translation/handling-repetitions/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -601,7 +671,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/verification/handling-repeated-segments/</loc>
+         <loc>https://capstanlqc.github.com/omegat-guides/verification/handling-repetitions/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
