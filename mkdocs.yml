@@ -46,7 +46,7 @@ nav:
         - adaptation/creating-your-deliverable.md
         - adaptation/shortcuts.md
     - Verification: 
-        - Editing: verification/index.md
+        - Verification: verification/index.md
         - Installation and setup: verification/installation-and-customization.md
         - verification/accessing-the-project.md
         - verification/navigation.md
@@ -58,7 +58,21 @@ nav:
         - QA checks: verification/qa-checks.md
         - verification/creating-target-files.md
         - verification/creating-your-deliverable.md
-        - verification/shortcuts.md           
+        - verification/shortcuts.md         
+    - Editing: 
+        - Editing: editing/index.md
+        - Installation and setup: editing/installation-and-customization.md
+        - editing/accessing-the-project.md
+        - editing/navigation.md
+        - editing/handling-tags.md
+        - editing/using-matches.md
+        - editing/using-the-glossary.md
+        - editing/handling-repetitions.md
+        - editing/other-useful-features.md
+        - QA checks: editing/qa-checks.md
+        - editing/creating-target-files.md
+        - editing/creating-your-deliverable.md
+        - editing/shortcuts.md              
     - Proofreading: 
         - Proofreading: proofreading/index.md
         - Installation and setup: proofreading/installation-and-customization.md
