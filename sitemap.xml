@@ -41,11 +41,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/_includes/omt-exp-pack/</loc>
-         <lastmod>2023-01-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://capstanlqc.github.com/omegat-guides/_includes/omt-glos-add/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
@@ -211,6 +206,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/_includes/omt-ver-tags/</loc>
+         <lastmod>2023-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://capstanlqc.github.com/omegat-guides/_includes/preview-in-microsoft-word/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
@@ -241,12 +241,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/adaptation/handling-repetitions/</loc>
-         <lastmod>2023-01-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/adaptation/handling-tags/</loc>
+         <loc>https://capstanlqc.github.com/omegat-guides/adaptation/glossary/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -257,6 +252,11 @@
     </url>
     <url>
          <loc>https://capstanlqc.github.com/omegat-guides/adaptation/installation-and-customization/</loc>
+         <lastmod>2023-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/adaptation/matches/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -276,17 +276,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/adaptation/repetitions/</loc>
+         <lastmod>2023-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://capstanlqc.github.com/omegat-guides/adaptation/shortcuts/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/adaptation/using-matches/</loc>
-         <lastmod>2023-01-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/adaptation/using-the-glossary/</loc>
+         <loc>https://capstanlqc.github.com/omegat-guides/adaptation/tags/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -311,12 +311,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/editing/handling-repetitions/</loc>
-         <lastmod>2023-01-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/editing/handling-tags/</loc>
+         <loc>https://capstanlqc.github.com/omegat-guides/editing/glossary/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -327,6 +322,11 @@
     </url>
     <url>
          <loc>https://capstanlqc.github.com/omegat-guides/editing/installation-and-customization/</loc>
+         <lastmod>2023-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/editing/matches/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -346,17 +346,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/editing/repetitions/</loc>
+         <lastmod>2023-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://capstanlqc.github.com/omegat-guides/editing/shortcuts/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/editing/using-matches/</loc>
-         <lastmod>2023-01-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/editing/using-the-glossary/</loc>
+         <loc>https://capstanlqc.github.com/omegat-guides/editing/tags/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -421,12 +421,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/proofreading/handling-repetitions/</loc>
-         <lastmod>2023-01-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/proofreading/handling-tags/</loc>
+         <loc>https://capstanlqc.github.com/omegat-guides/proofreading/glossary/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -437,6 +432,11 @@
     </url>
     <url>
          <loc>https://capstanlqc.github.com/omegat-guides/proofreading/installation-and-customization/</loc>
+         <lastmod>2023-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/proofreading/matches/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -456,17 +456,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/proofreading/repetitions/</loc>
+         <lastmod>2023-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://capstanlqc.github.com/omegat-guides/proofreading/shortcuts/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/proofreading/using-matches/</loc>
-         <lastmod>2023-01-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/proofreading/using-the-glossary/</loc>
+         <loc>https://capstanlqc.github.com/omegat-guides/proofreading/tags/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -491,12 +491,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/reconciliation/handling-repetitions/</loc>
-         <lastmod>2023-01-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/reconciliation/handling-tags/</loc>
+         <loc>https://capstanlqc.github.com/omegat-guides/reconciliation/glossary/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -507,6 +502,11 @@
     </url>
     <url>
          <loc>https://capstanlqc.github.com/omegat-guides/reconciliation/installation-and-customization/</loc>
+         <lastmod>2023-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/reconciliation/matches/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -526,17 +526,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/reconciliation/repetitions/</loc>
+         <lastmod>2023-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://capstanlqc.github.com/omegat-guides/reconciliation/shortcuts/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/reconciliation/using-matches/</loc>
-         <lastmod>2023-01-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/reconciliation/using-the-glossary/</loc>
+         <loc>https://capstanlqc.github.com/omegat-guides/reconciliation/tags/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -601,12 +601,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/translation/handling-repetitions/</loc>
-         <lastmod>2023-01-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/translation/handling-tags/</loc>
+         <loc>https://capstanlqc.github.com/omegat-guides/translation/glossary/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -617,6 +612,11 @@
     </url>
     <url>
          <loc>https://capstanlqc.github.com/omegat-guides/translation/installation-and-customization/</loc>
+         <lastmod>2023-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/translation/matches/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -636,17 +636,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/translation/repetitions/</loc>
+         <lastmod>2023-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://capstanlqc.github.com/omegat-guides/translation/shortcuts/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/translation/using-matches/</loc>
-         <lastmod>2023-01-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/translation/using-the-glossary/</loc>
+         <loc>https://capstanlqc.github.com/omegat-guides/translation/tags/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -671,12 +671,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/verification/handling-repetitions/</loc>
-         <lastmod>2023-01-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/verification/handling-tags/</loc>
+         <loc>https://capstanlqc.github.com/omegat-guides/verification/glossary/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -687,6 +682,11 @@
     </url>
     <url>
          <loc>https://capstanlqc.github.com/omegat-guides/verification/installation-and-customization/</loc>
+         <lastmod>2023-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/verification/matches/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -706,17 +706,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/verification/repetitions/</loc>
+         <lastmod>2023-01-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://capstanlqc.github.com/omegat-guides/verification/shortcuts/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/verification/using-matches/</loc>
-         <lastmod>2023-01-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/verification/using-the-glossary/</loc>
+         <loc>https://capstanlqc.github.com/omegat-guides/verification/tags/</loc>
          <lastmod>2023-01-16</lastmod>
          <changefreq>daily</changefreq>
     </url>

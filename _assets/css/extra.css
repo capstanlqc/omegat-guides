@@ -19,7 +19,7 @@ a.md-footer__link--prev[aria-label="Previous: Tags"],
   display: block !important;
 }
 
-.md-nav__icon, .md-icon {
+.md-nav__icon {
   display: none !important; 
 }
 
@@ -77,4 +77,14 @@ ins.critic {
 .term {
   display: inline;
   border-bottom: 2px solid blue;
+}
+
+.md-footer__direction {
+  box-sizing: content-box !important;
+  max-width: 100% !important;
+}
+
+.md-ellipsis {
+  box-sizing: content-box !important;
+  max-width: 100% !important;
 }
