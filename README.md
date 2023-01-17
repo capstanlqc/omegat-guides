@@ -140,3 +140,58 @@ Also, issues that we try to solve or avoid:
 ## Review
 
 - check that all pages have prev/next links in the footer, except the first page and the last (which shuold have only next and prev respectively)
+
+<!-- @todo:
+
+    todo: 
+
+see what files in _includes are not in this list 
+
+
+              - _includes/abbreviations.md
+              - _includes/cheatsheet.md
+              - _includes/omt-alt-trans.md
+              - _includes/omt-autoprop.md
+              - _includes/omt-chara.md
+              - _includes/omt-conc.md
+              - _includes/omt-empty.md
+              - _includes/omt-glos-add.md
+              - _includes/omt-glos-ins.md
+              - _includes/omt-glos.md
+              - _includes/omt-html-tag.md
+              - _includes/omt-id-repeateds.md
+              - _includes/omt-ins-src.md
+              - _includes/omt-inst.md
+              - _includes/omt-intro.md
+              - _includes/omt-mk-tgt.md
+              - _includes/omt-nav.md
+              - _includes/omt-nav1-panes.md
+              - _includes/omt-nav2-files.md
+              - _includes/omt-nav3-seg.md
+              - _includes/omt-nbsp.md
+              - _includes/omt-other.md
+              - _includes/omt-pack.md
+              - _includes/omt-qa-comp.md
+              - _includes/omt-qa-glos.md
+              - _includes/omt-qa-tags.md
+              - _includes/omt-qa.md
+              - _includes/omt-rec-match.md
+              - _includes/omt-rec-other.md
+              - _includes/omt-rec-tags.md
+              - _includes/omt-reps.md
+              - _includes/omt-shortcuts.md
+              - _includes/omt-tag-insert.md
+              - _includes/omt-tag-iss.md
+              - _includes/omt-tag-recog.md
+              - _includes/omt-tags-com.md
+              - _includes/omt-targets.md
+              - _includes/omt-match.md
+              - _includes/omt-tra-tags.md
+              - _includes/omt-unpack-and-recent.md
+              - _includes/omt-ver-tags.md
+              - _includes/preview-in-microsoft-word.md
+              - _includes/preview.md
+
+check what images are not used anymore
+
+-->
