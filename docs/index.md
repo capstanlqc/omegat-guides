@@ -7,15 +7,11 @@
 + [Verification](verification/)
 + [Adaptation](adaptation/)
 
-## Quick guides
+## Other
 + [Quick walkthrough (reconciliation)](sp-guides/tec-cb-ome-wlk-thr.md)
++ [Miscellanea](misc/)
 
-## Misc
-+ [About](misc/about.md)
-+ [Frequently Asked Questions](misc/faq.md)
-+ [Bidirectionality (RTL)](misc/bidi.md)
-+ [Tips and tricks](misc/tips.md)
-+ [Videos](misc/videos.md)
+
 
 <!-- 
 # Translation
@@ -29,7 +25,7 @@
 
 + [Tags](misc/tags)
 
-
+<!-- 
 *👍*{ .thumb-up } **Recommended**
 
 *👎*{ .thumb-down } **Not recommended**
@@ -39,3 +35,4 @@
 :octicons-heart-fill-24:{ .heart }
 
 {% include 'abbreviations.md' %}
+-->

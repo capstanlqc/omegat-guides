@@ -16,7 +16,7 @@ a.md-footer__link--next[aria-label="Next: Introduction"],
 a.md-footer__link--prev[aria-label="Previous: Tags"],
 .md-nav__icon
 {
-  display: block !important;
+  display: none !important;
 }
 
 .md-nav__icon {

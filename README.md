@@ -136,3 +136,7 @@ Also, issues that we try to solve or avoid:
 99 shortcuts.md     
 
  -->
+
+## Review
+
+- check that all pages have prev/next links in the footer, except the first page and the last (which shuold have only next and prev respectively)
