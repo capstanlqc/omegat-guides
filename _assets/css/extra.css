@@ -23,6 +23,10 @@ a.md-footer__link--prev[aria-label="Previous: Tags"],
   display: none !important; 
 }
 
+.md-header__button[for="__drawer"] {
+  display: none;
+}
+
 .md-nav__link--index {
   font-size: x-large;
 }
@@ -87,4 +91,24 @@ ins.critic {
 .md-ellipsis {
   box-sizing: content-box !important;
   max-width: 100% !important;
+}
+
+.untranslated {
+  background-color: #C0C0FF;
+}
+
+.enforce {
+  background-color: #FFD596;
+}
+
+.auto {
+  background-color: #FFCCFF;
+}
+
+.translated {
+  background-color: #E5E5E5;
+}
+
+.active {
+  background-color: #CCFFCC;
 }

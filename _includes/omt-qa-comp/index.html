@@ -339,7 +339,7 @@
   
     <li class="md-tabs__item">
       <a href="../../misc/" class="md-tabs__link">
-        Misc
+        Miscellanea
       </a>
     </li>
   
@@ -1170,6 +1170,8 @@
         
           
         
+          
+        
       
       
         
@@ -1228,6 +1230,20 @@
     <li class="md-nav__item">
       <a href="../../verification/navigation/" class="md-nav__link">
         Navigation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../verification/editing/" class="md-nav__link">
+        Editing
       </a>
     </li>
   
@@ -2038,12 +2054,16 @@
         
           
         
+          
+        
+          
+        
       
       
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../misc/">Misc</a>
+          <a href="../../misc/">Miscellanea</a>
           
             <label for="__nav_10">
               <span class="md-nav__icon md-icon"></span>
@@ -2051,10 +2071,10 @@
           
         </div>
       
-      <nav class="md-nav" aria-label="Misc" data-md-level="1">
+      <nav class="md-nav" aria-label="Miscellanea" data-md-level="1">
         <label class="md-nav__title" for="__nav_10">
           <span class="md-nav__icon md-icon"></span>
-          Misc
+          Miscellanea
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -2066,36 +2086,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../misc/about/" class="md-nav__link">
-        About
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../misc/tec-omt-rtl/" class="md-nav__link">
-        Bidirectionality
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../misc/tec-cb-ome-faq/" class="md-nav__link">
-        FAQ
+      <a href="../../misc/security/" class="md-nav__link">
+        IT security
       </a>
     </li>
   
@@ -2122,6 +2114,62 @@
   
   
     <li class="md-nav__item">
+      <a href="../../misc/autotext/" class="md-nav__link">
+        Autotext
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../misc/shortcuts/" class="md-nav__link">
+        Shortcuts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../misc/bidi/" class="md-nav__link">
+        Bidirectionality
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../misc/faq/" class="md-nav__link">
+        FAQ
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../misc/tips/" class="md-nav__link">
         Tips and tricks
       </a>
@@ -2136,8 +2184,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../misc/tec-cb-ome-sec/" class="md-nav__link">
-        Security information
+      <a href="../../misc/about/" class="md-nav__link">
+        About
       </a>
     </li>
   
@@ -2202,25 +2250,28 @@
   <h1>Omt qa comp</h1>
 
 <h2 id="completion-check">Completion check<a class="headerlink" href="#completion-check" title="Permanent link">&para;</a></h2>
-<p>All segments of the OmegaT package must have a translation. To ensure that is the case, please check for completion prior to delivery:</p>
+<p>All segments in the project must have a translation. To confirm that is the case, please check for completion before your delivery.</p>
+<p>To check completion, hover with your mouse pointer over the progress status bar, in the bottom right corner of OmegaT's main window.</p>
+<p><img alt="" src="../../_assets/img/progress-status.png" /></p>
+<!-- @todo: red square around the figures -->
+
+<p>That bar shows some statistics: </p>
 <ul>
-<li>Go to <strong>Project</strong> &gt; <strong>Project Files</strong></li>
-<li>The project files pane will open</li>
-<li>
-<p><strong>OK:</strong> If the <strong>Number of unique segments</strong> <strong>is equal to</strong> the number of <strong>Translated unique segments</strong>.</p>
-<p><img alt="" src="../../_assets/img/32_completion.jpg" /></p>
-</li>
-<li>
-<p><strong>NOT OK</strong>: the <strong>Number of unique segments</strong> <strong>is different from</strong> the number of <strong>Translated unique segments</strong>. </p>
-</li>
+<li>unique translated (unique left) per file (e.g. <code>100% (0 left)</code> as above)</li>
+<li>unique translated (unique left) per project (e.g. <code>100% (0 left)</code> as above)</li>
+<li>total number of segments (e.g. <code>54</code> as above)</li>
 </ul>
-<p>To correct: </p>
+<!-- @todo: screenshot with labels showing what is what -->
+
+<p>If you see something like <code>100% (0 left) / 100% (0 left), 54</code>, that means that all 54 segments in the project are translated. If you see a number higher that zero segments left, the translation is not complete. </p>
+<p>If you have left some segment untranslated, proceed as follows to correct it:</p>
 <ol>
-<li>Close the Project Files Pane</li>
+<li>Press <span class="keys"><kbd class="key-escape">Esc</kbd></span> to close the <strong>Project Files</strong> window.</li>
 <li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-u">U</kbd></span> on your keyboard to jump to the <strong>Next Untranslated Segment</strong>. </li>
-<li>When the cursor stops moving from the active segment then all segments have a translation.</li>
+<li>Translate the segment</li>
 </ol>
-<p>Recheck for completion, to make sure by opening the Project Files pane.</p>
+<p>Repeat the steps above until no untranslated segments remain. </p>
+<p>Finally, check the progress status bar again to confirm completion now.</p>
 
 
 
