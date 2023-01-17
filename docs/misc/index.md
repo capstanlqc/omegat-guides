@@ -4,8 +4,8 @@ This section contains some guides that are not specific for any role or task in 
 
 Some guides are addressed only to people with specific responsibiilities: 
 
-+ [Bidirectionality (RTL)](misc/bidi.md) for RTL languages
-+ [IT security](misc/security.md) for IT departments
++ [Bidirectionality (RTL)](bidi.md) for RTL languages
++ [IT security](security.md) for IT departments
 
 
 
