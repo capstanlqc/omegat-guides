@@ -1,5 +1,7 @@
 <!-- # Contents -->
 
+# OmegaT guides 
+
 ## A guide for each task
 + [Translation](translation)
 + [Reconciliation](reconciliation/)
@@ -8,10 +10,9 @@
 + [Adaptation](adaptation/)
 
 ## Other
-+ [Quick walkthrough (reconciliation)](sp-guides/tec-cb-ome-wlk-thr.md)
++ [Reconciliation quick walkthrough](sp-guides/tec-cb-ome-wlk-thr.md)
 + [Miscellanea](misc/)
-
-
++ [Tags](misc/tags)
 
 <!-- 
 # Translation
@@ -23,8 +24,6 @@
 <!-- + [Reconciliation (navigation)](reconciliation/.md) -->
 
 
-+ [Tags](misc/tags)
-
 <!-- 
 *👍*{ .thumb-up } **Recommended**
 
@@ -32,8 +31,9 @@
 -->
 
 <!-- same as :fontawesome-regular-thumbs-down:
-
-{% include 'abbreviations.md' %}
+	:octicons-heart-fill-24:{ .heart }
 -->
 
-Enjoy :octicons-heart-fill-24:{ .heart }
+{% include 'abbreviations.md' %}
+
+

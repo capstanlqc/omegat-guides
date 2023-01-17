@@ -1,2 +1,4 @@
 <!-- section: glossary -->
-{% include 'omt-glos.md' %}{% include 'abbreviations.md' %}
+{% include 'omt-glos.md' %}
+
+{% include 'abbreviations.md' %}

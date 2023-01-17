@@ -3,6 +3,8 @@ tags:
   - Verification
   - Proofreading
   - Adaptation
+  - Review
+  - Revision
 ---
 
 <!-- # Translation -->

@@ -1,6 +1,7 @@
 ---
 tags:
-  - Translation
+  - Proofreading
+  - Revision
 ---
 
 <!-- # Translation -->
