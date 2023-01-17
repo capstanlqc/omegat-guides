@@ -29,10 +29,11 @@
 *👍*{ .thumb-up } **Recommended**
 
 *👎*{ .thumb-down } **Not recommended**
+-->
 
-<!-- same as :fontawesome-regular-thumbs-down: -->
-
-:octicons-heart-fill-24:{ .heart }
+<!-- same as :fontawesome-regular-thumbs-down:
 
 {% include 'abbreviations.md' %}
 -->
+
+Enjoy :octicons-heart-fill-24:{ .heart }
