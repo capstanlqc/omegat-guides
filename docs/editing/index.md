@@ -15,7 +15,7 @@ a.md-footer__link--prev[aria-label^="Previous:"],
 }
 </style>
 
-# Welcome to the OmegaT verification guide!
+# 👋 Welcome to the OmegaT verification guide!
 
 <!-- section: omegat intro -->
 {% include 'omt-intro.md' %}

@@ -12,8 +12,8 @@
 
 ## Misc
 + [About](misc/about.md)
-+ [Frequently Asked Questions](misc/tec-cb-ome-faq.md)
-+ [Bidirectionality (RTL)](misc/tec-omt-rtl.md)
++ [Frequently Asked Questions](misc/faq.md)
++ [Bidirectionality (RTL)](misc/bidi.md)
 + [Tips and tricks](misc/tips.md)
 + [Videos](misc/videos.md)
 
@@ -38,3 +38,4 @@
 
 :octicons-heart-fill-24:{ .heart }
 
+{% include 'abbreviations.md' %}

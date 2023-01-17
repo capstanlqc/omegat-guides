@@ -18,5 +18,3 @@ To correct this issue, you would have to perform the following steps:
 
 The tags are inserted around the text you have selected.
 
-The following video shows how to handle tags, enjoy :octicons-heart-fill-24:{ .heart }:
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/780434399?h=c7ab23ed9d" width="640" height="447" frameborder="0" allowfullscreen></iframe>

@@ -11,7 +11,7 @@ tags:
 <!-- section: installation and customization -->
 {% include 'omt-inst.md' %}
 
-<!-- section: installation and customization -->
+<!-- section: accessing projects -->
 {% include 'omt-unpack-and-recent.md' %}
 
 <!-- section: navigation -->
@@ -21,7 +21,7 @@ tags:
 {% include 'omt-tra-tags.md' %}
 
 <!-- section: fuzzy matches (tra) -->
-{% include 'omt-tra-fuz.md' %}
+{% include 'omt-match.md' %}
 
 <!-- section: glossary -->
 {% include 'omt-glos.md' %}

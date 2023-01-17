@@ -8,10 +8,10 @@ nav:
         - Installation and setup: translation/installation-and-customization.md
         - translation/accessing-the-project.md
         - translation/navigation.md
-        - translation/handling-tags.md
-        - translation/using-matches.md
-        - translation/using-the-glossary.md
-        - translation/handling-repetitions.md
+        - translation/tags.md
+        - translation/matches.md
+        - translation/glossary.md
+        - translation/repetitions.md
         - translation/other-useful-features.md
         - QA checks: translation/qa-checks.md
         - translation/creating-target-files.md
@@ -22,10 +22,10 @@ nav:
         - Installation and setup: reconciliation/installation-and-customization.md
         - reconciliation/accessing-the-project.md
         - reconciliation/navigation.md
-        - reconciliation/handling-tags.md
-        - reconciliation/using-matches.md
-        - reconciliation/using-the-glossary.md
-        - reconciliation/handling-repetitions.md
+        - reconciliation/tags.md
+        - reconciliation/matches.md
+        - reconciliation/glossary.md
+        - reconciliation/repetitions.md
         - reconciliation/other-useful-features.md
         - QA checks: reconciliation/qa-checks.md
         - reconciliation/creating-target-files.md
@@ -36,10 +36,10 @@ nav:
         - Installation and setup: adaptation/installation-and-customization.md
         - adaptation/accessing-the-project.md
         - adaptation/navigation.md
-        - adaptation/handling-tags.md
-        - adaptation/using-matches.md
-        - adaptation/using-the-glossary.md
-        - adaptation/handling-repetitions.md
+        - adaptation/tags.md
+        - adaptation/matches.md
+        - adaptation/glossary.md
+        - adaptation/repetitions.md
         - adaptation/other-useful-features.md
         - QA checks: adaptation/qa-checks.md
         - adaptation/creating-target-files.md
@@ -50,10 +50,11 @@ nav:
         - Installation and setup: verification/installation-and-customization.md
         - verification/accessing-the-project.md
         - verification/navigation.md
-        - verification/handling-tags.md
-        - verification/using-matches.md
-        - verification/using-the-glossary.md
-        - verification/handling-repetitions.md
+        - verification/editing.md
+        - Handling tags: verification/tags.md
+        - Using matches: verification/matches.md
+        - verification/glossary.md
+        - verification/repetitions.md
         - verification/other-useful-features.md
         - QA checks: verification/qa-checks.md
         - verification/creating-target-files.md
@@ -64,10 +65,10 @@ nav:
         - Installation and setup: editing/installation-and-customization.md
         - editing/accessing-the-project.md
         - editing/navigation.md
-        - editing/handling-tags.md
-        - editing/using-matches.md
-        - editing/using-the-glossary.md
-        - editing/handling-repetitions.md
+        - editing/tags.md
+        - editing/matches.md
+        - editing/glossary.md
+        - editing/repetitions.md
         - editing/other-useful-features.md
         - QA checks: editing/qa-checks.md
         - editing/creating-target-files.md
@@ -78,10 +79,10 @@ nav:
         - Installation and setup: proofreading/installation-and-customization.md
         - proofreading/accessing-the-project.md
         - proofreading/navigation.md
-        - proofreading/handling-tags.md
-        - proofreading/using-matches.md
-        - proofreading/using-the-glossary.md
-        - proofreading/handling-repetitions.md
+        - proofreading/tags.md
+        - proofreading/matches.md
+        - proofreading/glossary.md
+        - proofreading/repetitions.md
         - proofreading/other-useful-features.md
         - QA checks: proofreading/qa-checks.md
         - proofreading/creating-target-files.md
@@ -94,14 +95,18 @@ nav:
         - Adaptation: sp-guides/tec-cb-ome-adp.md
         - Proofreading: sp-guides/tec-cb-ome-prf.md
         - Verification: sp-guides/tec-cb-ome-ver.md
-    - Misc:
-        - Misc: misc/index.md
-        - About: misc/about.md
-        - Bidirectionality: misc/tec-omt-rtl.md
-        - FAQ: misc/tec-cb-ome-faq.md
+        - sp-guides/tec-cb-ome-ins.md
+        - sp-guides/tec-cb-ome-wlk-thr.md
+    - Miscellanea:
+        - Miscellanea: misc/index.md
+        - IT security: misc/security.md
         - Videos: misc/videos.md
+        - Autotext: misc/autotext.md
+        - Shortcuts: misc/shortcuts.md
+        - Bidirectionality: misc/bidi.md
+        - FAQ: misc/faq.md
         - Tips and tricks: misc/tips.md
-        - Security information: misc/tec-cb-ome-sec.md
+        - About: misc/about.md
 theme:
   name: material
   logo: _assets/img/cApStAn_symbolesensemble_blanc.png
@@ -127,10 +132,14 @@ theme:
   features:
     #- toc.integrate
     - navigation.instant
+    - navigation.tracking
     - navigation.prune
     - navigation.top
-    #- navigation.sections
+    - navigation.sections
     - navigation.tabs
+    #- navigation.tabs.sticky
+    - navigation.expand
+    - navigation.path
     - toc.follow
     - navigation.indexes
 markdown_extensions:
@@ -164,18 +173,18 @@ extra_javascript:
   - _assets/js/extra.js
 plugins:
   - search
+  #- mkpdfs
   - tags:
       tags_file: misc/tags.md
-      tags_slugify: !!python/object/apply:pymdownx.slugs.slugify
-        kwds:
-          case: lower
-      tags_allowed:
-        - Translation
-        - Reconciliation
-        - Adaptation
-        - Verification
-        - Proofreading
   - macros:
       verbose: true
       include_dir: docs/_includes
+      # https://github.com/mondeja/mkdocs-include-markdown-plugin
+      # https://github.com/cmacmackin/markdown-include
+      # https://github.com/neurobin/mdx_include
 #  - awesome-pages
+copyright: Copyright &copy; 2023 cApStAn
+extra:
+  generator: true
+
+# https://github.com/pawamoy/best-of-mkdocs#-snippets--includes-reusing-contents

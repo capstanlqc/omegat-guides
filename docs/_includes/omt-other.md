@@ -9,8 +9,5 @@
 <!-- section: character table -->
 {% include 'omt-chara.md' %}
 
-<!-- section: insert nbsp -->
-{% include 'omt-nbsp.md' %}
-
 <!-- section: run search -->
 {% include 'omt-conc.md' %}

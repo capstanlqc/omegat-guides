@@ -2,7 +2,9 @@
 
 Welcome to the **OmegaT user guides** repository, maintained by the [cApStAn](http://www.capstan.be) Tech Team.
 
-This repository contains different OmegaT user guides authored as Markdown files with, meant to be built as a static website with MkDocs and the Material theme
+This repository contains different OmegaT user guides authored as Markdown files with, meant to be built as a static website with [MkDocs](https://www.mkdocs.org/) and the [Material](https://squidfunk.github.io/mkdocs-material) theme.
+
+[MkDocs](https://www.mkdocs.org/) is a fast, simple and downright gorgeous static site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file.
 
 ## Commands
 
@@ -93,10 +95,19 @@ Also, issues that we try to solve or avoid:
 
 + Use the Markdown [Tables Generator](https://www.tablesgenerator.com/markdown_tables) to create or edit markdown tables easily.
 + Keep it short (instructions don't need to be long or verbose to be clear)
++ Keep consistency in headers, e.g. avoid different construtions like:
+    + "Check glossary adherence" (imperative + object)
+    + "Completion check" (noun phrase)
+    + "Creating target files"
++ Use **bold** for window, button and pane labels
++ Use `code` formatting for folder names, file names, paths, etc.
 + Do's and dont's
-| Don't | Do  | Comment |
+
+| 👎 Do not | 👍 Do | Comment |
 |-------|-----|---------|
 | **Project>Open Recent Project**    | **Project** > **Open Recent Project** | Separate both items in the path with " > ". Bold each separately     |
+
+
 
 
 ## Images
@@ -105,3 +116,23 @@ Also, issues that we try to solve or avoid:
 + Font: Dialog 14
 + Labels: orange, padding? 
 + Arrow: thickness, color, etc.
++ Red square with border 3px
+
+
+<!-- 
+
+00 index.md
+00 installation-and-customization.md
+10 accessing-the-project.md
+20 navigation.md
+30 tags.md
+40 matches.md
+50 glossary.md
+60 repetitions.md
+70 other-useful-features.md
+80 qa-checks.md
+90 creating-target-files.md
+91 creating-your-deliverable.md
+99 shortcuts.md     
+
+ -->

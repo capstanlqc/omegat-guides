@@ -7,4 +7,17 @@ Please note that tags are inserted in the order of their appearance in the sourc
 
 If you have inserted a tag incorrectly and need to **delete** it, **select the tag** in full (you can **double click** on it) and press **backspace** or delete on your keyboard.
 
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/780443426?h=f715fb64e6" width="640" height="447" frameborder="0" allowfullscreen></iframe>
+<!-- @todo: explain the auto-completer as the main insertion method -->
+
+<!-- @todo: FINISH -->
+@WIP:
+
+Basically:
+
+before inserting a tag you must know whether it is a standalone tag or two paired tags.
+
+- if standalone: click on the position where you want to insert the tag
+- if paired: select... etc.
+
+then, fixing: remove and insert again, 
+or drag and drop

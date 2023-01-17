@@ -1,19 +1,27 @@
 ## Completion check
 
-All segments of the OmegaT package must have a translation. To ensure that is the case, please check for completion prior to delivery:
+All segments in the project must have a translation. To confirm that is the case, please check for completion before your delivery.
 
-  * Go to **Project** > **Project Files**
-  * The project files pane will open
-  * **OK:** If the **Number of unique segments** __is equal to__ the number of **Translated unique segments**.
+To check completion, hover with your mouse pointer over the progress status bar, in the bottom right corner of OmegaT's main window.
 
-    ![](../_assets/img/32_completion.jpg)
+![](../_assets/img/progress-status.png)
+<!-- @todo: red square around the figures -->
 
-  * **NOT OK**: the **Number of unique segments** __is different from__ the number of **Translated unique segments**. 
+That bar shows some statistics: 
 
-To correct: 
+* unique translated (unique left) per file (e.g. `100% (0 left)` as above)
++ unique translated (unique left) per project (e.g. `100% (0 left)` as above)
++ total number of segments (e.g. `54` as above)
+<!-- @todo: screenshot with labels showing what is what -->
 
-  1. Close the Project Files Pane
+If you see something like `100% (0 left) / 100% (0 left), 54`, that means that all 54 segments in the project are translated. If you see a number higher that zero segments left, the translation is not complete. 
+
+If you have left some segment untranslated, proceed as follows to correct it:
+
+  1. Press ++escape++ to close the **Project Files** window.
   2. Press ++ctrl+u++ on your keyboard to jump to the __Next Untranslated Segment__. 
-  3. When the cursor stops moving from the active segment then all segments have a translation.
+  3. Translate the segment
 
-Recheck for completion, to make sure by opening the Project Files pane.
+Repeat the steps above until no untranslated segments remain. 
+
+Finally, check the progress status bar again to confirm completion now.

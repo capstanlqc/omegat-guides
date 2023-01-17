@@ -33,7 +33,7 @@ To unpack a project, follow these steps:
         ![](../_assets/img/01_import_omt_package.jpg)
         <!-- @todo: update screenshot, current version -->
 
-        <!-- [<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:01_import_omt_package.jpg" class="media" alt="" width="400" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:01_import_omt_package.jpg){ align=right } -->
+        <!-- ![](../_assets/img/01_import_omt_package.jpg){ align=right } -->
 
     + Navigate to the location where you stored the OMT package. Select the **OMT package** and click on Open:
   

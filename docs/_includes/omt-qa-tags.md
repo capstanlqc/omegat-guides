@@ -2,29 +2,26 @@
 
 To ensure that all tags have been inserted correctly:
 
-  * Go to **Tools** > **Check Issues**. A pop up window will open.
-
+  * Go to **Tools** > **Check Issues** to open the _Issues_ window.
+    
+    !!! tip inline end
+        You may untick the other checks (Spelling, Terminology, LanguageTool) if you want to focus on tags only first.
     ![](../_assets/img/33_check_issues.jpg)
-
-By default, other types of checks (Spelling, Terminology, LanguageTool) are ticked. If you want to check for issues related to tags before performing the rest of the checks, you can untick them. You will notice that the **Tag Issues** box cannot be unticked.
-
+    
   * Press **OK**.
   * An error report will open.
-
+    
     ![](../_assets/img/34_error_report.jpg)
 
-  * Go through the issues one by one:
+  * Go through the issues one by one. For every issue in the list, do the following:
 
-    1. Correct the issue by clicking on **Jump to Segment**. 
-    2. You will arrive at the appropriate segment in the editor pane. 
-    3. Place your cursor where the missing tag needs to be inserted and press ++ctrl+t++ to insert the missing tag.
-    4. Press Enter to move to the next segment.
-    5. Open the Error report again. It has automatically refreshed.
-    6. Finish going through the issues.
+    * Click a row in the list (or click on **Jump to Segment**) to open that segment in the editor
+    * Fix the tag issue (as explained in the [Fixing tag issues](../tags/#fixing-tag-issues){:target="_blank"} section)
+    * Press the **Refresh** button to update the list of issues.
 
-!!! caution
-    Please do not click on "Apply fix", fix each issue manually.
+!!! failure "Avoid"
+    Please do not click on "Apply fix"  fix each issue manually.
 
-!!! info "Note"
-    If in the source there are tags that you do not use in your language which are present in the source segment, to avoid having false positives in the error report, you can insert them at the end of the segment. They would not have an impact on any text.
+!!! tip
+    If the source text has tags that you do not use in your language, you can insert them at the end of the segment to avoid having false positives in the error report. That should not have an impact on the translation.
 

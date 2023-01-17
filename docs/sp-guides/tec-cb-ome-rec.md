@@ -18,7 +18,7 @@ tags:
 {% include 'omt-nav.md' %}
 
 <!-- section: fuzzy matches (rec) -->
-{% include 'omt-rec-fuz.md' %}
+{% include 'omt-rec-match.md' %}
 
 <!-- section: tags (rec) -->
 {% include 'omt-rec-tags.md' %}

@@ -7,15 +7,15 @@ A segment can also be activated by double clicking on it, it then becomes green.
 
 ![](../_assets/img/07_active_segment.jpg)
 
-In OmegaT, different **color backgrounds** will help you find your way around between the different segments:
+In OmegaT, the **color** of the segment's background will help you find your way around between the different segments:
 
-| Color   | Language | Meaning  |
-|---------|----------|----------|
-| Green   | Source   | active segment (the segment you are working on)  |
-| Blue    | Source   | untranslated segment     |
-| Grey    | Source   | manually translated segment |
-| Pink    | Target   | pretranslated segment         |
-| Orange  | Target   | pretranslated and locked segment (e.g. trend)        |
+| Color                        | Language | Meaning  |
+|------------------------------|----------|----------|
+| **Green**{ .active }         | Source   | active segment (the segment you are working on)  |
+| **Blue**{ .untranslated }    | Source   | untranslated segment     |
+| **Grey**{ .translated }      | Source   | manually translated segment |
+| **Pink**{ .auto }            | Target   | pretranslated segment         |
+| **Orange**{ .enforce }       | Target   | pretranslated and locked segment (e.g. trend)        |
 
 ![](../_assets/img/08_color_coding.jpg)
 <!-- @todo: add pink pretranslate -->

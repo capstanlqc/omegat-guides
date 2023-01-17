@@ -5,5 +5,8 @@
 {% include 'omt-tag-recog.md' %}
 
 <!-- section: tag insertion -->
+{% include 'omt-tag-insert.md' %}
+
+<!-- section: tag insertion -->
 {% include 'omt-tag-iss.md' %}
 

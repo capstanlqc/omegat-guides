@@ -5,7 +5,7 @@ If a segment which contains tags, you will recognize them because they are in **
 ![](../_assets/img/09_tags_recognizing.jpg)
 <!-- @todo: update, show omegat tags -->
 
-There are two types of tags - standalone tags and double tags:
+There are two types of tags: standalone tags and paired tags or double tags:
 
   * **Standalone tags**: a single tag with a precise role (e.g. **&lt;x1/&gt;**{ .tag } tag which introduces a new paragraph in HTML)
   * **Paired tags** are composed of an opening tag and a closing tag (e.g. **&lt;g1&gt;**{ .tag } and **&lt;/g1&gt;**{ .tag }) and affect the text between them and you need to ensure they are positioned around the exact same words in the translation as in the source text.

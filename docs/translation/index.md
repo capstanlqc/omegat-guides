@@ -13,7 +13,7 @@ a.md-footer__link--prev[aria-label^="Previous:"],
 }
 </style>
 
-# Welcome to the OmegaT translation guide!
+# 👋 Welcome to the OmegaT translation guide!
 
 <!-- section: omegat intro -->
 {% include 'omt-intro.md' %}
@@ -22,3 +22,4 @@ This guide includes information about all the functions in OmegaT that you need 
 
 You can use the arrow buttons at the bottom to go to the next (or previous) section.
 
+{% include 'abbreviations.md' %}

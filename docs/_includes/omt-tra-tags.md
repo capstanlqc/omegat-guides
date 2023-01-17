@@ -7,5 +7,4 @@
 <!-- section: tag insertion -->
 {% include 'omt-tag-insert.md' %}
 
-<!-- section: most commont tags -->
-{% include 'omt-tags-com.md' %}
+<!-- @todo: hover over to see the inline code -->

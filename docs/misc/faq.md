@@ -1,17 +1,18 @@
 # FAQ
 
+<!-- 
 ## [ALL] How can I contact the helpdesk ?
 
 To contact the OmegaT helpdesk for OmegaT related questions:
 
   * go to [https://pisa.capstan.be](https://pisa.capstan.be) (if you work on PISA) or [https://piaac.capstan.be](https://piaac.capstan.be) (if you work on PIAAC)
 
-[<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:helpdesk_info.jpg" class="media" alt="" width="600" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:helpdesk_info.jpg)
+![](../_assets/img/helpdesk_info.jpg)
 
   * Click on **Sign in** on the top right corner
   * Press **Log in with PISA-ETS** (if you work on PISA) or **Log in with PIAAC-ETS** (if you work on PIAAC)
 
-[<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:log-in.jpg" class="media" alt="" width="400" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:log-in.jpg)
+![](../_assets/img/log-in.jpg)
 
   * Enter your portal credentials (the same ones you use to preview the units on the portal). If you don't have your portal credentials, please contact your NPM or PM (if you are a cApStAn verifier)
   * Click on OmegaT Helpdesk
@@ -19,6 +20,9 @@ To contact the OmegaT helpdesk for OmegaT related questions:
   * Explain your issue clearly in the Description field, write a short summary of your issue in the Subject field and attach any files you want to illustrate the issue. 
 
 All the above steps are also described in the following  
+-->
+
+<!-- unnecessary because the "country's version" will always be available in the mapped repo in PISA 2025
 
 ## [VER] How can I make sure I always see the country's version in the Fuzzy matches pane ?
 
@@ -26,33 +30,38 @@ Before you make any changes in the project, press ++ctrl+D++ on your keyboard to
 
 You will see 3 different translation memories (.tmx) files. Copy the last one ending with "-omegat.tmx" and paste it in the **tm** folder. 
 
-[<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:faq_tm_copy.jpg" class="media" alt="" width="500" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:faq_tm_copy.jpg)
+![](../_assets/img/faq_tm_copy.jpg)
+-->
+
+<!-- this does not belong in an omegat guide...
 
 ## It's been 2 days and I haven't received a notification about a reply to my ticket. Is this normal ?
 
 This is not normal. Our policy is to reply to tickets within a maximum of 48 working hours. If you haven't received a notification, it is possible that you have not changed the e-mail address on the helpdesk. When you send us a ticket please make sure to click on the "Change Email" button. 
 
-[<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:qa03_change_e-mail.jpg" class="media" alt="" width="400" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:qa03_change_e-mail.jpg)
+![](../_assets/img/qa03_change_e-mail.jpg)
 
 Replace the fictitious e-mail TRANSLATOR_LLL_00x@project.ets.org with your real e-mail address.
 
-[<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:qa04_changed.jpg" class="media" alt="" width="400" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:qa04_changed.jpg)
+![](../_assets/img/qa04_changed.jpg)
 
 You can also change your e-mail information by click in the top right menu after logging in.
 
-[<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:qa05_emailmenu.jpg" class="media" alt="" width="400" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:qa05_emailmenu.jpg)
+![](../_assets/img/qa05_emailmenu.jpg)
+-->
 
 ## Can I export the contents of the OmegaT Project in Excel ?
 
-The answer is yes. To export the contents of the OmegaT project in Excel, go to **Tools>Write Excel Table for Revision (multiple sheets)**.
+Yes. To export the contents of the OmegaT project in Excel, go to **Tools** > **Write Project to Excel**.
 
-To access the exported Excel, go to **Project>Access Project Contents>root**. The Excel will be found in the **script_output** folder.
+To access the exported Excel, go to **Project** > **Access Project Contents** > **Root**. The Excel will be found in the **script_output** folder.
 
-Please remember that the Excel file cannot be reimported in OmegaT. Any change you make in the Excel needs to be reflected in OmegaT.
+!!! warning 
+    Please remember that the Excel file cannot be reimported in OmegaT. Any change you make in the Excel needs to be reflected in the OmegaT project.
 
-## The text is too small. Can I change the font size in OmegaT ?
+## The text is too small. Can I change the font size in OmegaT?
 
-The answer is yes. To change the font size go to **Options>Preferences>Font**. 
+To change the font size go to **Options** > **Preferences** > **Font**. 
 Increase the font size to one you find suitable. This has not impact on the actual font size in the target files. It only changes the display in OmegaT.
 
 ![](../_assets/img/qa01_font.jpg)
@@ -64,7 +73,7 @@ Click on **Install new dictionary** and choose the spellchecker for your languag
 
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/780395752?h=5a92c211b3" width="640" height="447" frameborder="0" allowfullscreen></iframe>
 
-[<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:qa_02_spellcheck.jpg" class="media" alt="" width="500" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:qa_02_spellcheck.jpg)
+![](../_assets/img/qa_02_spellcheck.jpg)
 
 You should see the URL `[https://cat.capstan.be/OmegaT/hunspell/](https://cat.capstan.be/OmegaT/hunspell/)`.
 
@@ -85,7 +94,7 @@ If you still cannot see the **Import OMT Package** option, please contact the He
 
 The answer is yes. To do so, go to **Options>Editor** in OmegaT. Then tick the option "Insert the source text" and press OK. 
 
-[<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:qa06_editor_up.jpg" class="media" alt="" width="400" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:qa06_editor_up.jpg) 
+![](../_assets/img/qa06_editor_up.jpg) 
 
 In OmegaT, when you navigate from one segment to another, the source text will be automatically inserted each time. 
 
@@ -95,7 +104,7 @@ The answer is yes. To access the glossary, go to **Project>Access Project conten
 
 The Glossaries folder will open. It context a .txt file named "glossary.txt". Double click on it to open it in your text editor. 
 
-[<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:qa07_glossary_correct.jpg" class="media" alt="" width="400" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:qa07_glossary_correct.jpg)
+![](../_assets/img/qa07_glossary_correct.jpg)
 
 Correct any term that contains an error and Save the file. 
 
@@ -122,7 +131,7 @@ The answer is no. OmegaT was specifically customized to edit the files you are w
 
 The answer is yes. Press ++ctrl+f++ on your keyboard (without selecting anything in the source segment). The search window opens. Type the text in your language you are searching for and press the** Search** button. 
 
-[<img src="https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:search_chinese.jpg" class="media" alt="" width="500" />](https://pisawiki.capstan.be/lib/exe/fetch.php?media=ug:search_chinese.jpg)
+![](../_assets/img/search_chinese.jpg)
 
 ## When I reconcile I only see suggestions from translator 1 for certain segments. Is it normal?
 
