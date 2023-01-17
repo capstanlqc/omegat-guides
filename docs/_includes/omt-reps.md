@@ -58,4 +58,5 @@ And here's a quick summary:
 
 
 !!! danger
-    Alternative translations may be a bit treacherous if not applied correctly. Make sure you grasp and follow the three steps above to the letter and you should be fine.
+    Alternative translations may be a bit treacherous if not applied correctly.  
+    Make sure you grasp and follow the three steps above to the letter and you should be fine.
