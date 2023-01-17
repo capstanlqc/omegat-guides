@@ -1,8 +1,3 @@
----
-tags:
-  - Reconciliation
----
-
 <!-- # Reconciliation -->
 
 <!-- section: omegat intro -->

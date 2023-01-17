@@ -1,8 +1,3 @@
----
-tags:
-  - Verification
----
-
 <!-- Verification -->
 
 <!-- section: omegat intro -->

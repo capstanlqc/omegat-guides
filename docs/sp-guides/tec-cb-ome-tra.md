@@ -1,8 +1,3 @@
----
-tags:
-  - Translation
----
-
 <!-- Translation -->
 
 <!-- section: omegat intro -->
