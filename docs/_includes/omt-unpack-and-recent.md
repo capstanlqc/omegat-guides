@@ -78,7 +78,7 @@ To download the team project, follow these steps:
     + Copy the path to the location where you want to create the project, e.g. `C:/Work/`. 
     ![](../_assets/img/download-git-dialog-copy-path.gif)
     + Then, in the **New Local Project Folder** field, select the part of the path up to the slash before the project folder and delete it.
-    + Then, press ++ctrl+v++ to paste your path in replacemenet of the deleted part. 
+    + Then, press ++ctrl+v++ to paste your path in replacement of the deleted part. 
     ![](../_assets/img/download-git-dialog-update-path.gif)
 
     !!! Caution
