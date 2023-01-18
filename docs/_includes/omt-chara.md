@@ -9,7 +9,7 @@ You may need to type special characters such as:
 
 ### Character table
 
-We have put the most frequent special characters in the **Character Table**. To insert a special character from the **Character Table**, follow these steps:
+We put the most frequent special characters in the **Character Table**. To insert a special character from the **Character Table**, follow these steps:
 
   * Press ++ctrl+space++ on your keyboard several times until you reach the **Character Table**.
     ![](../_assets/img/25_character_table.jpg)
