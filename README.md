@@ -195,3 +195,9 @@ see what files in _includes are not in this list
 check what images are not used anymore
 
 -->
+
+## Contributing without cloning
+
+It's not necessary to clone this repo to contribute changes. 
+
+It's possible to open the repository directly from VS Code (as explained [here](https://www.freecodecamp.org/news/you-can-now-edit-anything-on-github-in-vs-code-without-cloning/)).
