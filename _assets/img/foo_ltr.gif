@@ -8,21 +8,19 @@
       
       
       
-        <link rel="canonical" href="https://capstanlqc.github.com/omegat-guides/misc/bidi/">
-      
-      <link rel="icon" href="../../_assets/favicon.ico">
+      <link rel="icon" href="/omegat-guides/_assets/favicon.ico">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
     
     
       
-        <title>Bidirectionality - OmegaT guides [cApStAn]</title>
+        <title>OmegaT guides [cApStAn]</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.975780f9.min.css">
+      <link rel="stylesheet" href="/omegat-guides/assets/stylesheets/main.975780f9.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.2505c338.min.css">
+        <link rel="stylesheet" href="/omegat-guides/assets/stylesheets/palette.2505c338.min.css">
         
       
       
@@ -39,9 +37,9 @@
       
     
     
-      <link rel="stylesheet" href="../../_assets/css/extra.css">
+      <link rel="stylesheet" href="/omegat-guides/_assets/css/extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("/omegat-guides/",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -69,11 +67,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#text-direction-and-text-alignment" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -84,9 +77,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="OmegaT guides [cApStAn]" class="md-header__button md-logo" aria-label="OmegaT guides [cApStAn]" data-md-component="logo">
+    <a href="/omegat-guides/." title="OmegaT guides [cApStAn]" class="md-header__button md-logo" aria-label="OmegaT guides [cApStAn]" data-md-component="logo">
       
-  <img src="../../_assets/img/cApStAn_symbolesensemble_blanc.png" alt="logo">
+  <img src="/omegat-guides/_assets/img/cApStAn_symbolesensemble_blanc.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -102,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Bidirectionality
+              
             
           </span>
         </div>
@@ -199,7 +192,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../.." class="md-tabs__link">
+    <a href="/omegat-guides/." class="md-tabs__link">
       Contents
     </a>
   </li>
@@ -211,7 +204,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../tags/" class="md-tabs__link">
+    <a href="/omegat-guides/misc/tags/" class="md-tabs__link">
       Tags
     </a>
   </li>
@@ -226,7 +219,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../translation/" class="md-tabs__link">
+      <a href="/omegat-guides/translation/" class="md-tabs__link">
         Translation
       </a>
     </li>
@@ -242,7 +235,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../reconciliation/" class="md-tabs__link">
+      <a href="/omegat-guides/reconciliation/" class="md-tabs__link">
         Reconciliation
       </a>
     </li>
@@ -258,7 +251,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../adaptation/" class="md-tabs__link">
+      <a href="/omegat-guides/adaptation/" class="md-tabs__link">
         Adaptation
       </a>
     </li>
@@ -274,7 +267,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../verification/" class="md-tabs__link">
+      <a href="/omegat-guides/verification/" class="md-tabs__link">
         Verification
       </a>
     </li>
@@ -290,7 +283,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../editing/" class="md-tabs__link">
+      <a href="/omegat-guides/editing/" class="md-tabs__link">
         Editing
       </a>
     </li>
@@ -306,7 +299,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../proofreading/" class="md-tabs__link">
+      <a href="/omegat-guides/proofreading/" class="md-tabs__link">
         Proofreading
       </a>
     </li>
@@ -322,7 +315,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../sp-guides/" class="md-tabs__link">
+      <a href="/omegat-guides/sp-guides/" class="md-tabs__link">
         User Guides (TEMPORARY)
       </a>
     </li>
@@ -332,15 +325,13 @@
         
   
   
-    
-  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="../" class="md-tabs__link md-tabs__link--active">
+      <a href="/omegat-guides/misc/" class="md-tabs__link">
         Miscellanea
       </a>
     </li>
@@ -368,9 +359,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="OmegaT guides [cApStAn]" class="md-nav__button md-logo" aria-label="OmegaT guides [cApStAn]" data-md-component="logo">
+    <a href="/omegat-guides/." title="OmegaT guides [cApStAn]" class="md-nav__button md-logo" aria-label="OmegaT guides [cApStAn]" data-md-component="logo">
       
-  <img src="../../_assets/img/cApStAn_symbolesensemble_blanc.png" alt="logo">
+  <img src="/omegat-guides/_assets/img/cApStAn_symbolesensemble_blanc.png" alt="logo">
 
     </a>
     OmegaT guides [cApStAn]
@@ -386,7 +377,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="/omegat-guides/." class="md-nav__link">
         Contents
       </a>
     </li>
@@ -401,7 +392,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tags/" class="md-nav__link">
+      <a href="/omegat-guides/misc/tags/" class="md-nav__link">
         Tags
       </a>
     </li>
@@ -457,7 +448,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../translation/">Translation</a>
+          <a href="/omegat-guides/translation/">Translation</a>
           
             <label for="__nav_3">
               <span class="md-nav__icon md-icon"></span>
@@ -480,7 +471,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../translation/installation-and-customization/" class="md-nav__link">
+      <a href="/omegat-guides/translation/installation-and-customization/" class="md-nav__link">
         Installation and setup
       </a>
     </li>
@@ -494,7 +485,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../translation/accessing-the-project/" class="md-nav__link">
+      <a href="/omegat-guides/translation/accessing-the-project/" class="md-nav__link">
         Accessing the project
       </a>
     </li>
@@ -508,7 +499,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../translation/navigation/" class="md-nav__link">
+      <a href="/omegat-guides/translation/navigation/" class="md-nav__link">
         Navigation
       </a>
     </li>
@@ -522,7 +513,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../translation/tags/" class="md-nav__link">
+      <a href="/omegat-guides/translation/tags/" class="md-nav__link">
         Tags
       </a>
     </li>
@@ -536,7 +527,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../translation/matches/" class="md-nav__link">
+      <a href="/omegat-guides/translation/matches/" class="md-nav__link">
         Matches
       </a>
     </li>
@@ -550,7 +541,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../translation/glossary/" class="md-nav__link">
+      <a href="/omegat-guides/translation/glossary/" class="md-nav__link">
         Glossary
       </a>
     </li>
@@ -564,7 +555,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../translation/repetitions/" class="md-nav__link">
+      <a href="/omegat-guides/translation/repetitions/" class="md-nav__link">
         Repetitions
       </a>
     </li>
@@ -578,7 +569,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../translation/other-useful-features/" class="md-nav__link">
+      <a href="/omegat-guides/translation/other-useful-features/" class="md-nav__link">
         Other useful features
       </a>
     </li>
@@ -592,7 +583,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../translation/qa-checks/" class="md-nav__link">
+      <a href="/omegat-guides/translation/qa-checks/" class="md-nav__link">
         QA checks
       </a>
     </li>
@@ -606,7 +597,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../translation/creating-target-files/" class="md-nav__link">
+      <a href="/omegat-guides/translation/creating-target-files/" class="md-nav__link">
         Creating target files
       </a>
     </li>
@@ -620,7 +611,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../translation/creating-your-deliverable/" class="md-nav__link">
+      <a href="/omegat-guides/translation/creating-your-deliverable/" class="md-nav__link">
         Creating your deliverable
       </a>
     </li>
@@ -634,7 +625,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../translation/shortcuts/" class="md-nav__link">
+      <a href="/omegat-guides/translation/shortcuts/" class="md-nav__link">
         Shortcuts
       </a>
     </li>
@@ -697,7 +688,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../reconciliation/">Reconciliation</a>
+          <a href="/omegat-guides/reconciliation/">Reconciliation</a>
           
             <label for="__nav_4">
               <span class="md-nav__icon md-icon"></span>
@@ -720,7 +711,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reconciliation/installation-and-customization/" class="md-nav__link">
+      <a href="/omegat-guides/reconciliation/installation-and-customization/" class="md-nav__link">
         Installation and setup
       </a>
     </li>
@@ -734,7 +725,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reconciliation/accessing-the-project/" class="md-nav__link">
+      <a href="/omegat-guides/reconciliation/accessing-the-project/" class="md-nav__link">
         Accessing the project
       </a>
     </li>
@@ -748,7 +739,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reconciliation/navigation/" class="md-nav__link">
+      <a href="/omegat-guides/reconciliation/navigation/" class="md-nav__link">
         Navigation
       </a>
     </li>
@@ -762,7 +753,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reconciliation/tags/" class="md-nav__link">
+      <a href="/omegat-guides/reconciliation/tags/" class="md-nav__link">
         Tags
       </a>
     </li>
@@ -776,7 +767,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reconciliation/matches/" class="md-nav__link">
+      <a href="/omegat-guides/reconciliation/matches/" class="md-nav__link">
         Matches
       </a>
     </li>
@@ -790,7 +781,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reconciliation/glossary/" class="md-nav__link">
+      <a href="/omegat-guides/reconciliation/glossary/" class="md-nav__link">
         Glossary
       </a>
     </li>
@@ -804,7 +795,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reconciliation/repetitions/" class="md-nav__link">
+      <a href="/omegat-guides/reconciliation/repetitions/" class="md-nav__link">
         Repetitions
       </a>
     </li>
@@ -818,7 +809,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reconciliation/other-useful-features/" class="md-nav__link">
+      <a href="/omegat-guides/reconciliation/other-useful-features/" class="md-nav__link">
         Other useful features
       </a>
     </li>
@@ -832,7 +823,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reconciliation/qa-checks/" class="md-nav__link">
+      <a href="/omegat-guides/reconciliation/qa-checks/" class="md-nav__link">
         QA checks
       </a>
     </li>
@@ -846,7 +837,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reconciliation/creating-target-files/" class="md-nav__link">
+      <a href="/omegat-guides/reconciliation/creating-target-files/" class="md-nav__link">
         Creating target files
       </a>
     </li>
@@ -860,7 +851,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reconciliation/creating-your-deliverable/" class="md-nav__link">
+      <a href="/omegat-guides/reconciliation/creating-your-deliverable/" class="md-nav__link">
         Creating your deliverable
       </a>
     </li>
@@ -874,7 +865,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reconciliation/shortcuts/" class="md-nav__link">
+      <a href="/omegat-guides/reconciliation/shortcuts/" class="md-nav__link">
         Shortcuts
       </a>
     </li>
@@ -937,7 +928,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../adaptation/">Adaptation</a>
+          <a href="/omegat-guides/adaptation/">Adaptation</a>
           
             <label for="__nav_5">
               <span class="md-nav__icon md-icon"></span>
@@ -960,7 +951,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../adaptation/installation-and-customization/" class="md-nav__link">
+      <a href="/omegat-guides/adaptation/installation-and-customization/" class="md-nav__link">
         Installation and setup
       </a>
     </li>
@@ -974,7 +965,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../adaptation/accessing-the-project/" class="md-nav__link">
+      <a href="/omegat-guides/adaptation/accessing-the-project/" class="md-nav__link">
         Accessing the project
       </a>
     </li>
@@ -988,7 +979,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../adaptation/navigation/" class="md-nav__link">
+      <a href="/omegat-guides/adaptation/navigation/" class="md-nav__link">
         Navigation
       </a>
     </li>
@@ -1002,7 +993,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../adaptation/tags/" class="md-nav__link">
+      <a href="/omegat-guides/adaptation/tags/" class="md-nav__link">
         Tags
       </a>
     </li>
@@ -1016,7 +1007,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../adaptation/matches/" class="md-nav__link">
+      <a href="/omegat-guides/adaptation/matches/" class="md-nav__link">
         Matches
       </a>
     </li>
@@ -1030,7 +1021,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../adaptation/glossary/" class="md-nav__link">
+      <a href="/omegat-guides/adaptation/glossary/" class="md-nav__link">
         Glossary
       </a>
     </li>
@@ -1044,7 +1035,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../adaptation/repetitions/" class="md-nav__link">
+      <a href="/omegat-guides/adaptation/repetitions/" class="md-nav__link">
         Repetitions
       </a>
     </li>
@@ -1058,7 +1049,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../adaptation/other-useful-features/" class="md-nav__link">
+      <a href="/omegat-guides/adaptation/other-useful-features/" class="md-nav__link">
         Other useful features
       </a>
     </li>
@@ -1072,7 +1063,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../adaptation/qa-checks/" class="md-nav__link">
+      <a href="/omegat-guides/adaptation/qa-checks/" class="md-nav__link">
         QA checks
       </a>
     </li>
@@ -1086,7 +1077,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../adaptation/creating-target-files/" class="md-nav__link">
+      <a href="/omegat-guides/adaptation/creating-target-files/" class="md-nav__link">
         Creating target files
       </a>
     </li>
@@ -1100,7 +1091,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../adaptation/creating-your-deliverable/" class="md-nav__link">
+      <a href="/omegat-guides/adaptation/creating-your-deliverable/" class="md-nav__link">
         Creating your deliverable
       </a>
     </li>
@@ -1114,7 +1105,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../adaptation/shortcuts/" class="md-nav__link">
+      <a href="/omegat-guides/adaptation/shortcuts/" class="md-nav__link">
         Shortcuts
       </a>
     </li>
@@ -1179,7 +1170,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../verification/">Verification</a>
+          <a href="/omegat-guides/verification/">Verification</a>
           
             <label for="__nav_6">
               <span class="md-nav__icon md-icon"></span>
@@ -1202,7 +1193,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../verification/installation-and-customization/" class="md-nav__link">
+      <a href="/omegat-guides/verification/installation-and-customization/" class="md-nav__link">
         Installation and setup
       </a>
     </li>
@@ -1216,7 +1207,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../verification/accessing-the-project/" class="md-nav__link">
+      <a href="/omegat-guides/verification/accessing-the-project/" class="md-nav__link">
         Accessing the project
       </a>
     </li>
@@ -1230,7 +1221,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../verification/navigation/" class="md-nav__link">
+      <a href="/omegat-guides/verification/navigation/" class="md-nav__link">
         Navigation
       </a>
     </li>
@@ -1244,7 +1235,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../verification/editing/" class="md-nav__link">
+      <a href="/omegat-guides/verification/editing/" class="md-nav__link">
         Editing
       </a>
     </li>
@@ -1258,7 +1249,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../verification/tags/" class="md-nav__link">
+      <a href="/omegat-guides/verification/tags/" class="md-nav__link">
         Handling tags
       </a>
     </li>
@@ -1272,7 +1263,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../verification/matches/" class="md-nav__link">
+      <a href="/omegat-guides/verification/matches/" class="md-nav__link">
         Using matches
       </a>
     </li>
@@ -1286,7 +1277,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../verification/glossary/" class="md-nav__link">
+      <a href="/omegat-guides/verification/glossary/" class="md-nav__link">
         Glossary
       </a>
     </li>
@@ -1300,7 +1291,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../verification/repetitions/" class="md-nav__link">
+      <a href="/omegat-guides/verification/repetitions/" class="md-nav__link">
         Repetitions
       </a>
     </li>
@@ -1314,7 +1305,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../verification/other-useful-features/" class="md-nav__link">
+      <a href="/omegat-guides/verification/other-useful-features/" class="md-nav__link">
         Other useful features
       </a>
     </li>
@@ -1328,7 +1319,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../verification/qa-checks/" class="md-nav__link">
+      <a href="/omegat-guides/verification/qa-checks/" class="md-nav__link">
         QA checks
       </a>
     </li>
@@ -1342,7 +1333,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../verification/creating-target-files/" class="md-nav__link">
+      <a href="/omegat-guides/verification/creating-target-files/" class="md-nav__link">
         Creating target files
       </a>
     </li>
@@ -1356,7 +1347,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../verification/creating-your-deliverable/" class="md-nav__link">
+      <a href="/omegat-guides/verification/creating-your-deliverable/" class="md-nav__link">
         Creating your deliverable
       </a>
     </li>
@@ -1370,7 +1361,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../verification/shortcuts/" class="md-nav__link">
+      <a href="/omegat-guides/verification/shortcuts/" class="md-nav__link">
         Shortcuts
       </a>
     </li>
@@ -1433,7 +1424,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../editing/">Editing</a>
+          <a href="/omegat-guides/editing/">Editing</a>
           
             <label for="__nav_7">
               <span class="md-nav__icon md-icon"></span>
@@ -1456,7 +1447,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../editing/installation-and-customization/" class="md-nav__link">
+      <a href="/omegat-guides/editing/installation-and-customization/" class="md-nav__link">
         Installation and setup
       </a>
     </li>
@@ -1470,7 +1461,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../editing/accessing-the-project/" class="md-nav__link">
+      <a href="/omegat-guides/editing/accessing-the-project/" class="md-nav__link">
         Accessing the project
       </a>
     </li>
@@ -1484,7 +1475,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../editing/navigation/" class="md-nav__link">
+      <a href="/omegat-guides/editing/navigation/" class="md-nav__link">
         Navigation
       </a>
     </li>
@@ -1498,7 +1489,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../editing/tags/" class="md-nav__link">
+      <a href="/omegat-guides/editing/tags/" class="md-nav__link">
         Tags
       </a>
     </li>
@@ -1512,7 +1503,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../editing/matches/" class="md-nav__link">
+      <a href="/omegat-guides/editing/matches/" class="md-nav__link">
         Matches
       </a>
     </li>
@@ -1526,7 +1517,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../editing/glossary/" class="md-nav__link">
+      <a href="/omegat-guides/editing/glossary/" class="md-nav__link">
         Glossary
       </a>
     </li>
@@ -1540,7 +1531,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../editing/repetitions/" class="md-nav__link">
+      <a href="/omegat-guides/editing/repetitions/" class="md-nav__link">
         Repetitions
       </a>
     </li>
@@ -1554,7 +1545,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../editing/other-useful-features/" class="md-nav__link">
+      <a href="/omegat-guides/editing/other-useful-features/" class="md-nav__link">
         Other useful features
       </a>
     </li>
@@ -1568,7 +1559,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../editing/qa-checks/" class="md-nav__link">
+      <a href="/omegat-guides/editing/qa-checks/" class="md-nav__link">
         QA checks
       </a>
     </li>
@@ -1582,7 +1573,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../editing/creating-target-files/" class="md-nav__link">
+      <a href="/omegat-guides/editing/creating-target-files/" class="md-nav__link">
         Creating target files
       </a>
     </li>
@@ -1596,7 +1587,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../editing/creating-your-deliverable/" class="md-nav__link">
+      <a href="/omegat-guides/editing/creating-your-deliverable/" class="md-nav__link">
         Creating your deliverable
       </a>
     </li>
@@ -1610,7 +1601,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../editing/shortcuts/" class="md-nav__link">
+      <a href="/omegat-guides/editing/shortcuts/" class="md-nav__link">
         Shortcuts
       </a>
     </li>
@@ -1673,7 +1664,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../proofreading/">Proofreading</a>
+          <a href="/omegat-guides/proofreading/">Proofreading</a>
           
             <label for="__nav_8">
               <span class="md-nav__icon md-icon"></span>
@@ -1696,7 +1687,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../proofreading/installation-and-customization/" class="md-nav__link">
+      <a href="/omegat-guides/proofreading/installation-and-customization/" class="md-nav__link">
         Installation and setup
       </a>
     </li>
@@ -1710,7 +1701,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../proofreading/accessing-the-project/" class="md-nav__link">
+      <a href="/omegat-guides/proofreading/accessing-the-project/" class="md-nav__link">
         Accessing the project
       </a>
     </li>
@@ -1724,7 +1715,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../proofreading/navigation/" class="md-nav__link">
+      <a href="/omegat-guides/proofreading/navigation/" class="md-nav__link">
         Navigation
       </a>
     </li>
@@ -1738,7 +1729,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../proofreading/tags/" class="md-nav__link">
+      <a href="/omegat-guides/proofreading/tags/" class="md-nav__link">
         Tags
       </a>
     </li>
@@ -1752,7 +1743,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../proofreading/matches/" class="md-nav__link">
+      <a href="/omegat-guides/proofreading/matches/" class="md-nav__link">
         Matches
       </a>
     </li>
@@ -1766,7 +1757,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../proofreading/glossary/" class="md-nav__link">
+      <a href="/omegat-guides/proofreading/glossary/" class="md-nav__link">
         Glossary
       </a>
     </li>
@@ -1780,7 +1771,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../proofreading/repetitions/" class="md-nav__link">
+      <a href="/omegat-guides/proofreading/repetitions/" class="md-nav__link">
         Repetitions
       </a>
     </li>
@@ -1794,7 +1785,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../proofreading/other-useful-features/" class="md-nav__link">
+      <a href="/omegat-guides/proofreading/other-useful-features/" class="md-nav__link">
         Other useful features
       </a>
     </li>
@@ -1808,7 +1799,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../proofreading/qa-checks/" class="md-nav__link">
+      <a href="/omegat-guides/proofreading/qa-checks/" class="md-nav__link">
         QA checks
       </a>
     </li>
@@ -1822,7 +1813,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../proofreading/creating-target-files/" class="md-nav__link">
+      <a href="/omegat-guides/proofreading/creating-target-files/" class="md-nav__link">
         Creating target files
       </a>
     </li>
@@ -1836,7 +1827,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../proofreading/creating-your-deliverable/" class="md-nav__link">
+      <a href="/omegat-guides/proofreading/creating-your-deliverable/" class="md-nav__link">
         Creating your deliverable
       </a>
     </li>
@@ -1850,7 +1841,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../proofreading/shortcuts/" class="md-nav__link">
+      <a href="/omegat-guides/proofreading/shortcuts/" class="md-nav__link">
         Shortcuts
       </a>
     </li>
@@ -1901,7 +1892,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../sp-guides/">User Guides (TEMPORARY)</a>
+          <a href="/omegat-guides/sp-guides/">User Guides (TEMPORARY)</a>
           
             <label for="__nav_9">
               <span class="md-nav__icon md-icon"></span>
@@ -1924,7 +1915,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sp-guides/tec-cb-ome-tra/" class="md-nav__link">
+      <a href="/omegat-guides/sp-guides/tec-cb-ome-tra/" class="md-nav__link">
         Translation
       </a>
     </li>
@@ -1938,7 +1929,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sp-guides/tec-cb-ome-rec/" class="md-nav__link">
+      <a href="/omegat-guides/sp-guides/tec-cb-ome-rec/" class="md-nav__link">
         Reconciliation
       </a>
     </li>
@@ -1952,7 +1943,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sp-guides/tec-cb-ome-adp/" class="md-nav__link">
+      <a href="/omegat-guides/sp-guides/tec-cb-ome-adp/" class="md-nav__link">
         Adaptation
       </a>
     </li>
@@ -1966,7 +1957,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sp-guides/tec-cb-ome-prf/" class="md-nav__link">
+      <a href="/omegat-guides/sp-guides/tec-cb-ome-prf/" class="md-nav__link">
         Proofreading
       </a>
     </li>
@@ -1980,7 +1971,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sp-guides/tec-cb-ome-ver/" class="md-nav__link">
+      <a href="/omegat-guides/sp-guides/tec-cb-ome-ver/" class="md-nav__link">
         Verification
       </a>
     </li>
@@ -1994,7 +1985,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../sp-guides/tec-cb-ome-wlk-thr/" class="md-nav__link">
+      <a href="/omegat-guides/sp-guides/tec-cb-ome-wlk-thr/" class="md-nav__link">
         Quick walkthrough (for reconciliation)
       </a>
     </li>
@@ -2014,14 +2005,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" type="checkbox" id="__nav_10" checked>
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_10" type="checkbox" id="__nav_10" checked>
       
       
       
@@ -2051,7 +2040,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../">Miscellanea</a>
+          <a href="/omegat-guides/misc/">Miscellanea</a>
           
             <label for="__nav_10">
               <span class="md-nav__icon md-icon"></span>
@@ -2074,7 +2063,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../security/" class="md-nav__link">
+      <a href="/omegat-guides/misc/security/" class="md-nav__link">
         IT security
       </a>
     </li>
@@ -2088,7 +2077,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../videos/" class="md-nav__link">
+      <a href="/omegat-guides/misc/videos/" class="md-nav__link">
         Videos
       </a>
     </li>
@@ -2102,7 +2091,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../autotext/" class="md-nav__link">
+      <a href="/omegat-guides/misc/autotext/" class="md-nav__link">
         Autotext
       </a>
     </li>
@@ -2116,7 +2105,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../shortcuts/" class="md-nav__link">
+      <a href="/omegat-guides/misc/shortcuts/" class="md-nav__link">
         Shortcuts
       </a>
     </li>
@@ -2128,96 +2117,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Bidirectionality
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="/omegat-guides/misc/bidi/" class="md-nav__link">
         Bidirectionality
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#text-direction-and-text-alignment" class="md-nav__link">
-    Text direction and text alignment
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#bidirectionality-mode" class="md-nav__link">
-    Bidirectionality mode
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#strong-and-weak-directionality" class="md-nav__link">
-    Strong and weak directionality
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#orientation" class="md-nav__link">
-    Orientation
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#bidirectionality-control-characters" class="md-nav__link">
-    Bidirectionality control characters
-  </a>
-  
-    <nav class="md-nav" aria-label="Bidirectionality control characters">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#marks" class="md-nav__link">
-    Marks
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#embeddings" class="md-nav__link">
-    Embeddings
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -2229,7 +2133,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../faq/" class="md-nav__link">
+      <a href="/omegat-guides/misc/faq/" class="md-nav__link">
         FAQ
       </a>
     </li>
@@ -2243,7 +2147,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tips/" class="md-nav__link">
+      <a href="/omegat-guides/misc/tips/" class="md-nav__link">
         Tips and tricks
       </a>
     </li>
@@ -2257,7 +2161,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../about/" class="md-nav__link">
+      <a href="/omegat-guides/misc/about/" class="md-nav__link">
         About
       </a>
     </li>
@@ -2289,69 +2193,6 @@
   
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#text-direction-and-text-alignment" class="md-nav__link">
-    Text direction and text alignment
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#bidirectionality-mode" class="md-nav__link">
-    Bidirectionality mode
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#strong-and-weak-directionality" class="md-nav__link">
-    Strong and weak directionality
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#orientation" class="md-nav__link">
-    Orientation
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#bidirectionality-control-characters" class="md-nav__link">
-    Bidirectionality control characters
-  </a>
-  
-    <nav class="md-nav" aria-label="Bidirectionality control characters">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#marks" class="md-nav__link">
-    Marks
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#embeddings" class="md-nav__link">
-    Embeddings
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -2362,68 +2203,8 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-                  
-  
+  <h1>404 - Not found</h1>
 
-
-
-
-  <h1>Bidirectionality</h1>
-
-<!-- # Handling bidirectionality -->
-
-<h2 id="text-direction-and-text-alignment">Text direction and text alignment<a class="headerlink" href="#text-direction-and-text-alignment" title="Permanent link">&para;</a></h2>
-<p>By default, text direction in the translation editor is left to right (LTR) and text is aligned to the left. That applies to text in any language except languages written in a right-to-left (RTL) script, like Arabic, Hebrew, Syriac, etc., in which case the segment flows from right to left (RTL) and is aligned to the right.</p>
-<p>Global text <strong>direction</strong> and <strong>alignment</strong> of source and target segments is determined by the source and target languages, respectively, indicated in the project settings. Depending on the language, segments are aligned either to the left or to the right. On the other hand, while text direction at the segment level is determined by the project settings, text direction might change inside the segment depending on the script used. For example, English text in a LTR segment will flow left to right but a quotation in Arabic in that same segment will flow right to left.</p>
-<blockquote>
-<p>Since OmegaT users are only responsible for producing the translation, let’s focus on what happens in target segments. Everything that follows applies to source segments too, with the difference that they are not directly editable in the translation editor in OmegaT.</p>
-</blockquote>
-<h2 id="bidirectionality-mode">Bidirectionality mode<a class="headerlink" href="#bidirectionality-mode" title="Permanent link">&para;</a></h2>
-<p>The bidirectionality mode activates either when at least one of the two languages in the project uses a RTL script or when some text in a RTL is inserted. When the bidirectionality mode is activated, text direction is indicated by a flag on the top of the cursor. In the image below, notice how by default the cursor flag points left in a RTL segment but it may point left or right depending on the previous character:</p>
-<p><img alt="Cursor flag" src="../../_assets/img/bidi_%D9%86%D8%B5%D9%A1%D9%A2%D9%A3.gif" /></p>
-<p>In text written in an LTR script, text flows from left to right, which means that the cursor flag points right and every character typed in LTR script always appears to the right of the previous one. That is always the case for the whole LTR segment unless it contains some fragment in an RTL script, in which case the rules for RTL text apply within that fragment. </p>
-<h2 id="strong-and-weak-directionality">Strong and weak directionality<a class="headerlink" href="#strong-and-weak-directionality" title="Permanent link">&para;</a></h2>
-<p>In text written in an RTL script, text flows from right to left or left to right depending on the characters typed. Alphabetic characters have a RTL directionality: after each alphabetical character, the cursor flag points left, which means that if a new character is inserted, it will appear to the left of the cursor. On the other hand, numeric characters have a LTR directionality: after each number, the cursor flag points right, which means that if a new number is inserted, it will appear to the right of the cursor. Strings in LTR script will behave like numbers.</p>
-<p>Letters and numbers have a strong directionality, which means that they always flow in the same direction: letters in RTL script flow from right to left, letters in LTR flow from left to right, and numbers in any script always flow from left to right too. However, other characters like punctuation symbols do not have an intrinsic directionality of their own and will inherit the directionality of the segment (hence called of weak or neutral directionality): one same character (e.g. +, as in the image above) will flow right to left in a RTL segment, whereas it will flow left to right in a LTR segment. </p>
-<h2 id="orientation">Orientation<a class="headerlink" href="#orientation" title="Permanent link">&para;</a></h2>
-<p>Some characters, such as quotation marks, are purely bidirectional and may also have a different orientation depending on the directionality of the segment. For example, the opening double angle quotation mark (Unicode U+00AB) points left when used in a LTR segment, but the same character points right when used in a RTL segment. In the image below, an autotext entry is used to insert that character in an LTR segment:</p>
-<p><img alt="LTR orientation" src="../../_assets/img/foo_ltr.gif" /></p>
-<p>In the image below, in turn, the same autotext entry is used to insert the same character in a LTR segment: </p>
-<p><img alt="RTL orientation" src="../../_assets/img/foo_rtl.gif" /></p>
-<p>The same thing would happen with any other double characters with neutral directionality, such as parenthesis, square brackets, curly brackets, etc. The opening character will point left or right depending on the directionality of the text stretch where it is inserted.</p>
-<h2 id="bidirectionality-control-characters">Bidirectionality control characters<a class="headerlink" href="#bidirectionality-control-characters" title="Permanent link">&para;</a></h2>
-<p>Often the default behaviour described above is fine, but when you’re mixing RTL text and LTR text or using special characters with weak directionality in RTL, you might need to use Unicode bidirectionality control characters (or bidi characters for short) to achieve the expected directionality. Bidi control characters can be found in the menu <strong>Edit &gt; Insert Unicode Control Characters</strong> and may be used to:</p>
-<ol>
-<li>insert an invisible character with a certain strong directionality to force a specific position for a character with weak directionality</li>
-<li>create an embedding which works as a sort of protective environment within which text can flow in the opposite direction of the segment.</li>
-</ol>
-<p>These control characters are invisible, nothing is display or printed, but they change directionality. If you want to see where these characters are inserted, you can activate option <strong>View &gt; Mark Bidirectional Algorithm Control Characters</strong>.</p>
-<h3 id="marks">Marks<a class="headerlink" href="#marks" title="Permanent link">&para;</a></h3>
-<p>Let’s see a few examples. Some expressions and brand names combine symbols with letters, e.g. Yahoo!, C++, C#, Hola!, Chips Ahoy!, etc. If you must write, say, “C++” in Arabic, you will notice that by default the + characters will appear to the left of the letter C:</p>
-<p><img alt="Wrong position of characters with weak directionalty" src="../../_assets/img/wrong-c%2B.png" /></p>
-<p>That is obviously incorrect. To force the correct position of the ++ characters, type C, then ++, then insert a left-to-right mark (or LRM for short) at the end. The ++ part will then be surrounded by two characters with strong LTR directionality (namely, the letter C and the LRM) and therefore will inherit the directionality of those characters and flow left to right instead of inheriting the directionality of the segment and flow right to left. See that in action in the following image: </p>
-<p><img alt="Tweak directionality of weak characters with LRM" src="../../_assets/img/C%2B%2B.gif" /></p>
-<p>You might be tempted to type characters in reverse order: first ++, then C. Even though that might look good, that is logically wrong and could bring about issues when the text is further processed later or subjected to different uses. For example, if you type ++C in Arabic, even if it looks visually correct in the translation editor, it will not appear in search results when a user looks for “C++” in the Arabic document. Let alone the fact that often, if the expression is a bit complex, you’ll struggle with trial and error until you obtain something that (only) looks as expected (although underneath it is wrong). Don’t try to fake the looks.</p>
-<p>LRM and RLM (marks) characters are enough when you must change the directionality and position of one character only at the end or beginning of one homogeneous chunk of text. However, when the expression that must flow in the opposite direction contains several parts separated by spaces, or contains non-alphanumeric characters as well as alphanumeric characters, it’s often better to use RTL or LTR embeddings.</p>
-<h3 id="embeddings">Embeddings<a class="headerlink" href="#embeddings" title="Permanent link">&para;</a></h3>
-<p>The behaviour of embeddings is a bit different from that of marks. For starters, two characters must be inserted: one to start the embedding and another one to pop out of it. For example, to create a LTR embedding in an RTL segment, you would insert a left-to-right embedding (LRE) character, then the LTR text, then the pop directional formatting (PDF) character. Likewise, to create a RTL embedding in an LTR segment, you would insert a right-to-left embedding (RLE) character, then the RTL text, then the PDF character. </p>
-<p>Let’s see an example. Equations, formulas and mathematical notation in general are expressions that must normally run left-to-right in bidirectional languages like Arabic or Hebrew, just like in English. Simply typing or copy-pasting an equation in Arabic will not produce the correct result, as can be seen in the image below:</p>
-<p><img alt="What happens with embeddings" src="../../_assets/img/embedding_wrong_right.gif" /></p>
-<p>Instead, you should proceed in this way to create a LTR embedding: </p>
-<ol>
-<li>insert the LRE character, </li>
-<li>then type or insert the equation, </li>
-<li>finally insert the PDF character. </li>
-</ol>
-<p>See that in action:</p>
-<p><img alt="How to create a LTR embedding" src="../../_assets/img/equation_bidi.gif" /></p>
-<p>Notice how the red square rim appears around the LTR embedding right after inserting the PDF character, when the option Mark Bidirectional Algorithm Control Characters is activated in the View menu.</p>
-
-
-
-
-
-                
               </article>
             </div>
           
@@ -2438,42 +2219,6 @@
       </main>
       
         <footer class="md-footer">
-  
-    
-    <nav class="md-footer__inner md-grid" aria-label="Footer" >
-      
-        
-        <a href="../shortcuts/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Shortcuts" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              Shortcuts
-            </div>
-          </div>
-        </a>
-      
-      
-        
-        <a href="../faq/" class="md-footer__link md-footer__link--next" aria-label="Next: FAQ" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              FAQ
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -2500,12 +2245,12 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.prune", "navigation.top", "navigation.sections", "navigation.tabs", "navigation.expand", "navigation.path", "toc.follow", "navigation.indexes"], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "/omegat-guides/", "features": ["navigation.instant", "navigation.tracking", "navigation.prune", "navigation.top", "navigation.sections", "navigation.tabs", "navigation.expand", "navigation.path", "toc.follow", "navigation.indexes"], "search": "/omegat-guides/assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.5a2dcb6a.min.js"></script>
+      <script src="/omegat-guides/assets/javascripts/bundle.5a2dcb6a.min.js"></script>
       
-        <script src="../../_assets/js/extra.js"></script>
+        <script src="/omegat-guides/_assets/js/extra.js"></script>
       
     
     
