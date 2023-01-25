@@ -107,4 +107,4 @@ The next times you want to access the project in OmegaT, go to **Project** > **O
 
 
 !!! note
-    Make sure the disctinction between _opening_ a recent project and _downloading_ or _unpacking_ a project (depending on the distribution mode) is clear. You can open a project that already exists only after you have already unpacked it or downloaded it. In turn, you only download or unpack a project that doesn't exist yet in your machine.
+    Make sure the disctinction between _opening_ a **recent** project and _downloading_ or _unpacking_ a **new** project (depending on the distribution mode) is clear. You can open a project that already exists only after you have already unpacked it or downloaded it. In turn, you only need to download or unpack (once) a project that doesn't exist yet in your machine.
