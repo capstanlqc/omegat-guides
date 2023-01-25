@@ -12,7 +12,7 @@ There are two ways you may access a project for the first time, depending on whe
 
 + If you must work on an **online project** (or **team project**), you will receive the URL to the repository where the OmegaT project is hosted. Go to the section [Downloading a team project](#downloading-a-team-project) below to see what you must to do download a team project from a repository.
 
-If you're not sure whether your project is online or offline, it's very easy: if you receive an OMT package (i.e. a file with `.omt` extension), the project is offline, and if you receive a URL to a git repository, the project is online.
+If you're not sure whether your project is online or offline, it's very easy: if you receive an OMT package, the project is offline, and if you receive a URL to a git repository, the project is online.
 
 | You receive     | Project is |
 |-----------------|---------|
