@@ -11,7 +11,15 @@ There are two ways you may access a project for the first time, depending on whe
 + If you must work on an **offline project**, you will receive a new OmegaT project package (aka an OMT package, or a file with `.omt` extension). Go to the section [Unpacking an offline project](#unpacking-an-offline-project) below to see what you must do to unpack a project package.
 
 + If you must work on an **online project** (or **team project**), you will receive the URL to the repository where the OmegaT project is hosted. Go to the section [Downloading a team project](#downloading-a-team-project) below to see what you must to do download a team project from a repository.
-    
+
+If you're not sure whether your project is online or offline, it's very easy: if you receive an OMT package (i.e. a file with `.omt` extension), the project is offline, and if you receive a URL to a git repository, the project is online.
+
+| You receive     | Project is |
+|-----------------|---------|
+| OMT file        | offline |
+| URL to git repo | online  |
+
+
 !!! caution
     Unpacking or downloading an OmegaT project (depending on the distribution mode) needs to be done _only once_ for each project. After you have unpacked or downloaded a project, you can simply [re-open it from the list of recent projects](re-opening-an-existing-project).
     <!-- @todo: " If you unpack the OMT file again, you might overwrite your changes and lose your work." to be tested... -->
