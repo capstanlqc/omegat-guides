@@ -21,4 +21,6 @@ a.md-footer__link--prev[aria-label^="Previous:"],
 
 This guide includes information about all the functions in OmegaT that you need to perform the translation task. 
 
-You can use the arrow buttons at the bottom to go to the next (or previous) section.{% include 'abbreviations.md' %}
+Make sure you the navigation pane on the left-hand side. You can use that menu or the arrow button at the bottom to go to the next section.
+
+{% include 'abbreviations.md' %}

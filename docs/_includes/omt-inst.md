@@ -1,6 +1,6 @@
-# Installation and setup
+# Installation and customization
 
-To install and customize OmegaT on a computer running Windows, please follow these steps:
+To install and customize OmegaT on a computer running Windows, please follow the OmegaT installation and customization guide below:
 
 <div style="width: 100%">
 

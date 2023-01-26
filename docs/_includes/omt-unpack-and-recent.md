@@ -61,6 +61,8 @@ If you receive a URL to a git repository, you must download the team project fro
 !!! info 
     The URL should look a bit like this: `https://some-bar-domain.com/some/path/to/the/foo-repository.git`.
 
+At some point during the steps below, or afterwards, OmegaT will ask you to authenticate, so please make sure you have your credentials at hand. OmegaT might ask you to authenticate one, two or perhaps three times (depending on the project settings), please just enter the same credentials as many time as needed.
+
 To download the team project, follow these steps: 
 
 1. Define a location in your machine where you would like to create the OmegaT project. Let's assume it's `C:/Work/` (but please use whatever path is appropriate on your end). <!-- @todo: tips on file organization -->
@@ -76,6 +78,8 @@ To download the team project, follow these steps:
     <!-- ![](../_assets/img/download-git-dialog.png) -->
 
 4. In the **Download Team Project** dialog, click in the **Repository URL** field and then press ++ctrl+v++ to paste the URL from your clipboard.
+
+4. At 
 
 5. Click in the **New Local Project Folder** field. OmegaT will propose a path to the location where it will create the project folder. 
     <!-- ![](../_assets/img/download-git-dialog-default-values.png) -->
