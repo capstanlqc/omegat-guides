@@ -129,7 +129,7 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
   features:
-    #- toc.integrate
+    - toc.integrate
     - navigation.instant
     - navigation.tracking
     - navigation.prune

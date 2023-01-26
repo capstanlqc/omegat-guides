@@ -23,7 +23,13 @@ a.md-footer__link--prev[aria-label="Previous: Tags"],
   display: none !important; 
 }
 
+/* this is the burger button that opens the nav menu in small screens */
 .md-header__button[for="__drawer"] {
+  display: block;
+}
+
+/* this is the title of the nav menu, which goes back to the list of guides */
+.md-nav__title[for="__nav_3"] {
   display: none;
 }
 
