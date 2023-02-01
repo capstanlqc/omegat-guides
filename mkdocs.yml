@@ -103,6 +103,7 @@ nav:
         - Autotext: misc/autotext.md
         - Shortcuts: misc/shortcuts.md
         - Bidirectionality: misc/bidi.md
+        - Fonts: misc/fonts.md
         - FAQ: misc/faq.md
         - Tips and tricks: misc/tips.md
         - About: misc/about.md

@@ -201,3 +201,8 @@ check what images are not used anymore
 It's not necessary to clone this repo to contribute changes. 
 
 It's possible to open the repository directly from VS Code (as explained [here](https://www.freecodecamp.org/news/you-can-now-edit-anything-on-github-in-vs-code-without-cloning/)).
+
+<!-- @todo: 
+    - hide button with capstan logo
+    - create one site for each guide to restrict indexing scope
+-->
