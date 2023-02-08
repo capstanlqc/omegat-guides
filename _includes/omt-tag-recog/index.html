@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#recognizing-tags" class="md-skip">
+        <a href="#types-of-tags" class="md-skip">
           Skip to content
         </a>
       
@@ -495,7 +495,7 @@
   
     <li class="md-nav__item">
       <a href="../../translation/accessing-the-project/" class="md-nav__link">
-        Accessing the project
+        Accessing a project
       </a>
     </li>
   
@@ -735,7 +735,7 @@
   
     <li class="md-nav__item">
       <a href="../../reconciliation/accessing-the-project/" class="md-nav__link">
-        Accessing the project
+        Accessing a project
       </a>
     </li>
   
@@ -975,7 +975,7 @@
   
     <li class="md-nav__item">
       <a href="../../adaptation/accessing-the-project/" class="md-nav__link">
-        Accessing the project
+        Accessing a project
       </a>
     </li>
   
@@ -1217,7 +1217,7 @@
   
     <li class="md-nav__item">
       <a href="../../verification/accessing-the-project/" class="md-nav__link">
-        Accessing the project
+        Accessing a project
       </a>
     </li>
   
@@ -1259,7 +1259,7 @@
   
     <li class="md-nav__item">
       <a href="../../verification/tags/" class="md-nav__link">
-        Handling tags
+        Tags
       </a>
     </li>
   
@@ -1273,7 +1273,7 @@
   
     <li class="md-nav__item">
       <a href="../../verification/matches/" class="md-nav__link">
-        Using matches
+        Matches
       </a>
     </li>
   
@@ -1471,7 +1471,7 @@
   
     <li class="md-nav__item">
       <a href="../../editing/accessing-the-project/" class="md-nav__link">
-        Accessing the project
+        Accessing a project
       </a>
     </li>
   
@@ -1711,7 +1711,7 @@
   
     <li class="md-nav__item">
       <a href="../../proofreading/accessing-the-project/" class="md-nav__link">
-        Accessing the project
+        Accessing a project
       </a>
     </li>
   
@@ -2220,18 +2220,39 @@
 
   <h1>Omt tag recog</h1>
 
-<h2 id="recognizing-tags">Recognizing tags<a class="headerlink" href="#recognizing-tags" title="Permanent link">&para;</a></h2>
-<p>If a segment which contains tags, you will recognize them because they are in <strong>red font</strong>.</p>
-<p><img alt="" src="../../_assets/img/09_tags_recognizing.jpg" /></p>
-<!-- @todo: update, show omegat tags -->
-
+<h2 id="types-of-tags">Types of tags<a class="headerlink" href="#types-of-tags" title="Permanent link">&para;</a></h2>
 <p>There are two types of tags: standalone tags and paired tags or double tags:</p>
 <ul>
-<li><strong>Standalone tags</strong>: a single tag with a precise role (e.g. <strong class="tag">&lt;x1/&gt;</strong> tag which introduces a new paragraph in HTML)</li>
-<li><strong>Paired tags</strong> are composed of an opening tag and a closing tag (e.g. <strong class="tag">&lt;g1&gt;</strong> and <strong class="tag">&lt;/g1&gt;</strong>) and affect the text between them and you need to ensure they are positioned around the exact same words in the translation as in the source text.</li>
+<li>
+<p><strong>Standalone tags</strong>: a single tag (e.g. <strong class="omttag">&lt;x1/&gt;</strong>) which stands for some element that appears at that position, such as a line break, an image, an input field, etc. </p>
+<p><img alt="" src="../../_assets/img/omt-tags-types-standalone.png" /></p>
+</li>
+<li>
+<p><strong>Paired tags</strong> are composed of an opening tag and a closing tag (e.g. <strong class="omttag">&lt;g2&gt;</strong> and <strong class="omttag">&lt;/g2&gt;</strong>) and affect the text between them. You can see that two tags are paired when they have the same number.</p>
+<p><img alt="" src="../../_assets/img/omt-tags-types-paired.png" /></p>
+</li>
 </ul>
-<p><img alt="" src="../../_assets/img/10_types_of_tags.jpg" />
-  &lt;!-- @todo: png, use example of same text in source and corresponding translation with tags aruond the same</p>
+<!-- ![](../_assets/img/10_types_of_tags.jpg) -->
+<!-- ![](../_assets/img/omt-tags-types-labels.png) -->
+<!-- @todo: png, use example of same text in source and corresponding translation with tags aruond the same -->
+
+<p>When the source text contains <strong>paired tags</strong> around a word or expression, you must insert the same paired tags around the part of the translation that corresponds to the formatted word or expression in the source text.</p>
+<p>For example, here the paired tags represent some formatting that applies to the word "after" and its translation "après".</p>
+<blockquote>
+<p><b>I came to this school <strong class="omttag">&lt;g1&gt;</strong>after<strong class="omttag">&lt;/g1&gt;</strong> the start of this school year.</b><br/>
+Je suis venu à cette école <strong class="omttag">&lt;g1&gt;</strong>après<strong class="omttag">&lt;/g1&gt;</strong> le début de cette année scolaire.</p>
+</blockquote>
+<p>When the source text contains one or more <strong>standalone tags</strong>, you must insert them in the translation in a position that is equivalent to their position in the source text.</p>
+<!-- 
+>> Write your answer in numerals in the box.<br/>
+> Écrivez votre réponse en chiffres dans la boîte.
+-->
+
+<p>In the following example, the standalone tag represents a text entry field where the respondent will have to select a number:</p>
+<blockquote>
+<p><b><strong class="omttag">&lt;x1/&gt;</strong> hours</b><br/>
+<strong class="omttag">&lt;x1/&gt;</strong> heures</p>
+</blockquote>
 
 
 

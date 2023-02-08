@@ -82,7 +82,7 @@ ins.critic {
   animation: heart 1000ms infinite;
 }
 
-.tag { color: red; }
+.omttag { color: red; }
 
 .term {
   display: inline;
