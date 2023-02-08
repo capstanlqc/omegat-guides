@@ -16,7 +16,7 @@ That bar shows some statistics:
 
 If you see something like `100% (0 left) / 100% (0 left), 54`, that means that all 54 segments in the project are translated. If you see a number higher that zero segments left, the translation is not complete. 
 
-If you have left some segment untranslated, proceed as follows to correct it:
+If you have left some segment(s) untranslated, proceed as follows to fix that:
 
   1. Press ++escape++ to close the **Project Files** window.
   2. Press ++ctrl+u++ on your keyboard to jump to the __Next Untranslated Segment__. 
@@ -24,4 +24,4 @@ If you have left some segment untranslated, proceed as follows to correct it:
 
 Repeat the steps above until no untranslated segments remain. 
 
-Finally, check the progress status bar again to confirm completion now.
+Finally, check the progress status bar again to confirm completion.

@@ -1,10 +1,10 @@
-# Using matches
+# Matches
 
 Translations are saved in the working TM of the project. When you open a segment that is similar to one that has already been translated, you will see translation suggestions (or matches) appearing in the **Matches** pane. 
 
 The source text in the **Matches** pane uses “track changes” mode to show the differences (e.g. {~~old~>new~~}) between the new source text in the active segment and the source text in the fuzzy match selected.
 
-  * Parts that do not appear in the active segment are {~~stricken through~>~~}
+  * Parts that do not appear in the active segment are {~~struck through~>~~}
   * Parts that appear in the match are {~~~>underlined~~} <!-- ^^underlined^^ -->
 
     <!-- ![](../_assets/img/12_fuzzy_matches.jpg) -->

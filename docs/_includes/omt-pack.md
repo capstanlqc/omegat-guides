@@ -14,7 +14,7 @@ That's it! :smile:
 
   * Go to **Project** > **Pack project as OMT file...**
 
-    ![](../_assets/img/29_export_omt.jpg)
+    ![](../_assets/img/29_export_omt.png)
     <!-- @todo: update screenshot with current wording -->
 
   * In the window that pops up, select the location where you want to save the OMT package.
@@ -22,11 +22,11 @@ That's it! :smile:
   * Press **Save**
   * Press **OK** in the Pop-up window notifying that the package was successfully created.
 
-    ![](../_assets/img/30_omt_successful.jpg)
+    ![](../_assets/img/30_omt_successful.png)
 
 The folder where exported package is stored will open automatically in your file explorer. 
 
 You will recognize the package because it has the extension `.omt`. That's the file you have to deliver.
 
-  ![](../_assets/img/31_recognizing_omt.jpg)
+  ![](../_assets/img/31_recognizing_omt.png)
 

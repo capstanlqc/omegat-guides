@@ -1,4 +1,4 @@
-# Accessing the project
+# Accessing a project
 
 !!! tip
     Please give some thought to the organization of your files and folders before you proceed with the steps below. We provide some tips [here](../../tips/#file-organization){:target="_blank"}.
@@ -38,18 +38,18 @@ To unpack a project, follow these steps:
   
     + Go to **Project** > **Unpack project from OMT file**:<!-- @todo: update screenshot -->
 
-        ![](../_assets/img/01_import_omt_package.jpg)
+        ![](../_assets/img/01_import_omt_package.png)
         <!-- @todo: update screenshot, current version -->
 
         <!-- ![](../_assets/img/01_import_omt_package.jpg){ align=right } -->
 
     + Navigate to the location where you stored the OMT package. Select the **OMT package** and click on Open:
   
-        ![](../_assets/img/02_open_omt_package.jpg)
+        ![](../_assets/img/02_open_omt_package.png)
 
     + A pop up opens. Click **Yes**.
   
-        ![](../_assets/img/03_delete_original_package.jpg) 
+        ![](../_assets/img/03_delete_original_package.png) 
 
 4. You can now perform your task in the project.
 

@@ -1,23 +1,30 @@
 ## Inserting tags
 
-To insert tags in your translation, you should use the keyboard shortcut ++ctrl+t++, which inserts the next missing tag.
+Before inserting tags you must know whether it is a standalone tag or two paired tags.
 
-Please note that tags are inserted in the order of their appearance in the source segment. If you need to insert tags in a different order than in the source, we advise you to translate the entire segment, place your cursor where the first tag has to be inserted and press ++ctrl+t++, then repeat the operation until all tags have been inserted.
-	![](../_assets/img/11_tag_order.jpg)
+<!-- ### Paired tags -->
 
-If you have inserted a tag incorrectly and need to **delete** it, **select the tag** in full (you can **double click** on it) and press **backspace** or delete on your keyboard.
+To insert **paired tags** in your translation, proceed as follows: 
 
-<!-- @todo: explain the auto-completer as the main insertion method -->
+1. Translate the segment.
+2. Select the part of the translation that corresponds to the formatted part in the source text.
+3. Press ++ctrl+space++ to launch the auto-completer.
+4. In the tags section of the auto-completer, select the paired tags you want to insert.
 
-<!-- @todo: FINISH -->
-@WIP:
+![](../_assets/img/omt-tags-autocomplete-paired.gif)
 
-Basically:
+!!! info 
+	The auto-completer has several sections, so if you don't see the tags section straight-away, just press ++ctrl+space++ again to cycle through the auto-completer until you see it.
 
-before inserting a tag you must know whether it is a standalone tag or two paired tags.
+<!-- ### Standalone tags -->
 
-- if standalone: click on the position where you want to insert the tag
-- if paired: select... etc.
+To insert a **standalone tag**, proceed as follows: 
 
-then, fixing: remove and insert again, 
-or drag and drop
+1. Click on the position where you want to insert the tag (before, after or while translating).
+2. Press ++ctrl+space++ to launch the auto-completer.
+4. In the tags section of the auto-completer, select the standalone tag you want to insert.
+
+![](../_assets/img/omt-tags-autocomplete-standalone.gif)
+
+You can also insert a tag one by one with shortcut ++ctrl+t++.
+

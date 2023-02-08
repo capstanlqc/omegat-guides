@@ -24,5 +24,5 @@ In OmegaT, the **color** of the segment's background will help you find your way
     If you want to change a trend translation, document it in the monitoring form but do not try to change it in OmegaT. Any changes you make to these segments will not be saved. The existing translation will be maintained.
 
 The following video shows navigation through segments, enjoy :octicons-heart-fill-24:{ .heart }:
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/780443426?h=f715fb64e6" width="640" height="447" frameborder="0" allowfullscreen></iframe>
+<div style="padding:69.95% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/780432248?h=e1e7e40817" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 

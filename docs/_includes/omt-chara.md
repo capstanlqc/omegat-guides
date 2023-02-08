@@ -13,7 +13,7 @@ We put the most frequent special characters in the **Character Table**. To inser
 
   * Press ++ctrl+space++ on your keyboard several times until you reach the **Character Table**.
     ![](../_assets/img/25_character_table.jpg)
-  * Double-click the character ou want to insert.
+  * Double-click the character you want to insert.
     <!-- ![](../_assets/img/26_inserted_special_characters.jpg) -->
 
 ### Autotext

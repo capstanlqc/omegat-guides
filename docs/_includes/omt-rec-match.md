@@ -19,7 +19,7 @@ To insert the active match in full, press ++ctrl+i++ on your keyboard. After ins
 
 Alternatively, you can also insert only part of a match or combine several matches:
 
-  * Double-click the match you want use to activate it
+  * Double-click the match you want to use to activate it
   * Drag your mouse over the part of the match you wish to insert to select it
   * Press ++ctrl+i++ on your keyboard to insert it
   * Select (part of) another match if appropriate or type the rest of the translation

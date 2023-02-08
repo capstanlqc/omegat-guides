@@ -6,7 +6,7 @@ nav:
     - Translation: 
         - Translation: translation/index.md
         - Installation and setup: translation/installation-and-customization.md
-        - translation/accessing-the-project.md
+        - Accessing a project: translation/accessing-the-project.md
         - translation/navigation.md
         - translation/tags.md
         - translation/matches.md
@@ -20,7 +20,7 @@ nav:
     - Reconciliation: 
         - Reconciliation: reconciliation/index.md
         - Installation and setup: reconciliation/installation-and-customization.md
-        - reconciliation/accessing-the-project.md
+        - Accessing a project: reconciliation/accessing-the-project.md
         - reconciliation/navigation.md
         - reconciliation/tags.md
         - reconciliation/matches.md
@@ -34,7 +34,7 @@ nav:
     - Adaptation: 
         - Adaptation: adaptation/index.md
         - Installation and setup: adaptation/installation-and-customization.md
-        - adaptation/accessing-the-project.md
+        - Accessing a project: adaptation/accessing-the-project.md
         - adaptation/navigation.md
         - adaptation/tags.md
         - adaptation/matches.md
@@ -48,11 +48,11 @@ nav:
     - Verification: 
         - Verification: verification/index.md
         - Installation and setup: verification/installation-and-customization.md
-        - verification/accessing-the-project.md
+        - Accessing a project: verification/accessing-the-project.md
         - verification/navigation.md
         - verification/editing.md
-        - Handling tags: verification/tags.md
-        - Using matches: verification/matches.md
+        - verification/tags.md
+        - verification/matches.md
         - verification/glossary.md
         - verification/repetitions.md
         - verification/other-useful-features.md
@@ -63,7 +63,7 @@ nav:
     - Editing: 
         - Editing: editing/index.md
         - Installation and setup: editing/installation-and-customization.md
-        - editing/accessing-the-project.md
+        - Accessing a project: editing/accessing-the-project.md
         - editing/navigation.md
         - editing/tags.md
         - editing/matches.md
@@ -77,7 +77,7 @@ nav:
     - Proofreading: 
         - Proofreading: proofreading/index.md
         - Installation and setup: proofreading/installation-and-customization.md
-        - proofreading/accessing-the-project.md
+        - Accessing a project: proofreading/accessing-the-project.md
         - proofreading/navigation.md
         - proofreading/tags.md
         - proofreading/matches.md
@@ -176,6 +176,7 @@ plugins:
   #- mkpdfs
   - tags:
       tags_file: misc/tags.md
+  - mkdocs-video
   - macros:
       verbose: true
       include_dir: docs/_includes

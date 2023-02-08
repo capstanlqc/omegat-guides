@@ -71,7 +71,7 @@ Increase the font size to one you find suitable. This has not impact on the actu
 A spellchecker is available in OmegaT. Go to **Options > Preferences > Spellchecker.**
 Click on **Install new dictionary** and choose the spellchecker for your language.
 
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/780395752?h=5a92c211b3" width="640" height="447" frameborder="0" allowfullscreen></iframe>
+<div style="padding:69.95% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/780395752?h=5a92c211b3" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 ![](../_assets/img/qa_02_spellcheck.jpg)
 
