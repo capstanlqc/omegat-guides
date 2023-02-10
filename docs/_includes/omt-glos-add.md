@@ -7,7 +7,11 @@ To add a new term entry to the glossary:
 
   1. In the active segment, drag your mouse over the term you want to insert **to select it**.
   2. **Right click** and choose **Add glossary entry** from the contextual menu.
+
 	![](../_assets/img/22_add_glossary_entry.jpg)
+  
   3. In the **Create Glossary Entry** that will pop up, enter the target term (and any comments you want).
+
 	![](../_assets/img/23_glossary_term.jpg)
+  
   4. Press the **OK** button to save the new entry.
