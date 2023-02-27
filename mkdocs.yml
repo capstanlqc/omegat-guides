@@ -74,26 +74,26 @@ nav:
         - editing/creating-target-files.md
         - editing/creating-your-deliverable.md
         - editing/shortcuts.md              
-    - Proofreading: 
-        - Proofreading: proofreading/index.md
-        - Installation and setup: proofreading/install-and-setup.md
-        - Accessing a project: proofreading/accessing-the-project.md
-        - proofreading/navigation.md
-        - proofreading/tags.md
-        - proofreading/matches.md
-        - proofreading/glossary.md
-        - proofreading/repetitions.md
-        - proofreading/other-useful-features.md
-        - QA checks: proofreading/qa-checks.md
-        - proofreading/creating-target-files.md
-        - proofreading/creating-your-deliverable.md
-        - proofreading/shortcuts.md                  
+    - review: 
+        - review: review/index.md
+        - Installation and setup: review/install-and-setup.md
+        - Accessing a project: review/accessing-the-project.md
+        - review/navigation.md
+        - review/tags.md
+        - review/matches.md
+        - review/glossary.md
+        - review/repetitions.md
+        - review/other-useful-features.md
+        - QA checks: review/qa-checks.md
+        - review/creating-target-files.md
+        - review/creating-your-deliverable.md
+        - review/shortcuts.md                  
     - User Guides (TEMPORARY):
         - Single-Page Guides: sp-guides/index.md
         - Translation: sp-guides/tec-cb-ome-tra.md
         - Reconciliation: sp-guides/tec-cb-ome-rec.md
         - Adaptation: sp-guides/tec-cb-ome-adp.md
-        - Proofreading: sp-guides/tec-cb-ome-prf.md
+        - review: sp-guides/tec-cb-ome-prf.md
         - Verification: sp-guides/tec-cb-ome-ver.md
         - sp-guides/tec-cb-ome-wlk-thr.md
     - Miscellanea:
