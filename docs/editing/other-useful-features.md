@@ -1,4 +1,4 @@
 <!-- section: repetitions -->
-{% include 'omt-reps.md' %}
+{% include 'omt-other.md' %}
 
 {% include 'abbreviations.md' %}

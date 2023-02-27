@@ -74,8 +74,8 @@ nav:
         - editing/creating-target-files.md
         - editing/creating-your-deliverable.md
         - editing/shortcuts.md              
-    - review: 
-        - review: review/index.md
+    - Review: 
+        - Review: review/index.md
         - Installation and setup: review/install-and-setup.md
         - Accessing a project: review/accessing-the-project.md
         - review/navigation.md
@@ -93,7 +93,7 @@ nav:
         - Translation: sp-guides/tec-cb-ome-tra.md
         - Reconciliation: sp-guides/tec-cb-ome-rec.md
         - Adaptation: sp-guides/tec-cb-ome-adp.md
-        - review: sp-guides/tec-cb-ome-prf.md
+        - Review: sp-guides/tec-cb-ome-prf.md
         - Verification: sp-guides/tec-cb-ome-ver.md
         - sp-guides/tec-cb-ome-wlk-thr.md
     - Miscellanea:

@@ -45,18 +45,16 @@ To create an **alternative translation**:
 
 The **Multiple Translations** pane will show the different translations.
 
-
-The following video shows how to create alternative translations, enjoy :octicons-heart-fill-24:{ .heart }:
-
-<div style="padding:60% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/789832289?h=5fd29f998e" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-
 And here's a quick summary: 
 ![](../_assets/img/create-alternative-translation-in-3-steps.gif)
 
 
 <!-- @todo for Danina: repeat video, Ctrl+S for every segment! -->
 
-
-
 !!! danger
     Alternative translations may be treacherous if not applied correctly. Make sure you follow the three steps above precisely.
+
+
+The following video shows how to create alternative translations, enjoy :octicons-heart-fill-24:{ .heart }:
+
+<div style="padding:60% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/789832289?h=5fd29f998e" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>    

@@ -1,2 +1,4 @@
 <!-- section: tags (tra) -->
-{% include 'omt-tra-tags.md' %}{% include 'abbreviations.md' %}
+{% include 'omt-tra-tags.md' %}
+
+{% include 'abbreviations.md' %}
