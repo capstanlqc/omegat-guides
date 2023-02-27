@@ -5,7 +5,7 @@ nav:
     - Tags: misc/tags.md
     - Translation: 
         - Translation: translation/index.md
-        - Installation and setup: translation/installation-and-customization.md
+        - Installation and setup: translation/install-and-setup.md
         - Accessing a project: translation/accessing-the-project.md
         - translation/navigation.md
         - translation/tags.md
@@ -19,7 +19,7 @@ nav:
         - translation/shortcuts.md
     - Reconciliation: 
         - Reconciliation: reconciliation/index.md
-        - Installation and setup: reconciliation/installation-and-customization.md
+        - Installation and setup: reconciliation/install-and-setup.md
         - Accessing a project: reconciliation/accessing-the-project.md
         - reconciliation/navigation.md
         - reconciliation/tags.md
@@ -33,7 +33,7 @@ nav:
         - reconciliation/shortcuts.md
     - Adaptation: 
         - Adaptation: adaptation/index.md
-        - Installation and setup: adaptation/installation-and-customization.md
+        - Installation and setup: adaptation/install-and-setup.md
         - Accessing a project: adaptation/accessing-the-project.md
         - adaptation/navigation.md
         - adaptation/tags.md
@@ -47,7 +47,7 @@ nav:
         - adaptation/shortcuts.md
     - Verification: 
         - Verification: verification/index.md
-        - Installation and setup: verification/installation-and-customization.md
+        - Installation and setup: verification/install-and-setup.md
         - Accessing a project: verification/accessing-the-project.md
         - verification/navigation.md
         - verification/editing.md
@@ -62,7 +62,7 @@ nav:
         - verification/shortcuts.md         
     - Editing: 
         - Editing: editing/index.md
-        - Installation and setup: editing/installation-and-customization.md
+        - Installation and setup: editing/install-and-setup.md
         - Accessing a project: editing/accessing-the-project.md
         - editing/navigation.md
         - editing/tags.md
@@ -76,7 +76,7 @@ nav:
         - editing/shortcuts.md              
     - Proofreading: 
         - Proofreading: proofreading/index.md
-        - Installation and setup: proofreading/installation-and-customization.md
+        - Installation and setup: proofreading/install-and-setup.md
         - Accessing a project: proofreading/accessing-the-project.md
         - proofreading/navigation.md
         - proofreading/tags.md
