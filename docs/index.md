@@ -7,7 +7,7 @@
 + [Reconciliation](reconciliation/)
 + [Adaptation](adaptation/)
 + [Verification](verification/)
-+ [Adaptation](adaptation/)
++ [Review](review/)
 
 ## Other
 + [Reconciliation quick walkthrough](sp-guides/tec-cb-ome-wlk-thr.md)
