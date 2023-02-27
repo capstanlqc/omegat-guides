@@ -3,7 +3,7 @@ tags:
   - Adaptation
 ---
 
-<!-- # Translation -->
+<!-- # Adaptation -->
 
 <style>
 a.md-footer__link--prev[aria-label^="Previous:"],
