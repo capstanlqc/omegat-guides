@@ -7,7 +7,7 @@ tags:
   - Revision
 ---
 
-<!-- # Translation -->
+<!-- # Editing -->
 
 <style>
 a.md-footer__link--prev[aria-label^="Previous:"],

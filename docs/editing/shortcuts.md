@@ -10,3 +10,5 @@ a.md-footer__link--next[aria-label^="Next:"],
 </style>
 
 {% include 'cheatsheet.md' %}
+
+{% include 'abbreviations.md' %}

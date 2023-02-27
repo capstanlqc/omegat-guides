@@ -3,7 +3,7 @@ tags:
   - Verification
 ---
 
-<!-- # Translation -->
+<!-- # Verification -->
 
 <style>
 a.md-footer__link--prev[aria-label^="Previous:"],
