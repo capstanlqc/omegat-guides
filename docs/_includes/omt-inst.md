@@ -5,7 +5,7 @@ To install and customize OmegaT on a computer running Windows, please follow the
 <div style="width: 100%">
 
 <iframe 
-src="https://slides.com/capstan/omegat5-installation-and-customization-guide/embed?byline=hidden&share=hidden" 
+src="https://slides.com/capstan/omegat-v5-install-and-setup-guide/embed?byline=hidden&share=hidden" 
 width="100%" 
 height="420" 
 scrolling="no" 
