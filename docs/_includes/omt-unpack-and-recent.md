@@ -16,8 +16,8 @@ If you're not sure whether your project is online or offline, it's very easy: if
 
 | You receive     | Project is |
 |-----------------|---------|
-| OMT file        | offline |
-| URL to git repo | online  |
+| OMT file        | offline/package |
+| URL to git repo | online/team  |
 
 
 !!! caution
