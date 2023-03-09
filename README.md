@@ -122,7 +122,7 @@ Also, issues that we try to solve or avoid:
 <!-- 
 
 00 index.md
-00 installation-and-customization.md
+00 installation-and-setup.md
 10 accessing-the-project.md
 20 navigation.md
 30 tags.md
