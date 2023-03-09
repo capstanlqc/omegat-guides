@@ -41,11 +41,11 @@ To see where you must create your local folder of the project, see section about
 	In any case, the location where you create the team project should not be inside a folder sync'ed by Dropbox, OneDrive, Nextcloud, etc. (any sync'ing service in your machine).
 
 !!! note inline end "←TODO"
-	Link to the actual guide.
+	Add link to the actual guide.
 To see what to do to download a team/online project in OmegaT, check the **Accessing the project** > **Downloading a team project** from your OmegaT guide.
 <!-- @todo: link to the actual guide -->
 ---
 
 !!! note "NOTE FOR HELPERS"
-	Please restore the original translation after you do the exercise.
+	After you do an exercise, please remove your translation if you have entered one or restore the original translation if you have modified the one you found. you may restore the initial translation using the 100% match from initial.tmx.
 
