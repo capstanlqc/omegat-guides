@@ -10,8 +10,11 @@
 + [Review](review/)
 
 ## Other stuff
++ [Videos](misc/videos.md)
 + [Exercises](exercises/)
 + [Miscellanea](misc/)
+
+<!-- @todo add the rest of misc articles -->
 
 <!-- + [Quick walkthrough (reconciliation)](sp-guides/tec-cb-ome-wlk-thr.md) -->
 <!-- + [Tags](misc/tags) -->
