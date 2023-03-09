@@ -3,16 +3,18 @@
 # OmegaT guides 
 
 ## A guide for each task
-+ [Translation](translation)
++ [Translation](translation/)
 + [Reconciliation](reconciliation/)
 + [Adaptation](adaptation/)
 + [Verification](verification/)
 + [Review](review/)
 
-## Other
-+ [Reconciliation quick walkthrough](sp-guides/tec-cb-ome-wlk-thr.md)
+## Other stuff
++ [Exercises](exercises/)
 + [Miscellanea](misc/)
-+ [Tags](misc/tags)
+
+<!-- + [Quick walkthrough (reconciliation)](sp-guides/tec-cb-ome-wlk-thr.md) -->
+<!-- + [Tags](misc/tags) -->
 
 <!-- 
 # Translation
@@ -35,5 +37,7 @@
 -->
 
 {% include 'abbreviations.md' %}
+
+
 
 

@@ -1,6 +1,6 @@
 nav:
     - Introduction: index.md
-    - Installation and setup: installation-and-customization.md
+    - Installation and setup: installation-and-setup.md
     - accessing-the-project.md
     - navigation.md
     - handling-tags.md
