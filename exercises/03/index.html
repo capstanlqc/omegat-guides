@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#section-03-alternative-repetitions" class="md-skip">
+        <a href="#03-alternative-repetitions" class="md-skip">
           Skip to content
         </a>
       
@@ -2311,30 +2311,61 @@
 
 
 
-<h1 id="section-03-alternative-repetitions">Section 03: Alternative repetitions<a class="headerlink" href="#section-03-alternative-repetitions" title="Permanent link">&para;</a></h1>
-<p>In the previous section you have seen that translations of repeated segments auto-propagate when you create. Edits you make to the translation of a repeated segment will also auto-propagate to all intances of that repeated segment.</p>
-<p>That is convenient in many cases, but not always. To prevent auto-propagation, you must create an alternative translation.</p>
+<h1 id="03-alternative-repetitions">03. Alternative repetitions<a class="headerlink" href="#03-alternative-repetitions" title="Permanent link">&para;</a></h1>
+<p>In the previous section you saw that translations of repeated segments (or edits in those translations) auto-propagate to all intances of that repeated segment when you save them (or leave the segment).</p>
+<p>That is convenient in many cases, but not always. Sometimes you'll have to prevent auto-propagation. To do that, you must create an <strong>alternative translation</strong>.</p>
 <h2 id="exercise-031">Exercise 03.1<a class="headerlink" href="#exercise-031" title="Permanent link">&para;</a></h2>
-<p>Go to segment #5 in the project. You can see that it is pretranslated with an auto-propagated translation.</p>
-<pre><code>Good" and "Bad" in this context refer to "level of English" which is masculine in French.
-</code></pre>
-<p>You want to modify the translation in segments #5 and #6 to make it masculine, so that it agrees with "level" in French. </p>
-<p>Follow these simple three steps:</p>
 <ol>
-<li>Go to Edit &gt; Create Alternative Translation
-    &gt; Also available if you right-click the segment</li>
-<li>Modify the translation to make it masculine
-    &gt; Just remove the last character if you don't know French</li>
-<li>Press Ctrl+S to register the translation</li>
+<li>
+<p>Go to segment #5 in the project. </p>
+<blockquote>
+<p>Source text reads: <code>Good</code>  </p>
+</blockquote>
+</li>
+<li>
+<p>Notice that it is translated with an auto-propagated translation.</p>
+<blockquote>
+<p>"Good" and "Bad" in segments #5 and #6 in this context refer to "level of English" which is masculine in French. However, your translation ("BonNE" and "MauvaisE") refers to "situation economique" and therefore is feminine.</p>
+</blockquote>
+</li>
 </ol>
-<p>Did you follow the steps above? If you did, now notice</p>
+<p>You want to modify the translation in segments #5 and #6 to make it masculine, so that it agrees with "level" in French. </p>
+<p>Follow these three simple but VERY IMPORTANT steps:</p>
+<ol>
+<li>
+<p>Go to <strong>Edit</strong> &gt; <strong>Create Alternative Translation</strong>.</p>
+<blockquote>
+<p>Tip: Also available if you right-click the segment.</p>
+</blockquote>
+</li>
+<li>
+<p>Modify the translation to make it masculine</p>
+<blockquote>
+<p>Just remove the last character if you don't know French</p>
+</blockquote>
+</li>
+<li>
+<p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-s">S</kbd></span> to register the translation</p>
+</li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This is a very important function of OmegaT. Make sure you really follow the three steps above to the letter.</p>
+</div>
+<p>Did you follow the steps above? If you did, now you'll notice that:</p>
 <ul>
-<li>how your alternative translation appears in the Mutiple Translations pane, followed the !filename and the segment ID.</li>
-<li>how the Segment Properties pane says now "Is alternative: TRUE"</li>
-<li>how the translation of segment #2 hasn't changed</li>
+<li>your alternative translation appears now in the <strong>Mutiple Translations</strong> pane, below the followed the default translation and followed by the filename and the segment ID.</li>
 </ul>
-<p>Press Enter to move to segment #6 and do the same steps as above.</p>
-<p>info: If you want more practice, go to segment #29 ("Subject:"), which is also repeated a few times. The first occurrence refers to an email subject line, whereas the other occurrences refer to the topic or field of books in a library classification system, so each of those requires a different translation, i.e. "Objet" vs "Sujet".</p>
+<!-- @todo: confirm the |filename will be there -->
+<ul>
+<li>the <strong>Segment Properties</strong> pane for that segment says now "Is alternative: TRUE"</li>
+<li>the (default) translation of segment #2 hasn't changed</li>
+</ul>
+<p>Press <span class="keys"><kbd class="key-enter">Enter</kbd></span> to move to segment #6 and do the same steps as above.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>If you want more practice, go to segment #29 (source text reads: <code>Subject:</code>), which is also repeated a few times. The first occurrence refers to an email subject line, whereas the other occurrences refer to the topic or subject matter field of books in a library classification system, so each of those requires a different translation, i.e. "Objet" vs "Sujet".</p>
+</div>
 
 
 
