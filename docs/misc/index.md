@@ -6,6 +6,4 @@ Some guides are addressed only to people with specific responsibiilities:
 
 + [Bidirectionality (RTL)](bidi.md) for RTL languages
 + [IT security](security.md) for IT departments
-
-
-
++ [Autotext entries](autotext.md) for productivity users

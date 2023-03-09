@@ -29,10 +29,7 @@ Username:
 pisa25npm
 ``` 
 
-Password: 
-``` password
-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`
-```
+You have received the password separately. Keep it safe.
 
 
 To see where you must create your local folder of the project, see section about [File organization](../misc/tips/#file-organization) in the [Tips and tricks](../misc/tips/). 
@@ -41,12 +38,13 @@ To see where you must create your local folder of the project, see section about
 	Save team project under `C:\Work\`. If you don't have writing permissions there, save them under `C:\Users\USER\Work`.
 
 !!! warning
-	In any case, the location where you create the team project should not be inside a folder sync'ed by Dropbox, OneDrive, etc. (any sync'ing service in your machine).
+	In any case, the location where you create the team project should not be inside a folder sync'ed by Dropbox, OneDrive, Nextcloud, etc. (any sync'ing service in your machine).
 
 !!! note inline end "←TODO"
 	Link to the actual guide.
 To see what to do to download a team/online project in OmegaT, check the **Accessing the project** > **Downloading a team project** from your OmegaT guide.
 <!-- @todo: link to the actual guide -->
+---
 
 !!! note "NOTE FOR HELPERS"
 	Please restore the original translation after you do the exercise.

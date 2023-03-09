@@ -100,9 +100,17 @@ nav:
         - Tips and tricks: misc/tips.md
         - About: misc/about.md
     - Exercises:
-        - Access the project: exercises/index.md
-        - Navigation: exercises/01.md
-        - Foo: exercises/02.md
+        - Getting started: exercises/index.md
+        - 01 - Navigation: exercises/01.md
+        - 02 - Repetitions: exercises/02.md
+        - 03 - Alternative translations: exercises/03.md
+        - 04 - Tags: exercises/04.md
+        - 05 - Matches: exercises/05.md
+        - 06 - Autotext: exercises/06.md
+        - 07 - Search: exercises/07.md
+        - 08 - QA checks: exercises/08.md
+        - 09 - Preview and delivery: exercises/09.md
+
 
 theme:
   name: material
