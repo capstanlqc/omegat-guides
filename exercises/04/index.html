@@ -2353,22 +2353,50 @@
 </div>
 <h2 id="exercise-041-insert-tags">Exercise 04.1: insert tags<a class="headerlink" href="#exercise-041-insert-tags" title="Permanent link">&para;</a></h2>
 <ol>
-<li>Go to segment #9 (“There are no &lt;g1&gt;right&lt;/g1&gt; answers.”) <!-- segment should be untranslated --></li>
-<li>Notice the tags in the segment.
-    &gt; @quiz: what do you think these are? How to we handle them: should we ignore them or reproduce them in the translation?</li>
-<li>Translate segment #9. Suggested translation: "Il n’y a pas de bonne réponse."</li>
-<li>Select the corresponding translation of “right” in the translation (i.e. “bonne”).</li>
-<li>Press Ctrl+Space. Notice how this opens the auto-completer.</li>
-<li>Press Crtl+Space several times to cycle through all the sections. Stop when you reach the “Missing tags”.</li>
-<li>Select the first option (i.e. <code>&lt;g1&gt;|&lt;/g1&gt;</code>) and press Enter.</li>
-<li>Notice how the tags are inserted around the selected text in the translation.</li>
+<li>
+<p>Go to segment #9, which is untranslated.</p>
+<blockquote>
+<p>Source text reads: <code>There are no &amp;lt;g1&amp;gt;right&amp;lt;/g1&amp;gt; answers.</code> <!-- segment should be untranslated --></p>
+</blockquote>
+</li>
+<li>
+<p>Notice the tags in the segment.</p>
+<blockquote>
+<p>@quiz: what do you think these are? How to we handle them: should we ignore them or reproduce them in the translation?</p>
+</blockquote>
+</li>
+<li>
+<p>Translate segment #9. Suggested translation: "Il n’y a pas de bonne réponse."</p>
+</li>
+<li>
+<p>Select the part of the translation that corresponds to “right”</p>
+<blockquote>
+<p>Tip: you should select <code>bonne</code></p>
+</blockquote>
+</li>
+<li>
+<p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-space">Space</kbd></span> to open the auto-completer.</p>
+</li>
+<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-space">Space</kbd></span> several times to cycle through all the sections in the auto-completer. Stop when you reach the “Missing tags” section.</li>
+<li>The first option (i.e. <code>&lt;g1&gt;|&lt;/g1&gt;</code>) is selected by default. Press <span class="keys"><kbd class="key-enter">Enter</kbd></span> to insert tag pair.</li>
+<li>Notice how the two paired tags are inserted around the selected text in the translation.</li>
 </ol>
+<p>Well done! </p>
 <h2 id="exercise-042-see-what-tags-stand-for">Exercise 04.2: see what tags stand for<a class="headerlink" href="#exercise-042-see-what-tags-stand-for" title="Permanent link">&para;</a></h2>
 <!-- translation: Le traducteur a dû prêter attention au formatage tel que le gras, l'italique, le soulignement</g3>. -->
 <ol>
-<li>Go to segment #39: “The translator had to pay attention to formatting such as <g1>bold</g1>, <g2>italics</g2>, <g3>underline</g3>.”</li>
-<li>Hover over the tags with your mouse to see the HTML code the tags stand for.
-    &gt; tip: <code>&lt;strong&gt;</code>, <code>&lt;em&gt;</code>, <code>&lt;span class="underline"&gt;</code> etc.</li>
+<li>
+<p>Go to segment #39.</p>
+<blockquote>
+<p>Source text reads: <code>The translator had to pay attention to formatting such as &lt;g1&gt;bold&lt;/g1&gt;, &lt;g2&gt;italics&lt;/g2&gt;, &lt;g3&gt;underline&lt;/g3&gt;.</code></p>
+</blockquote>
+</li>
+<li>
+<p>Hover over the tags with your mouse to display a toltip that shows the line code the tags stand for.</p>
+<blockquote>
+<p>Tip: the tooltip should display HTML tags <code>&lt;strong&gt;</code>, <code>&lt;em&gt;</code>, <code>&lt;span class="underline"&gt;</code> etc.</p>
+</blockquote>
+</li>
 </ol>
 <h2 id="exercise-043-insert-standalone-tag">Exercise 04.3: insert standalone tag<a class="headerlink" href="#exercise-043-insert-standalone-tag" title="Permanent link">&para;</a></h2>
 <pre><code>@todo
@@ -2376,41 +2404,79 @@
 <h2 id="exercise-044-insert-more-tags">Exercise 04.4: insert more tags<a class="headerlink" href="#exercise-044-insert-more-tags" title="Permanent link">&para;</a></h2>
 <ol>
 <li>Still in segment #39, notice how most tags are missing in the translation.</li>
-<li>Select the translation of “bold” (tip: “le gras”).</li>
-<li>Press Ctrl+Space to open the "Missing tags" section in the auto-completer</li>
-<li>The first line (i.e. <code>&lt;g1&gt;&lt;/g1&gt;</code>) is selected by default. Press Enter to insert that tag pair.</li>
-<li>Notice how the tags have been inserted around the selected text (i.e. <code>&lt;g1&gt;le gras&lt;/g1&gt;</code>)</li>
-<li>Do the same for the translation of “italics” (tip: “l’italique”). </li>
-<li>Do the same for the translation of “underline” (tip: “le soulignement”). </li>
+<li>
+<p>Select the part of the translation that corresponds to “bold” </p>
+<blockquote>
+<p>Tip: <code>le gras</code></p>
+</blockquote>
+</li>
+<li>
+<p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-space">Space</kbd></span> to open the "Missing tags" section in the auto-completer.</p>
+</li>
+<li>The first line (i.e. <code>&lt;g1&gt;&lt;/g1&gt;</code>) is selected by default. Press <span class="keys"><kbd class="key-enter">Enter</kbd></span> to insert that tag pair.</li>
+<li>
+<p>Notice how the tags have been inserted around the selected text</p>
+<blockquote>
+<p>Results should be <code>&lt;g1&gt;le gras&lt;/g1&gt;</code></p>
+</blockquote>
+</li>
+<li>
+<p>Do the same for the translation of “italics”</p>
+<blockquote>
+<p>Tip: <code>l’italique</code></p>
+</blockquote>
+</li>
+<li>
+<p>Do the same for the translation of “underline”</p>
+<blockquote>
+<p>Tip: <code>le soulignement</code> </p>
+</blockquote>
+</li>
 </ol>
 <blockquote>
 <p>@quiz: insert </p>
 </blockquote>
 <div class="admonition note">
 <p class="admonition-title">NOTE FOR HELPERS</p>
-<p>Two exercises for verifiers, won't be mixed with the above.</p>
+<p>Two exercises for verifiers, won't be mixed with the above. Feel free to do these two exercises now and provide feedback but they will be reviewed and wrapped up later (after the seminar).</p>
 </div>
-<h2 id="exercise-045-relocate-tag">Exercise 04.5: relocate tag<a class="headerlink" href="#exercise-045-relocate-tag" title="Permanent link">&para;</a></h2>
-<!-- more for editors! -->
+<!-- @todo: comment this whole section, and add later to the exercises in the verifiers guide -->
 
+<h2 id="exercise-045-relocate-tag">Exercise 04.5: relocate tag<a class="headerlink" href="#exercise-045-relocate-tag" title="Permanent link">&para;</a></h2>
 <p>In this exercise, you'll practice how to move a tag.</p>
 <ol>
-<li>Go to segment #30 (“<g1>Don’t Open This Email</g1>”) <!-- translation: N<g1>'ouvrez pas cet </g1>e-mail -->
-    &gt; @quiz: what do you notice?</li>
-<li>Notice how the position of the first tag (tag <code>&lt;g1&gt;</code>) is incorrect. You will fix that.
-    &gt; @quiz: it should be at the beginning of the segment / end / in the middle</li>
-<li>Double click on the tag <code>&lt;g1&gt;</code> to select it.</li>
-<li>Now drag and drop it to the correct position.
-    &gt; tip: the paired tags should also include "N"<br />
-    &gt; hidden tip: shows the expected result (the solution)</li>
-</ol>
+<li>
+<p>Go to segment #30 (“<g1>Don’t Open This Email</g1>”) <!-- translation: N<g1>'ouvrez pas cet </g1>e-mail --></p>
 <blockquote>
-<p>Tip for RTL languages.. @todo please use the helpdesk if you find a complicated situation</p>
+<p>@quiz: what do you notice?</p>
 </blockquote>
+</li>
+<li>
+<p>Notice how the position of the first tag (tag <code>&lt;g1&gt;</code>) is incorrect. You will fix that.</p>
+<blockquote>
+<p>@quiz: it should be at the beginning of the segment / end / in the middle</p>
+</blockquote>
+</li>
+<li>
+<p>Double click on the tag <code>&lt;g1&gt;</code> to select it.</p>
+</li>
+<li>
+<p>Now drag and drop it to the correct position.</p>
+<blockquote>
+<p>tip: the paired tags should also include "N" </p>
+</blockquote>
+</li>
+</ol>
+<details class="note">
+<summary>Solution</summary>
+<p>shows the expected result (the solution) @todo: complete</p>
+</details>
+<div class="admonition note">
+<p class="admonition-title">Tip for RTL languages</p>
+<p>Please use the helpdesk if you find a complicated situation and we'll help you.</p>
+</div>
 <p>Well done!</p>
 <h2 id="exercise-046-relocate-tag">Exercise 04.6: relocate tag<a class="headerlink" href="#exercise-046-relocate-tag" title="Permanent link">&para;</a></h2>
-<!-- more for editors! -->
-
 <p>In this exercise, you'll practice another way to move a tag to its correct position.</p>
 <ol>
 <li>Still in segment #30 (“<g1>Don’t Open This Email</g1>”) <!-- translation is now: <g1>N'ouvrez pas cet </g1>e-mail --></li>
@@ -2418,12 +2484,17 @@
 <li>Double click on the tag <code>&lt;g1&gt;</code> to select it.</li>
 <li>Press +del+ on your keyboard to delete the tag.</li>
 <li>Place the cursor (e.g. just click) where you want the tag to appear instead</li>
-<li>Use the auto-completer to insert the tag
-    &gt; tip: ctrl+space</li>
-</ol>
+<li>
+<p>Use the auto-completer to insert the tag</p>
 <blockquote>
-<p>hidden tip: shows the expected result (the solution)</p>
+<p>tip: <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-space">Space</kbd></span></p>
 </blockquote>
+</li>
+</ol>
+<details class="note">
+<summary>Solution</summary>
+<p>shows the expected result (the solution) @todo: complete</p>
+</details>
 
 
 
