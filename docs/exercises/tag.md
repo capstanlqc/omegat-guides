@@ -7,16 +7,19 @@
 
 ## Exercise 04.1: insert tags
 
-1. Go to segment #9, which is untranslated.
+1. Go to segment #10, which is untranslated.
 
-    > Source text reads: `There are no &lt;g1&gt;right&lt;/g1&gt; answers.` <!-- segment should be untranslated -->
+    > Source text reads: `There are no <g1>right</g1> answers.` <!-- segment should be untranslated -->
 
-2. Notice the tags in the segment.
+2. Notice the two tags in the segment.
     
-    > @quiz: what do you think these are? How to we handle them: should we ignore them or reproduce them in the translation?
+    > @quiz: what do you think these are? How to we handle them: should we ignore them or reproduce them in the translation? @todo: move to quiz or remove
 
-3. Translate segment #9. Suggested translation: "Il n’y a pas de bonne réponse."
-4. Select the part of the translation that corresponds to “right”
+3. Translate segment #10. 
+
+    > Suggested translation: `Il n’y a pas de bonne réponse.`
+
+4. Select the part of the translation that corresponds to "right"
 
     > Tip: you should select `bonne`
 
@@ -30,10 +33,11 @@
 Well done! 
 
 
-## Exercise 04.2: see what tags stand for
+## Exercise 04.2: trigger the tag tooltip
 
 <!-- translation: Le traducteur a dû prêter attention au formatage tel que le gras, l'italique, le soulignement</g3>. -->
-1. Go to segment #39.
+
+1. Press ++ctrl+j++ and enter 55 to go to segment #55.
     
     > Source text reads: `The translator had to pay attention to formatting such as <g1>bold</g1>, <g2>italics</g2>, <g3>underline</g3>.`
 
@@ -41,10 +45,17 @@ Well done!
 
     > Tip: the tooltip should display HTML tags `<strong>`, `<em>`, `<span class="underline">` etc.
 
-
 ## Exercise 04.3: insert standalone tag
 
-if <x1/> sensor detects black
+1. Press ++ctrl+j++ and enter 75 to go to segment #75.
+
+    > Source text reads `if <x1/> sensor detects black`
+
+2. Notice how the segment contains one standalone tag.
+3. Hover over the tag to see what the tag stands for.
+
+    > You should see `{{sensor_type}}`
+    
 1. watch, notice
 2. complete, insert
 3. translate and insert
