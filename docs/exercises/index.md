@@ -12,9 +12,10 @@
 	Add packages later.
 ### For countries (NOT READY YET):
 
-1. Download project package [xxx](XXX). <!-- @todo -->
+1. Download project package [project_task_fr-ZZ_offline_omt.omt](../_downloads/project_task_fr-ZZ_offline_omt.omt). <!-- @todo -->
 2. Unpack that project.
 
+<!-- 
 ### For training helpers:
 
 Copy the following details to download the team project.
@@ -43,9 +44,12 @@ To see where you must create your local folder of the project, see section about
 !!! note inline end "←TODO"
 	Add link to the actual guide.
 To see what to do to download a team/online project in OmegaT, check the **Accessing the project** > **Downloading a team project** from your OmegaT guide.
-<!-- @todo: link to the actual guide -->
----
+@todo: link to the actual guide 
+-->
 
+
+<!-- 
 !!! note "NOTE FOR HELPERS"
 	After you do an exercise, please remove your translation if you have entered one or restore the original translation if you have modified the one you found. you may restore the initial translation using the 100% match from initial.tmx.
 
+-->

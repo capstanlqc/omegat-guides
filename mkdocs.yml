@@ -101,15 +101,16 @@ nav:
         - About: misc/about.md
     - Exercises:
         - Getting started: exercises/index.md
-        - 01 - Navigation: exercises/01.md
-        - 02 - Repetitions: exercises/02.md
-        - 03 - Alternative translations: exercises/03.md
-        - 04 - Tags: exercises/04.md
-        - 05 - Matches: exercises/05.md
-        - 06 - Autotext: exercises/06.md
-        - 07 - Search: exercises/07.md
-        - 08 - QA checks: exercises/08.md
-        - 09 - Preview and delivery: exercises/09.md
+        - 01 - Navigation: exercises/nav.md
+        - 02 - Matches: exercises/mat.md
+        - 03 - Reconciliation: exercises/rec.md        
+        - 04 - Tags: exercises/tag.md
+        - 05 - Repetitions: exercises/rep.md
+        - 06 - Alternative translations: exercises/alt.md
+        - 07 - Autotext: exercises/aut.md
+        - 08 - Search: exercises/fnd.md
+        - 09 - QA checks: exercises/qac.md
+        - 10 - Preview and delivery: exercises/tgt.md
 
 
 theme:

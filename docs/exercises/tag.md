@@ -25,6 +25,8 @@
 7. The first option (i.e. `<g1>|</g1>`) is selected by default. Press ++enter++ to insert tag pair.
 8. Notice how the two paired tags are inserted around the selected text in the translation.
 
+    > Expected result: `Il n’y a pas de <g1>bonne</g1> réponse.`
+
 Well done! 
 
 
@@ -42,7 +44,10 @@ Well done!
 
 ## Exercise 04.3: insert standalone tag
 
-    @todo
+if <x1/> sensor detects black
+1. watch, notice
+2. complete, insert
+3. translate and insert
 
 ## Exercise 04.4: insert more tags
 
