@@ -45,7 +45,7 @@ Well done!
 
     > Tip: the tooltip should display HTML tags `<strong>`, `<em>`, `<span class="underline">` etc.
 
-## Exercise 04.3: insert standalone tag
+## Exercise 04.3: see what standalone tags stand for
 
 1. Press ++ctrl+j++ and enter 75 to go to segment #75.
 
@@ -54,13 +54,36 @@ Well done!
 2. Notice how the segment contains one standalone tag.
 3. Hover over the tag to see what the tag stands for.
 
-    > You should see `{{sensor_type}}`
-    
-1. watch, notice
-2. complete, insert
-3. translate and insert
+    > The tooltip should show `{{sensor_type}}`
 
-## Exercise 04.4: insert more tags
+4. Go to the next segment, #76
+5. Notice how this segment has _two_ standalone tags, not two paired tags! 
+6. Check what the two tags stand for.
+
+    > The tooltips should show `{{object1}}` and `{{object2}}`
+
+!!! warning
+
+    The difference between two standalone tags and two paired tags is very important.
+
+## Exercise 04.4: insert standalone tags
+
+1. Go to segment #77.
+2. Notice that the tag is missing in the translation.
+3. Place the mouse cursor in the position where you would like to insert the tag.
+
+    > Tip: right at the end of the translation
+
+4. Press ++ctrl+space++ to launch the auto-completer and insert the tag.
+5. Go to segment #78. 
+6. Notice how the tag is also missing in this translation.
+7. Place the mouse cursor in the position where you would like to insert the tag.
+
+    > Tip: click between `tourner à droite jusqu'à ce que` and `le capteur détecte le noir`
+
+8. Use the auto-completer to insert the missing tag.
+
+## Exercise 04.5: insert more tags
 
 1. Still in segment #39, notice how most tags are missing in the translation.
 2. Select the part of the translation that corresponds to “bold” 
