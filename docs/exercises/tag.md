@@ -45,6 +45,8 @@ Well done!
 
     > Tip: the tooltip should display HTML tags `<strong>`, `<em>`, `<span class="underline">` etc.
 
+<!-- @ŧodo: add exercise about notes, add exercise about search hash -->
+
 ## Exercise 04.3: see what standalone tags stand for
 
 1. Press ++ctrl+j++ and enter 75 to go to segment #75.
@@ -83,7 +85,27 @@ Well done!
 
 8. Use the auto-completer to insert the missing tag.
 
-## Exercise 04.5: insert more tags
+## Exercise 04.5: insert standalone tag as you translate 
+
+1. Go to segment #79.
+2. To translate the segment and insert the tag, proceed in this way: 
+3. Translate "repeat"
+
+    > Suggested translation: `répéter`
+
+4. Use the auto-completer to insert the missing tag
+
+    > Remember the shortcut to launche the auto-completer is ++ctrl+space++
+
+5. Translate "times"
+
+    > Suggested translation `fois`
+
+You have inserted the tag as you made progress through the translation.
+
+## Exercise: 
+
+## Exercise 04.6: insert more tags
 
 1. Still in segment #39, notice how most tags are missing in the translation.
 2. Select the part of the translation that corresponds to “bold” 

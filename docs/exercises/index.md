@@ -8,8 +8,6 @@
 
 ## Getting your project
 
-!!! note inline end "←TODO"
-	Add packages later.
 ### For countries (NOT READY YET):
 
 1. Download project package [project_task_fr-ZZ_offline_omt.omt](../_downloads/project_task_fr-ZZ_offline_omt.omt). <!-- @todo -->
