@@ -1,11 +1,6 @@
 # OmegaT exercises - Getting started
 
 
-
-!!! tip 
-	In this exercises you will asked to go to a specific segment, identified by its number. To do that, you can press ++ctrl+j++ and enter the segment number.
-
-
 ## Getting your project
 
 ### For countries (NOT READY YET):

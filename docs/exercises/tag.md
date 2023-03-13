@@ -91,7 +91,7 @@ Well done!
 2. To translate the segment and insert the tag, proceed in this way: 
 3. Translate "repeat"
 
-    > Suggested translation: `répéter`
+    > Suggested translation of the first part: `répéter`
 
 4. Use the auto-completer to insert the missing tag
 
@@ -99,13 +99,11 @@ Well done!
 
 5. Translate "times"
 
-    > Suggested translation `fois`
+    > Suggested translation of the second part: `fois`
 
 You have inserted the tag as you made progress through the translation.
 
-## Exercise: 
-
-## Exercise 04.6: insert more tags
+## Exercise 04.8: insert more tags
 
 1. Still in segment #39, notice how most tags are missing in the translation.
 2. Select the part of the translation that corresponds to “bold” 
