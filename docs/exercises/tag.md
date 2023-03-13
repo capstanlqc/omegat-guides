@@ -1,9 +1,9 @@
 # 04. Tags
 
-!!! note "NOTE FOR HELPERS"
-    Four exercises for translators and reconcilers.
+!!! tip "Reminder"
 
-
+    [Tags](https://capstanlqc.github.io/omegat-guides/translation/tags/) 
+    <!-- @ŧodo: make this link role-specific -->
 
 ## Exercise 04.1: insert tags
 
