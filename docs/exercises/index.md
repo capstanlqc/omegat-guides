@@ -15,6 +15,12 @@
 1. Download project package [project_task_fr-ZZ_offline_omt.omt](../_downloads/project_task_fr-ZZ_offline_omt.omt). <!-- @todo -->
 2. Unpack that project.
 
+!!! tip "Reminder"
+
+	[How to unpack an offline project](https://capstanlqc.github.io/omegat-guides/translation/accessing-the-project/#unpacking-an-offline-project)
+
+<!-- @todo: make the link above role-specific -->
+
 <!-- 
 ### For training helpers:
 
