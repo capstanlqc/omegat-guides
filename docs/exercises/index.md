@@ -10,7 +10,7 @@
 
 !!! tip "Reminder"
 
-	[How to unpack an offline project](https://capstanlqc.github.io/omegat-guides/translation/accessing-the-project/#unpacking-an-offline-project)
+	[How to unpack an offline project](https://capstanlqc.github.io/omegat-guides/translation/accessing-the-project/#unpacking-an-offline-project){:target="_blank"}.
 
 <!-- @todo: make the link above role-specific -->
 
