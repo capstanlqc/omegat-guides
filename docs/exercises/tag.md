@@ -111,7 +111,8 @@ You have inserted the tag as you made progress through the translation.
 
 ## Exercise 04.6: insert more tags
 
-1. Still in segment #48, notice how most tags are missing in the translation.
+1. Still in segment #48, press ++ctrl+i++ to insert the fuzzy match.
+2. Notice how most tags are missing in the translation.
 2. Select the part of the translation that corresponds to “bold” 
 
     > Tip: `le gras`
