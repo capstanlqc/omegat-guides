@@ -178,6 +178,7 @@ extra_css:
 extra_javascript:
   - _assets/js/extra.js
 plugins:
+  #- with-pdf
   - search
   #- mkpdfs
   - tags:

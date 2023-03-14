@@ -16,13 +16,13 @@ Please remember to restore the default value when you're not reconciling.
 
 ## Exercise 04.01: inserting one match
 
-1. Go to segment #57 and read it. Here comes a story for you.
+1. Go to segment #62 and read it. Here comes a story for you.
 
 	> Source text reads `Once upon a time there was a reconciler who worked in OmegaT.`
 
 2. You have one exact match. Press ++ctrl+i++ to insert it.
 3. Easy start. Now press ++ctrl+u++ to move to the next _unreconciled_ segment.
-4. Read segment #58.
+4. Read segment #63.
 5. You have one exact match. Press ++ctrl+i++ to translate the segment with that match.
 6. Still easy. Press ++ctrl+u++ to move to the next _unreconciled_ segment.
 
@@ -33,9 +33,9 @@ Please remember to restore the default value when you're not reconciling.
 
 ## Exercise 04.02: selecting the match
 
-> You're now on segment #59.
+> You're now on segment #64.
 
-7. Read segment #59.
+7. Read segment #64.
 8. Notice that now you can see **_two_** matches because "translation 1" and "translation 2" are different now.
 9. You want to use the first translation (selected by default). Press ++ctrl+i++ to insert match #1.
 
@@ -43,8 +43,8 @@ Please remember to restore the default value when you're not reconciling.
 
 10. Press ++ctrl+u++ to move to the next _unreconciled_ segment.
 
-	> You're now on segment #60.
-11. Read segment #60.
+	> You're now on segment #65. 
+11. Read segment #65.
 11. Here you want to use the second translation. Press ++ctrl+2++ to select match #2. 
 12. Press ++ctrl+i++ to insert it.
 
@@ -54,9 +54,9 @@ Please remember to restore the default value when you're not reconciling.
 
 ## Exersise 04.03: editing the inserted translation
 
-> You're now on segment #61.
+> You're now on segment #66.
 
-14. Read segment #61.
+14. Read segment #66.
 14. Press ++ctrl+i++ to insert the exiting match.
 15. Edit the translation to make it a good translation.
 
@@ -66,7 +66,7 @@ Please remember to restore the default value when you're not reconciling.
 
 ## Exercise 04.03: assembling fragments
 
-> You are in segment #62.
+> You are in segment #67.
 
 17. In match #1, select `Et encore d'autres fois, la première traduction avait une partie qui était bonne, `
 18. Press ++ctrl+i++ to insert the text you have selected.

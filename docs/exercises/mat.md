@@ -1,65 +1,138 @@
-# 02. Matches @WIP
+# 02. Matches
 
-@todo: check whether tags + matches or matches + tags
-@todo: update numbers or remove them
+@TODO: add link to the part of the guide about matches
 
 ## Exercise 02.1: translate from scratch
 
+1. Press ++ctrl+j++ and enter 1 to go to segment #1.
+
+	> Source text reads `Welcome to this survey!`
+
 1. Translate segment #1.
 
-	> Suggested translation: `Bienvenue à cette enquète.`
+	> Suggested translation: `Bienvenue à cette enquète !`
 
-2. Press ++ctrl+u++ to go to segment #2.
+1. Press ++enter++ to go to the next segment.
 
-## Exercise 02.2: insert match and update it 
+## Exercise 02.2: pretranslated and locked
 
-You're in segment #2. 
+> You're now in segment #2.
+
+1. Notice how this segment is pretranslated.
+1. Notice that it has an orange background. That means that this is an enforced translation.
+
+	> In other words, the translation is not editable.
+
+1. Make some edits to modify the translation.
+1. Press F5 to reload the project.
+1. Notice how your edits are now gone.
+2. Press ++ctrl+u++ to go to the next _untranslated_ segment.
+
+	> That should take you to segment #3.
+
+<!-- harmonize: move to -> go to @todo -->
+
+## Exercise 02.3: insert match and update it 
+
+> You're now in segment #3.
 
 3. Notice that there's a fuzzy match you can use. 
 4. Press ++ctrl+i++ to insert it.
-5. Looking at the **Matches** pane, notice that there's a difference between the new source text and the source text in the match. 
+5. Looking at the match in the **Matches** pane, notice the difference between the new source text and the source text in "tracked changes". 
 6. Update the inserted translation so that it corresponds to the source text you're translating. 
 
-	> Tip: Replace `financiere` with `économique`.
+	> Tip: Replace `sanitaire` with `économique`.
 
-7. Press ++ctrl+u++ to go to segment #3.
+10. Press ++ctrl+u++ to go to the next _untranslated_ segment.
 
-## Exercise 02.3: insert exact match
+	> That should take you to segment #5.
 
-You're in segment #3.
+## Exercise 02.4: insert match and update it
 
-8. Notice that there's an exact match which you can use as is. 
+2. Notice how pressing ++ctrl+u++ has jumped over segment #4, which was already translated. 
+
+	> You're in segment #5.
+
+3. There is a 50% match that you could use. Press ++ctrl+i++ to insert it.
+12. Now update the translation so that it corresponds to the source text. 
+
+	> Tip: delete `Très` and change the case of the first letter.
+
+	> Expected result: `Bon`
+
+10. Press ++ctrl+u++ to go to the next _untranslated_ segment.
+
+	> That should take you to segment #6.
+
+
+## Exercise 02.5: insert exact match
+
+> You're in segment #6.
+
+8. Notice that there's an exact match which you can use as is. Your lucky day!
 9. Press ++ctrl+i++ to insert it.
 
 	> There's nothing else to do this time :)
 
-10. Press ++ctrl+u++ to go to segment #4.
+10. Press ++ctrl+u++ to go to the next _untranslated_ segment.
 
-## Exercise 02.4: insert match and update it
-
-You're in segment #4. Your previous translation is now a 50% match that you could use. 
-
-11. Press ++ctrl+i++ to insert the 50% match.
-12. Now update the translation so that it corresponds to the source text. 
-
-	> Tip: delete `bon`, type `mauvaise`
-
-	> Expected result: `Plutôt mauvaise`
+	> That should take you to segment #7.
 
 
-## Exercise 02.5: pretranslated and 
+## Exercise 02.6: select text and insert
 
-You're still in segment #4. 
+> You're in segment #7.
 
-14. Notice how segment #5 is pretranslated.
-15. Notice that it has a pink background. That means that it is editable, if necessary.
-16. Press ++ctrl+u++ to go to segment #8.
+3. Notice that there are two 50% matches that you could use. 
+3. See what is the part that can be used in the first match.
+3. Press ++ctrl+2++ to select the second match.
+3. See what is the part that can be used in the second match.
+3. Press ++ctrl+1++ to select the first match again.
 
-## Exercise 02.6: almost identical match 
+	> Alternate between ++ctrl+1++ and ++ctrl+2++ to highlight the differences in each match.
 
-You're in segment #8.
+4. With your mouse, select `Très` in match #1.
 
-> Source text reads `Welcome to this survey!`
+	> The translation of "very" in the first match is something you can use. 
+
+4. Press ++ctrl+i++ to insert your selection.
+4. With your mouse, select `mauvais` in match #2.
+
+	> You can also use the translation of "bad" in the second match. 
+
+4. Press ++ctrl+i++ to insert your selection.
+
+	> Expected result: `très mauvais`
+
+
+10. Press ++ctrl+u++ to go to the next _untranslated_ segment.
+
+	> That should take you to segment #8.
+
+
+## Exercise 02.7: select a match and insert it
+
+> You're now in segment #8. 
+
+1. Notice how the first match is not so convenient as the second match.
+2. Press ++ctrl+2++ to select match #2.
+3. Press ++ctrl+i++ to insert match #2.
+
+## Exercise 02.8: pretranslated and editable
+
+> You're still in segment #8. 
+
+14. Notice how segments #9 and #10 are pretranslated.
+15. Notice that they have a pink background. That means that they can be edited.
+16. Press ++ctrl+u++ to go to the next _untranslated_ segment.
+
+## Exercise 02.9: almost identical match 
+
+> You're in segment #11.
+
+2. Notice how pressing ++ctrl+u++ has jumped over the two pretranslated segments.
+
+	> Source text reads `Welcome to this survey.`
 
 17. Notice how this segment is almost identical to the first segment you translated.
 	
@@ -68,93 +141,33 @@ You're in segment #8.
 18. Press ++ctrl+i++ to insert the match.
 19. Update the translation now.
 
-	> Replace final dot `.` with exclamation mark ` !`
+	> Replace the exclamation mark ` !` with a full stop `.`
 
-## Exercise 02.7: pretranslated and locked
+10. Press ++ctrl+u++ to go to the next _untranslated_ segment.
 
-You're still in segment #8.
-
-20. Notice how segments #9, #11 and a few others are pretranslated.
-21. Notice that they have an orange background. That means they are enforced translations, in other words: not editable.
-22. Modify the translation (just add a few characters)
-23. Press F5 to reload the project.
-24. Notice how your edits are now gone.
-
-<!-- harmonize: move to -> go to @todo -->
-
-## Exercise 02.8: select match
-
-1. Press ++ctrl+j++ and enter number 15 to go to segment #15.
-2. Notice that this segment is pretranslated.
-3. Go to segment #16.
-
-	> Source text reads `Good`
-
-4. Notice how the **Matches** pane presents two matches you could use.
-5. Press ++ctrl+2++ to select the second match (match #2).
-6. Press ++ctrl+i++ to insert the selected match (match #2).
-7. Delete `plutôt` and change the case.
-
-	> Expected result: `Bon`
-
-<!-- @todo: disable predictive typing and delete files... -->
-
-!!! note
-	In this case both matches required the same amount of work to update them.  
-	The only reason why you have to select and insert match #2 is to make you practice ;)
-
-## Exercise 02.9: insert selection
-
-8. Press ++ctrl+u++ to go to segment #17.
-9. Select "mauvaise" in the fuzzy match
-10. Now press ++ctrl+i++ to insert the selected text
-11. Update the match.
-
-	> Change case of `m` to `M`
-
-	> Expected result: `Mauvais`ç
-
-## Exercise 02.10: 
-
-12. Press ++ctrl+u++ to go to segment #18.
-13. Press ++ctrl+2++, then press ++ctrl+3++, as many times as you want.
-14. Notice how match #2 and match #3 get seleted when you press the shortcuts above.
-15. Select one and insert it, then updated it.
-
-	> Here you're free to update the fuzzy match as you like.
-
-	> Expected resul: `Très mauvais`
-
-!!! info "Recap" 
-	To recap, the available options are: 
-	
-	1. Write  `Très`, then select `mauvaise` in match #2 and press ++ctrl+i++
-	2. Press ++ctrl+2++, then ++ctrl+i++ to insert match #2, then replace `PLutôt` with `Très`
-	3. Press ++ctrl+3++, then ++ctrl+i++ to insert `Mauvaise`, then update it, then add `Très` at the beginning 
-	4. Write `Très`, then press ++ctrl+3++, then ++ctrl+i++ to insert match #3, then update it.
-
-	They are all valid approaches, any is fine as long as the result is correct.
-
+	> That should take you to segment #12.
 
 <!-- 
 quiz: which one is more efficient? 
 -->
 
 
-<!-- 
-
-#15 -> Très + select "bon" -> ctrl+i
-ctr+u -> #16
-ctrl+i -> + delete très
-ctrl+u -> #17
-select "mauvaise" + ctrl+i + update (m -> M)
-ctrl+u -> #18
-<. three matches
-press ctrl+2 to select the second match
-press ctrl+i to insert it
-write "Très" + ctrl+i to insert  + update
--->
-
 <!--
 quiz: do you prefer to select and insert, or insert and update? 
 -->
+
+
+## Exercise 02.10: insert match and update it 
+
+Ok, the last one if you have time :) 
+
+> You're now in segment #12.
+
+3. Notice that there's a fuzzy match you can use. 
+4. Press ++ctrl+i++ to insert it.
+5. Looking at the match in the **Matches** pane, notice the difference between the new source text and the source text in "tracked changes". 
+6. Update the inserted translation so that it corresponds to the source text you're translating. 
+
+	> Tip: Replace `financière` with `économique`
+
+Well done!
