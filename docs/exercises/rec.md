@@ -14,7 +14,7 @@ With that setting, the **Matches** pane will show you only the translations you 
 
 Please remember to restore the default value when you're not reconciling.
 
-## Exercise 04.01: inserting one match
+## Exercise 03.01: inserting one match
 
 1. Go to segment #57 and read it. Here comes a story for you.
 
@@ -31,7 +31,7 @@ Please remember to restore the default value when you're not reconciling.
 
 <!-- add info above to the guides @todo -->
 
-## Exercise 04.02: selecting the match
+## Exercise 03.02: selecting the match
 
 > You're now on segment #59.
 
@@ -64,7 +64,7 @@ Please remember to restore the default value when you're not reconciling.
 
 16. Press ++ctrl+u++ to move to the next _unreconciled_ segment.
 
-## Exercise 04.03: assembling fragments
+## Exercise 03.03: assembling fragments
 
 > You are in segment #62.
 

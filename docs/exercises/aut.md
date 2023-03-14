@@ -4,7 +4,7 @@
 	Add link to the section in the guide.
 You may insert special characters in different ways: autotext shortcut, character table, etc.
 
-## Exercise 06.1: use a known autotext shortcut
+## Exercise 07.1: use a known autotext shortcut
 
 You may use the autotext shortcut `\sub2` to insert a subscript number 2 (i.e. `₂`). Now you know! :)
 
@@ -35,7 +35,7 @@ You may use the autotext shortcut `\sub2` to insert a subscript number 2 (i.e. `
 In this exercise you have used an autotext shortcut that you knew already. In the following exercises you'll find out an autotext entry that you don't know.
 
 
-## Exercise 06.2: find special character in the list of autotext entries
+## Exercise 07.2: find special character in the list of autotext entries
 
 In this exercise, you must insert the multiplication symbol but you don't know what autotext entry you can use. 
 
@@ -59,7 +59,7 @@ In this exercise, you must insert the multiplication symbol but you don't know w
 !!! info
 	You can find the list of autotext entries in [OmegaT guides](../../) > [Miscellanea](../../misc/) > [Autotext](../../misc/autotext/)
 
-## Exercise 06.3: insert special character from the character table
+## Exercise 07.3: insert special character from the character table
 
 Remember the auto-completer? You used it to insert tags. You'll use it again now to insert a special character.
 
@@ -81,7 +81,7 @@ Remember the auto-completer? You used it to insert tags. You'll use it again now
 <!-- @todo 77 << >> L'eau est « saturée » si la quantité maximale d'un soluté y est dissoute. Water is ‘undersaturated’ if it contains less than the maximum amount of dissolved solute. -->
 
 
-## Exercise 06.4: insert special quotation marks
+## Exercise 07.4: insert special quotation marks
 
 French uses special quotation marks, called angle quotes or "chevrons". You can use autotext to insert them.
 

@@ -12,7 +12,7 @@
 	**The active segment always has a green background.**{ .active }
 
 
-## Exercise 01.1
+## Exercise 01.1: moving through the project
 
 <!-- 
 NAVIGATION in first file??? 
@@ -63,7 +63,7 @@ remove if unnecessary, check with adri
 
 
 
-## Exercise 01.2
+## Exercise 01.2: moving through the project a bit more
 
 <!---Check segment numbers!!-->
 <!-- @demo about navigation: explain color green = active segment -->

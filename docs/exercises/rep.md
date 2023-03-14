@@ -1,4 +1,4 @@
-# 05 Repetitions
+# 05. Repetitions
 
 ## Exercise 05.1: recognize repeated segments
 <!-- @todo !!! note inline end "←TODO"
