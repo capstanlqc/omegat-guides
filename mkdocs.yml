@@ -2,7 +2,7 @@ site_name: OmegaT guides [cApStAn]
 site_url: https://capstanlqc.github.com/omegat-guides
 nav:
     - Contents: index.md
-    - Tags: misc/tags.md
+    #- Tags: misc/tags.md
     - Translation: 
         - Translation: translation/index.md
         - Installation and setup: translation/install-and-setup.md

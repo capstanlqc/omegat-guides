@@ -15,7 +15,7 @@
 2. With your mouse, hover over the two tags and notice how the two tags are _paired_.
     
     > The first tag stands for `<strong>` and the second tag stands for `</strong>`.
-    <!-- > @quiz: what do you think these are? How to we handle them: should we ignore them or reproduce them in the translation? @todo: move to quiz or remove -->
+    <!-- > @quiz: what do you think these are? How to handle them: should we ignore them or reproduce them in the translation? @todo: move to quiz or remove -->
 
 3. Translate segment #40. 
 
@@ -102,7 +102,7 @@ You have inserted the tag as you made progress through the translation.
     
     > Source text reads: `The translator had to pay attention to formatting such as <g1>bold</g1>, <g2>italics</g2>, <g3>underline</g3>.`
 
-2. Hover over the tags with your mouse to display a toltip that shows the line code the tags stand for.
+2. Hover over the tags with your mouse to display a tooltip that shows the line code the tags stand for.
 
     > Tip: the tooltip should display HTML tags `<strong>`, `<em>`, `<span class="underline">` etc.
 

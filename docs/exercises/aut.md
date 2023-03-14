@@ -20,7 +20,7 @@ You may use the autotext shortcut `\sub2` to insert a subscript number 2 (i.e. `
 
 1. Go to segment #72 and read the source text.
 
-	> Source text reads: `Le dioxyde de carbone (CO2) se dissout dans l'eau de mer pour former de l'acide carbonique.`
+	> Target text reads `Le dioxyde de carbone (CO2) se dissout dans l'eau de mer pour former de l'acide carbonique.`
 
 2. Delete number 2 in “CO2” (and keep the cursor right after "CO").
 

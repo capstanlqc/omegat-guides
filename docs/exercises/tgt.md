@@ -1,5 +1,11 @@
 # 09. Download git project + commit target files + helpdesk
 
+![](../_assets/img/image001.png)
+
+![](../_assets/img/image002.png)
+
+![](../_assets/img/image003.png)
+
 !!! note "NOTE FOR HELPERS"
 	This is a draft.
 

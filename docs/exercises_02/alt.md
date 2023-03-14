@@ -1,6 +1,6 @@
-# 06. Alternative repetitions
+# 06. Alternative translations
 
-In the previous section you saw that translations of repeated segments (or edits in those translations) auto-propagate to all intances of that repeated segment when you save them (or leave the segment).
+In the previous section you saw that translations of repeated segments (or edits in those translations) auto-propagate to all instances of that repeated segment when you save them (or leave the segment).
 
 That is convenient in many cases, but not always. Sometimes you'll have to prevent auto-propagation. To do that, you must create an **alternative translation**.
 
@@ -14,7 +14,7 @@ That is convenient in many cases, but not always. Sometimes you'll have to preve
 
     > `Good` and `Bad` in segments #5 and #6 in this context refer to "level of English" which is masculine in French. However, your translation ("BonNE" and "MauvaisE") refers to "situation economique" and therefore is feminine.
 
-You want to modify the translation in segments #5 and #6 to make it masculine, so that it agrees with "level" in French. 
+You want to modify the translation in segments #16 and #17 to make it masculine, so that it agrees with "level" in French. 
 
 Follow these three simple but VERY IMPORTANT steps:
 
@@ -33,7 +33,7 @@ Follow these three simple but VERY IMPORTANT steps:
 
 Did you follow the steps above? If you did, now you'll notice that:
 
-* your alternative translation appears now in the **Mutiple Translations** pane, below the followed the default translation and followed by the filename and the segment ID.
+* your alternative translation appears now in the **Multiple Translations** pane, below the followed the default translation and followed by the filename and the segment ID.
 <!-- @todo: confirm the |filename will be there -->
 * the **Segment Properties** pane for that segment says now "Is alternative: TRUE"
 * the (default) translation of segment #2 hasn't changed

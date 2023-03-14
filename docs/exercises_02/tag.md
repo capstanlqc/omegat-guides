@@ -41,7 +41,7 @@ Well done!
     
     > Source text reads: `The translator had to pay attention to formatting such as <g1>bold</g1>, <g2>italics</g2>, <g3>underline</g3>.`
 
-2. Hover over the tags with your mouse to display a toltip that shows the line code the tags stand for.
+2. Hover over the tags with your mouse to display a tooltip that shows the line code the tags stand for.
 
     > Tip: the tooltip should display HTML tags `<strong>`, `<em>`, `<span class="underline">` etc.
 
