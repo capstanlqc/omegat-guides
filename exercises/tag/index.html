@@ -2204,57 +2204,43 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#exercise-041-insert-tags" class="md-nav__link">
-    Exercise 04.1: insert tags
+  <a href="#exercise-041-insert-paired-tags" class="md-nav__link">
+    Exercise 04.1: insert paired tags
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#exercise-042-trigger-the-tag-tooltip" class="md-nav__link">
-    Exercise 04.2: trigger the tag tooltip
+  <a href="#exercise-042-see-what-tags-stand-for" class="md-nav__link">
+    Exercise 04.2: see what tags stand for
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#exercise-043-see-what-standalone-tags-stand-for" class="md-nav__link">
-    Exercise 04.3: see what standalone tags stand for
+  <a href="#exercise-043-insert-standalone-tags" class="md-nav__link">
+    Exercise 04.3: insert standalone tags
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#exercise-044-insert-standalone-tags" class="md-nav__link">
-    Exercise 04.4: insert standalone tags
+  <a href="#exercise-044-insert-standalone-tag-as-you-translate" class="md-nav__link">
+    Exercise 04.4: insert standalone tag as you translate
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#exercise-045-insert-standalone-tag-as-you-translate" class="md-nav__link">
-    Exercise 04.5: insert standalone tag as you translate
+  <a href="#exercise-045-trigger-the-tag-tooltip" class="md-nav__link">
+    Exercise 04.5: trigger the tag tooltip
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#exercise-048-insert-more-tags" class="md-nav__link">
-    Exercise 04.8: insert more tags
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#exercise-045-relocate-tag" class="md-nav__link">
-    Exercise 04.5: relocate tag
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#exercise-046-relocate-tag" class="md-nav__link">
-    Exercise 04.6: relocate tag
+  <a href="#exercise-046-insert-more-tags" class="md-nav__link">
+    Exercise 04.6: insert more tags
   </a>
   
 </li>
@@ -2378,34 +2364,38 @@
 
 <h1 id="04-tags">04. Tags<a class="headerlink" href="#04-tags" title="Permanent link">&para;</a></h1>
 <div class="admonition tip">
-<p class="admonition-title">Reminder</p>
-<p><a href="https://capstanlqc.github.io/omegat-guides/translation/tags/">Tags</a> 
+<p class="admonition-title">This section in the guides</p>
+<p><a href="https://capstanlqc.github.io/omegat-guides/translation/tags/">Tags</a>.
 <!-- @ŧodo: make this link role-specific --></p>
 </div>
-<h2 id="exercise-041-insert-tags">Exercise 04.1: insert tags<a class="headerlink" href="#exercise-041-insert-tags" title="Permanent link">&para;</a></h2>
+<h2 id="exercise-041-insert-paired-tags">Exercise 04.1: insert paired tags<a class="headerlink" href="#exercise-041-insert-paired-tags" title="Permanent link">&para;</a></h2>
 <ol>
 <li>
-<p>Go to segment #10, which is untranslated.</p>
+<p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-j">J</kbd></span> and enter 40 to go to segment #40, which is untranslated.</p>
 <blockquote>
-<p>Source text reads: <code>There are no &lt;g1&gt;right&lt;/g1&gt; answers.</code> <!-- segment should be untranslated --></p>
+<p>Source text reads: <code>Click &lt;g1&gt;Play&lt;/g1&gt; to see it in action.</code></p>
 </blockquote>
 </li>
 <li>
-<p>Notice the two tags in the segment.</p>
+<p>Notice the two tags in the segment. </p>
+</li>
+<li>
+<p>With your mouse, hover over the two tags and notice how the two tags are <em>paired</em>.</p>
 <blockquote>
-<p>@quiz: what do you think these are? How to we handle them: should we ignore them or reproduce them in the translation? @todo: move to quiz or remove</p>
+<p>The first tag stands for <code>&lt;strong&gt;</code> and the second tag stands for <code>&lt;/strong&gt;</code>.
+<!-- > @quiz: what do you think these are? How to we handle them: should we ignore them or reproduce them in the translation? @todo: move to quiz or remove --></p>
 </blockquote>
 </li>
 <li>
-<p>Translate segment #10. </p>
+<p>Translate segment #40. </p>
 <blockquote>
-<p>Suggested translation: <code>Il n’y a pas de bonne réponse.</code></p>
+<p>Suggested translation: <code>Cliquez sur Jouer pour voir ça en action.</code></p>
 </blockquote>
 </li>
 <li>
-<p>Select the part of the translation that corresponds to "right"</p>
+<p>Select the part of the translation that corresponds to "Play"</p>
 <blockquote>
-<p>Tip: you should select <code>bonne</code></p>
+<p>Tip: you should select <code>Jouer</code></p>
 </blockquote>
 </li>
 <li>
@@ -2416,34 +2406,15 @@
 <li>
 <p>Notice how the two paired tags are inserted around the selected text in the translation.</p>
 <blockquote>
-<p>Expected result: <code>Il n’y a pas de &lt;g1&gt;bonne&lt;/g1&gt; réponse.</code></p>
+<p>Expected result: <code>Cliquez sur &lt;g1&gt;Jouer&lt;/g1&gt; pour le voir en action.</code></p>
 </blockquote>
 </li>
 </ol>
 <p>Well done! </p>
-<h2 id="exercise-042-trigger-the-tag-tooltip">Exercise 04.2: trigger the tag tooltip<a class="headerlink" href="#exercise-042-trigger-the-tag-tooltip" title="Permanent link">&para;</a></h2>
-<!-- translation: Le traducteur a dû prêter attention au formatage tel que le gras, l'italique, le soulignement</g3>. -->
-
+<h2 id="exercise-042-see-what-tags-stand-for">Exercise 04.2: see what tags stand for<a class="headerlink" href="#exercise-042-see-what-tags-stand-for" title="Permanent link">&para;</a></h2>
 <ol>
 <li>
-<p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-j">J</kbd></span> and enter 55 to go to segment #55.</p>
-<blockquote>
-<p>Source text reads: <code>The translator had to pay attention to formatting such as &lt;g1&gt;bold&lt;/g1&gt;, &lt;g2&gt;italics&lt;/g2&gt;, &lt;g3&gt;underline&lt;/g3&gt;.</code></p>
-</blockquote>
-</li>
-<li>
-<p>Hover over the tags with your mouse to display a toltip that shows the line code the tags stand for.</p>
-<blockquote>
-<p>Tip: the tooltip should display HTML tags <code>&lt;strong&gt;</code>, <code>&lt;em&gt;</code>, <code>&lt;span class="underline"&gt;</code> etc.</p>
-</blockquote>
-</li>
-</ol>
-<!-- @ŧodo: add exercise about notes, add exercise about search hash -->
-
-<h2 id="exercise-043-see-what-standalone-tags-stand-for">Exercise 04.3: see what standalone tags stand for<a class="headerlink" href="#exercise-043-see-what-standalone-tags-stand-for" title="Permanent link">&para;</a></h2>
-<ol>
-<li>
-<p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-j">J</kbd></span> and enter 75 to go to segment #75.</p>
+<p>Go to segment #41.</p>
 <blockquote>
 <p>Source text reads <code>if &lt;x1/&gt; sensor detects black</code></p>
 </blockquote>
@@ -2458,7 +2429,7 @@
 </blockquote>
 </li>
 <li>
-<p>Go to the next segment, #76</p>
+<p>Go to the next segment, #42.</p>
 </li>
 <li>Notice how this segment has <em>two</em> standalone tags, not two paired tags! </li>
 <li>
@@ -2472,9 +2443,9 @@
 <p class="admonition-title">Warning</p>
 <p>The difference between two standalone tags and two paired tags is very important.</p>
 </div>
-<h2 id="exercise-044-insert-standalone-tags">Exercise 04.4: insert standalone tags<a class="headerlink" href="#exercise-044-insert-standalone-tags" title="Permanent link">&para;</a></h2>
+<h2 id="exercise-043-insert-standalone-tags">Exercise 04.3: insert standalone tags<a class="headerlink" href="#exercise-043-insert-standalone-tags" title="Permanent link">&para;</a></h2>
 <ol>
-<li>Go to segment #77.</li>
+<li>Go to segment #43.</li>
 <li>Notice that the tag is missing in the translation.</li>
 <li>
 <p>Place the mouse cursor in the position where you would like to insert the tag.</p>
@@ -2485,7 +2456,7 @@
 <li>
 <p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-space">Space</kbd></span> to launch the auto-completer and insert the tag.</p>
 </li>
-<li>Go to segment #78. </li>
+<li>Go to segment #44. </li>
 <li>Notice how the tag is also missing in this translation.</li>
 <li>
 <p>Place the mouse cursor in the position where you would like to insert the tag.</p>
@@ -2497,9 +2468,9 @@
 <p>Use the auto-completer to insert the missing tag.</p>
 </li>
 </ol>
-<h2 id="exercise-045-insert-standalone-tag-as-you-translate">Exercise 04.5: insert standalone tag as you translate<a class="headerlink" href="#exercise-045-insert-standalone-tag-as-you-translate" title="Permanent link">&para;</a></h2>
+<h2 id="exercise-044-insert-standalone-tag-as-you-translate">Exercise 04.4: insert standalone tag as you translate<a class="headerlink" href="#exercise-044-insert-standalone-tag-as-you-translate" title="Permanent link">&para;</a></h2>
 <ol>
-<li>Go to segment #79.</li>
+<li>Go to segment #45.</li>
 <li>To translate the segment and insert the tag, proceed in this way: </li>
 <li>
 <p>Translate "repeat"</p>
@@ -2510,7 +2481,7 @@
 <li>
 <p>Use the auto-completer to insert the missing tag</p>
 <blockquote>
-<p>Remember the shortcut to launche the auto-completer is <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-space">Space</kbd></span></p>
+<p>Remember the shortcut to launch the auto-completer is <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-space">Space</kbd></span>.</p>
 </blockquote>
 </li>
 <li>
@@ -2521,9 +2492,28 @@
 </li>
 </ol>
 <p>You have inserted the tag as you made progress through the translation.</p>
-<h2 id="exercise-048-insert-more-tags">Exercise 04.8: insert more tags<a class="headerlink" href="#exercise-048-insert-more-tags" title="Permanent link">&para;</a></h2>
+<h2 id="exercise-045-trigger-the-tag-tooltip">Exercise 04.5: trigger the tag tooltip<a class="headerlink" href="#exercise-045-trigger-the-tag-tooltip" title="Permanent link">&para;</a></h2>
+<!-- translation: Le traducteur a dû prêter attention au formatage tel que le gras, l'italique, le soulignement</g3>. -->
+
 <ol>
-<li>Still in segment #39, notice how most tags are missing in the translation.</li>
+<li>
+<p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-j">J</kbd></span> and enter 48 to go to segment #48.</p>
+<blockquote>
+<p>Source text reads: <code>The translator had to pay attention to formatting such as &lt;g1&gt;bold&lt;/g1&gt;, &lt;g2&gt;italics&lt;/g2&gt;, &lt;g3&gt;underline&lt;/g3&gt;.</code></p>
+</blockquote>
+</li>
+<li>
+<p>Hover over the tags with your mouse to display a toltip that shows the line code the tags stand for.</p>
+<blockquote>
+<p>Tip: the tooltip should display HTML tags <code>&lt;strong&gt;</code>, <code>&lt;em&gt;</code>, <code>&lt;span class="underline"&gt;</code> etc.</p>
+</blockquote>
+</li>
+</ol>
+<!-- @ŧodo: add exercise about notes, add exercise about search hash -->
+
+<h2 id="exercise-046-insert-more-tags">Exercise 04.6: insert more tags<a class="headerlink" href="#exercise-046-insert-more-tags" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Still in segment #48, notice how most tags are missing in the translation.</li>
 <li>
 <p>Select the part of the translation that corresponds to “bold” </p>
 <blockquote>
@@ -2532,8 +2522,13 @@
 </li>
 <li>
 <p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-space">Space</kbd></span> to open the "Missing tags" section in the auto-completer.</p>
+<blockquote>
+<p>The first line (i.e. <code>&lt;g1&gt;&lt;/g1&gt;</code>) is selected by default. </p>
+</blockquote>
 </li>
-<li>The first line (i.e. <code>&lt;g1&gt;&lt;/g1&gt;</code>) is selected by default. Press <span class="keys"><kbd class="key-enter">Enter</kbd></span> to insert that tag pair.</li>
+<li>
+<p>Press <span class="keys"><kbd class="key-enter">Enter</kbd></span> to insert the tag pair that appears in the first line of the auto-completer.</p>
+</li>
 <li>
 <p>Notice how the tags have been inserted around the selected text</p>
 <blockquote>
@@ -2543,78 +2538,77 @@
 <li>
 <p>Do the same for the translation of “italics”</p>
 <blockquote>
-<p>Tip: <code>l’italique</code></p>
+<p>Results should be <code>&lt;g2&gt;l’italique&lt;/g2&gt;</code></p>
 </blockquote>
 </li>
 <li>
-<p>Do the same for the translation of “underline”</p>
+<p>Notice how you cannot insert a tag pair around the translation of “underline” because closing tag <code>&lt;/g3&gt;</code> is already inserted.</p>
+</li>
+<li>
+<p>Place the mouse cursor in the position where you would like to insert the tag that is paired with <code>&lt;/g3&gt;</code>.</p>
+</li>
+<li>
+<p>Use the auto-completer (<span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-space">Space</kbd></span>) to insert tag <code>&lt;g3&gt;</code>.</p>
 <blockquote>
-<p>Tip: <code>le soulignement</code> </p>
+<p>Results should be <code>&lt;g3&gt;le soulignement&lt;/g3&gt;</code> </p>
 </blockquote>
 </li>
 </ol>
-<blockquote>
-<p>@quiz: insert </p>
-</blockquote>
-<div class="admonition note">
-<p class="admonition-title">NOTE FOR HELPERS</p>
-<p>Two exercises for verifiers, won't be mixed with the above. Feel free to do these two exercises now and provide feedback but they will be reviewed and wrapped up later (after the seminar).</p>
-</div>
-<!-- @todo: comment this whole section, and add later to the exercises in the verifiers guide -->
-
-<h2 id="exercise-045-relocate-tag">Exercise 04.5: relocate tag<a class="headerlink" href="#exercise-045-relocate-tag" title="Permanent link">&para;</a></h2>
-<p>In this exercise, you'll practice how to move a tag.</p>
-<ol>
-<li>
-<p>Go to segment #30 (“<g1>Don’t Open This Email</g1>”) <!-- translation: N<g1>'ouvrez pas cet </g1>e-mail --></p>
-<blockquote>
-<p>@quiz: what do you notice?</p>
-</blockquote>
-</li>
-<li>
-<p>Notice how the position of the first tag (tag <code>&lt;g1&gt;</code>) is incorrect. You will fix that.</p>
-<blockquote>
-<p>@quiz: it should be at the beginning of the segment / end / in the middle</p>
-</blockquote>
-</li>
-<li>
-<p>Double click on the tag <code>&lt;g1&gt;</code> to select it.</p>
-</li>
-<li>
-<p>Now drag and drop it to the correct position.</p>
-<blockquote>
-<p>tip: the paired tags should also include "N" </p>
-</blockquote>
-</li>
-</ol>
-<details class="note">
-<summary>Solution</summary>
-<p>shows the expected result (the solution) @todo: complete</p>
-</details>
-<div class="admonition note">
-<p class="admonition-title">Tip for RTL languages</p>
-<p>Please use the helpdesk if you find a complicated situation and we'll help you.</p>
-</div>
 <p>Well done!</p>
-<h2 id="exercise-046-relocate-tag">Exercise 04.6: relocate tag<a class="headerlink" href="#exercise-046-relocate-tag" title="Permanent link">&para;</a></h2>
-<p>In this exercise, you'll practice another way to move a tag to its correct position.</p>
-<ol>
-<li>Still in segment #30 (“<g1>Don’t Open This Email</g1>”) <!-- translation is now: <g1>N'ouvrez pas cet </g1>e-mail --></li>
-<li>Notice the position of the second tag (<code>&lt;/g1&gt;</code>) is also incorrect.</li>
-<li>Double click on the tag <code>&lt;g1&gt;</code> to select it.</li>
-<li>Press +del+ on your keyboard to delete the tag.</li>
-<li>Place the cursor (e.g. just click) where you want the tag to appear instead</li>
-<li>
-<p>Use the auto-completer to insert the tag</p>
-<blockquote>
-<p>tip: <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-space">Space</kbd></span></p>
-</blockquote>
-</li>
-</ol>
-<details class="note">
-<summary>Solution</summary>
-<p>shows the expected result (the solution) @todo: complete</p>
-</details>
+<!-- @ŧodo > @quiz: insert  -->
+
+<!-- 
+!!! note "NOTE FOR HELPERS"
+    Two exercises for verifiers, won't be mixed with the above. Feel free to do these two exercises now and provide feedback but they will be reviewed and wrapped up later (after the seminar).
+
+@todo: comment this whole section, and add later to the exercises in the verifiers guide
+
+
+## Exercise 04.7: relocate tag
+
+In this exercise, you'll practice how to move a tag.
+
+1. Go to segment #30 (“<g1>Don’t Open This Email</g1>”)
+> translation: N<g1>'ouvrez pas cet </g1>e-mail 
+
+    > @quiz: what do you notice?
+
+2. Notice how the position of the first tag (tag `<g1>`) is incorrect. You will fix that.
+
+    > @quiz: it should be at the beginning of the segment / end / in the middle
+
+3. Double click on the tag `<g1>` to select it.
+4. Now drag and drop it to the correct position.
+
+    > tip: the paired tags should also include "N" 
+
+??? note "Solution"
+    shows the expected result (the solution) @todo: complete
+
+!!! note "Tip for RTL languages"
+
+    Please use the helpdesk if you find a complicated situation and we'll help you.
+
+Well done!
+
+## Exercise 04.8d: relocate tag
+
+In this exercise, you'll practice another way to move a tag to its correct position.
+
+1. Still in segment #30 (“<g1>Don’t Open This Email</g1>”) ç
+> translation is now: <g1>N'ouvrez pas cet </g1>e-mail 
+2. Notice the position of the second tag (`</g1>`) is also incorrect.
+3. Double click on the tag `<g1>` to select it.
+4. Press +del+ on your keyboard to delete the tag.
+5. Place the cursor (e.g. just click) where you want the tag to appear instead
+6. Use the auto-completer to insert the tag
+
+    > tip: ++ctrl+space++
+
+??? note "Solution"
+    shows the expected result (the solution) @todo: complete
+
+-->
 
 
 

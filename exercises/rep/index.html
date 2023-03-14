@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#02-repetitions" class="md-skip">
+        <a href="#05-repetitions" class="md-skip">
           Skip to content
         </a>
       
@@ -2218,22 +2218,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#exercise-021-notice-repeated-segments" class="md-nav__link">
-    Exercise 02.1: notice repeated segments
+  <a href="#exercise-051-recognize-repeated-segments" class="md-nav__link">
+    Exercise 05.1: recognize repeated segments
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#exercise-022-auto-propagate-translations" class="md-nav__link">
-    Exercise 02.2: auto-propagate translations
+  <a href="#exercise-052-auto-propagate-translations" class="md-nav__link">
+    Exercise 05.2: auto-propagate translations
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#exercise-023-auto-propagate-edits-in-translations" class="md-nav__link">
-    Exercise 02.3: auto-propagate edits in translations
+  <a href="#exercise-053-auto-propagate-edits-in-translations" class="md-nav__link">
+    Exercise 05.3: auto-propagate edits in translations
   </a>
   
 </li>
@@ -2341,76 +2341,81 @@
 
 
 
-<h1 id="02-repetitions">02. Repetitions<a class="headerlink" href="#02-repetitions" title="Permanent link">&para;</a></h1>
-<h2 id="exercise-021-notice-repeated-segments">Exercise 02.1: notice repeated segments<a class="headerlink" href="#exercise-021-notice-repeated-segments" title="Permanent link">&para;</a></h2>
+<h1 id="05-repetitions">05 Repetitions<a class="headerlink" href="#05-repetitions" title="Permanent link">&para;</a></h1>
+<h2 id="exercise-051-recognize-repeated-segments">Exercise 05.1: recognize repeated segments<a class="headerlink" href="#exercise-051-recognize-repeated-segments" title="Permanent link">&para;</a></h2>
+<!-- @todo !!! note inline end "←TODO"
+    @quiz: how many reps in total?  -->
+
 <ol>
 <li>
-<p>Go to segment #2</p>
+<p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-j">J</kbd></span> and enter 13 to go to segment #13.</p>
 <blockquote>
-<p>Source text reads: <code>Good</code></p>
+<p>Source text reads: <code>Pretty good</code></p>
 </blockquote>
 </li>
-</ol>
-<div class="admonition note inline end">
-<p class="admonition-title">←TODO</p>
-<p>@quiz: how many reps in total? </p>
-</div>
-<ol>
 <li>
-<p>Notice how the segment marker says that this segment is repeated three more times: <code>&lt;segment 0002 +3 more ¶&gt;</code>. </p>
+<p>Notice how the segment marker says that this segment is repeated three more times.</p>
+<blockquote>
+<p><code>&lt;segment 0013 +1 more ¶&gt;</code>. </p>
+</blockquote>
 </li>
 <li>
 <p>Look at the <strong>Segment Properties</strong> pane. It says "Is duplicate: FIRST"</p>
 </li>
 <li>Right click on the segment. See how all the instances are listed and identified by their segment number. </li>
-<li>Select segment #5 on the list to go to segment #5.</li>
-<li>Look at the <strong>Segment Properties</strong> pane for segment #5. It says "Is duplicate: NEXT"</li>
+<li>Select <code>Segment 6</code> on the list to go to segment #16.</li>
+<li>Look at the <strong>Segment Properties</strong> pane for segment #16. It says "Is duplicate: NEXT"</li>
+<li>Right click on segment #16 to see instances listed again, go back to segment #13 again.</li>
 </ol>
-<div class="admonition note inline end">
-<p class="admonition-title">←TODO</p>
-<p>@quiz: some question about FIRST and NEXT (feedback welcome)</p>
-</div>
+<h2 id="exercise-052-auto-propagate-translations">Exercise 05.2: auto-propagate translations<a class="headerlink" href="#exercise-052-auto-propagate-translations" title="Permanent link">&para;</a></h2>
 <ol>
-<li>Right click on segment #5 to see instances listed again, go back to segment #2 again.</li>
-</ol>
-<h2 id="exercise-022-auto-propagate-translations">Exercise 02.2: auto-propagate translations<a class="headerlink" href="#exercise-022-auto-propagate-translations" title="Permanent link">&para;</a></h2>
-<ol>
+<li>Go to segment #12.</li>
 <li>
-<p>Translate segment #2. Suggested translation: "BonNE" </p>
+<p>Translate segment #12. <!-- put this translation in auto @todo --></p>
 <blockquote>
-<p>-NE ending: feminine suffix, because "Good" here refers to "economic situation", which is feminine in French</p>
+<p>You can insert the match (<span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-i">I</kbd></span>) and update it (replace <code>financière</code> with <code>économique</code>)</p>
 </blockquote>
 </li>
 <li>
-<p>Press <span class="keys"><kbd class="key-enter">Enter</kbd></span> after translating segment #2 to go to segment #3.</p>
+<p>Notice how "situation économique" is grammatically feminine in French. </p>
 </li>
-<li>Notice how the translation is auto-propagated to segment #5.</li>
 <li>
-<p>Translate segment #3. Suggested translation: "MauvaisE"</p>
+<p>Go to segment #13 and translate it. Suggested translation: <code>Plutôt bonNE</code></p>
 <blockquote>
-<p>-E ending: feminine suffix, because "Bad" here refers to "economic situation", which is feminine in French</p>
+<p>The -NE ending is the feminine suffix, because "Good" here refers to "economic situation", which is feminine in French</p>
 </blockquote>
 </li>
 <li>
-<p>Press <span class="keys"><kbd class="key-enter">Enter</kbd></span> after translating segment #3 to confirm the translation of segment #3 and go to the next segment.</p>
+<p>Press <span class="keys"><kbd class="key-enter">Enter</kbd></span> after translating segment #13 to go to segment #14.</p>
 </li>
-<li>Notice how the translation is auto-propagated to segment #6.</li>
+<li>Notice how the translation is auto-propagated to segment #16.</li>
+<li>
+<p>Translate segment #14. Suggested translation: <code>Plutôt mauvaisE</code></p>
+<blockquote>
+<p>The -E ending is the feminine suffix, because "Bad" here refers to "economic situation", which is feminine in French</p>
+</blockquote>
+</li>
+<li>
+<p>Press <span class="keys"><kbd class="key-enter">Enter</kbd></span> after translating segment #14 to confirm the translation of segment #14 and go to the next segment.</p>
+</li>
+<li>Notice how the translation is auto-propagated to segment #17.</li>
 </ol>
-<h2 id="exercise-023-auto-propagate-edits-in-translations">Exercise 02.3: auto-propagate edits in translations<a class="headerlink" href="#exercise-023-auto-propagate-edits-in-translations" title="Permanent link">&para;</a></h2>
+<h2 id="exercise-053-auto-propagate-edits-in-translations">Exercise 05.3: auto-propagate edits in translations<a class="headerlink" href="#exercise-053-auto-propagate-edits-in-translations" title="Permanent link">&para;</a></h2>
 <ol>
 <li>
-<p>Go to segment #5 in the project. You can see that it is translated with your auto-propagated translation.</p>
+<p>Go to segment #16 in the project. You can see that it is translated with your auto-propagated translation.</p>
 </li>
 <li>
-<p>Modify the translation in segment #5 and press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-s">S</kbd></span> to save the translation. </p>
+<p>Modify the translation (append "xx") in segment #16 and press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-s">S</kbd></span> to save the translation. </p>
 </li>
-<li>Notice how the translation of segment #2 also changes. </li>
+<li>Notice how the translation of segment #13 also changes. </li>
+<li>Do the same in segment #17 and see how changes auto-propagate to segment #14.</li>
 </ol>
 <!-- add link in the guide to the shortcuts page when we mention a shortcut -->
 
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>Shortcut <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-s">S</kbd></span> saves the translation. You can also save in <strong>Project</strong> &gt; <strong>Save</strong>, but it takes longer ;)</p>
+<p>Shortcut <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-s">S</kbd></span> saves the translation. You can also save in <strong>Project</strong> &gt; <strong>Save</strong>, but using the mouse takes longer ;)</p>
 </div>
 <!-- add this tip to the guides -->
 

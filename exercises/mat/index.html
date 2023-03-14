@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#02-matches-wip" class="md-skip">
+        <a href="#02-matches" class="md-skip">
           Skip to content
         </a>
       
@@ -2183,15 +2183,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#exercise-022-insert-match-and-update-it" class="md-nav__link">
-    Exercise 02.2: insert match and update it
+  <a href="#exercise-022-pretranslated-and-locked" class="md-nav__link">
+    Exercise 02.2: pretranslated and locked
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#exercise-023-insert-exact-match" class="md-nav__link">
-    Exercise 02.3: insert exact match
+  <a href="#exercise-023-insert-match-and-update-it" class="md-nav__link">
+    Exercise 02.3: insert match and update it
   </a>
   
 </li>
@@ -2204,43 +2204,43 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#exercise-025-pretranslated-and" class="md-nav__link">
-    Exercise 02.5: pretranslated and
+  <a href="#exercise-025-insert-exact-match" class="md-nav__link">
+    Exercise 02.5: insert exact match
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#exercise-026-almost-identical-match" class="md-nav__link">
-    Exercise 02.6: almost identical match
+  <a href="#exercise-026-select-text-and-insert" class="md-nav__link">
+    Exercise 02.6: select text and insert
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#exercise-027-pretranslated-and-locked" class="md-nav__link">
-    Exercise 02.7: pretranslated and locked
+  <a href="#exercise-027-select-a-match-and-insert-it" class="md-nav__link">
+    Exercise 02.7: select a match and insert it
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#exercise-028-select-match" class="md-nav__link">
-    Exercise 02.8: select match
+  <a href="#exercise-028-pretranslated-and-editable" class="md-nav__link">
+    Exercise 02.8: pretranslated and editable
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#exercise-029-insert-selection" class="md-nav__link">
-    Exercise 02.9: insert selection
+  <a href="#exercise-029-almost-identical-match" class="md-nav__link">
+    Exercise 02.9: almost identical match
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#exercise-0210" class="md-nav__link">
-    Exercise 02.10:
+  <a href="#exercise-0210-insert-match-and-update-it" class="md-nav__link">
+    Exercise 02.10: insert match and update it
   </a>
   
 </li>
@@ -2390,41 +2390,104 @@
 
 
 
-<h1 id="02-matches-wip">02. Matches @WIP<a class="headerlink" href="#02-matches-wip" title="Permanent link">&para;</a></h1>
-<p>@todo: check whether tags + matches or matches + tags
-@todo: update numbers or remove them</p>
+<h1 id="02-matches">02. Matches<a class="headerlink" href="#02-matches" title="Permanent link">&para;</a></h1>
+<p>@TODO: add link to the part of the guide about matches</p>
 <h2 id="exercise-021-translate-from-scratch">Exercise 02.1: translate from scratch<a class="headerlink" href="#exercise-021-translate-from-scratch" title="Permanent link">&para;</a></h2>
 <ol>
 <li>
-<p>Translate segment #1.</p>
+<p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-j">J</kbd></span> and enter 1 to go to segment #1.</p>
 <blockquote>
-<p>Suggested translation: <code>Bienvenue à cette enquète.</code></p>
+<p>Source text reads <code>Welcome to this survey!</code></p>
 </blockquote>
 </li>
 <li>
-<p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-u">U</kbd></span> to go to segment #2.</p>
+<p>Translate segment #1.</p>
+<blockquote>
+<p>Suggested translation: <code>Bienvenue à cette enquète !</code></p>
+</blockquote>
+</li>
+<li>
+<p>Press <span class="keys"><kbd class="key-enter">Enter</kbd></span> to go to the next segment.</p>
 </li>
 </ol>
-<h2 id="exercise-022-insert-match-and-update-it">Exercise 02.2: insert match and update it<a class="headerlink" href="#exercise-022-insert-match-and-update-it" title="Permanent link">&para;</a></h2>
-<p>You're in segment #2. </p>
+<h2 id="exercise-022-pretranslated-and-locked">Exercise 02.2: pretranslated and locked<a class="headerlink" href="#exercise-022-pretranslated-and-locked" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>You're now in segment #2.</p>
+</blockquote>
+<ol>
+<li>Notice how this segment is pretranslated.</li>
+<li>
+<p>Notice that it has an orange background. That means that this is an enforced translation.</p>
+<blockquote>
+<p>In other words, the translation is not editable.</p>
+</blockquote>
+</li>
+<li>
+<p>Make some edits to modify the translation.</p>
+</li>
+<li>Press F5 to reload the project.</li>
+<li>Notice how your edits are now gone.</li>
+<li>
+<p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-u">U</kbd></span> to go to the next <em>untranslated</em> segment.</p>
+<blockquote>
+<p>That should take you to segment #3.</p>
+</blockquote>
+</li>
+</ol>
+<!-- harmonize: move to -> go to @todo -->
+
+<h2 id="exercise-023-insert-match-and-update-it">Exercise 02.3: insert match and update it<a class="headerlink" href="#exercise-023-insert-match-and-update-it" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>You're now in segment #3.</p>
+</blockquote>
 <ol>
 <li>Notice that there's a fuzzy match you can use. </li>
 <li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-i">I</kbd></span> to insert it.</li>
-<li>Looking at the <strong>Matches</strong> pane, notice that there's a difference between the new source text and the source text in the match. </li>
+<li>Looking at the match in the <strong>Matches</strong> pane, notice the difference between the new source text and the source text in "tracked changes". </li>
 <li>
 <p>Update the inserted translation so that it corresponds to the source text you're translating. </p>
 <blockquote>
-<p>Tip: Replace <code>financiere</code> with <code>économique</code>.</p>
+<p>Tip: Replace <code>sanitaire</code> with <code>économique</code>.</p>
 </blockquote>
 </li>
 <li>
-<p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-u">U</kbd></span> to go to segment #3.</p>
+<p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-u">U</kbd></span> to go to the next <em>untranslated</em> segment.</p>
+<blockquote>
+<p>That should take you to segment #5.</p>
+</blockquote>
 </li>
 </ol>
-<h2 id="exercise-023-insert-exact-match">Exercise 02.3: insert exact match<a class="headerlink" href="#exercise-023-insert-exact-match" title="Permanent link">&para;</a></h2>
-<p>You're in segment #3.</p>
+<h2 id="exercise-024-insert-match-and-update-it">Exercise 02.4: insert match and update it<a class="headerlink" href="#exercise-024-insert-match-and-update-it" title="Permanent link">&para;</a></h2>
 <ol>
-<li>Notice that there's an exact match which you can use as is. </li>
+<li>
+<p>Notice how pressing <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-u">U</kbd></span> has jumped over segment #4, which was already translated. </p>
+<blockquote>
+<p>You're in segment #5.</p>
+</blockquote>
+</li>
+<li>
+<p>There is a 50% match that you could use. Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-i">I</kbd></span> to insert it.</p>
+</li>
+<li>
+<p>Now update the translation so that it corresponds to the source text. </p>
+<blockquote>
+<p>Tip: delete <code>Très</code> and change the case of the first letter.</p>
+<p>Expected result: <code>Bon</code></p>
+</blockquote>
+</li>
+<li>
+<p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-u">U</kbd></span> to go to the next <em>untranslated</em> segment.</p>
+<blockquote>
+<p>That should take you to segment #6.</p>
+</blockquote>
+</li>
+</ol>
+<h2 id="exercise-025-insert-exact-match">Exercise 02.5: insert exact match<a class="headerlink" href="#exercise-025-insert-exact-match" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>You're in segment #6.</p>
+</blockquote>
+<ol>
+<li>Notice that there's an exact match which you can use as is. Your lucky day!</li>
 <li>
 <p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-i">I</kbd></span> to insert it.</p>
 <blockquote>
@@ -2432,34 +2495,84 @@
 </blockquote>
 </li>
 <li>
-<p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-u">U</kbd></span> to go to segment #4.</p>
+<p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-u">U</kbd></span> to go to the next <em>untranslated</em> segment.</p>
+<blockquote>
+<p>That should take you to segment #7.</p>
+</blockquote>
 </li>
 </ol>
-<h2 id="exercise-024-insert-match-and-update-it">Exercise 02.4: insert match and update it<a class="headerlink" href="#exercise-024-insert-match-and-update-it" title="Permanent link">&para;</a></h2>
-<p>You're in segment #4. Your previous translation is now a 50% match that you could use. </p>
+<h2 id="exercise-026-select-text-and-insert">Exercise 02.6: select text and insert<a class="headerlink" href="#exercise-026-select-text-and-insert" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>You're in segment #7.</p>
+</blockquote>
 <ol>
-<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-i">I</kbd></span> to insert the 50% match.</li>
+<li>Notice that there are two 50% matches that you could use. </li>
+<li>See what is the part that can be used in the first match.</li>
+<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-2">2</kbd></span> to select the second match.</li>
+<li>See what is the part that can be used in the second match.</li>
 <li>
-<p>Now update the translation so that it corresponds to the source text. </p>
+<p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-1">1</kbd></span> to select the first match again.</p>
 <blockquote>
-<p>Tip: delete <code>bon</code>, type <code>mauvaise</code></p>
-<p>Expected result: <code>Plutôt mauvaise</code></p>
+<p>Alternate between <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-1">1</kbd></span> and <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-2">2</kbd></span> to highlight the differences in each match.</p>
+</blockquote>
+</li>
+<li>
+<p>With your mouse, select <code>Très</code> in match #1.</p>
+<blockquote>
+<p>The translation of "very" in the first match is something you can use. </p>
+</blockquote>
+</li>
+<li>
+<p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-i">I</kbd></span> to insert your selection.</p>
+</li>
+<li>
+<p>With your mouse, select <code>mauvais</code> in match #2.</p>
+<blockquote>
+<p>You can also use the translation of "bad" in the second match. </p>
+</blockquote>
+</li>
+<li>
+<p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-i">I</kbd></span> to insert your selection.</p>
+<blockquote>
+<p>Expected result: <code>très mauvais</code></p>
+</blockquote>
+</li>
+<li>
+<p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-u">U</kbd></span> to go to the next <em>untranslated</em> segment.</p>
+<blockquote>
+<p>That should take you to segment #8.</p>
 </blockquote>
 </li>
 </ol>
-<h2 id="exercise-025-pretranslated-and">Exercise 02.5: pretranslated and<a class="headerlink" href="#exercise-025-pretranslated-and" title="Permanent link">&para;</a></h2>
-<p>You're still in segment #4. </p>
-<ol>
-<li>Notice how segment #5 is pretranslated.</li>
-<li>Notice that it has a pink background. That means that it is editable, if necessary.</li>
-<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-u">U</kbd></span> to go to segment #8.</li>
-</ol>
-<h2 id="exercise-026-almost-identical-match">Exercise 02.6: almost identical match<a class="headerlink" href="#exercise-026-almost-identical-match" title="Permanent link">&para;</a></h2>
-<p>You're in segment #8.</p>
+<h2 id="exercise-027-select-a-match-and-insert-it">Exercise 02.7: select a match and insert it<a class="headerlink" href="#exercise-027-select-a-match-and-insert-it" title="Permanent link">&para;</a></h2>
 <blockquote>
-<p>Source text reads <code>Welcome to this survey!</code></p>
+<p>You're now in segment #8. </p>
 </blockquote>
 <ol>
+<li>Notice how the first match is not so convenient as the second match.</li>
+<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-2">2</kbd></span> to select match #2.</li>
+<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-i">I</kbd></span> to insert match #2.</li>
+</ol>
+<h2 id="exercise-028-pretranslated-and-editable">Exercise 02.8: pretranslated and editable<a class="headerlink" href="#exercise-028-pretranslated-and-editable" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>You're still in segment #8. </p>
+</blockquote>
+<ol>
+<li>Notice how segments #9 and #10 are pretranslated.</li>
+<li>Notice that they have a pink background. That means that they can be edited.</li>
+<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-u">U</kbd></span> to go to the next <em>untranslated</em> segment.</li>
+</ol>
+<h2 id="exercise-029-almost-identical-match">Exercise 02.9: almost identical match<a class="headerlink" href="#exercise-029-almost-identical-match" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>You're in segment #11.</p>
+</blockquote>
+<ol>
+<li>
+<p>Notice how pressing <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-u">U</kbd></span> has jumped over the two pretranslated segments.</p>
+<blockquote>
+<p>Source text reads <code>Welcome to this survey.</code></p>
+</blockquote>
+</li>
 <li>
 <p>Notice how this segment is almost identical to the first segment you translated.</p>
 <blockquote>
@@ -2472,108 +2585,41 @@
 <li>
 <p>Update the translation now.</p>
 <blockquote>
-<p>Replace final dot <code>.</code> with exclamation mark <code>!</code></p>
+<p>Replace the exclamation mark <code>!</code> with a full stop <code>.</code></p>
 </blockquote>
 </li>
-</ol>
-<h2 id="exercise-027-pretranslated-and-locked">Exercise 02.7: pretranslated and locked<a class="headerlink" href="#exercise-027-pretranslated-and-locked" title="Permanent link">&para;</a></h2>
-<p>You're still in segment #8.</p>
-<ol>
-<li>Notice how segments #9, #11 and a few others are pretranslated.</li>
-<li>Notice that they have an orange background. That means they are enforced translations, in other words: not editable.</li>
-<li>Modify the translation (just add a few characters)</li>
-<li>Press F5 to reload the project.</li>
-<li>Notice how your edits are now gone.</li>
-</ol>
-<!-- harmonize: move to -> go to @todo -->
-
-<h2 id="exercise-028-select-match">Exercise 02.8: select match<a class="headerlink" href="#exercise-028-select-match" title="Permanent link">&para;</a></h2>
-<ol>
-<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-j">J</kbd></span> and enter number 15 to go to segment #15.</li>
-<li>Notice that this segment is pretranslated.</li>
 <li>
-<p>Go to segment #16.</p>
+<p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-u">U</kbd></span> to go to the next <em>untranslated</em> segment.</p>
 <blockquote>
-<p>Source text reads <code>Good</code></p>
-</blockquote>
-</li>
-<li>
-<p>Notice how the <strong>Matches</strong> pane presents two matches you could use.</p>
-</li>
-<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-2">2</kbd></span> to select the second match (match #2).</li>
-<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-i">I</kbd></span> to insert the selected match (match #2).</li>
-<li>
-<p>Delete <code>plutôt</code> and change the case.</p>
-<blockquote>
-<p>Expected result: <code>Bon</code></p>
+<p>That should take you to segment #12.</p>
 </blockquote>
 </li>
 </ol>
-<!-- @todo: disable predictive typing and delete files... -->
-
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>In this case both matches required the same amount of work to update them.<br />
-The only reason why you have to select and insert match #2 is to make you practice ;)</p>
-</div>
-<h2 id="exercise-029-insert-selection">Exercise 02.9: insert selection<a class="headerlink" href="#exercise-029-insert-selection" title="Permanent link">&para;</a></h2>
-<ol>
-<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-u">U</kbd></span> to go to segment #17.</li>
-<li>Select "mauvaise" in the fuzzy match</li>
-<li>Now press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-i">I</kbd></span> to insert the selected text</li>
-<li>
-<p>Update the match.</p>
-<blockquote>
-<p>Change case of <code>m</code> to <code>M</code></p>
-<p>Expected result: <code>Mauvais</code>ç</p>
-</blockquote>
-</li>
-</ol>
-<h2 id="exercise-0210">Exercise 02.10:<a class="headerlink" href="#exercise-0210" title="Permanent link">&para;</a></h2>
-<ol>
-<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-u">U</kbd></span> to go to segment #18.</li>
-<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-2">2</kbd></span>, then press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-3">3</kbd></span>, as many times as you want.</li>
-<li>Notice how match #2 and match #3 get seleted when you press the shortcuts above.</li>
-<li>
-<p>Select one and insert it, then updated it.</p>
-<blockquote>
-<p>Here you're free to update the fuzzy match as you like.</p>
-<p>Expected resul: <code>Très mauvais</code></p>
-</blockquote>
-</li>
-</ol>
-<div class="admonition info">
-<p class="admonition-title">Recap</p>
-<p>To recap, the available options are: </p>
-<ol>
-<li>Write  <code>Très</code>, then select <code>mauvaise</code> in match #2 and press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-i">I</kbd></span></li>
-<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-2">2</kbd></span>, then <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-i">I</kbd></span> to insert match #2, then replace <code>PLutôt</code> with <code>Très</code></li>
-<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-3">3</kbd></span>, then <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-i">I</kbd></span> to insert <code>Mauvaise</code>, then update it, then add <code>Très</code> at the beginning </li>
-<li>Write <code>Très</code>, then press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-3">3</kbd></span>, then <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-i">I</kbd></span> to insert match #3, then update it.</li>
-</ol>
-<p>They are all valid approaches, any is fine as long as the result is correct.</p>
-</div>
 <!-- 
 quiz: which one is more efficient? 
--->
-
-<!-- 
-
-#15 -> Très + select "bon" -> ctrl+i
-ctr+u -> #16
-ctrl+i -> + delete très
-ctrl+u -> #17
-select "mauvaise" + ctrl+i + update (m -> M)
-ctrl+u -> #18
-<. three matches
-press ctrl+2 to select the second match
-press ctrl+i to insert it
-write "Très" + ctrl+i to insert  + update
 -->
 
 <!--
 quiz: do you prefer to select and insert, or insert and update? 
 -->
+
+<h2 id="exercise-0210-insert-match-and-update-it">Exercise 02.10: insert match and update it<a class="headerlink" href="#exercise-0210-insert-match-and-update-it" title="Permanent link">&para;</a></h2>
+<p>Ok, the last one if you have time :) </p>
+<blockquote>
+<p>You're now in segment #12.</p>
+</blockquote>
+<ol>
+<li>Notice that there's a fuzzy match you can use. </li>
+<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-i">I</kbd></span> to insert it.</li>
+<li>Looking at the match in the <strong>Matches</strong> pane, notice the difference between the new source text and the source text in "tracked changes". </li>
+<li>
+<p>Update the inserted translation so that it corresponds to the source text you're translating. </p>
+<blockquote>
+<p>Tip: Replace <code>financière</code> with <code>économique</code></p>
+</blockquote>
+</li>
+</ol>
+<p>Well done!</p>
 
 
 
