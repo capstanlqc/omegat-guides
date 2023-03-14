@@ -14,7 +14,7 @@
     
 3. Look at the **Segment Properties** pane. It says "Is duplicate: FIRST"
 4. Right click on the segment. See how all the instances are listed and identified by their segment number. 
-5. Select `Segment 6` on the list to go to segment #16.
+5. Select `Segment 16` on the list to go to segment #16.
 6. Look at the **Segment Properties** pane for segment #16. It says "Is duplicate: NEXT"
 7. Right click on segment #16 to see instances listed again, go back to segment #13 again.
 

@@ -6,8 +6,13 @@
 - Ctrl+J
 -->
 
-## Exercise 01.1
+<!-- http://127.0.0.1:8000/omegat-guides/translation/navigation/ -->
 
+!!! tip "Remember"
+	**The active segment always has a green background.**{ .active }
+
+
+## Exercise 01.1
 
 <!-- 
 NAVIGATION in first file??? 
@@ -89,9 +94,6 @@ remove if unnecessary, check with adri
 	> You are now on segment #53.
 
 7. Press keyboard shortcut ++ctrl+j++ and enter number 1 to go to segment number #1.
-
-!!! tip "Remember"
-	**The active segment always has a green background.**{ .active }
 
 
 !!! info "Recap" 

@@ -1,14 +1,19 @@
-# OmegaT exercises - Getting started
+# OmegaT exercises
+
+## Getting started
+
+In order to do these exercises, you'll have to download an offline OmegaT project package. 
 
 
-## Getting your project
+### Get your project
 
-### For countries (NOT READY YET):
 
 1. Download project package [project_task_fr-ZZ_offline_omt.omt](../_downloads/project_task_fr-ZZ_offline_omt.omt). <!-- @todo -->
-2. Unpack that project.
+2. Unpack that project from OmegaT:
 
-!!! tip "Reminder"
+	- **Project** > **Unpack project from OMT file...**
+
+!!! tip "Relevant section in the OmegaT guide"
 
 	[How to unpack an offline project](https://capstanlqc.github.io/omegat-guides/translation/accessing-the-project/#unpacking-an-offline-project){:target="_blank"}.
 
