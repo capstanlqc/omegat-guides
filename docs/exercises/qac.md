@@ -20,6 +20,7 @@
 5. Press "Jump to segment"
 6. OmegaT will open the segment with the error
 	> You should be on segment #25
+7. There is an error with the tags, there are not in the right order
 8. Remove the tags you see and place them again.
 	> It should read `De manière générale, dites-moi si à quel point <g1>vous êtes satisfait</g1> avec les transports publics là où vous vivez. `
 
