@@ -11,19 +11,29 @@
 
 --- 
 
-1. Open the QA Check window by going in the Tools menu and select "Check for issue"
-	> A window will open
-2. Uncheck everything except Tag Issues
-	> This option should be greyed out and you cannot unselect it
-3. Press "OK"
-4. You should see an error about "Bad nesting"
-5. Press "Jump to segment"
-6. OmegaT will open the segment with the error
-	> You should be on segment #25
-7. There is an error with the tags, there are not in the right order
-8. Remove the tags you see and place them again.
-	> It should read `De manière générale, dites-moi si à quel point <g1>vous êtes satisfait</g1> avec les transports publics là où vous vivez. `
+## Exercise 09.1: check tag issues
 
+1. Open the _QA checks_ dialog in **Tools** > **Check for issues...**.
+2. Uncheck all options except "Tag Issues"
+
+	> The "Tag Issues" check is mandatory, you cannot unselect it.
+
+3. Press "OK"
+4. Notice that there is (at least) an issue about "Bad nesting".
+5. Press the "Jump to segment" button.
+6. OmegaT will open the segment with the issue.
+
+	> You should be on segment #25
+
+7. Look at the tags and notice what the issue is about.
+
+	> The order of tags is incorrect.
+
+8. Remove the two tags and insert them again.
+
+	> Expected result: `De manière générale, dites-moi si à quel point <g1>vous êtes satisfait</g1> avec les transports publics là où vous vivez. `
+
+9. Press the "Refresh" button in the **Issues** dialog to confirm that the issue is gone.
 <!--
 Old stuff
 
@@ -31,4 +41,22 @@ Old stuff
 2. On which segment is there a glossary error?
 
 
-->>
+-->
+
+
+<!-- QA checks for verifiers: they should not uncheck spelling (at least)... -->
+
+!!! tip 
+	If you're not sure how to fix a tag issue during a production task, please request support through the Helpdesk.
+
+## Exercise 09.2: check completion
+
+1. Go to **Tools** > **Statistics**.
+2. Look at the **Remaining** row in the project statistics.
+3. Notice whether the project is fully translated.
+
+!!! tip
+	If you see a number higher than zero in the **Remaining** row(s), that means that there are still some remaining untranslated segments. All segments should be translated before you can finalize your task.
+
+!!! tip
+	Press ++ctrl+u++ to go to the next _untranslated_ segment.
