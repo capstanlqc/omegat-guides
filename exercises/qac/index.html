@@ -2030,9 +2030,47 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          09 - QA checks
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         09 - QA checks
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#exercise-091-check-tag-issues" class="md-nav__link">
+    Exercise 09.1: check tag issues
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercise-092-check-completion" class="md-nav__link">
+    Exercise 09.2: check completion
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2279,10 +2317,71 @@
 <a class="md-button" href="../../verification/qa-checks/" target="_blank">Verification</a></p>
 </details>
 <hr />
+<h2 id="exercise-091-check-tag-issues">Exercise 09.1: check tag issues<a class="headerlink" href="#exercise-091-check-tag-issues" title="Permanent link">&para;</a></h2>
 <ol>
-<li>There are two segments with tag errors, can you find them?</li>
-<li>On which segment is there a glossary error?</li>
+<li>Open the <em>QA checks</em> dialog in <strong>Tools</strong> &gt; <strong>Check for issues...</strong>.</li>
+<li>
+<p>Uncheck all options except "Tag Issues"</p>
+<blockquote>
+<p>The "Tag Issues" check is mandatory, you cannot unselect it.</p>
+</blockquote>
+</li>
+<li>
+<p>Press "OK"</p>
+</li>
+<li>Notice that there is (at least) an issue about "Bad nesting".</li>
+<li>Press the "Jump to segment" button.</li>
+<li>
+<p>OmegaT will open the segment with the issue.</p>
+<blockquote>
+<p>You should be on segment #25</p>
+</blockquote>
+</li>
+<li>
+<p>Look at the tags and notice what the issue is about.</p>
+<blockquote>
+<p>The order of tags is incorrect.</p>
+</blockquote>
+</li>
+<li>
+<p>Remove the two tags and insert them again.</p>
+<blockquote>
+<p>Expected result: <code>De manière générale, dites-moi si à quel point &lt;g1&gt;vous êtes satisfait&lt;/g1&gt; avec les transports publics là où vous vivez.</code></p>
+</blockquote>
+</li>
+<li>
+<p>Press the "Refresh" button in the <strong>Issues</strong> dialog to confirm that the issue is gone.</p>
+</li>
 </ol>
+<!--
+Old stuff
+
+1. There are two segments with tag errors, can you find them?
+2. On which segment is there a glossary error?
+
+
+-->
+
+<!-- QA checks for verifiers: they should not uncheck spelling (at least)... -->
+
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>If you're not sure how to fix a tag issue during a production task, please request support through the Helpdesk.</p>
+</div>
+<h2 id="exercise-092-check-completion">Exercise 09.2: check completion<a class="headerlink" href="#exercise-092-check-completion" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Go to <strong>Tools</strong> &gt; <strong>Statistics</strong>.</li>
+<li>Look at the <strong>Remaining</strong> row in the project statistics.</li>
+<li>Notice whether the project is fully translated.</li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>If you see a number higher than zero in the <strong>Remaining</strong> row(s), that means that there are still some remaining untranslated segments. All segments should be translated before you can finalize your task.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-u">U</kbd></span> to go to the next <em>untranslated</em> segment.</p>
+</div>
 
 
 
