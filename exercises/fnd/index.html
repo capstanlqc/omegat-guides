@@ -2041,29 +2041,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#exercise-081-search-for-a-segment" class="md-nav__link">
-    Exercise 08.1: search for a segment
+  <a href="#exercise-081-search-for-a-selected-expression" class="md-nav__link">
+    Exercise 08.1: search for a selected expression
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#exercise-082" class="md-nav__link">
-    Exercise 08.2:
+  <a href="#exercise-082-search-for-a-segment-identifier" class="md-nav__link">
+    Exercise 08.2: search for a segment identifier
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#exercise-084" class="md-nav__link">
-    Exercise 08.4:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#exercise-083-search-for-a-selected-expression" class="md-nav__link">
-    Exercise 08.3: search for a selected expression
+  <a href="#exercise-083-search-for-some-source-text" class="md-nav__link">
+    Exercise 08.3: search for some source text
   </a>
   
 </li>
@@ -2331,37 +2324,7 @@
 <a class="md-button" href="../../verification/other-useful-features/#running-concordance-searches" target="_blank">Verification</a></p>
 </details>
 <hr />
-<h2 id="exercise-081-search-for-a-segment">Exercise 08.1: search for a segment<a class="headerlink" href="#exercise-081-search-for-a-segment" title="Permanent link">&para;</a></h2>
-<p>One instance of the repeated segment "Rather unsatisfied" was not translated consistenly.</p>
-<ol>
-<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-f">F</kbd></span> to open the <strong>Text Search</strong> dialog.</li>
-<li>Check option "All matching segments"</li>
-<li>
-<p>Type <code>Rather satisfied</code> in the search box, and press <strong>Search</strong>.</p>
-<blockquote>
-<p>You should get three results: 
-    -- Plutôt satisfait
-    -- Pas trop satisfait
-    -- Plutôt satisfait</p>
-</blockquote>
-</li>
-<li>
-<p>Notice that here is one instance of the repeated segment "Rather satisfied" that was not translated consistenly.</p>
-<blockquote>
-<p>Can you see which translation is inconsistent? </p>
-<p>Pas trop satisfait</p>
-</blockquote>
-</li>
-</ol>
-<h2 id="exercise-082">Exercise 08.2:<a class="headerlink" href="#exercise-082" title="Permanent link">&para;</a></h2>
-<ol>
-<li>Find the segment with "How" in a note.</li>
-</ol>
-<h2 id="exercise-084">Exercise 08.4:<a class="headerlink" href="#exercise-084" title="Permanent link">&para;</a></h2>
-<ol>
-<li>Find "Subject" in the project, but only if it has a translation.</li>
-</ol>
-<h2 id="exercise-083-search-for-a-selected-expression">Exercise 08.3: search for a selected expression<a class="headerlink" href="#exercise-083-search-for-a-selected-expression" title="Permanent link">&para;</a></h2>
+<h2 id="exercise-081-search-for-a-selected-expression">Exercise 08.1: search for a selected expression<a class="headerlink" href="#exercise-081-search-for-a-selected-expression" title="Permanent link">&para;</a></h2>
 <p>Try to find the translation of "translator" in the translation memories.</p>
 <ol>
 <li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-j">J</kbd></span> and enter 47 to go to segment #47.</li>
@@ -2377,8 +2340,79 @@
 </blockquote>
 </li>
 </ol>
-<!-- @todo: search for hash/key -->
-<!-- @ŧodo: comment in segment 47 -->
+<!-- @todo: add exercise that shows how sometimes you don't get a fuzzy match because of low similarity score and poor matching algorithm but there's a useful concordance in the TM -->
+
+<h2 id="exercise-082-search-for-a-segment-identifier">Exercise 08.2: search for a segment identifier<a class="headerlink" href="#exercise-082-search-for-a-segment-identifier" title="Permanent link">&para;</a></h2>
+<p>You might need to refer to a certain segment by its identifier (the segment ID or key).</p>
+<ol>
+<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-f">F</kbd></span> to open the <strong>Text Search</strong> dialog unless it's already open.</li>
+<li>
+<p>Check option:</p>
+<ul>
+<li>In comments</li>
+</ul>
+</li>
+<li>
+<p>Type <code>123abc</code> in the search box, and press <strong>Search</strong>.</p>
+<blockquote>
+<p>Expected results: </p>
+<blockquote>
+<p>01_qq/03_qq_paq.xml<br />
+-- 22&gt; Neither good nor bad<br />
+# name = 123abc</p>
+</blockquote>
+</blockquote>
+</li>
+</ol>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Here <code># name</code> refers to the segment identifier.</p>
+</div>
+<!--
+## Exercise 08.4: 
+
+4. Find source text "Subject" in the project, but only if it has a translation.
+-->
+
+<h2 id="exercise-083-search-for-some-source-text">Exercise 08.3: search for some source text<a class="headerlink" href="#exercise-083-search-for-some-source-text" title="Permanent link">&para;</a></h2>
+<p>One instance of the repeated segment "Rather satisfied" was not translated consistenly.</p>
+<ol>
+<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-f">F</kbd></span> to open the <strong>Text Search</strong> dialog.</li>
+<li>
+<p>Check options:</p>
+<ul>
+<li>Exact search</li>
+<li>In source</li>
+<li>All matching segments</li>
+<li>Search in: Memory</li>
+</ul>
+</li>
+<li>
+<p>Do not check options:</p>
+<ul>
+<li>Search in: TMs</li>
+</ul>
+<!-- screenshot! -->
+</li>
+<li>
+<p>Type <code>Rather satisfied</code> in the search box, and press <strong>Search</strong>.</p>
+<blockquote>
+<p>Expected results:</p>
+<ul>
+<li>27&gt; Plutôt satisfait</li>
+<li>32&gt; Assez satisfait</li>
+<li>37&gt; Plutôt satisfait</li>
+</ul>
+</blockquote>
+</li>
+<li>
+<p>Notice that here is one instance of the repeated segment "Rather satisfied" that was not translated consistenly.</p>
+<blockquote>
+<p>Can you see which translation is inconsistent? </p>
+</blockquote>
+</li>
+</ol>
+<!-- @todo: write RFF: go to next segment with a comment -->
 
 
 
