@@ -1,7 +1,14 @@
-# 06. Special characters
+# 07. Special characters
 
-!!! note inline end "←TODO"
-	Add link to the section in the guide.
+??? Abstract "The relevant section in the guides..." 
+	See the relevant section in your guide:
+
+	[Translation](../../translation/other-useful-features/#autotext){:target="_blank" .md-button }
+	[Reconciliation](../../reconciliation/other-useful-features/#autotext){:target="_blank" .md-button }
+	[Adaptation](../../adaptation/other-useful-features/#autotext){:target="_blank" .md-button }
+	[Verification](../../verification/other-useful-features/#autotext){:target="_blank" .md-button }
+
+--- 
 You may insert special characters in different ways: autotext shortcut, character table, etc.
 
 ## Exercise 07.1: use a known autotext shortcut

@@ -1,5 +1,15 @@
 # 05. Repetitions
 
+??? Abstract "The relevant section in the guides..." 
+    See the relevant section in your guide:
+
+    [Translation](../../translation/repetitions/){:target="_blank" .md-button }
+    [Reconciliation](../../reconciliation/repetitions/){:target="_blank" .md-button }
+    [Adaptation](../../adaptation/repetitions/){:target="_blank" .md-button }
+    [Verification](../../verification/repetitions/){:target="_blank" .md-button }
+
+--- 
+
 ## Exercise 05.1: recognize repeated segments
 <!-- @todo !!! note inline end "←TODO"
     @quiz: how many reps in total?  -->

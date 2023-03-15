@@ -1,6 +1,14 @@
 # 02. Matches
 
-@TODO: add link to the part of the guide about matches
+??? Abstract "The relevant section in the guides..." 
+	See the relevant section in your guide:
+
+	[Translation](../../translation/matches/){:target="_blank" .md-button }
+	[Reconciliation](../../reconciliation/matches/){:target="_blank" .md-button }
+	[Adaptation](../../adaptation/matches/){:target="_blank" .md-button }
+	[Verification](../../verification/matches/){:target="_blank" .md-button }
+
+--- 
 
 ## Exercise 02.1: translate from scratch
 

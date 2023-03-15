@@ -1,12 +1,16 @@
 # 01. Navigation
-<!--
-- Ctrl+U
-- Enter / Ctrl+Enter
-- Double click
-- Ctrl+J
--->
 
-<!-- http://127.0.0.1:8000/omegat-guides/translation/navigation/ -->
+
+??? Abstract "The relevant section in the guides..." 
+	See the relevant section in your guide:
+
+	[Translation](../../translation/navigation/){:target="_blank" .md-button }
+	[Reconciliation](../../reconciliation/navigation/){:target="_blank" .md-button }
+	[Adaptation](../../adaptation/navigation/){:target="_blank" .md-button }
+	[Verification](../../verification/navigation/){:target="_blank" .md-button }
+
+--- 
+
 
 !!! tip "Remember"
 	**The active segment always has a green background.**{ .active }

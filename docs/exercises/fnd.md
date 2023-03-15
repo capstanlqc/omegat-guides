@@ -1,6 +1,15 @@
-# 08. Search: AM
+# 08. Search
 
-	@ŧodo: review
+
+??? Abstract "The relevant section in the guides..." 
+	See the relevant section in your guide:
+
+	[Translation](../../translation/other-useful-features/#running-concordance-searches){:target="_blank" .md-button }
+	[Reconciliation](../../reconciliation/other-useful-features/#running-concordance-searches){:target="_blank" .md-button }
+	[Adaptation](../../adaptation/other-useful-features/#running-concordance-searches){:target="_blank" .md-button }
+	[Verification](../../verification/other-useful-features/#running-concordance-searches){:target="_blank" .md-button }
+
+--- 
 
 ## Exercise 08.1: search for a segment
 

@@ -3,7 +3,7 @@ site_url: https://capstanlqc.github.com/omegat-guides
 nav:
     - Contents: index.md
     #- Tags: misc/tags.md
-    - Translation: 
+    - Translation guide: 
         - Translation: translation/index.md
         - Installation and setup: translation/install-and-setup.md
         - Accessing a project: translation/accessing-the-project.md
@@ -17,7 +17,7 @@ nav:
         - translation/creating-target-files.md
         - translation/creating-your-deliverable.md
         - translation/shortcuts.md
-    - Reconciliation: 
+    - Reconciliation guide: 
         - Reconciliation: reconciliation/index.md
         - Installation and setup: reconciliation/install-and-setup.md
         - Accessing a project: reconciliation/accessing-the-project.md
@@ -31,7 +31,7 @@ nav:
         - reconciliation/creating-target-files.md
         - reconciliation/creating-your-deliverable.md
         - reconciliation/shortcuts.md
-    - Adaptation: 
+    - Adaptation guide: 
         - Adaptation: adaptation/index.md
         - Installation and setup: adaptation/install-and-setup.md
         - Accessing a project: adaptation/accessing-the-project.md
@@ -45,7 +45,7 @@ nav:
         - adaptation/creating-target-files.md
         - adaptation/creating-your-deliverable.md
         - adaptation/shortcuts.md
-    - Verification: 
+    - Verification guide: 
         - Verification: verification/index.md
         - Installation and setup: verification/install-and-setup.md
         - Accessing a project: verification/accessing-the-project.md
@@ -60,7 +60,7 @@ nav:
         - verification/creating-target-files.md
         - verification/creating-your-deliverable.md
         - verification/shortcuts.md         
-    - Editing: 
+    - Editing guide: 
         - Editing: editing/index.md
         - Installation and setup: editing/install-and-setup.md
         - Accessing a project: editing/accessing-the-project.md
@@ -74,7 +74,7 @@ nav:
         - editing/creating-target-files.md
         - editing/creating-your-deliverable.md
         - editing/shortcuts.md              
-    - Review: 
+    - Review guide: 
         - Review: review/index.md
         - Installation and setup: review/install-and-setup.md
         - Accessing a project: review/accessing-the-project.md
@@ -88,17 +88,6 @@ nav:
         - review/creating-target-files.md
         - review/creating-your-deliverable.md
         - review/shortcuts.md                  
-    - Miscellanea:
-        - Miscellanea: misc/index.md
-        - IT security: misc/security.md
-        - Videos: misc/videos.md
-        - Autotext: misc/autotext.md
-        - Shortcuts: misc/shortcuts.md
-        - Bidirectionality: misc/bidi.md
-        - Fonts: misc/fonts.md
-        - FAQ: misc/faq.md
-        - Tips and tricks: misc/tips.md
-        - About: misc/about.md
     - Exercises:
         - Getting started: exercises/index.md
         - 01 - Navigation: exercises/nav.md
@@ -111,6 +100,18 @@ nav:
         - 08 - Search: exercises/fnd.md
         - 09 - QA checks: exercises/qac.md
         - 10 - Preview and delivery: exercises/tgt.md
+    - Miscellanea:
+        - Miscellanea: misc/index.md
+        - IT security: misc/security.md
+        - Videos: misc/videos.md
+        - Autotext: misc/autotext.md
+        - Shortcuts: misc/shortcuts.md
+        - Bidirectionality: misc/bidi.md
+        - Fonts: misc/fonts.md
+        - FAQ: misc/faq.md
+        - Tips and tricks: misc/tips.md
+        - About: misc/about.md
+
 
 
 theme:

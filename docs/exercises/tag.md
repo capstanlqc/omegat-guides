@@ -1,9 +1,14 @@
 # 04. Tags
 
-!!! tip "This section in the guides"
+??? Abstract "The relevant section in the guides..." 
+    See the relevant section in your guide:
 
-    [Tags](https://capstanlqc.github.io/omegat-guides/translation/tags/).
-    <!-- @ŧodo: make this link role-specific -->
+    [Translation](../../translation/tags/){:target="_blank" .md-button }
+    [Reconciliation](../../reconciliation/tags/){:target="_blank" .md-button }
+    [Adaptation](../../adaptation/tags/){:target="_blank" .md-button }
+    [Verification](../../verification/tags/){:target="_blank" .md-button }
+
+--- 
 
 ## Exercise 04.1: insert paired tags
 

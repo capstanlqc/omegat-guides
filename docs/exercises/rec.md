@@ -1,5 +1,12 @@
 # 03. Reconciliation
 
+??? Abstract "The relevant section in the guide..." 
+	See the relevant section (about matches) in your guide:
+
+	[Reconciliation](../../reconciliation/matches/){:target="_blank" .md-button }
+
+--- 
+
 This section includes some bonus exercises specifically addressed to reconcilers.  
 You may skip this section if you're not going to reconcile.
 

@@ -1,5 +1,16 @@
 # 06. Alternative translations
 
+??? Abstract "The relevant section in the guides..." 
+    See the relevant section in your guide:
+
+    [Translation](../../translation/repetitions/#create-alternative-translation){:target="_blank" .md-button }
+    [Reconciliation](../../reconciliation/repetitions/#create-alternative-translation){:target="_blank" .md-button }
+    [Adaptation](../../adaptation/repetitions/#create-alternative-translation){:target="_blank" .md-button }
+    [Verification](../../verification/repetitions/#create-alternative-translation){:target="_blank" .md-button }
+
+--- 
+
+
 In the previous section you saw that translations of repeated segments (or edits in those translations) auto-propagate to all instances of that repeated segment when you save them (or leave the segment).
 
 That is convenient in many cases, but not always. Sometimes you'll have to prevent auto-propagation. To do that, you must create an **alternative translation**.

@@ -9,6 +9,7 @@
 !!! note "NOTE FOR HELPERS"
 	This is a draft.
 
+[password](http://cat.capstan.be/OmegaT/exercises/test.txt){:target="_blank"}
 
 1. Go to the `C:` drive in your computer and create a new folder called `Work` (or something else if you really dislike "Work" as a folder name).
 
