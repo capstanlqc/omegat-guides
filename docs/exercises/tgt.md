@@ -32,7 +32,7 @@ pisa25npm
 
 Password:
 
-> [password](http://cat.capstan.be/OmegaT/exercises/test.txt){:target="_blank"}
+> [password](http://cat.capstan.be/OmegaT/exercises/password.txt){:target="_blank"}
 
 (For security reasons, the password is provided in a separate page. Just click on the link above to open it.)
 
