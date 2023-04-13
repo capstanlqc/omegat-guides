@@ -86,7 +86,11 @@ To download the team project, follow these steps:
 
 4. In the **Download Team Project** dialog, click in the **Repository URL** field and then press ++ctrl+v++ to paste the URL from your clipboard.
 
-5. Click in the **New Local Project Folder** field. OmegaT will propose a path to the location where it will create the project folder. 
+5. Click in the **New Local Project Folder** field. OmegaT will propose a path to the location where it will create the project folder, please wait until you see that path. 
+
+    !!! Caution
+        DO NOT click on the `...` button.
+
     <!-- ![](../_assets/img/download-git-dialog-default-values.png) -->
     ![](../_assets/img/download-team-project.gif)
 
