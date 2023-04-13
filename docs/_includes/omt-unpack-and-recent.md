@@ -72,7 +72,7 @@ To download the team project, follow these steps:
 1. Define a location in your machine where you would like to create the OmegaT project. Let's assume it's `C:/Work/` (but please use whatever path is appropriate on your end). <!-- @todo: tips on file organization -->
 
     !!! caution
-        Make sure that location is not inside a sync'ed folder such as Dropbox or the like.
+        Make sure that location is not inside a sync'ed folder such as Dropbox or the like, or in a server.
 
 2. [Copy](../../tips/#how-to-copy-paste-a-url){:target="_blank"} the URL of the project repository.
     ![](../_assets/img/copy-url.gif)
