@@ -59,7 +59,7 @@ To unpack a project, follow these steps:
 If you receive a URL to a git repository, you must download the team project from that repository to access the project for the first time.
 
 !!! info 
-    The URL should look a bit like this: `https://some-bar-domain.com/some/path/to/the/foo-repository.git`.
+    The URL should look a bit like this: `https://domain.com/path/to/repo-name.git`.
 
 #### Authentication
 
