@@ -2351,12 +2351,12 @@
 <p>The URL should look a bit like this: <code>https://domain.com/path/to/repo-name.git</code>.</p>
 </div>
 <h4 id="authentication">Authentication<a class="headerlink" href="#authentication" title="Permanent link">&para;</a></h4>
-<p>At some point during the steps below, or afterwards, OmegaT will ask you to authenticate, so please make sure you have your credentials at hand. OmegaT might ask you to authenticate one, two or perhaps three times (depending on the project settings), please just enter the same credentials as many time as needed.</p>
+<p>At some point during the steps below, or afterwards, OmegaT will ask you to authenticate, so please make sure you have your credentials at hand. OmegaT might ask you to authenticate one or more times (depending on the project settings), please just enter the same credentials as many time as requested.</p>
 <h4 id="how-to-download-the-project-from-the-repository">How to download the project from the repository<a class="headerlink" href="#how-to-download-the-project-from-the-repository" title="Permanent link">&para;</a></h4>
 <p>To download the team project, follow these steps: </p>
 <ol>
 <li>
-<p>Define a location in your machine where you would like to create the OmegaT project. Let's assume it's <code>C:/Work/</code> (but please use whatever path is appropriate on your end). <!-- @todo: tips on file organization --></p>
+<p>Define a location in your machine where you would like to create the OmegaT project. We recommend a <code>Work</code> folder (or whatever you prefer to call it) in your user's home directory. Let's assume path <code>C:\Users\USER\Work\</code> (for user <code>USER</code>).</p>
 <div class="admonition danger">
 <p class="admonition-title">Danger ❗❗❗</p>
 <p>💀
@@ -2364,8 +2364,8 @@ Make sure that location is NOT inside a sync'ed folder such as Dropbox, OneDrive
 </div>
 </li>
 <li>
-<p><a href="../../tips/#how-to-copy-paste-a-url" target="_blank">Copy</a> the URL of the project repository.
-    <img alt="" src="../../_assets/img/copy-url.gif" /></p>
+<p><a href="../../tips/#how-to-copy-paste-a-url" target="_blank">Copy</a> the URL of the project repository to your clipboard (select it and press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-c">C</kbd></span> or right-click it and select Copy).</p>
+<p><img alt="" src="../../_assets/img/copy-url.gif" /></p>
 </li>
 <li>
 <p>In OmegaT, go to <strong>Project</strong> &gt; <strong>Download Team Project</strong>.
@@ -2378,29 +2378,42 @@ Make sure that location is NOT inside a sync'ed folder such as Dropbox, OneDrive
 <p>In the <strong>Download Team Project</strong> dialog, click in the <strong>Repository URL</strong> field and then press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-v">V</kbd></span> to paste the URL from your clipboard.</p>
 </li>
 <li>
-<p>Click in the <strong>New Local Project Folder</strong> field. OmegaT will propose a path to the location where it will create the project folder, please wait until you see that path. </p>
+<p>Click in the <strong>New Local Project Folder</strong> field. OmegaT will propose a path to the location where it will create the project folder. Please wait until you see that path. </p>
 <div class="admonition failure">
 <p class="admonition-title">Failure</p>
 <p>DO NOT click on the <code>...</code> button.</p>
 </div>
 <p><!-- <img alt="" src="../_assets/img/download-git-dialog-default-values.png" /> -->
-<img alt="" src="../../_assets/img/download-team-project.gif" /></p>
+<!-- <img alt="" src="../_assets/img/download-team-project.gif" /> --></p>
+<p>See the three steps above in the following animation:</p>
+<p><img alt="" src="../../_assets/img/omt-download-team-proj-up-to-local-path.gif" /></p>
 </li>
 <li>
-<p>You might want to modify that path to create the folder in the location that you have defined in the first step above. To do that:</p>
+<p>You might want to modify that path to create the folder in the location that you have defined in the first step above. For example:</p>
 <ul>
-<li>Copy the path to the location where you want to create the project, e.g. <code>C:/Work/</code>. 
-<img alt="" src="../../_assets/img/download-git-dialog-copy-path.gif" /></li>
-<li>Then, in the <strong>New Local Project Folder</strong> field, select the part of the path up to the slash before the project folder and delete it.</li>
-<li>Then, press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-v">V</kbd></span> to paste your path in replacement of the deleted part. 
-<img alt="" src="../../_assets/img/download-git-dialog-update-path.gif" /></li>
+<li>By default, it's likely that OmegaT proposes to create the project inside your home directory, e.g. <code>C:\Users\USER\repo-name</code>.</li>
+<li>Modify that path so that it points ot the actual location you prefer, e.g. if you follow our recommendation above, that would be <code>C:\Users\USER\Work\repo-name</code>.</li>
 </ul>
+<p>For example:</p>
+<p><img alt="" src="../../_assets/img/omt-download-team-proj-edit-local-path.gif" /></p>
 <div class="admonition caution">
 <p class="admonition-title">Caution</p>
-<p>Make sure there's a slash between the path that you paste and the project folder name.</p>
+<p>Make sure there's a slash between every two folders in your path.</p>
 </div>
 </li>
 </ol>
+<!-- To do that:
+
+    + Copy the path to the location where you want to create the project, e.g. `C:/Work/`. 
+    ![](../_assets/img/download-git-dialog-copy-path.gif)
+    + Then, in the **New Local Project Folder** field, select the part of the path up to the slash before the project folder and delete it.
+    + Then, press ++ctrl+v++ to paste your path in replacement of the deleted part. 
+    ![](../_assets/img/download-git-dialog-update-path.gif)
+    !!! Caution
+        Make sure there's a slash between the path that you paste and the project folder name.
+
+-->
+
 <h2 id="closing-the-project">Closing the project<a class="headerlink" href="#closing-the-project" title="Permanent link">&para;</a></h2>
 <p>When you are done working for the day, quit OmegaT (<span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-q">Q</kbd></span>).</p>
 <h2 id="re-opening-an-existing-project">Re-opening an existing project<a class="headerlink" href="#re-opening-an-existing-project" title="Permanent link">&para;</a></h2>
