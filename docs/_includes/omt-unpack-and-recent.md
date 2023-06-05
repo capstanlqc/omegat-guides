@@ -63,19 +63,20 @@ If you receive a URL to a git repository, you must download the team project fro
 
 #### Authentication
 
-At some point during the steps below, or afterwards, OmegaT will ask you to authenticate, so please make sure you have your credentials at hand. OmegaT might ask you to authenticate one, two or perhaps three times (depending on the project settings), please just enter the same credentials as many time as needed.
+At some point during the steps below, or afterwards, OmegaT will ask you to authenticate, so please make sure you have your credentials at hand. OmegaT might ask you to authenticate one or more times (depending on the project settings), please just enter the same credentials as many time as requested.
 
 #### How to download the project from the repository
 
 To download the team project, follow these steps: 
 
-1. Define a location in your machine where you would like to create the OmegaT project. Let's assume it's `C:/Work/` (but please use whatever path is appropriate on your end). <!-- @todo: tips on file organization -->
+1. Define a location in your machine where you would like to create the OmegaT project. We recommend a `Work` folder (or whatever you prefer to call it) in your user's home directory. Let's assume path `C:\Users\USER\Work\` (for user `USER`).
 
     !!! danger "Danger ❗❗❗"
         💀
         Make sure that location is NOT inside a sync'ed folder such as Dropbox, OneDrive, Nextcloud, Google Drive, Syncthing or the like, or in a server.
 
-2. [Copy](../../tips/#how-to-copy-paste-a-url){:target="_blank"} the URL of the project repository.
+2. [Copy](../../tips/#how-to-copy-paste-a-url){:target="_blank"} the URL of the project repository to your clipboard (select it and press ++ctrl+c++ or right-click it and select Copy).
+
     ![](../_assets/img/copy-url.gif)
 
 3. In OmegaT, go to **Project** > **Download Team Project**.
@@ -87,24 +88,43 @@ To download the team project, follow these steps:
 
 4. In the **Download Team Project** dialog, click in the **Repository URL** field and then press ++ctrl+v++ to paste the URL from your clipboard.
 
-5. Click in the **New Local Project Folder** field. OmegaT will propose a path to the location where it will create the project folder, please wait until you see that path. 
+5. Click in the **New Local Project Folder** field. OmegaT will propose a path to the location where it will create the project folder. Please wait until you see that path. 
 
     !!! Failure
         DO NOT click on the `...` button.
 
     <!-- ![](../_assets/img/download-git-dialog-default-values.png) -->
-    ![](../_assets/img/download-team-project.gif)
+    <!-- ![](../_assets/img/download-team-project.gif) -->
 
-6. You might want to modify that path to create the folder in the location that you have defined in the first step above. To do that:
+    See the three steps above in the following animation:
+    
+    ![](../_assets/img/omt-download-team-proj-up-to-local-path.gif)
+
+
+6. You might want to modify that path to create the folder in the location that you have defined in the first step above. For example:
+
+    + By default, it's likely that OmegaT proposes to create the project inside your home directory, e.g. `C:\Users\USER\repo-name`.
+    + Modify that path so that it points ot the actual location you prefer, e.g. if you follow our recommendation above, that would be `C:\Users\USER\Work\repo-name`.
+
+    For example:
+
+    ![](../_assets/img/omt-download-team-proj-edit-local-path.gif)
+
+
+    !!! Caution
+        Make sure there's a slash between every two folders in your path.
+<!-- To do that:
 
     + Copy the path to the location where you want to create the project, e.g. `C:/Work/`. 
     ![](../_assets/img/download-git-dialog-copy-path.gif)
     + Then, in the **New Local Project Folder** field, select the part of the path up to the slash before the project folder and delete it.
     + Then, press ++ctrl+v++ to paste your path in replacement of the deleted part. 
     ![](../_assets/img/download-git-dialog-update-path.gif)
-
     !!! Caution
         Make sure there's a slash between the path that you paste and the project folder name.
+
+-->
+
 
 ## Closing the project
 
