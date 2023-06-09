@@ -65,7 +65,7 @@ To access the exported Excel, go to **Project** > **Access Project Contents** > 
 
 
 <!-- topic:font -->
-## Can I change the size of text / font in OmegaT?
+## The size of text in the editor is too small or too big.
 
 To change the font size go to **Options** > **Preferences** > **Font**. 
 Change the font size to one you find suitable. This has no impact on the actual font size in the target files, it only changes the display in OmegaT.
@@ -129,7 +129,7 @@ In OmegaT, when you navigate from one segment to another, the source text will b
 <!-- topic:glossary -->
 ## How can I correct a typo in a term in the glossary?
 
-Yes. Follow these steps: 
+Yes. Please follow these steps: 
 
 1. Go to **Project > Access Project contents > Glossaries** to access your writeable glossary file. The `Glossaries` folder will open, which contains a file named `glossary.txt`. 
 2. Open it in your plain text editor (e.g. Notepad):
@@ -146,9 +146,7 @@ Yes. Follow these steps:
 <!-- topic:TMs -->
 ## Do we have access to the TMs from previous cycles?
 
-Yes. 
-
-TMs (translation memories) from previous cycles should already be included in your project. You may see translations coming from them in the **Matches** pane, or you may find them by running a text search (see the relevant section in the guide, under **Other useful features** > **Running concordance searches**).
+Yes. TMs (translation memories) from previous cycles should already be included in your project. You may see translations coming from them in the **Matches** pane, or you may find them by running a text search (see the relevant section in the guide, under **Other useful features** > **Running concordance searches**).
 
 You may also access translations from all previous cycles of the project for your language in  [MemoryLn](https://capps.capstan.be/memoryln.php).
 
@@ -171,7 +169,7 @@ The answer is no. OmegaT is specifically customized to edit the files you are wo
 
 
 <!-- topic:search -->
-## How can I find translations searching by target text?
+## How can I find translations searching by the target text?
 
 Proceed as follows: 
 
@@ -185,7 +183,7 @@ Proceed as follows:
 
 
 <!-- topic:x -->
-## Why do I only see one 100% match when I am reconciling?
+## I only see one 100% match when I am reconciling.
 
 If you matches are identical, only one of them will be displayed in the Matches pane to avoid space-consuming duplicates. If you only see one translation in the Matches pane during the reconciliation task, that means the two translators have proposed the exact same translation. Next to the 100% match you will also notice it is written "+1 more".
 
