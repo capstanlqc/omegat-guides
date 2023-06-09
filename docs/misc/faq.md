@@ -50,46 +50,72 @@ You can also change your e-mail information by click in the top right menu after
 ![](../_assets/img/qa05_emailmenu.jpg)
 -->
 
-## Can I export the contents of the OmegaT Project in Excel ?
+
+
+<!-- topic:export -->
+## Can I export the contents of the OmegaT project in Excel ?
 
 Yes. To export the contents of the OmegaT project in Excel, go to **Tools** > **Write Project to Excel**.
 
 To access the exported Excel, go to **Project** > **Access Project Contents** > **Root**. The Excel will be found in the **script_output** folder.
 
 !!! warning 
-    Please remember that the Excel file cannot be reimported in OmegaT. Any change you make in the Excel needs to be reflected in the OmegaT project.
+    Please remember that the Excel file cannot be reimported in OmegaT. Any change you make in translations in that Excel export needs to be reflected in the OmegaT project.
 
-## The text is too small. Can I change the font size in OmegaT?
+
+
+<!-- topic:font -->
+## Can I change the size of text / font in OmegaT?
 
 To change the font size go to **Options** > **Preferences** > **Font**. 
-Increase the font size to one you find suitable. This has not impact on the actual font size in the target files. It only changes the display in OmegaT.
+Change the font size to one you find suitable. This has no impact on the actual font size in the target files, it only changes the display in OmegaT.
 
 ![](../_assets/img/qa01_font.jpg)
 
+
+
+<!-- topic:checks -->
 ## How do I install the spellchecker files?
 
-A spellchecker is available in OmegaT. Go to **Options > Preferences > Spellchecker.**
-Click on **Install new dictionary** and choose the spellchecker for your language.
+A spelling checker is available in OmegaT and you must install the spellchecking dictionary for your language in order to use it. Follow these steps: 
 
-<div style="padding:69.95% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/780395752?h=5a92c211b3" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+1. Go to **Options > Preferences > Spellchecker**.
+2. Click on **Install new dictionary**, and a list of languages will appear.
+3. Select the appropriate language for your language version (e.g. *es_AR - Spanish (Argentina)* if your language is Spanish and your country is Argentina). 
+4. Press the **Install** button.
 
-![](../_assets/img/qa_02_spellcheck.jpg)
-
-You should see the URL `[https://cat.capstan.be/OmegaT/hunspell/](https://cat.capstan.be/OmegaT/hunspell/)`.
-
-A list of languages will open. Select the appropriate language for your country and press OK (e.g. *es_AR - Spanish (Argentina)* if your language is Spanish and your country is Argentina). Press the **Install** button.
 You can close the remaining pop up window. The spellchecker is now installed.
 
-## There is no spellchecker for my language. What should I do ?
+!!! tip
+    You can also watch the following video to see those steps in action:
 
-If you cannot find your language in the list when you go to **Options>Preferences>Spellchecker.** and then clicking on **Install new dictionary**, please contact the helpdesk and our team will try to find a spellchecker for you.
-Please note that we may not be able to find a spellchecker for all languages.
+    <div style="padding:69.95% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/780395752?h=5a92c211b3" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
-## What should I do if I don't have the Import OMT Package feature within the Project menu?
+<!-- ![](../_assets/img/qa_02_spellcheck.jpg) -->
 
-If you do not see the **Import OMT Package** option in the Project menu, please download and run the customizer again: .
-If you still cannot see the **Import OMT Package** option, please contact the Helpdesk.
+<!-- You should see the URL `[https://cat.capstan.be/OmegaT/hunspell/](https://cat.capstan.be/OmegaT/hunspell/)`. -->
 
+
+
+<!-- topic:config -->
+## There is no spellchecker for my language. 
+
+If you cannot find your language in the list when you go to **Options > Preferences > Spellchecker.** and then clicking on **Install new dictionary**, please contact the helpdesk and our team will try to find a spellchecking dictionary for you.
+
+Please note that spellchecking dictionaries might not be available for all languages.
+
+
+
+<!-- topic:config -->
+## I don't have the **Unpack project from OMT file** item. 
+
+If you do not see the **Unpack project from OMT file** option in the **Project** menu, please follow our OmegaT installation and setup guide (available from the `Installation and setup` section of these guides) and choose the third path ("Version 5.7.1 of OmegaT is already installed in your machine") to install the customization (again).
+
+If you still cannot see the **Unpack project from OMT file** option after doing that, please contact the Helpdesk.
+
+
+
+<!-- 
 ## When I translate, I like to overwrite the source text with the target. Can I insert the source text in the target segment automatically and then start translating?
 
 The answer is yes. To do so, go to **Options>Editor** in OmegaT. Then tick the option "Insert the source text" and press OK. 
@@ -97,46 +123,75 @@ The answer is yes. To do so, go to **Options>Editor** in OmegaT. Then tick the o
 ![](../_assets/img/qa06_editor_up.jpg) 
 
 In OmegaT, when you navigate from one segment to another, the source text will be automatically inserted each time. 
+-->
 
-## I made a mistake in a term I added to the glossary. Can I correct it?
 
-The answer is yes. To access the glossary, go to **Project>Access Project contents>Glossaries**
+<!-- topic:glossary -->
+## How can I correct a typo in a term in the glossary?
 
-The Glossaries folder will open. It context a .txt file named "glossary.txt". Double click on it to open it in your text editor. 
+Yes. Follow these steps: 
 
-![](../_assets/img/qa07_glossary_correct.jpg)
+1. Go to **Project > Access Project contents > Glossaries** to access your writeable glossary file. The `Glossaries` folder will open, which contains a file named `glossary.txt`. 
+2. Open it in your plain text editor (e.g. Notepad):
 
-Correct any term that contains an error and Save the file. 
+    ![](../_assets/img/qa07_glossary_correct.jpg)
 
-## As an NPM, how can I send the files to my translation team?
+3. Correct any term that contains an error and Save the file. 
 
-Please **do NOT** send them by e-mail. You should find a password protected, secure channel (e.g. Google Drive or Dropbox is at least accepted for PIAAC as long as the folders are password protected and the users need to insert a password when connecting, it's ok).
+!!! warning
+    Do not open the glossary file in Microsoft Word or any other similar word processor.
 
-## Do we have access to the translation memories from the previous cycle if we already took part in the project?
 
-The answer is yes. You can access it in two different ways:
 
-  * from OmegaT: the translation memory per domain from the previous cycle is included as reference in the OmegaT packages. 
-  * from  which contains translations from all previous cycles of the project for your language.
+<!-- topic:TMs -->
+## Do we have access to the TMs from previous cycles?
 
+Yes. 
+
+TMs (translation memories) from previous cycles should already be included in your project. You may see translations coming from them in the **Matches** pane, or you may find them by running a text search (see the relevant section in the guide, under **Other useful features** > **Running concordance searches**).
+
+You may also access translations from all previous cycles of the project for your language in  [MemoryLn](https://capps.capstan.be/memoryln.php).
+
+!!! info
+    If you don't see the expected translations in your OmegaT project and in MemoryLn, please contact the Helpdesk.
+
+
+
+<!--
 ## Is it possible to access MemoryLn with a translator account?
 
 The answer is yes. MemoryLn can be accessed by logging in to the portal. If you have portal credentials you can access MemoryLn for your language by default, independently of the role you have in the project.
+-->
 
-## Can I export the XLIFFs and work in Trados or another CAT tool?
 
-The answer is no. OmegaT was specifically customized to edit the files you are working on. Such a customization is not possible in Trados or memoQ. Removing the files from the OMT package and translating them separately may damage the files and render them unusable on the portal.
+<!-- topic:export -->
+## Can I work in Trados or another CAT tool?
 
-## In omegaT is it possible to search for translation by the target? Or it’s only possible by source?
+The answer is no. OmegaT is specifically customized to edit the files you are working on. Such a customization is not possible in Trados or memoQ. Removing the files from the OmegaT project and translating them separately may damage the files and render them unusable for further use.
 
-The answer is yes. Press ++ctrl+f++ on your keyboard (without selecting anything in the source segment). The search window opens. Type the text in your language you are searching for and press the** Search** button. 
+
+<!-- topic:search -->
+## How can I find translations searching by target text?
+
+Proceed as follows: 
+
+1. Press ++ctrl+f++ on your keyboard. The search dialog opens. 
+2. Type the text in the target language that you want to find.
+3. Check option "In translation" in the search dialog
+3. Press the **Search** button. 
 
 ![](../_assets/img/search_chinese.jpg)
 
-## When I reconcile I only see suggestions from translator 1 for certain segments. Is it normal?
 
-The answer is yes. When you only see 1 suggestion in the fuzzy matches pane, it means the two translators have proposed the exact same translation. Next to the fuzzy match from translator 1 you will also notice it is written +1 more.
 
+<!-- topic:x -->
+## Why do I only see one 100% match when I am reconciling?
+
+If you matches are identical, only one of them will be displayed in the Matches pane to avoid space-consuming duplicates. If you only see one translation in the Matches pane during the reconciliation task, that means the two translators have proposed the exact same translation. Next to the 100% match you will also notice it is written "+1 more".
+
+
+
+<!-- 
 ## Why is my OMT package rejected in the portal and how I can fix it?
 
 It is required that all segments are translated at the end of both translation and reconciliation tasks. To ensure this is the case, uploaded projects are checked for completion in every workflow step when you try to finish the task. If it is detected that some segments are not translated in the project, it is not possible to finish the task. 
@@ -144,4 +199,8 @@ It is required that all segments are translated at the end of both translation a
 How do you know whether all segments are translated in your project? You can go to **Tools > Statistics** to obtain a report of the project statistics. If the "Remaining" or "Unique remaining" rows do not show "0", that means that some segments are not translated. Also, if you press shortcut ++ctrl+u++, OmegaT will open the next untranslated segment.
 
 How can you fix this? You guessed it! Translate all remaining segments, then export the OMT package again, upload it again and then try to finis the task again. 
+-->
 
+<!-- todo: 
+- move the search to its own section
+>
