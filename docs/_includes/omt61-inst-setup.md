@@ -3,6 +3,8 @@
 
 OmegaT is the open source computer-assisted translation tool (CAT tool) which we use to translate, reconcile, adapt, review and verify materials. You must install OmegaT and set it up with some additional files, in order to ensure an optimal interface and compatibility with the project we'll prepare for you.
 
+> In particular, OmegaT 6.1 is necessary to work with Myanmar languages.
+
 ## OmegaT version
 
 Please: 
