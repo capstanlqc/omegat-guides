@@ -1,11 +1,4 @@
----
-hide:
-  - navigation
-  - toc
-  - path  
----
-  
-#  OmegaT 6.1.0 installation and setup guide
+<!-- #  OmegaT 6.1.0 installation and setup guide -->
 
 OmegaT is the open source computer-assisted translation tool (CAT tool) which we use to translate, reconcile, adapt, review and verify materials. You must install OmegaT and set it up with some additional files, in order to ensure an optimal interface and compatibility with the project we'll prepare for you.
 
