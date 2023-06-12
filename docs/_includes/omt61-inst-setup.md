@@ -33,7 +33,6 @@ Please download the OmegaT 6.1 installer from [here](https://nextcloud.capstan.b
 
 > You must have a 64-bit machine to install this version of OmegaT. If that's not the case, please get in touch with our Helpdesk. <!-- Check the [¶ 64bit or 32bit machine?](#64bit-or-32bit-machine) section below if you're not sure how to check whether you have a 64-bit or 32-bit machine. -->
 
-
 It's a safe download, even if your browser might not trust the file.
 
 ### 1.2. Install OmegaT
@@ -44,21 +43,22 @@ In order to proceed with the installation, please follow these steps:
 
 + Choose (or keep) English as the language of the installation:
 
-    ![](https://s3.amazonaws.com/media-p.slid.es/uploads/1359547/images/8658891/pasted-from-clipboard.png){: style="height:50%;width:50%"}
+    ![](https://s3.amazonaws.com/media-p.slid.es/uploads/1359547/images/8658891/pasted-from-clipboard.png)
+    <!-- {: style="height:50%;width:50%"} -->
 
 + Please also use English as the language of the OmegaT user interface:
 
-    ![](https://s3.amazonaws.com/media-p.slid.es/uploads/1359547/images/8658900/pasted-from-clipboard.png){: style="height:70%;width:70%"}
+    ![](https://s3.amazonaws.com/media-p.slid.es/uploads/1359547/images/8658900/pasted-from-clipboard.png)<!-- {: style="height:70%;width:70%"} -->
 
 + In the License Agreement screen, please select "I accept the agreement” and click “Next”:
 
-    ![](https://s3.amazonaws.com/media-p.slid.es/uploads/1359547/images/8658905/pasted-from-clipboard.png){: style="height:70%;width:70%"}
+    ![](https://s3.amazonaws.com/media-p.slid.es/uploads/1359547/images/8658905/pasted-from-clipboard.png)<!-- {: style="height:70%;width:70%"} -->
 
 + In all other dialogs, just press “Next” to use the default options until you reach the “Ready to Install” screen.
 
 + Then click on “Install”.
 
-    ![](https://s3.amazonaws.com/media-p.slid.es/uploads/1359547/images/8658919/pasted-from-clipboard.png){: style="height:70%;width:70%"}
+    ![](https://s3.amazonaws.com/media-p.slid.es/uploads/1359547/images/8658919/pasted-from-clipboard.png)<!-- {: style="height:70%;width:70%"} -->
 
 ### 1.3. Install the customization files
 
