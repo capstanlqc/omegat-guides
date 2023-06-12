@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#text-direction-and-text-alignment" class="md-skip">
+        <a href="#handling-bidirectionality-in-omegat" class="md-skip">
           Skip to content
         </a>
       
@@ -2089,6 +2089,8 @@
         
           
         
+          
+        
       
       
         
@@ -2179,6 +2181,8 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           Bidirectionality
@@ -2194,6 +2198,8 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
+  
+    
   
   
     <label class="md-nav__title" for="__toc">
@@ -2336,6 +2342,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../omt61-inst/" class="md-nav__link">
+        OmegaT 6.1 (experimental)
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -2360,10 +2380,9 @@
 
 
 
-  <h1>Bidirectionality</h1>
-
 <!-- # Handling bidirectionality -->
 
+<h1 id="handling-bidirectionality-in-omegat">Handling bidirectionality in OmegaT<a class="headerlink" href="#handling-bidirectionality-in-omegat" title="Permanent link">&para;</a></h1>
 <h2 id="text-direction-and-text-alignment">Text direction and text alignment<a class="headerlink" href="#text-direction-and-text-alignment" title="Permanent link">&para;</a></h2>
 <p>By default, text direction in the translation editor is left to right (LTR) and text is aligned to the left. That applies to text in any language except languages written in a right-to-left (RTL) script, like Arabic, Hebrew, Syriac, etc., in which case the segment flows from right to left (RTL) and is aligned to the right.</p>
 <p>Global text <strong>direction</strong> and <strong>alignment</strong> of source and target segments is determined by the source and target languages, respectively, indicated in the project settings. Depending on the language, segments are aligned either to the left or to the right. On the other hand, while text direction at the segment level is determined by the project settings, text direction might change inside the segment depending on the script used. For example, English text in a LTR segment will flow left to right but a quotation in Arabic in that same segment will flow right to left.</p>
