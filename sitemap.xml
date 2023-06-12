@@ -226,6 +226,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://capstanlqc.github.com/omegat-guides/_includes/omt61-inst-setup/</loc>
+         <lastmod>2023-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://capstanlqc.github.com/omegat-guides/_includes/preview-in-microsoft-word/</loc>
          <lastmod>2023-06-12</lastmod>
          <changefreq>daily</changefreq>
@@ -526,7 +531,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://capstanlqc.github.com/omegat-guides/misc/omt61-inst/</loc>
+         <loc>https://capstanlqc.github.com/omegat-guides/misc/hidden/</loc>
          <lastmod>2023-06-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
