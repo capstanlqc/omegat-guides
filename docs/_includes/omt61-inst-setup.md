@@ -1,4 +1,5 @@
 <!-- #  OmegaT 6.1.0 installation and setup guide -->
+#  OmegaT 6.1.0 installation and setup guide
 
 OmegaT is the open source computer-assisted translation tool (CAT tool) which we use to translate, reconcile, adapt, review and verify materials. You must install OmegaT and set it up with some additional files, in order to ensure an optimal interface and compatibility with the project we'll prepare for you.
 
@@ -24,15 +25,13 @@ If OmegaT is already installed in your machine but it's not version 6.1.0, pleas
 
 <!-- Check the [¶ How to uninstall apps on Windows 10](#how-to-uninstall-apps-on-windows-10) section below if you're not sure how to proceed. -->
 
-!!! tip
-    If OmegaT 6.1.0 is already installed in your machine, you may skip this section and go straight to the [1.3. Install the customization files](#13-install-the-customization-files) section below to proceed with the customization.
+> If OmegaT 6.1.0 is already installed in your machine, you may skip this section and go straight to the [1.3. Install the customization files](#13-install-the-customization-files) section below to proceed with the customization.
 
 ### 1.1. Download installer
 
 Please download the OmegaT 6.1 installer from [here](https://nextcloud.capstan.be/index.php/s/8o4njsQszczNG7F).
 
-!!! info
-    You must have a 64-bit machine to install this version of OmegaT. If that's not the case, please get in touch with our Helpdesk. <!-- Check the [¶ 64bit or 32bit machine?](#64bit-or-32bit-machine) section below if you're not sure how to check whether you have a 64-bit or 32-bit machine. -->
+> You must have a 64-bit machine to install this version of OmegaT. If that's not the case, please get in touch with our Helpdesk. <!-- Check the [¶ 64bit or 32bit machine?](#64bit-or-32bit-machine) section below if you're not sure how to check whether you have a 64-bit or 32-bit machine. -->
 
 
 It's a safe download, even if your browser might not trust the file.
