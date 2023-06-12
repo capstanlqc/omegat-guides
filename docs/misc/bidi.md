@@ -1,5 +1,7 @@
 <!-- # Handling bidirectionality -->
 
+# Handling bidirectionality in OmegaT
+
 ## Text direction and text alignment 
 
 By default, text direction in the translation editor is left to right (LTR) and text is aligned to the left. That applies to text in any language except languages written in a right-to-left (RTL) script, like Arabic, Hebrew, Syriac, etc., in which case the segment flows from right to left (RTL) and is aligned to the right.
