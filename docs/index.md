@@ -1,6 +1,12 @@
 <!-- # Contents -->
 
-# OmegaT guides 
+![](https://s3.amazonaws.com/media-p.slid.es/uploads/1129410/images/9336786/omt3d_256_2.png){: style="height:150px;width:150px" align=right }
+
+# OmegaT guides
+
+Welcome to cApStAn's OmegaT guides.
+
+
 
 ## A guide for each task
 + [Translation](translation/)
