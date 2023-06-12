@@ -112,7 +112,7 @@ nav:
         - Tips and tricks: misc/tips.md
         - Auxiliary tools: misc/aux.md
         - About: misc/about.md
-
+        - OmegaT 6.1 (experimental): misc/omt61-inst.md
 
 
 theme:
@@ -193,6 +193,11 @@ plugins:
       # https://github.com/cmacmackin/markdown-include
       # https://github.com/neurobin/mdx_include
 #  - awesome-pages
+  # - print-site
+  # - page-to-pdf:
+  #     disableOnServe: false
+  #     displayHeaderFooter: false
+  #     exclude: [nav]
 copyright: Copyright &copy; 2023 cApStAn
 extra:
   generator: true
