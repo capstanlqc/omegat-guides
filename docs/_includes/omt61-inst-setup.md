@@ -22,7 +22,7 @@ If OmegaT is already installed in your machine but it's not version 6.1.0, pleas
 
 ![](https://s3.amazonaws.com/media-p.slid.es/uploads/1129410/images/9336800/pasted-from-clipboard.png)
 
-Check the [¶ How to uninstall apps on Windows 10](#how-to-uninstall-apps-on-windows-10) section below if you're not sure how to proceed.
+<!-- Check the [¶ How to uninstall apps on Windows 10](#how-to-uninstall-apps-on-windows-10) section below if you're not sure how to proceed. -->
 
 !!! tip
     If OmegaT 6.1.0 is already installed in your machine, you may skip this section and go straight to the [1.3. Install the customization files](#13-install-the-customization-files) section below to proceed with the customization.
@@ -32,7 +32,7 @@ Check the [¶ How to uninstall apps on Windows 10](#how-to-uninstall-apps-on-win
 Please download the OmegaT 6.1 installer from [here](https://nextcloud.capstan.be/index.php/s/8o4njsQszczNG7F).
 
 !!! info
-    You must have a 64-bit machine to install this version of OmegaT. If that's not the case, please get in touch with our Helpdesk. Check the [¶ 64bit or 32bit machine?](#64bit-or-32bit-machine) section below if you're not sure how to check whether you have a 64-bit or 32-bit machine.
+    You must have a 64-bit machine to install this version of OmegaT. If that's not the case, please get in touch with our Helpdesk. <!-- Check the [¶ 64bit or 32bit machine?](#64bit-or-32bit-machine) section below if you're not sure how to check whether you have a 64-bit or 32-bit machine. -->
 
 
 It's a safe download, even if your browser might not trust the file.
@@ -121,6 +121,7 @@ customization script
 ![](https://s3.amazonaws.com/media-p.slid.es/uploads/1359547/images/8658947/pasted-from-clipboard.png)
 -->
 
+<!-- 
 ## Further info
 
 ### How to uninstall apps on Windows 10
@@ -143,4 +144,4 @@ See screenshot below:
 
 ![](https://media.giphy.com/media/9TZa44h00DErhS7BCo/giphy.gif){: style="height:120%;width:120%"}
 
-
+-->
