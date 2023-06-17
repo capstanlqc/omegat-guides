@@ -31,7 +31,11 @@ If OmegaT is already installed in your machine but it's not version 6.1.0, pleas
 
 ### 1.1. Download installer
 
-Please download the OmegaT 6.1 installer from [here](https://nextcloud.capstan.be/index.php/s/8o4njsQszczNG7F).
+<!-- Please download the OmegaT 6.1 installer from [here](https://nextcloud.capstan.be/index.php/s/8o4njsQszczNG7F). -->
+
+Please download the OmegaT 6.1 installer from [here](https://nextcloud.capstan.be/index.php/s/PM9iQGRJFZbAfYP). 
+
+
 
 > You must have a 64-bit machine to install this version of OmegaT. If that's not the case, please get in touch with our Helpdesk. <!-- Check the [¶ 64bit or 32bit machine?](#64bit-or-32bit-machine) section below if you're not sure how to check whether you have a 64-bit or 32-bit machine. -->
 
