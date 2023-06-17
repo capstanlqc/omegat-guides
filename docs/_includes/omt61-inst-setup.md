@@ -27,7 +27,7 @@ If OmegaT is already installed in your machine but it's not version 6.1.0, pleas
 
 <!-- Check the [¶ How to uninstall apps on Windows 10](#how-to-uninstall-apps-on-windows-10) section below if you're not sure how to proceed. -->
 
-> If OmegaT 6.1.0 is already installed in your machine, you may skip this section and go straight to the [1.3. Install the customization files](#13-install-the-customization-files) section below to proceed with the customization.
+> If OmegaT 6.1.0 is already installed in your machine, you may skip this section and go straight to the [1.3. Configure OmegaT](#13-configure-omegat) section below to proceed with the configuration (customization).
 
 ### 1.1. Download installer
 
