@@ -14,20 +14,20 @@ Please:
 
 ## Installation and configuration
 
-Notice that there are two steps in the process to get you started:
+Notice that the setup process to get you started consists of **two** steps:
 
 1. Installing OmegaT
-2. Installing your user configuration
+2. Installing your user configuration files
 
-Any configuration updates won't require re-installing OmegaT (unless exlicitedly noted).
+> Any configuration updates won't require re-installing OmegaT (unless exlicitedly noted).
 
 If OmegaT is already installed in your machine but it's not version 6.1.0, please uninstall that version before proceeding. You can check OmegaT's version in the title bar.
 
-![](https://s3.amazonaws.com/media-p.slid.es/uploads/1129410/images/9336800/pasted-from-clipboard.png)
+![](../_assets/img/omt-version-in-title.png)
 
 <!-- Check the [¶ How to uninstall apps on Windows 10](#how-to-uninstall-apps-on-windows-10) section below if you're not sure how to proceed. -->
 
-> If OmegaT 6.1.0 is already installed in your machine, you may skip this section and go straight to the [1.3. Configure OmegaT](#13-configure-omegat) section below to proceed with the configuration (customization).
+> If OmegaT 6.1.0 is already installed in your machine, you may skip the next section and go straight to the [1.3. Configure OmegaT](#13-configure-omegat) section below to proceed with the configuration (customization).
 
 ### 1.1. Download installer
 
@@ -49,24 +49,37 @@ In order to proceed with the installation, please follow these steps:
 
 + Double click the `OmegaT_6.1.0_Beta_Windows_64.exe` file that you have downloaded.
 
++ Should Windows display a blue screen saying that it might be risky to install OmegaT, please press the **Run anyway** button. Make sure that the publisher is cApStAn, though.
+
+    ![](../_assets/img/omegat-signed-installation-smart-screen.png)
+
++ If you see the following screen, click on "Yes":
+
+    ![](../_assets/img/omegat-signed-installation-01.png)
+
 + Choose (or keep) English as the language of the installation:
 
-    ![](https://s3.amazonaws.com/media-p.slid.es/uploads/1359547/images/8658891/pasted-from-clipboard.png)
+    ![](../_assets/img/omegat-signed-installation-02.png)
     <!-- {: style="height:50%;width:50%"} -->
 
 + Please also use English as the language of the OmegaT user interface:
 
-    ![](https://s3.amazonaws.com/media-p.slid.es/uploads/1359547/images/8658900/pasted-from-clipboard.png)<!-- {: style="height:70%;width:70%"} -->
+    ![](../_assets/img/omegat-signed-installation-03.png)
+    <!-- {: style="height:70%;width:70%"} -->
 
 + In the License Agreement screen, please select "I accept the agreement” and click “Next”:
 
-    ![](https://s3.amazonaws.com/media-p.slid.es/uploads/1359547/images/8658905/pasted-from-clipboard.png)<!-- {: style="height:70%;width:70%"} -->
+    ![](../_assets/img/omegat-signed-installation-04.png)<!-- {: style="height:70%;width:70%"} -->
 
 + In all other dialogs, just press “Next” to use the default options until you reach the “Ready to Install” screen.
 
++ We recommend that you do not change the default installation path, just click Next in this screen:
+
+    ![](../_assets/img/omegat-signed-installation-05.png)
+
 + Then click on “Install”.
 
-    ![](https://s3.amazonaws.com/media-p.slid.es/uploads/1359547/images/8658919/pasted-from-clipboard.png)<!-- {: style="height:70%;width:70%"} -->
+    ![](../_assets/img/omegat-signed-installation-08.png)<!-- {: style="height:70%;width:70%"} -->
 
 ### 1.3. Configure OmegaT
 
