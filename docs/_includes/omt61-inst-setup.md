@@ -35,7 +35,7 @@ If OmegaT is already installed in your machine but it's not version 6.1.0, pleas
 
 <!-- Please download the cApStAn-signed OmegaT 6.1 installer from [here](https://nextcloud.capstan.be/index.php/s/PM9iQGRJFZbAfYP). -->
 
-Please download the cApStAn-signed OmegaT 6.1 installer from [here](https://github.com/capstanlqc/omegat-guides/raw/master/docs/_downloads/OmegaT_6.1.0_Beta_Windows_64_Signed.exe).
+Please download the cApStAn-signed OmegaT 6.1 installer from [here](https://github.com/capstanlqc/omegat-guides/raw/master/lfs/OmegaT_6.1.0_Beta_Windows_64_Signed.exe).
 
 
 
