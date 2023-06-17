@@ -33,7 +33,9 @@ If OmegaT is already installed in your machine but it's not version 6.1.0, pleas
 
 <!-- Please download the OmegaT 6.1 installer from [here](https://nextcloud.capstan.be/index.php/s/8o4njsQszczNG7F). -->
 
-Please download the OmegaT 6.1 installer from [here](https://nextcloud.capstan.be/index.php/s/PM9iQGRJFZbAfYP). 
+<!-- Please download the cApStAn-signed OmegaT 6.1 installer from [here](https://nextcloud.capstan.be/index.php/s/PM9iQGRJFZbAfYP). -->
+
+Please download the cApStAn-signed OmegaT 6.1 installer from [here](https://github.com/capstanlqc/omegat-guides/raw/master/docs/_downloads/OmegaT_6.1.0_Beta_Windows_64_Signed.exe).
 
 
 
@@ -66,7 +68,7 @@ In order to proceed with the installation, please follow these steps:
 
     ![](https://s3.amazonaws.com/media-p.slid.es/uploads/1359547/images/8658919/pasted-from-clipboard.png)<!-- {: style="height:70%;width:70%"} -->
 
-### 1.3. Install the customization files
+### 1.3. Configure OmegaT
 
 So that you can work with projects cApStAn will provide to you, you must customize your OmegaT installation by adding some additional setup files that we provide separately.
 
