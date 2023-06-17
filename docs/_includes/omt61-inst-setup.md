@@ -1,5 +1,5 @@
 <!-- #  OmegaT 6.1.0 installation and setup guide -->
-#  OmegaT 6.1.0 installation and setup guide
+#  OmegaT 6.1.0 setup guide
 
 OmegaT is the open source computer-assisted translation tool (CAT tool) which we use to translate, reconcile, adapt, review and verify materials. You must install OmegaT and set it up with some additional files, in order to ensure an optimal interface and compatibility with the project we'll prepare for you.
 
@@ -12,14 +12,14 @@ Please:
 + Download OmegaT 6.1.0 from the **link provided** in this guide. Do not download OmegaT from another link.
 + Install OmegaT version 6.1.0 (from the link in this guide). Do not install **any other** version of OmegaT.
 
-## Installation and setup
+## Installation and configuration
 
-Notice that there are two steps in the installation process:
+Notice that there are two steps in the process to get you started:
 
-1. Installation of OmegaT
-2. Installation setup
+1. Installing OmegaT
+2. Installing your user configuration
 
-A setup update doesn't require re-installing OmegaT.
+Any configuration updates won't require re-installing OmegaT (unless exlicitedly noted).
 
 If OmegaT is already installed in your machine but it's not version 6.1.0, please uninstall that version before proceeding. You can check OmegaT's version in the title bar.
 
@@ -70,7 +70,7 @@ In order to proceed with the installation, please follow these steps:
 
 ### 1.3. Configure OmegaT
 
-So that you can work with projects cApStAn will provide to you, you must customize your OmegaT installation by adding some additional setup files that we provide separately.
+So that you can work with projects cApStAn will provide to you, you must configure your OmegaT installation by adding some additional custom files that we provide separately.
 
 Please follow these steps to proceed with the customization: 
 
