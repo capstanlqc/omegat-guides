@@ -23,7 +23,8 @@ Notice that the setup process to get you started consists of **two** steps:
 
 If OmegaT is already installed in your machine but it's not version 6.1.0, please uninstall that version before proceeding. You can check OmegaT's version in the title bar.
 
-![](../_assets/img/omt-version-in-title.png)
+    ![](https://capstanlqc.github.io/omegat-guides/_assets/img/omt-version-in-title.png)
+
 
 <!-- Check the [¶ How to uninstall apps on Windows 10](#how-to-uninstall-apps-on-windows-10) section below if you're not sure how to proceed. -->
 
@@ -51,35 +52,35 @@ In order to proceed with the installation, please follow these steps:
 
 + Should Windows display a blue screen saying that it might be risky to install OmegaT, please press the **Run anyway** button. Make sure that the publisher is cApStAn, though.
 
-    ![](../_assets/img/omegat-signed-installation-smart-screen.png)
+    ![](https://capstanlqc.github.io/omegat-guides/_assets/img/omegat-signed-installation-smart-screen.png)
 
 + If you see the following screen, click on "Yes":
 
-    ![](../_assets/img/omegat-signed-installation-01.png)
+    ![](https://capstanlqc.github.io/omegat-guides/_assets/img/omegat-signed-installation-01.png)
 
 + Choose (or keep) English as the language of the installation:
 
-    ![](../_assets/img/omegat-signed-installation-02.png)
+    ![](https://capstanlqc.github.io/omegat-guides/_assets/img/omegat-signed-installation-02.png)
     <!-- {: style="height:50%;width:50%"} -->
 
 + Please also use English as the language of the OmegaT user interface:
 
-    ![](../_assets/img/omegat-signed-installation-03.png)
+    ![](https://capstanlqc.github.io/omegat-guides/_assets/img/omegat-signed-installation-03.png)
     <!-- {: style="height:70%;width:70%"} -->
 
 + In the License Agreement screen, please select "I accept the agreement” and click “Next”:
 
-    ![](../_assets/img/omegat-signed-installation-04.png)<!-- {: style="height:70%;width:70%"} -->
+    ![](https://capstanlqc.github.io/omegat-guides/_assets/img/omegat-signed-installation-04.png)<!-- {: style="height:70%;width:70%"} -->
 
 + In all other dialogs, just press “Next” to use the default options until you reach the “Ready to Install” screen.
 
 + We recommend that you do not change the default installation path, just click Next in this screen:
 
-    ![](../_assets/img/omegat-signed-installation-05.png)
+    ![](https://capstanlqc.github.io/omegat-guides/_assets/img/omegat-signed-installation-05.png)
 
 + Then click on “Install”.
 
-    ![](../_assets/img/omegat-signed-installation-08.png)<!-- {: style="height:70%;width:70%"} -->
+    ![](https://capstanlqc.github.io/omegat-guides/_assets/img/omegat-signed-installation-08.png)<!-- {: style="height:70%;width:70%"} -->
 
 ### 1.3. Configure OmegaT
 
