@@ -88,7 +88,7 @@ So that you can work with projects cApStAn will provide to you, you must configu
 
 Please follow these steps to proceed with the customization: 
 
-+ Download the [customization bundle](https://github.com/capstanlqc/omegat-user-config/archive/refs/heads/master.zip) to your local disk.
++ Download the [user configuration bundle](https://github.com/capstanlqc/omegat-user-config/archive/refs/heads/master.zip) to your local disk.
 
 + Unzip the customization bundle. You should see a list of folders and files like the following: 
 
