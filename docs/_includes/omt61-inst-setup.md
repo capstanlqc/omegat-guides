@@ -50,7 +50,7 @@ In order to proceed with the installation, please follow these steps:
 
 + Double click the `OmegaT_6.1.0_Beta_Windows_64.exe` file that you have downloaded.
 
-+ Should Windows display a blue screen saying that it might be risky to install OmegaT, please press the **Run anyway** button. Make sure that the publisher is cApStAn, though.
++ In the case that Windows display a blue screen saying that it might be risky to install OmegaT, you can be confidently press the **Run anyway** button as long as you see the publisher is cApStAn.
 
     ![](https://capstanlqc.github.io/omegat-guides/_assets/img/omegat-signed-installation-smart-screen.png)
 
