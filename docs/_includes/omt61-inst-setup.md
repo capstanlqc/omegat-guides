@@ -23,7 +23,7 @@ Notice that the setup process to get you started consists of **two** steps:
 
 If OmegaT is already installed in your machine but it's not version 6.1.0, please uninstall that version before proceeding. You can check OmegaT's version in the title bar.
 
-    ![](https://capstanlqc.github.io/omegat-guides/_assets/img/omt-version-in-title.png)
+![](https://capstanlqc.github.io/omegat-guides/_assets/img/omt-version-in-title.png)
 
 
 <!-- Check the [¶ How to uninstall apps on Windows 10](#how-to-uninstall-apps-on-windows-10) section below if you're not sure how to proceed. -->
