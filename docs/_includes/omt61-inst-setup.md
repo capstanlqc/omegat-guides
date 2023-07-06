@@ -50,9 +50,13 @@ In order to proceed with the installation, please follow these steps:
 
 + Double click the executable file (e.g. `OmegaT_6.1.0_Beta_Windows_64_Signed.exe`) that you have downloaded.
 
-+ In the case that Windows displays a blue screen saying that it might be risky to install OmegaT, you can be confidently press the **Run anyway** button as long as you see the publisher is cApStAn.
++ Windows could display a blue screen saying that it might be risky to install OmegaT. If that's the case, click on "More info" 
 
-    ![](https://capstanlqc.github.io/omegat-guides/_assets/img/omegat-signed-installation-smart-screen.png)
+    ![](https://capstanlqc.github.io/omegat-guides/_assets/img/omegat-win-protected-your-pc-01.png)
+
+    That will show information about the application and the publisher. You can be confidently press the **Run anyway** button as long as you see the publisher is cApStAn.
+
+    ![](https://capstanlqc.github.io/omegat-guides/_assets/img/omegat-win-protected-your-pc-02.png)
 
 + If you see the following screen, click on "Yes":
 
@@ -78,6 +82,10 @@ In order to proceed with the installation, please follow these steps:
 + We recommend that you do not change the default installation path, just click Next in this screen:
 
     ![](https://capstanlqc.github.io/omegat-guides/_assets/img/omegat-signed-installation-05.png)
+
++ We also recommend that you create a desktop shortcut (if that's a useful way for you to run OmegaT):
+
+    ![](https://capstanlqc.github.io/omegat-guides/_assets/img/omegat-signed-installation-07.png)
 
 + In the **Ready to Install** screen, click on “Install”.
 
