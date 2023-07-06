@@ -48,14 +48,15 @@ It's a safe download, even if your browser might not trust the file.
 
 In order to proceed with the installation, please follow these steps: 
 
-+ Double click the `OmegaT_6.1.0_Beta_Windows_64.exe` file that you have downloaded.
++ Double click the executable file (e.g. `OmegaT_6.1.0_Beta_Windows_64_Signed.exe`) that you have downloaded.
 
-+ In the case that Windows display a blue screen saying that it might be risky to install OmegaT, you can be confidently press the **Run anyway** button as long as you see the publisher is cApStAn.
++ In the case that Windows displays a blue screen saying that it might be risky to install OmegaT, you can be confidently press the **Run anyway** button as long as you see the publisher is cApStAn.
 
     ![](https://capstanlqc.github.io/omegat-guides/_assets/img/omegat-signed-installation-smart-screen.png)
 
 + If you see the following screen, click on "Yes":
 
+    <!-- https://imgur.com/g9oaURq.png -->
     ![](https://capstanlqc.github.io/omegat-guides/_assets/img/omegat-signed-installation-01.png)
 
 + Choose (or keep) English as the language of the installation:
@@ -72,17 +73,33 @@ In order to proceed with the installation, please follow these steps:
 
     ![](https://capstanlqc.github.io/omegat-guides/_assets/img/omegat-signed-installation-04.png)<!-- {: style="height:70%;width:70%"} -->
 
-+ In all other dialogs, just press “Next” to use the default options until you reach the “Ready to Install” screen.
++ In all the next dialogs, just press “Next” to use the default options until you reach the **Ready to Install** screen.
 
 + We recommend that you do not change the default installation path, just click Next in this screen:
 
     ![](https://capstanlqc.github.io/omegat-guides/_assets/img/omegat-signed-installation-05.png)
 
-+ Then click on “Install”.
++ In the **Ready to Install** screen, click on “Install”.
 
     ![](https://capstanlqc.github.io/omegat-guides/_assets/img/omegat-signed-installation-08.png)<!-- {: style="height:70%;width:70%"} -->
 
++ When the installation is finalized, you will see the last screen: 
+
+    ![](https://i.imgur.com/NGjakJv.png)
+    
+After that, you'll be able to run OmegaT from the OmegaT desktop shortcut icon (if you have created one) or from the applications menu.
+
 ### 1.3. Configure OmegaT
+
+To configure OmegaT, please do: 
+
+- Launch OmegaT once and then close it.
+- Launch OmegaT again and let it run for a few seconds.
+- Close OmegaT.
+
+During the second execution, OmegaT will be configured automatically in the brackground. When you run OmegaT for the third time, you will be able to start working on your project(s).
+
+<!-- 
 
 So that you can work with projects cApStAn will provide to you, you must configure your OmegaT installation by adding some additional custom files that we provide separately.
 
@@ -121,6 +138,8 @@ Please follow these steps to proceed with the customization:
 + Paste all the folders and files included in the customization bundle in your Configuration Folder. 
 
 That's it. 
+-->
+
 
 <!-- 
 customization script 
