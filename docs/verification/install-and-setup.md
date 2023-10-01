@@ -1,5 +1,5 @@
 <!-- section: installation and customization -->
-{% include 'omt-inst.md' %}
+{% include 'omt-inst-verif.md' %}
 
 {% include 'user-id.md' %}
 <!-- @todo: update screenshot to include name after VER -->
