@@ -15,7 +15,7 @@
     
     
       
-        <title>Installation and setup - OmegaT guides [cApStAn]</title>
+        <title>OmegaT 5.7.2 setup guide for Windows - OmegaT guides [cApStAn]</title>
       
     
     
@@ -58,7 +58,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="indigo">
   
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#installation-and-setup" class="md-skip">
+        <a href="#omegat-572-setup-guide-for-windows" class="md-skip">
           Skip to content
         </a>
       
@@ -102,7 +102,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Installation and setup
+              OmegaT 5.7.2 setup guide for Windows
             
           </span>
         </div>
@@ -114,7 +114,7 @@
           
           
           
-          <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+          <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
           
             <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_3" hidden>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9h-1.9M20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69m-9.15 3.96h2.3L12 9l-1.15 3.65Z"/></svg>
@@ -124,7 +124,7 @@
           
           
           
-          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_2">
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_2">
           
             <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
@@ -134,7 +134,7 @@
           
           
           
-          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_3">
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_3">
           
             <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_2" hidden>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
@@ -2271,8 +2271,124 @@
 
 
 
-<h1 id="installation-and-setup">Installation and setup<a class="headerlink" href="#installation-and-setup" title="Permanent link">&para;</a></h1>
-<p>To install OmegaT and set it up on a computer running Windows, please follow the OmegaT installation and setup guide below:</p>
+<h1 id="omegat-572-setup-guide-for-windows">OmegaT 5.7.2 setup guide for Windows<a class="headerlink" href="#omegat-572-setup-guide-for-windows" title="Permanent link">&para;</a></h1>
+<details class="info">
+<summary>Other operating systems</summary>
+<p>It's possible to install OmegaT 5.7.2 in other operating systems like macOS or Linux. Follow this other <a href="../install-and-setup-macos/">guide to install on macOS</a>. Please get in touch through the Helpdesk if you are a Linux user.</p>
+</details>
+<p>Carefully choose your path here:</p>
+<ul>
+<li>If there is no current installation of OmegaT in your machine, you can skip the following steps about configuration and jump directly to the <a href="#installation">installation section</a>. OmegaT will configure itself as part of the installation.</li>
+<li>If you already have a previous version (e.g. 5.7.1 or 4.2.0) of OmegaT installed, you'll have to update your configuration first: to do so please go to the <a href="#configuration">configuration section</a> (next section right down below).</li>
+</ul>
+<h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h2>
+<p>This section applies to users that already have a previous version (e.g. 5.7.1 or 4.2.0) of OmegaT installed. Please follow the next steps to update your configuration.</p>
+<ol>
+<li>
+<p>Run OmegaT and go to <strong>Tools</strong> &gt; <strong>Scripting</strong> to open your scripting console,  In OmegaT 5.7.1, please open the scripting console. Check whethers you have a script called "<strong>Update Customisation Bundle (v572)</strong>":</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If you don't see the "<strong>v752</strong>" bit, then it's not the script we're looking for. See next step to fetch the script.</p>
+</div>
+<p><img alt="" src="../../_assets/img/custom-script-572-in-scripting-console.png" /></p>
+<p>If the script "<strong>Update Customisation Bundle (v572)</strong>" is there, please click on it to select it and press the <strong>Run</strong> button (at the bottom left) to run it. The script will run to update your config files and will quit OmegaT. After that, skip the next step and jump directly to the <a href="#installation">installation section</a>.</p>
+<p>If the script is not there, you may download it yourself. See next steps for how to do that.</p>
+</li>
+<li>
+<p>Click on the button below to download the configuration script (e.g. to your Desktop)</p>
+<p><a class="md-button md-button--primary" href="https://cat.capstan.be/OmegaT/v572/customization/scripts/updateConfigBundle.groovy"> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7Z"/></svg></span> Download UpdateConfigBundle.groovy</a></p>
+</li>
+</ol>
+<!-- [file.ext](../static/file.ext){:download} -->
+
+<ol>
+<li>
+<p>In OmegaT, follow these steps to run the configuration script you have downloaded:</p>
+<ul>
+<li><strong>Tools</strong> &gt; <strong>Scripting</strong> &gt; <strong>File</strong> &gt; <strong>Open script</strong></li>
+<li>browse to your Desktop (or the folder where you have saved the script) and select the groovy file</li>
+<li>press the <strong>Open</strong> button to open the script file and press <strong>Run</strong> button (on the bottom left)</li>
+</ul>
+<p><img alt="" src="../../_assets/img/omt-open-script-and-run.gif" /></p>
+<p>The script will install the necessary config files for OmegaT 5.7.2 and delete old config files for OmegaT 5.7.1, and after that it will quit OmegaT.</p>
+</li>
+<li>
+<p>Uninstall your current version of OmegaT.</p>
+</li>
+<li>
+<p>Finally, proceed now to the <a href="#installation">installation section</a> (next step below).</p>
+</li>
+</ol>
+<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h2>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>You must have a 64-bit machine to install OmegaT. If that's not the case, please get in touch with our Helpdesk.</p>
+</div>
+<ol>
+<li>
+<p>Click on the button below to download OmegaT 5.7.2. This is a custom version prepared by cApStAn which includes several bug fixes and enhancements not available in other versions.</p>
+<p><a class="md-button md-button--primary" href="https://cat.capstan.be/OmegaT/exe/OmegaT_5.7.2_Windows_64_Signed.exe"> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7Z"/></svg></span> Download OmegaT 5.7.2</a></p>
+<details class="question">
+<summary>Trouble to download?</summary>
+<p>Some browsers (e.g. Microsoft Edge) might ask you whether downloading the installer is safe. It is safe, and you can follow the following steps in the video below to let your browser download the file.</p>
+<p><img alt="" src="../../_assets/img/edge-keep-download.gif" /></p>
+</details>
+</li>
+<li>
+<p>Double-click the installer file to start the installation wizard. </p>
+</li>
+<li>
+<p>Windows Defender might show a dialog warning against the risk of running an unrecognized app.</p>
+<p><img alt="" src="../../_assets/img/omegat-win-protected-your-pc-01.png" /> <!-- # omt572-install-01.png -->s</p>
+<p>If you see that, click on the <u>More info</u> link in that dialog. In the information displayed you should see that cApStAn is the publisher of this installer. </p>
+<p><img alt="" src="../../_assets/img/omt572-install-02-run-anyway.png" /></p>
+<p>If that's the case, prease press the <strong>Run anyway</strong> button to proceed with the installation.</p>
+</li>
+<li>
+<p>In the next dialog, you may choose the language of the installation, then press <strong>Ok</strong>:</p>
+<p><img alt="" src="../../_assets/img/omt572-install-03-lang.png" /></p>
+</li>
+<li>
+<p>Please accept the GPL license agreement to proceed, and press <strong>Next</strong>:</p>
+<p><img alt="" src="../../_assets/img/omt572-install-04-accept.png" /></p>
+</li>
+<li>
+<p>OmegaT will propose the path <code>C:\Users\USER\AppData\Local\Programs\OmegaT</code> for the installation, where it should be possible for non-admin users to install. </p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Please do not modify this installation path unless you're IT personnel and you know what you're doing. </p>
+</div>
+<p><img alt="" src="../../_assets/img/omt572-install-05-path.png" /></p>
+</li>
+<li>
+<p>A desktop shortcut (launcher) will be created on your Desktop (which you can double-click later on to launch OmegaT). Do not uncheck that option. </p>
+<p><img alt="" src="../../_assets/img/omt572-install-06-desktop-shortcut.png" /></p>
+</li>
+<li>
+<p>You may modify the name of the OmegaT folder in the start menu, but "OmegaT " is fine, no need to change it in a standard installation.</p>
+<p><img alt="" src="../../_assets/img/omt572-install-07-start-menu.png" /></p>
+</li>
+<li>
+<p>You're ready to proceed with the installation, press <strong>Next</strong>.</p>
+<p><img alt="" src="../../_assets/img/omt572-install-08-ready.png" /></p>
+</li>
+<li>
+<p>After a couple of minutes, your installation should be complete.     </p>
+<p><img alt="" src="../../_assets/img/omt572-install-09-done.png" /></p>
+</li>
+<li>
+<p>If you want to run a post-installation check to confirm that you have the correct version, you can check that in <strong>Help</strong> &gt; <strong>About</strong> &gt; <strong>Copy Support Info</strong>. You should see: </p>
+<blockquote>
+<p>Version: OmegaT-5.7.2_0_a978d82ee <br />
+Platform: [your operating system]<br />
+Java: 11.0.19 amd64</p>
+</blockquote>
+</li>
+</ol>
+<p>You're done now. You can start using OmegaT 5.7.2. Please do not forget to <a href="#your-user-nameid">set your user name in OmegaT</a>.</p>
+<!-- 
+To install OmegaT and set it up on a computer running Windows, please follow the OmegaT installation and setup guide below:
+
 <div style="width: 100%">
 
 <iframe 
@@ -2286,8 +2402,20 @@ webkitallowfullscreen mozallowfullscreen allowfullscreen>
 
 </div>
 
-<p>If you use Mac or Linux, please see the second slide above or get in touch through the Helpdesk.</p>
-<!-- To install and customize OmegaT on a computer running on Windows, please consult the steps in the [OmegaT installation and customization guide](../tec-cb-ome-ins). -->
+If you use Mac or Linux, please see the second slide above or get in touch through the Helpdesk.
+
+
+- USB 
+16GBc
+model... 
+format as FAT32
+D:\OmegaT
+zip -- iso
+
+
+https://www.westerndigital.com/products/usb-flash-drives/sandisk-ultra-fit-usb-3-1?sku=SDCZ430-016G-G46
+
+-->
 
 
 
