@@ -120,19 +120,22 @@ theme:
   logo: _assets/img/cApStAn_symbolesensemble_blanc.png
   favicon: _assets/favicon.ico
   palette:
-    # Palette toggle for automatic mode
+    # Palette toggle for light mode
     - media: "(prefers-color-scheme)"
+      accent: indigo
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
-    # Palette toggle for light mode
+    # Palette toggle for dark mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default 
+      accent: indigo
+      scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-    # Palette toggle for dark mode
+    # Palette toggle for automatic mode
     - media: "(prefers-color-scheme: dark)"
+      accent: indigo
       scheme: slate
       toggle:
         icon: material/brightness-4
@@ -182,6 +185,18 @@ extra_javascript:
 plugins:
   #- with-pdf
   - search
+  - exclude-search:
+      exclude:
+        - misc/hidden.md
+        - adaptation/hidden.md
+        - editing/hidden.md
+        - reconciliation/hidden.md
+        - review/hidden.md
+        - translation/hidden.md
+        - verification/hidden.md
+        - /*/hidden.md
+        - page.md#section
+        - _includes/*
   #- mkpdfs
   - tags:
       tags_file: misc/tags.md
