@@ -206,3 +206,8 @@ It's possible to open the repository directly from VS Code (as explained [here](
     - hide button with capstan logo
     - create one site for each guide to restrict indexing scope
 -->
+
+## TODO
+
+- Create a mkdocs config for each guide
+- Set a better accent color
