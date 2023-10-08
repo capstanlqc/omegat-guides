@@ -30,8 +30,6 @@ This section applies to users that already have a previous version (e.g. 5.7.1 o
     [ :material-download: Download UpdateConfigBundle.groovy](https://cat.capstan.be/OmegaT/v572/customization/scripts/updateConfigBundle.groovy){ .md-button .md-button--primary }
 
 
-<!-- [file.ext](../static/file.ext){:download} -->
-
 3. In OmegaT, follow these steps to run the configuration script you have downloaded:
 	- **Tools** > **Scripting** > **File** > **Open script**
 	- browse to your Desktop (or the folder where you have saved the script) and select the groovy file
