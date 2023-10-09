@@ -45,9 +45,6 @@ This section applies to users that already have a previous version (e.g. 5.7.1 o
 
 ##  Installation
 
-!!! warning
-    You must have a 64-bit machine to install OmegaT. If that's not the case, please get in touch with our Helpdesk.
-
 1. Click on the button below to download OmegaT 5.7.2. This is a custom version prepared by cApStAn which includes several bug fixes and enhancements not available in other versions.
 
     [ :material-download: Download OmegaT 5.7.2](https://cat.capstan.be/OmegaT/exe/OmegaT_5.7.2_Windows_64_Signed.exe){ .md-button .md-button--primary }
