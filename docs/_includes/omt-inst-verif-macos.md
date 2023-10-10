@@ -49,7 +49,7 @@ This section applies to users that already have a previous version (e.g. 5.7.1 o
 
 1. Click on the button below to download OmegaT 5.7.2. This is a custom version prepared by cApStAn which includes several bug fixes and enhancements not available in other versions.
 
-    [ :material-download: Download OmegaT 5.7.2](https://capps.capstan.be/cat/OmegaT/exe/OmegaT_5.7.2_Mac.zip){ .md-button .md-button--primary }
+    [ :material-download: Download OmegaT 5.7.2](https://cat.capstan.be/OmegaT/exe/OmegaT_5.7.2_Mac.zip){ .md-button .md-button--primary }
 
 2. If you're using Safari, then the file will be unzipped automatically when the download ends.​ If you use another browser, double-click the file when the download ends to unzip it.
 
