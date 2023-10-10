@@ -15,7 +15,7 @@ This section applies to users that already have a previous version (e.g. 5.7.1 o
 1. Run OmegaT and go to **Tools** > **Scripting** to open your scripting console,  In OmegaT 5.7.1, please open the scripting console. Check whethers you have a script called "**Update Customisation Bundle (v572)**":
 
     !!! warning 
-        If you don't see the "**v752**" bit, then it's not the script we're looking for. See next step to fetch the script.
+        If you don't see the "**v572**" bit, then it's not the script we're looking for. See next step to fetch the script.
 
     ![](../_assets/img/custom-script-572-in-scripting-console.png)
 
