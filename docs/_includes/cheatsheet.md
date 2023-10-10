@@ -6,7 +6,7 @@ Here is a table summarizing all functions you need to remember to work in OmegaT
 | :----------------- |--------------------------------                  |----------------------------------------------               |
 | ++ctrl+l++         | Project > Project Files                          | Open the Project Files window                               |
 | ++ctrl+j++         | Go To > Segment Number…                          | Go to the segment thus numbered                             |
-| ++ctrl+space++     | N/A                                              | Press several times to open Character table                 |
+| ++ctrl+space++     | N/A                                              | Open the Auto-Completer and cycle through it (every time you press this shorcut, a different section of the auto-completer is available: tags. character table, etc.)             |
 | ++ctrl+u++         | Go To > Next Untranslated Segment                | Go to the next untranslated segment                         |
 | ++ctrl+t++         | Edit > Insert Next Missing Tag                   | Insert the next missing tag                                 |
 | ++enter++          |                                                  | Go to Next Segment                                          |
