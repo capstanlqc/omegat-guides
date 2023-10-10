@@ -13,9 +13,9 @@ This section applies to users that already have a previous version (e.g. 5.7.1 o
 1. Run OmegaT and go to **Tools** > **Scripting** to open your scripting console,  In OmegaT 5.7.1, please open the scripting console. Check whethers you have a script called "**Update Customisation Bundle (v572)**":
 
     !!! warning 
-        If you don't see the "**v752**" bit, then it's not the script we're looking for. See next step to fetch the script.
+        If you don't see the "**v572**" bit, then it's not the script we're looking for. See next step to fetch the script.
 
-    ![](../_assets/img/custom-script-572-in-scripting-console.png)
+    ![](../_assets/img/custom-script-572-in-scripting-console_Mac.png)
 
 
     If the script "**Update Customisation Bundle (v572)**" is there, please click on it to select it and press the **Run** button (at the bottom left) to run it. The script will run to update your config files and will quit OmegaT. After that, skip the next step and jump directly to the [installation section](#installation).
@@ -34,20 +34,22 @@ This section applies to users that already have a previous version (e.g. 5.7.1 o
 	- browse to your Desktop (or the folder where you have saved the script) and select the groovy file
 	- press the **Open** button to open the script file and press **Run** button (on the bottom left)
 
-    ![](../_assets/img/omt-open-script-and-run.gif)
+    ![](../_assets/img/omt-open-script-and-run_Mac.gif)
         
     The script will install the necessary config files for OmegaT 5.7.2 and delete old config files for OmegaT 5.7.1, and after that it will quit OmegaT.
 
 4. Uninstall your current version of OmegaT.
 
-5. Finally, proceed now to the [installation section](#installation) (next step below).
+   To do that, simply move the installed **OmegaT.app** to Trash.
+
+6. Finally, proceed now to the [installation section](#installation) (next step below).
 
 
 ##  Installation
 
 1. Click on the button below to download OmegaT 5.7.2. This is a custom version prepared by cApStAn which includes several bug fixes and enhancements not available in other versions.
 
-    [ :material-download: Download OmegaT 5.7.2](https://cat.capstan.be/OmegaT/exe/OmegaT_5.7.2_Windows_64_Signed.exe){ .md-button .md-button--primary }
+    [ :material-download: Download OmegaT 5.7.2](https://capps.capstan.be/cat/OmegaT/exe/OmegaT_5.7.2_Mac.zip){ .md-button .md-button--primary }
 
 2. If you're using Safari, then the file will be unzipped automatically when the download ends.​ If you use another browser, double-click the file when the download ends to unzip it.
 
