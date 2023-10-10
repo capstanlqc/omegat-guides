@@ -1,6 +1,6 @@
 ## Navigation through files
 
-If the project contains multiple files, they are listed in the **Project Files** window. The file currently open is highlighted in blue.
+If the project contains multiple files, they are listed in the **Project Files** window. You can open this window by pressing ++ctrl+l++. The file currently open is highlighted in blue.
 
 ![](../_assets/img/06_project_files_pane.jpg)
 
