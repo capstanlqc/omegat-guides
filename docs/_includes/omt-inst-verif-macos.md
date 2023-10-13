@@ -22,7 +22,7 @@ This section applies to users that already have a previous version (e.g. 5.7.1 o
 
     If the script is not there, go to the next step to download it.
 
-2. Click on the button below to download the configuration script (e.g. to your Desktop)
+2. Right-click on the button below and select "Save Link As" to download the configuration script (e.g. to your Desktop)
 
     [ :material-download: Download UpdateConfigBundle.groovy](https://cat.capstan.be/OmegaT/v572/customization/scripts/updateConfigBundle.groovy){ .md-button .md-button--primary }
 
