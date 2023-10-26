@@ -75,7 +75,7 @@ This section applies to users that already have a previous version (e.g. 5.7.1 o
     > Platform: [your operating system]  
     > Java: 11.0.19 amd64
 
-You're done now. You can start using OmegaT 5.7.2. Please do not forget to [set your user name in OmegaT](#your-user-nameid).
+You're done now. You can start using OmegaT 5.7.2. 
 
 
 
