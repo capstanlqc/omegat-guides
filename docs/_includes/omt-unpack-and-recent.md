@@ -73,7 +73,7 @@ To download the team project, follow these steps:
 
     !!! danger "Danger ❗❗❗"
         💀
-        Make sure that location is NOT inside a sync'ed folder such as Dropbox, OneDrive, Nextcloud, Google Drive, Syncthing or the like, or in a server.
+        Make sure that location is NOT inside a sync'ed folder such as Dropbox, OneDrive, Nextcloud, Google Drive, Syncthing or the like, or in a server or a network drive.
 
 2. [Copy](../../tips/#how-to-copy-paste-a-url){:target="_blank"} the URL of the project repository to your clipboard (select it and press ++ctrl+c++ or right-click it and select Copy).
 
