@@ -114,7 +114,6 @@ nav:
         - About: misc/about.md
         # - OmegaT 6.1 (experimental): misc/omt61-inst.md
 
-
 theme:
   name: material
   logo: _assets/img/cApStAn_symbolesensemble_blanc.png
