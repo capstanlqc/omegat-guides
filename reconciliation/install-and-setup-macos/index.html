@@ -2273,13 +2273,13 @@
 
 <!-- section: installation and customization -->
 <h1 id="omegat-572-setup-guide-for-macos">OmegaT 5.7.2 setup guide for macOS<a class="headerlink" href="#omegat-572-setup-guide-for-macos" title="Permanent link">&para;</a></h1>
-<p>Carefully choose your path here:</p>
+<p>Depending on your starting point, <mark>choose your path here carefully</mark>:</p>
 <ul>
-<li>If there is no current installation of OmegaT in your machine, you can skip the following steps about configuration and jump directly to the <a href="#installation">installation section</a>. OmegaT will configure itself as part of the installation.</li>
-<li>If you already have a previous version (e.g. 5.7.1 or 4.2.0) of OmegaT installed, you'll have to update your configuration first: to do so please go to the <a href="#configuration">configuration section</a> (next section right down below).</li>
+<li>IF you already have a previous version (e.g. 5.7.1 or 4.2.0) of OmegaT installed, you'll have to update your configuration first: to do so please go to the <a href="#configuration">configuration section</a> (next section right down below).</li>
+<li>IF there is no current installation of OmegaT in your machine, you can skip the following steps about configuration and jump directly to the <a href="#installation">installation section</a>. OmegaT will configure itself as part of the installation.</li>
 </ul>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h2>
-<p>This section applies to users that already have a previous version (e.g. 5.7.1 or 4.2.0) of OmegaT installed. Please follow the next steps to update your configuration for starteers.</p>
+<p>This section applies to users that already have a previous version (e.g. 5.7.1 or 4.2.0) of OmegaT installed. Please follow the next steps to update your configuration.</p>
 <ol>
 <li>
 <p>Run OmegaT and go to <strong>Tools</strong> &gt; <strong>Scripting</strong> to open your scripting console,  In OmegaT 5.7.1, please open the scripting console. Check whethers you have a script called "<strong>Update Customisation Bundle (v572)</strong>":</p>
@@ -2289,16 +2289,12 @@
 </div>
 <p><img alt="" src="../../_assets/img/custom-script-572-in-scripting-console_Mac.png" /></p>
 <p>If the script "<strong>Update Customisation Bundle (v572)</strong>" is there, please click on it to select it and press the <strong>Run</strong> button (at the bottom left) to run it. The script will run to update your config files and will quit OmegaT. After that, skip the next step and jump directly to the <a href="#installation">installation section</a>.</p>
-<p>If the script is not there, go to the next step to download it.</p>
+<p>If the script is not there, you may download it yourself. See next steps for how to do that.</p>
 </li>
 <li>
 <p>Right-click on the button below and select "Save Link As" to download the configuration script (e.g. to your Desktop)</p>
 <p><a class="md-button md-button--primary" href="https://cat.capstan.be/OmegaT/v572/customization/scripts/updateConfigBundle.groovy"> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7Z"/></svg></span> Download UpdateConfigBundle.groovy</a></p>
 </li>
-</ol>
-<!-- [file.ext](../static/file.ext){:download} -->
-
-<ol>
 <li>
 <p>In OmegaT, follow these steps to run the configuration script you have downloaded:</p>
 <ul>
