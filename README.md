@@ -45,7 +45,7 @@ mkdocs gh-deploy
 
 Some sections are common for all or several, whereas some other sections are guide-specific. Only one copy of common sections exist, and that is included as needed when composing the different guides using Django template syntax (e.g. `{% include 'foo.md' %}`).
 
-Alternative appraoch using Jekyll: https://jekyllrb.com/docs/includes/
+Alternative approach using Jekyll: https://jekyllrb.com/docs/includes/
 
 ## Goals
 
