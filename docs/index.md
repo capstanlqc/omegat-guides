@@ -45,6 +45,8 @@ Welcome to cApStAn's OmegaT guides.
 	:octicons-heart-fill-24:{ .heart }
 -->
 
+These OmegaT guides are maintained with ❤ by [cApStAn](https://www.capstan.be)'s Tech Team.
+
 {% include 'abbreviations.md' %}
 
 
