@@ -4,7 +4,7 @@
 Depending on your starting point, ==choose your path here carefully==:
 
 - IF you already have a previous version (e.g. 5.7.1 or 4.2.0) of OmegaT installed, you'll have to update your configuration first: to do so please go to the [configuration section](#configuration) (next section right down below).
-- IF there is no current installation of OmegaT in your machine, you can skip the following steps about configuration and jump directly to the [installation section](#installation). OmegaT will configure itself as part of the installation.
+- IF there is no current installation of OmegaT in your machine, you will need to install it first as described in the [installation section](#installation). After the installation, you will have to download and run the configuration script as described in the points 2 and 3 of the [configuration section](#configuration) (next section right down below).
 
 ## Configuration
 
