@@ -6,7 +6,7 @@
 Depending on your starting point, ==choose your path here carefully==:
 
 - IF you already have a previous version (e.g. 5.7.1 or 4.2.0) of OmegaT installed, you'll have to update your configuration first: to do so please go to the [configuration section](#configuration) (next section right down below).
-- IF there is no current installation of OmegaT in your machine, you can skip the following steps about configuration and jump directly to the [installation section](#installation). OmegaT will configure itself as part of the installation.
+- IF you have _never_ installed there OmegaT (any version) in your machine, you can skip the following section about configuration and jump directly to the [installation section](#installation). OmegaT will configure itself as part of the installation.
 
 ## Configuration
 
@@ -57,7 +57,7 @@ This section applies to users that already have a previous version (e.g. 5.7.1 o
 
         ![](../_assets/img/edge-keep-download.gif)
 
-2. Double-click the installer file to start the installation wizard. 
+2. When the download is complete, double-click the installer file to start the installation wizard. 
 
 3. Windows Defender might show a dialog warning against the risk of running an unrecognized app.
     
