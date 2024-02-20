@@ -28,7 +28,7 @@ When you edit the translation of a repeated segment, as soon as the edit is save
 
   ![](../_assets/img/17_autopropagation.jpg)
 
-## Create alternative translation
+## Creating alternative translation
 
 In some cases, two instances of a repeated segment might need to be translated differently in different contexts. In that situation, you may want to modify the translation of only one of the repetitions without altering the rest. 
 
@@ -57,4 +57,35 @@ And here's a quick summary:
 
 The following video shows how to create alternative translations, enjoy :octicons-heart-fill-24:{ .heart }:
 
-<div style="padding:60% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/789832289?h=5fd29f998e" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>    
+<div style="padding:60% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/789832289?h=5fd29f998e" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+!!! warning
+    Remember that you can't create an alternative translation if the segment already has an alternative translation. See the section below to learn how you can recognize an alternative translation.
+
+If you must modify an existing alternative translation, simply edit the target text and save (++ctrl+s++).
+
+## Identifying alternative translations
+
+Here's how you can recognize whether a segment has an alternative translation.
+
+On the one hand, if a segment has an alternative translation, the **Segment properties** pane will show a property called **Is alternative** with value `true`. That field will flash in orange when you active the segment or when you save the project while that segment is active.
+
+![](../_assets/img/omt-alt-prop-flash.png)
+
+On the other hand, you will notice that the **Multiple translations** pane shows that translation and the context properties that the alternative translation binds too (typically the file name and some identifier, e.g. the segment ID or a key).
+
+![](../_assets/img/omt-alt-multiple-pane.png)
+
+Finally, and most eloquent, you can see that the segment has an alternative translation if the **Create Alternative Translation** item in the segment's contextual menu (or the **Edit** menu) is grayed out and cannot be selected.
+
+![](../_assets/img/omt-alt-grayed-out.png)
+
+
+## Restoring the default translation
+
+If for some reason an existing alternative translation is unnecessary and you would like to restore auto-propagation into that segment, the simplest way is to just delete the alternative translation. To do that, follow these simple steps: 
+
+- Go to the segment where you want to restore the default translation
+- Press ++ctrl+a++ on your keyboard to select the whole target text
+- Press the ++del++ on your keyboard to delete the translation
+- Press ++ctrl+s++ to save (or leave the segment) to restore the default translation
