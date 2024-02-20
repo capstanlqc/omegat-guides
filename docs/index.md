@@ -47,7 +47,7 @@ Welcome to cApStAn's OmegaT guides.
 
 ---
 
-Maintained with ❤ by [cApStAn](https://www.capstan.be)'s Tech Team.
+Maintained with ❤ by [cApStAn](https://www.capstan.be)
 
 {% include 'abbreviations.md' %}
 
