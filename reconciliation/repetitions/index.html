@@ -829,8 +829,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#create-alternative-translation" class="md-nav__link">
-    Create alternative translation
+  <a href="#creating-alternative-translation" class="md-nav__link">
+    Creating alternative translation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#identifying-alternative-translations" class="md-nav__link">
+    Identifying alternative translations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#restoring-the-default-translation" class="md-nav__link">
+    Restoring the default translation
   </a>
   
 </li>
@@ -2352,7 +2366,7 @@
 <h2 id="autopropagation">Autopropagation<a class="headerlink" href="#autopropagation" title="Permanent link">&para;</a></h2>
 <p>When you edit the translation of a repeated segment, as soon as the edit is saved the changes will be automatically reflected in all the repetitions in the project.</p>
 <p><img alt="" src="../../_assets/img/17_autopropagation.jpg" /></p>
-<h2 id="create-alternative-translation">Create alternative translation<a class="headerlink" href="#create-alternative-translation" title="Permanent link">&para;</a></h2>
+<h2 id="creating-alternative-translation">Creating alternative translation<a class="headerlink" href="#creating-alternative-translation" title="Permanent link">&para;</a></h2>
 <p>In some cases, two instances of a repeated segment might need to be translated differently in different contexts. In that situation, you may want to modify the translation of only one of the repetitions without altering the rest. </p>
 <p>In other words, you must create an <strong>alternative translation</strong> to prevent <em>auto-propagating</em> your update. </p>
 <p>To create an <strong>alternative translation</strong>: </p>
@@ -2377,8 +2391,27 @@
 <div style="padding:60% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/789832289?h=5fd29f998e" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
 <script src="https://player.vimeo.com/api/player.js"></script>
 
-<pre><code>
-</code></pre>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Remember that you can't create an alternative translation if the segment already has an alternative translation. See the section below to learn how you can recognize an alternative translation.</p>
+</div>
+<p>If you must modify an existing alternative translation, simply edit the target text and save (<span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-s">S</kbd></span>).</p>
+<h2 id="identifying-alternative-translations">Identifying alternative translations<a class="headerlink" href="#identifying-alternative-translations" title="Permanent link">&para;</a></h2>
+<p>Here's how you can recognize whether a segment has an alternative translation.</p>
+<p>On the one hand, if a segment has an alternative translation, the <strong>Segment properties</strong> pane will show a property called <strong>Is alternative</strong> with value <code>true</code>. That field will flash in orange when you active the segment or when you save the project while that segment is active.</p>
+<p><img alt="" src="../../_assets/img/omt-alt-prop-flash.png" /></p>
+<p>On the other hand, you will notice that the <strong>Multiple translations</strong> pane shows that translation and the context properties that the alternative translation binds too (typically the file name and some identifier, e.g. the segment ID or a key).</p>
+<p><img alt="" src="../../_assets/img/omt-alt-multiple-pane.png" /></p>
+<p>Finally, and most eloquent, you can see that the segment has an alternative translation if the <strong>Create Alternative Translation</strong> item in the segment's contextual menu (or the <strong>Edit</strong> menu) is grayed out and cannot be selected.</p>
+<p><img alt="" src="../../_assets/img/omt-alt-grayed-out.png" /></p>
+<h2 id="restoring-the-default-translation">Restoring the default translation<a class="headerlink" href="#restoring-the-default-translation" title="Permanent link">&para;</a></h2>
+<p>If for some reason an existing alternative translation is unnecessary and you would like to restore auto-propagation into that segment, the simplest way is to just delete the alternative translation. To do that, follow these simple steps: </p>
+<ul>
+<li>Go to the segment where you want to restore the default translation</li>
+<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-a">A</kbd></span> on your keyboard to select the whole target text</li>
+<li>Press the <span class="keys"><kbd class="key-delete">Del</kbd></span> on your keyboard to delete the translation</li>
+<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-s">S</kbd></span> to save (or leave the segment) to restore the default translation</li>
+</ul>
 
 
 
@@ -2441,14 +2474,9 @@
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2023 cApStAn
+      Copyright &copy; 2024 cApStAn
     </div>
   
-  
-    Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
-    </a>
   
 </div>
       
