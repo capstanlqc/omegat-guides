@@ -1,7 +1,7 @@
 # Accessing a project
 
 !!! tip
-    Please give some thought to the organization of your files and folders before you proceed with the steps below. We provide some tips [here](../../tips/#file-organization){:target="_blank"}.
+    Please give some thought to the organization of your files and folders before you proceed with the steps below. We provide some tips [here](../../misc/tips/#file-organization){:target="_blank"}.
     <!-- @todo: add file organization tips -->
 
 ## Accessing a new project
