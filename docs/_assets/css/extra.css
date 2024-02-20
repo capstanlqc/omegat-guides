@@ -86,6 +86,7 @@ ins.critic {
     transform: scale(1.15);
   }
 }
+
 .heart {
   animation: heart 1000ms infinite;
 }

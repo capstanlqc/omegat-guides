@@ -212,8 +212,8 @@ plugins:
   #     disableOnServe: false
   #     displayHeaderFooter: false
   #     exclude: [nav]
-copyright: Copyright &copy; 2023 cApStAn
+copyright: Copyright &copy; 2024 cApStAn
 extra:
-  generator: true
+  generator: false
 
 # https://github.com/pawamoy/best-of-mkdocs#-snippets--includes-reusing-contents
