@@ -1227,6 +1227,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#setup-checks" class="md-nav__link">
+    Setup checks
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#your-user-nameid" class="md-nav__link">
     Your user Name/ID
   </a>
@@ -2433,15 +2440,41 @@
 <p><img alt="" src="../../_assets/img/omt572-install-09-done.png" /></p>
 </li>
 <li>
-<p>If you want to run a post-installation check to confirm that you have the correct version, you can check that in <strong>Help</strong> &gt; <strong>About</strong> &gt; <strong>Copy Support Info</strong>. You should see: </p>
-<blockquote>
-<p>Version: OmegaT-5.7.2_0_a978d82ee <br />
-Platform: [your operating system]<br />
-Java: 11.0.19 amd64</p>
-</blockquote>
+<p>See the section below to know how to run a few post-installation checks to confirm that everything is okay. </p>
 </li>
 </ol>
 <p>You're done now. You can start using OmegaT 5.7.2.</p>
+<h2 id="setup-checks">Setup checks<a class="headerlink" href="#setup-checks" title="Permanent link">&para;</a></h2>
+<p>The steps above will normally get up and running, but but it's always a good idea to check that everything is okay just in case. One stick in time saves nine. These are the things that you can check: </p>
+<ol>
+<li>
+<p><em>OmegaT version</em></p>
+<p>To confirm that you have the correct version, you can check that in <strong>Help</strong> &gt; <strong>About</strong> &gt; <strong>Copy Support Info</strong>. You should see: </p>
+<pre><code>&gt; Version: OmegaT-5.7.2_0_a978d82ee   
+&gt; Platform: [your operating system]  
+&gt; Java: 11.0.19 amd64
+</code></pre>
+</li>
+<li>
+<p><em>Custom configuration version</em></p>
+<p>To confirm that your custom configuration is up to date, you can go to <strong>Options</strong> &gt; <strong>Access Configuration Folder</strong> and find a file called <code>local_version_notes.txt</code> there. </p>
+<p>If you open that file, the line at the top showing the most recent update should be the same as the one you can see in page <a href="https://cat.capstan.be/OmegaT/v572/">https://cat.capstan.be/OmegaT/v572/</a>.</p>
+</li>
+<li>
+<p><em>OMT un/packaging menu entries</em></p>
+<p>Even if you don't use OMT packages, you should have three entries under the <strong>Project</strong> menu in OmegaT:</p>
+<p><img alt="" src="../../_assets/img/omt-package-entries.png" /></p>
+<!-- - Unpack project from OMT file...
+- Pack project as OMT file...
+- Pack and delete project...  -->
+</li>
+<li>
+<p><em>Scripts and script shortcuts</em></p>
+<p>In the <strong>Tools</strong> menu, under <strong>Scripting</strong>, you should see a list of 12 script shortcuts. </p>
+<p><img alt="" src="../../_assets/img/omt-scripts-shortcuts.png" /></p>
+<p>Also, if you open the scripting dialog, you should see the whole list of scripts on the left-hand side.</p>
+</li>
+</ol>
 <!-- 
 To install OmegaT and set it up on a computer running Windows, please follow the OmegaT installation and setup guide below:
 
