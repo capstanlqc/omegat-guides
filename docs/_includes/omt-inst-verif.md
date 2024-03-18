@@ -100,13 +100,48 @@ This section applies to users that already have a previous version (e.g. 5.7.1 o
 
     ![](../_assets/img/omt572-install-09-done.png)
 
-11. If you want to run a post-installation check to confirm that you have the correct version, you can check that in **Help** > **About** > **Copy Support Info**. You should see: 
-
-    > Version: OmegaT-5.7.2_0_a978d82ee   
-    > Platform: [your operating system]  
-    > Java: 11.0.19 amd64
+11. See the section below to know how to run a few post-installation checks to confirm that everything is okay. 
 
 You're done now. You can start using OmegaT 5.7.2.
+
+## Setup checks
+
+The steps above will normally get up and running, but but it's always a good idea to check that everything is okay just in case. One stick in time saves nine. These are the things that you can check: 
+
+1. _OmegaT version_
+
+    To confirm that you have the correct version, you can check that in **Help** > **About** > **Copy Support Info**. You should see: 
+
+        > Version: OmegaT-5.7.2_0_a978d82ee   
+        > Platform: [your operating system]  
+        > Java: 11.0.19 amd64
+
+2. _Custom configuration version_
+
+    To confirm that your custom configuration is up to date, you can go to **Options** > **Access Configuration Folder** and find a file called `local_version_notes.txt` there. 
+
+    If you open that file, the line at the top showing the most recent update should be the same as the one you can see in page [https://cat.capstan.be/OmegaT/v572/](https://cat.capstan.be/OmegaT/v572/).
+
+3. _OMT un/packaging menu entries_
+
+    Even if you don't use OMT packages, you should have three entries under the **Project** menu in OmegaT:
+
+    ![](../_assets/img/omt-package-entries.png)
+
+    <!-- - Unpack project from OMT file...
+    - Pack project as OMT file...
+    - Pack and delete project...  -->
+
+4. _Scripts and script shortcuts_
+
+    In the **Tools** menu, under **Scripting**, you should see a list of 12 script shortcuts. 
+
+    ![](../_assets/img/omt-scripts-shortcuts.png)
+
+    Also, if you open the scripting dialog, you should see the whole list of scripts on the left-hand side.
+
+
+
 
 
 
