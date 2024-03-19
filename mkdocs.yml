@@ -115,6 +115,7 @@ nav:
         # - OmegaT 6.1 (experimental): misc/omt61-inst.md
 
 theme:
+  language: en
   name: material
   logo: _assets/img/cApStAn_symbolesensemble_blanc.png
   favicon: _assets/favicon.ico
@@ -215,5 +216,12 @@ plugins:
 copyright: Copyright &copy; 2024 cApStAn
 extra:
   generator: false
+  alternate:
+    - name: English
+      link: /omegat-guides/
+      lang: en
+    - name: Russian
+      link: /omegat-guides/ru/
+      lang: ru 
 
 # https://github.com/pawamoy/best-of-mkdocs#-snippets--includes-reusing-contents
