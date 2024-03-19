@@ -138,6 +138,9 @@ The steps above will normally get up and running, but but it's always a good ide
 
     ![](../_assets/img/omt-scripts-shortcuts.png)
 
+    !!! note
+        The script shortcuts might be updated occasionally, don't worry if your list is not identical to the screenshot above.
+
     Also, if you open the scripting dialog, you should see the whole list of scripts on the left-hand side.
 
 
