@@ -2,20 +2,20 @@
 
 ![](https://s3.amazonaws.com/media-p.slid.es/uploads/1129410/images/9336786/omt3d_256_2.png){: style="height:150px;width:150px" align=right }
 
-# OmegaT guides
+# Руководства OmegaT
 
-Welcome to cApStAn's OmegaT guides.
+Добро пожаловать в руководства cApStAn по OmegaT.
 
 
 
-## A guide for each task
-+ [Translation](translation/)
-<!-- + [Reconciliation](reconciliation/) 	-->
-<!-- + [Adaptation](adaptation/) 			-->
-<!-- + [Verification](verification/)		-->
-<!-- + [Review](review/) 					-->
+## Руководство по каждой задаче
++ [Перевод](translation/)
+<!-- + [Reconciliation](reconciliation/)    -->
+<!-- + [Adaptation](adaptation/)            -->
+<!-- + [Verification](verification/)        -->
+<!-- + [Review](review/)                    -->
 
-## Other stuff
+## Прочее
 + [Videos](misc/videos.md)
 + [Exercises](exercises/)
 + [Miscellanea](misc/)
@@ -25,7 +25,7 @@ Welcome to cApStAn's OmegaT guides.
 <!-- + [Quick walkthrough (reconciliation)](sp-guides/tec-cb-ome-wlk-thr.md) -->
 <!-- + [Tags](misc/tags) -->
 
-<!-- 
+<!--
 # Translation
 + [Translation (one page)](tec-cb-ome-tra.md)
 + [Translation (navigation)](translation/index.md)
@@ -35,7 +35,7 @@ Welcome to cApStAn's OmegaT guides.
 <!-- + [Reconciliation (navigation)](reconciliation/.md) -->
 
 
-<!-- 
+<!--
 *👍*{ .thumb-up } **Recommended**
 
 *👎*{ .thumb-down } **Not recommended**

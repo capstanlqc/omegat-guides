@@ -4,7 +4,7 @@ Before inserting tags you must know whether it is a standalone tag or two paired
 
 <!-- ### Paired tags -->
 
-To insert **paired tags** in your translation, proceed as follows: 
+To insert **paired tags** in your translation, proceed as follows:
 
 1. Translate the segment.
 2. Select the part of the translation that corresponds to the formatted part in the source text.
@@ -13,12 +13,12 @@ To insert **paired tags** in your translation, proceed as follows:
 
 ![](../_assets/img/omt-tags-autocomplete-paired.gif)
 
-!!! info 
-	The auto-completer has several sections, so if you don't see the tags section straight-away, just press ++ctrl+space++ again to cycle through the auto-completer until you see it.
+!!! info
+    The auto-completer has several sections, so if you don't see the tags section straight-away, just press ++ctrl+space++ again to cycle through the auto-completer until you see it.
 
 <!-- ### Standalone tags -->
 
-To insert a **standalone tag**, proceed as follows: 
+To insert a **standalone tag**, proceed as follows:
 
 1. Click on the position where you want to insert the tag (before, after or while translating).
 2. Press ++ctrl+space++ to launch the auto-completer.

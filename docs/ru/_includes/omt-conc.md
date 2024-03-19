@@ -1,12 +1,12 @@
 ## Running concordance searches
 
-A concordance search allows you to find words and expressions in the translation memory and the glossary. 
+A concordance search allows you to find words and expressions in the translation memory and the glossary.
 
 To perform a search follow the steps below:
 
-  * In the active segment, select the word or fragment you want to search for with your mouse.
-  * While that part of the text is selected, press ++ctrl+f++ on your keyboard. 
-  * Press the **Search** button in the **Search** window that will open.
+* In the active segment, select the word or fragment you want to search for with your mouse.
+* While that part of the text is selected, press ++ctrl+f++ on your keyboard.
+* Press the **Search** button in the **Search** window that will open.
 
 The list results will be displayed. You can copy (select with mouse and press ++ctrl+c++ on your keyboard) what you need from the results and paste it in the right place in the translation.
 

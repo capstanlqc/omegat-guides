@@ -1,6 +1,6 @@
 ## Inserting terms from the glossary
 
-When the active segment contains a source term that is in the glossary, it is _underlined in blue_{ .term } in the source text. 
+When the active segment contains a source term that is in the glossary, it is _underlined in blue_{ .term } in the source text.
 You will see the suggested target term in the **Glossary** pane, on the right.
 
 ![](../_assets/img/20_glossary_term.jpg)
