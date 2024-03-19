@@ -1,0 +1,13 @@
+#v1
+useCodeFinder.b=true
+translateUrls.b=false
+urlToTranslatePattern=.+
+translateCodeBlocks.b=true
+translateInlineCodeBlocks.b=true
+translateHeaderMetadata.b=false
+translateImageAltText.b=true
+codeFinderRules.count.i=2
+codeFinderRules.rule0=^\{% include '.+.md' %\}$
+codeFinderRules.rule1=\{:.+?\}
+codeFinderRules.sample={{#test}} handle bar test {{/test}}$0a${{stand-alone handle bar}}$0a$
+codeFinderRules.useAllRulesWhenTesting.b=true
