@@ -1,0 +1,130 @@
+:root {
+  --md-primary-fg-color:        #0b7781;
+  --md-primary-fg-color--light: #B3D9D9;
+  --md-primary-fg-color--dark:  #025B5B;
+}
+
+.md-grid {
+  max-width: 1440px; 
+}
+
+table colgroup col {
+  width: auto !important;
+}
+
+.md-sidebar--primary {
+  display: block;
+}
+
+.md-tabs,
+.md-copyright,
+a.md-footer__link--next[aria-label="Next: Introduction"], 
+a.md-footer__link--prev[aria-label="Previous: Tags"],
+.md-nav__icon
+{
+  display: none !important;
+}
+
+.md-nav__icon {
+  display: none !important; 
+}
+
+/* this is the burger button that opens the nav menu in small screens */
+.md-header__button[for="__drawer"] {
+  display: block;
+}
+
+/* this is the title of the nav menu, which goes back to the list of guides */
+.md-nav__title[for="__nav_3"] {
+  display: none;
+}
+
+/*
+.md-nav__link--index {
+  font-size: x-large;
+}
+*/
+
+.md-content {
+  max-width: 800px !important;
+}
+
+            
+h3 {
+    border-bottom:1px solid #CCC; /* #f9dd94; */
+    padding-bottom:3px;
+}
+
+h2 {
+    border-bottom:2px solid #CCC; /* #f9dd94; */
+    padding-bottom:3px;
+}
+
+.thumb-up {
+  color: transparent;  
+  text-shadow: 0 0 0 #34a853;
+}
+
+.thumb-down {
+  color: transparent;  
+  text-shadow: 0 0 0 #dd2c00;
+}
+
+del.critic {
+  color: red;
+}
+
+ins.critic {
+  color: blue;
+}
+
+@keyframes heart {
+  0%, 40%, 80%, 100% {
+    transform: scale(1);
+  }
+  20%, 60% {
+    transform: scale(1.15);
+  }
+}
+
+.heart {
+  animation: heart 1000ms infinite;
+}
+
+.omttag { color: red; }
+
+.term {
+  display: inline;
+  border-bottom: 2px solid blue;
+}
+
+.md-footer__direction {
+  box-sizing: content-box !important;
+  max-width: 100% !important;
+}
+
+.md-ellipsis {
+  box-sizing: content-box !important;
+  max-width: 100% !important;
+}
+
+.untranslated {
+  background-color: #C0C0FF;
+}
+
+.enforce {
+  background-color: #FFD596;
+}
+
+.auto {
+  background-color: #FFCCFF;
+}
+
+.translated {
+  background-color: #E5E5E5;
+}
+
+.active {
+  background-color: #CCFFCC;
+}
+
