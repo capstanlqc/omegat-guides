@@ -38,18 +38,18 @@ To unpack a project, follow these steps:
   
     + Go to **Project** > **Unpack project from OMT file**:<!-- @todo: update screenshot -->
 
-        ![](../_assets/img/01_import_omt_package.png)
+        ![](../../_assets/img/01_import_omt_package.png)
         <!-- @todo: update screenshot, current version -->
 
-        <!-- ![](../_assets/img/01_import_omt_package.jpg){ align=right } -->
+        <!-- ![](../../_assets/img/01_import_omt_package.jpg){ align=right } -->
 
     + Navigate to the location where you stored the OMT package. Select the **OMT package** and click on Open:
   
-        ![](../_assets/img/02_open_omt_package.png)
+        ![](../../_assets/img/02_open_omt_package.png)
 
     + A pop up opens. Click **Yes**.
   
-        ![](../_assets/img/03_delete_original_package.png) 
+        ![](../../_assets/img/03_delete_original_package.png) 
 
 4. You can now perform your task in the project.
 
@@ -77,14 +77,14 @@ To download the team project, follow these steps:
 
 2. [Copy](../../tips/#how-to-copy-paste-a-url){:target="_blank"} the URL of the project repository to your clipboard (select it and press ++ctrl+c++ or right-click it and select Copy).
 
-    ![](../_assets/img/copy-url.gif)
+    ![](../../_assets/img/copy-url.gif)
 
 3. In OmegaT, go to **Project** > **Download Team Project**.
     <!-- @todo: update screenshot -->
-    <!-- ![](../_assets/img/download-team-project.png) -->
+    <!-- ![](../../_assets/img/download-team-project.png) -->
     
     <!-- That will open the **Download Team Project** dialog. -->
-    <!-- ![](../_assets/img/download-git-dialog.png) -->
+    <!-- ![](../../_assets/img/download-git-dialog.png) -->
 
 4. In the **Download Team Project** dialog, click in the **Repository URL** field and then press ++ctrl+v++ to paste the URL from your clipboard.
 
@@ -93,12 +93,12 @@ To download the team project, follow these steps:
     !!! Failure
         DO NOT click on the `...` button.
 
-    <!-- ![](../_assets/img/download-git-dialog-default-values.png) -->
-    <!-- ![](../_assets/img/download-team-project.gif) -->
+    <!-- ![](../../_assets/img/download-git-dialog-default-values.png) -->
+    <!-- ![](../../_assets/img/download-team-project.gif) -->
 
     See the three steps above in the following animation:
     
-    ![](../_assets/img/omt-download-team-proj-up-to-local-path.gif)
+    ![](../../_assets/img/omt-download-team-proj-up-to-local-path.gif)
 
 
 6. You might want to modify that path to create the folder in the location that you have defined in the first step above. For example:
@@ -108,7 +108,7 @@ To download the team project, follow these steps:
 
     For example:
 
-    ![](../_assets/img/omt-download-team-proj-edit-local-path.gif)
+    ![](../../_assets/img/omt-download-team-proj-edit-local-path.gif)
 
 
     !!! Caution
@@ -116,10 +116,10 @@ To download the team project, follow these steps:
 <!-- To do that:
 
     + Copy the path to the location where you want to create the project, e.g. `C:/Work/`. 
-    ![](../_assets/img/download-git-dialog-copy-path.gif)
+    ![](../../_assets/img/download-git-dialog-copy-path.gif)
     + Then, in the **New Local Project Folder** field, select the part of the path up to the slash before the project folder and delete it.
     + Then, press ++ctrl+v++ to paste your path in replacement of the deleted part. 
-    ![](../_assets/img/download-git-dialog-update-path.gif)
+    ![](../../_assets/img/download-git-dialog-update-path.gif)
     !!! Caution
         Make sure there's a slash between the path that you paste and the project folder name.
 
@@ -137,7 +137,7 @@ After you have received and opened a project for the first time, the project exi
 
 The next times you want to access the project in OmegaT, go to **Project** > **Open Recent Project**. The project you were working on will appear in the list:
 
-   ![](../_assets/img/04_open_recent_project.jpg)
+   ![](../../_assets/img/04_open_recent_project.jpg)
 
 
 !!! note

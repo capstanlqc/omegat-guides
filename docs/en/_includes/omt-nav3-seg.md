@@ -5,7 +5,7 @@ In the editor pane, the active segment is highlighted in green. This is the segm
 Press ++enter++ on your keyboard to go to the next segment. You can also use ++ctrl+u++ to jump to the next untranslated segment.
 A segment can also be activated by double clicking on it, it then becomes green.
 
-![](../_assets/img/07_active_segment.jpg)
+![](../../_assets/img/07_active_segment.jpg)
 
 In OmegaT, the **color** of the segment's background will help you find your way around between the different segments:
 
@@ -17,7 +17,7 @@ In OmegaT, the **color** of the segment's background will help you find your way
 | **Pink**{ .auto }            | Target   | pretranslated segment         |
 | **Orange**{ .enforce }       | Target   | pretranslated and locked segment (e.g. trend)        |
 
-![](../_assets/img/08_color_coding.jpg)
+![](../../_assets/img/08_color_coding.jpg)
 <!-- @todo: add pink pretranslate -->
 
 !!! caution

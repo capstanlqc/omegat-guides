@@ -8,7 +8,7 @@ Press ++ctrl+shift+d++ (or go to **Project** > **Create Current Translated Docum
 
 To access the file(s), go to **Project** > **Access Project Contents** > **Target Files** to open your file explorer in the `/target` folder of the project. The file you were working on should be there.
 
-![](../_assets/img/28_target_files.jpg)
+![](../../_assets/img/28_target_files.jpg)
 <!-- @todo: update screenshot with standard font size -->
 
 !!! info

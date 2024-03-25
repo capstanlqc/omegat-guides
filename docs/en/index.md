@@ -10,10 +10,10 @@ Welcome to cApStAn's OmegaT guides.
 
 ## A guide for each task
 + [Translation](translation/)
-<!-- + [Reconciliation](reconciliation/)    -->
-<!-- + [Adaptation](adaptation/)            -->
-<!-- + [Verification](verification/)        -->
-<!-- + [Review](review/)                    -->
++ [Reconciliation](reconciliation/)
++ [Adaptation](adaptation/)
++ [Verification](verification/)
++ [Review](review/)
 
 ## Other stuff
 + [Videos](misc/videos.md)

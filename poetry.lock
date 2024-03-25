@@ -772,6 +772,25 @@ files = [
 mkdocs-material = ">=7.3.0"
 
 [[package]]
+name = "mkdocs-redirects"
+version = "1.2.1"
+description = "A MkDocs plugin for dynamic page redirects to prevent broken links."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "mkdocs-redirects-1.2.1.tar.gz", hash = "sha256:9420066d70e2a6bb357adf86e67023dcdca1857f97f07c7fe450f8f1fb42f861"},
+]
+
+[package.dependencies]
+mkdocs = ">=1.1.1"
+
+[package.extras]
+dev = ["autoflake", "black", "isort", "pytest", "twine (>=1.13.0)"]
+release = ["twine (>=1.13.0)"]
+test = ["autoflake", "black", "isort", "pytest"]
+
+[[package]]
 name = "mkdocs-video"
 version = "1.4.0"
 description = ""
@@ -1653,4 +1672,4 @@ test = ["pytest"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "7c67a4789b9f1c9cf2a6710280f05240ff76c851b14b289420f53d7a4aaf9836"
+content-hash = "8cc965ad651dd68ea44a323491ee2241c5d7402cfb87a8cb07676d3484a1855e"

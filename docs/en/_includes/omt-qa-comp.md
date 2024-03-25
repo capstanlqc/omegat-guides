@@ -4,7 +4,7 @@ All segments in the project must have a translation. To confirm that is the case
 
 To check completion, hover with your mouse pointer over the progress status bar, in the bottom right corner of OmegaT's main window.
 
-![](../_assets/img/progress-status.png)
+![](../../_assets/img/progress-status.png)
 <!-- @todo: red square around the figures -->
 
 That bar shows some statistics: 

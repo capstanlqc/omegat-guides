@@ -18,6 +18,7 @@ mkdocs-print-site-plugin = "^2.3.5"
 pip = "^23.1.2"
 mkdocs-encryptcontent-plugin = "^3.0.0"
 mkdocs-exclude-search = "^0.6.5"
+mkdocs-redirects = "^1.2.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

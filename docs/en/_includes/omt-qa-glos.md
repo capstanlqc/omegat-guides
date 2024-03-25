@@ -5,12 +5,12 @@ You can check whether the translation adheres to the glossary and key terms have
   * Go to **Tools** > **Check Issues**
   * Make sure the box next to **Terminology Issues** is ticked
 
-    ![](../_assets/img/35_terminology_issues.jpg)
+    ![](../../_assets/img/35_terminology_issues.jpg)
 
   * Press **OK**
   * A list of potential errors will open:
 
-    ![](../_assets/img/36_error_report_terminology.jpg)
+    ![](../../_assets/img/36_error_report_terminology.jpg)
 
   * Go through the issues one by one. For every issue in the list, do the following:
 
@@ -21,4 +21,4 @@ You can check whether the translation adheres to the glossary and key terms have
 !!! info
     Not all flagged issues are errors by default. In some cases, you may get _false positives_. In the screenshot below, "apple trees" should be translated as "pommiers" as in the first segment. In the second segment (active segment) "apple trees" was rendered as "ces arbres" (backtranslation: these trees) to avoid a repetition that would be disturbing in French. Such deviations from the glossary are intentional, so you would disregard the issue.
     
-    ![](../_assets/img/37_false_positive.jpg)
+    ![](../../_assets/img/37_false_positive.jpg)

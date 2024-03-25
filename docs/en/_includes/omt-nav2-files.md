@@ -2,7 +2,7 @@
 
 If the project contains multiple files, they are listed in the **Project Files** window. You can open this window by pressing ++ctrl+l++. The file currently open is highlighted in blue.
 
-![](../_assets/img/06_project_files_pane.jpg)
+![](../../_assets/img/06_project_files_pane.jpg)
 
 If you want to open a different file in the Editor pane, click on it in the **Project Files** window. You can also see the name of the file that is open in the **Editor** pane's title bar.
 

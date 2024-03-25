@@ -7,4 +7,4 @@ When you open OmegaT you will notice the screen is split in several panes:
   * The **Glossary** pane will display the existing glossary entries and the ones you may add.
   * The **Multiple Translations**  pane will show if a repeated segment has alternative translations.
 
-  ![](../_assets/img/05_omegat_panes.jpg)
+  ![](../../_assets/img/05_omegat_panes.jpg)
