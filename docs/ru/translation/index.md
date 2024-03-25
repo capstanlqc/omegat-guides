@@ -18,8 +18,8 @@ a.md-footer__link--prev[aria-label^="Previous:"],
 <!-- section: omegat intro -->
 {% include 'omt-intro.md' %}
 
-Это руководство содержит информацию обо всех функциях в OmegaT, которые вам нужны для выполнения задачи перевода.
+This guide includes information about all the functions in OmegaT that you need to perform the translation task. 
 
-Убедитесь, что панель навигации видна слева. You can use that menu or the arrow button at the bottom to go to the next section.
+Make sure you can see the navigation pane on the left-hand side. You can use that menu or the arrow button at the bottom to go to the next section.
 
 {% include 'abbreviations.md' %}

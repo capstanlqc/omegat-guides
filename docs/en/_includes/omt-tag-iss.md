@@ -15,13 +15,13 @@ In right-to-left languages such as Arabic or Hebrew, moving tags will not work. 
 
 If you have inserted a tag incorrectly and need to [insert it](#inserting-tags) again, **double click** on the tag to select it in full and press ++backspace++ or ++delete++ on your keyboard to delete it first.
 
-![](../../_assets/img/omt-tags-delete.gif)
+![](../_img/omt-tags-delete.gif)
 
 ### Moving tags
 
 If you have inserted a tag in the wrong position and need to insert it somewhere else, you can simply **drag and drop** it. Alternatively, you can also delete it and insert it again.
 
-![](../../_assets/img/omt-tags-moving.gif)
+![](../_img/omt-tags-moving.gif)
 
 <!-- @todo: explain the auto-completer as the main insertion method -->
 
@@ -31,7 +31,7 @@ If you have inserted a tag in the wrong position and need to insert it somewhere
 In the screenshot below, in the source segment the **paired tags** **&lt;i&gt;**{ .omttag } and **&lt;/i&gt;**{ .omttag } are around the letter `n` while in the target they are around the word `which`.
 
 
-![](../../_assets/img/09b_tags_issue_ada.jpg)
+![](../_img/09b_tags_issue_ada.jpg)
 
 To correct this issue, you would have to perform the following steps:
 
@@ -39,7 +39,7 @@ To correct this issue, you would have to perform the following steps:
   2. Select the text that must encompassed by the paired tags.
   3. Press ++ctrl+space++ to launch the auto-completer. You might need to press ++ctrl+space++ several times to cycle through the different options until you see the list of tags.
   4. Select the paired tags that you want to insert and press ++enter++.
-  <!-- ![](../../_assets/img/11a_tag_order_ada.jpg)
+  <!-- ![](../_img/11a_tag_order_ada.jpg)
 
 The tags are inserted around the text you have selected.
 -->
