@@ -4,15 +4,15 @@ There are two types of tags: standalone tags and paired tags or double tags:
 
   * **Standalone tags**: a single tag (e.g. **&lt;x1/&gt;**{ .omttag }) which stands for some element that appears at that position, such as a line break, an image, an input field, etc. 
 
-    ![](../_assets/img/omt-tags-types-standalone-02.png)
+    ![](../../_assets/img/omt-tags-types-standalone-02.png)
 
   * **Paired tags** are composed of an opening tag and a closing tag (e.g. **&lt;g2&gt;**{ .omttag } and **&lt;/g2&gt;**{ .omttag }) and affect the text between them. You can see that two tags are paired when they have the same number.
 
-    ![](../_assets/img/omt-tags-types-paired.png)
+    ![](../../_assets/img/omt-tags-types-paired.png)
 
 
-  <!-- ![](../_assets/img/10_types_of_tags.jpg) -->
-  <!-- ![](../_assets/img/omt-tags-types-labels.png) -->
+  <!-- ![](../../_assets/img/10_types_of_tags.jpg) -->
+  <!-- ![](../../_assets/img/omt-tags-types-labels.png) -->
   <!-- @todo: png, use example of same text in source and corresponding translation with tags aruond the same -->
 
 When the source text contains **paired tags** around a word or expression, you must insert the same paired tags around the part of the translation that corresponds to the formatted word or expression in the source text.

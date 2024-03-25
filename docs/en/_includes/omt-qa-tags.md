@@ -6,12 +6,12 @@ To ensure that all tags have been inserted correctly:
     
     !!! tip inline end
         You may untick the other checks (Spelling, Terminology, LanguageTool) if you want to focus on tags only first.
-    ![](../_assets/img/33_check_issues.jpg)
+    ![](../../_assets/img/33_check_issues.jpg)
     
   * Press **OK**.
   * An error report will open.
     
-    ![](../_assets/img/34_error_report.jpg)
+    ![](../../_assets/img/34_error_report.jpg)
 
   * Go through the issues one by one. For every issue in the list, do the following:
 
