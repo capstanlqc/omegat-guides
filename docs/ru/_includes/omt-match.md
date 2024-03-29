@@ -7,10 +7,10 @@ The source text in the **Matches** pane uses “track changes” mode to show th
 - Parts that do not appear in the active segment are {~~struck through~>~~}
 - Parts that appear in the match are {~~~>underlined~~} <!-- ^^underlined^^ -->
 
-  <!-- ![](../_img/12_fuzzy_matches.jpg) -->
+   <!-- ![](../_img/12_fuzzy_matches.jpg) -->
 
-  ![](../_img/match-diff.png)
-  <!-- normalize text size in screenshots -->
+   ![](../_img/match-diff.png)
+   <!-- normalize text size in screenshots -->
 
 Also, the **Matches** pane shows a similarity score that tells you how different the new source text is from the source text of every match.
 

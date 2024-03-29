@@ -13,4 +13,4 @@ To access the file(s), go to **Project** > **Access Project Contents** > **Targe
 <!-- @todo: update screenshot with standard font size -->
 
 !!! info
-The target file will be overwritten every time you press ++ctrl+shift+d++
+    The target file will be overwritten every time you press ++ctrl+shift+d++

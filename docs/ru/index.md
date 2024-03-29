@@ -2,20 +2,20 @@
 
 ![](https://s3.amazonaws.com/media-p.slid.es/uploads/1129410/images/9336786/omt3d_256_2.png){: style="height:150px;width:150px" align=right }
 
-# Руководства OmegaT
+# OmegaT guides
 
-Добро пожаловать в руководства cApStAn по OmegaT.
+Welcome to cApStAn's OmegaT guides.
 
 
 
-## Руководство по каждой задаче
-+ [Перевод](translation/)
-<!-- + [Reconciliation](reconciliation/)    -->
-<!-- + [Adaptation](adaptation/)            -->
-<!-- + [Verification](verification/)        -->
-<!-- + [Review](review/)                    -->
+## A guide for each task
++ [Translation](translation/)
++ [Reconciliation](reconciliation/)
++ [Adaptation](adaptation/)
++ [Verification](verification/)
++ [Review](review/)
 
-## Прочее
+## Other stuff
 + [Videos](misc/videos.md)
 + [Exercises](exercises/)
 + [Miscellanea](misc/)

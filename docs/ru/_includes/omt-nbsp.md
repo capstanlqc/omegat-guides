@@ -1,6 +1,6 @@
-## Inserting non-breaking spaces
+## Вставка неразрывных пробелов
 
-In order to insert non-breaking spaces in OmegaT, type `\nbsp`. The auto-completer will propose to insert a non-breaking space.
+Чтобы вставить неразрывный пробел в OmegaT, введите `\nbsp`. Модуль автозавершения предложит вставить неразрывный пробел.
 
 <!-- update screenshot -->
 

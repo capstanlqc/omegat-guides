@@ -13,13 +13,13 @@ a.md-footer__link--prev[aria-label^="Previous:"],
 }
 </style>
 
-# 👋 Welcome to the OmegaT translation guide!
+# 👋 Перед вами руководство по переводу материалов в OmegaT. Добро пожаловать!
 
 <!-- section: omegat intro -->
 {% include 'omt-intro.md' %}
 
-This guide includes information about all the functions in OmegaT that you need to perform the translation task. 
+В этом руководстве содержится информация обо всех функциях OmegaT, необходимых для выполнения перевода.
 
-Make sure you can see the navigation pane on the left-hand side. You can use that menu or the arrow button at the bottom to go to the next section.
+Убедитесь, что с левой стороны страницы вы видите панель навигации. Для перехода к следующему разделу вы можете воспользоваться этим меню или кнопкой со стрелкой, размещенной внизу.
 
 {% include 'abbreviations.md' %}

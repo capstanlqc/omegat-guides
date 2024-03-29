@@ -1,6 +1,6 @@
-| Shorcut | Character | Description |
+| Сочетание клавиш | Символ | Описание |
 |-----|-----|-----|
-| `\lq` | “ | upper left double quotation mark (U+201C) |
+| `\lq` | “ | верхняя левая двойная кавычка (U+201C) |
 | `\rq` | ” | upper right double quotation mark (U+201D) |
 | `\lolq` | „ | lower left (low-9) double quotation mark (U+201E) |
 | `<< ` | « | left-pointing double angle quotation mark (U+00AB) |
@@ -12,7 +12,7 @@
 | `\lsquo` | ‘ | left single quotation mark (U+2018) |
 | `\x` | × | multiplication symbol / vector product |
 | `\times` | × | multiplication symbol |
-| `\nbsp` |   | non-breaking space  |
+| `\nbsp` |   | non-breaking space |
 | `\tm` | ™ | trademark symbol |
 | `\reg` | ® | registered (U+00AE) |
 | `(tm)` | ™ | trademark symbol |
@@ -39,21 +39,21 @@
 | `\thinspace` |   | thin space |
 | `\ellipsis` | … | horizontal ellipsis |
 | `\divided` | ÷ | division |
-| `\middot` | · |  interpunct/interpoint/middle dot/middot/centered dot (multiplication / scalar product) |
-| `\interpunct` | · |  interpunct/interpoint/middle dot/middot/centered dot (multiplication / scalar product) |
+| `\middot` | · | interpunct/interpoint/middle dot/middot/centered dot (multiplication / scalar product) |
+| `\interpunct` | · | interpunct/interpoint/middle dot/middot/centered dot (multiplication / scalar product) |
 | `\bullet` | ∙ | bullet operator (U+2219) |
 | `\pm` | ± | plus or minus |
 | `\le` | ≤ | less than or equal to |
 | `\ge` | ≥ | greater than or equal to |
 | `\ne` | ≠ | does not equal |
-| `\approx` | ≈ |  approximately equal to |
+| `\approx` | ≈ | approximately equal to |
 | `\emptyset` | ∅ | empty set |
 | `\sqrt` | √ | square root (U+221A) |
 | `\deg` | ° | degree |
 | `\infty` | ∞ | infinity |
 | `\copyright` | © | copyright symbol |
 | `\smalle` | ᵉ | modifier letter small e (U+1D49) |
-| `\Omegat` | Ω | Greek capital letter omega / Ohm  |
+| `\Omegat` | Ω | Greek capital letter omega / Ohm |
 | `\pound` | £ | pound currency |
 | `\euro` | € | euro currency |
 | `\cent` | ¢ | cent (U+00A2) |
@@ -63,9 +63,9 @@
 | `\shy` | ­ | soft hyphen (U+00AD) |
 | `\micro` | µ | micro (U+00B5) |
 | `\not` | ¬ | not sign (U+00AC) |
-| `\frac12` | ½  | vulgar fraction 1/2 / half |
-| `\frac13` | ⅓  | vulgar fraction 1/3 / third |
-| `\frac23` | ⅔ | vulgar fraction 2/3  |
+| `\frac12` | ½ | vulgar fraction 1/2 / half |
+| `\frac13` | ⅓ | vulgar fraction 1/3 / third |
+| `\frac23` | ⅔ | vulgar fraction 2/3 |
 | `\frac14` | ¼ | vulgar fraction 1/4 / quarter |
 | `\frac34` | ¾ | vulgar fraction 3/4 |
 | `\frac15` | ⅕ | vulgar fraction 1/5 / fifth |
@@ -92,7 +92,7 @@
 | `\2` | ٢ | nan |
 | `\1` | ١ | nan |
 | `\0` | ٠ | nan |
-| `\ar_percent` | ⁒ | commercial minus sign (U+2052)  |
+| `\ar_percent` | ⁒ | commercial minus sign (U+2052) |
 | `\nbhy` | ‑ | non-breaking hyphen |
 | `\ordrd` | ʳᵈ | rd ordinal superscript |
 | `\ordnd` | ⁿᵈ | nd ordinal superscript |

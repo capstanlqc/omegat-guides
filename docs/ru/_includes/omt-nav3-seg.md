@@ -1,29 +1,29 @@
-## Navigation through segments
+## Навигация по сегментам
 
-In the editor pane, the active segment is highlighted in green. This is the segment you are working on. When you type or insert a translation, it will appear right **below the source text**.
+В области редактирования активный сегмент выделен зеленым цветом. Это тот сегмент, над которым вы сейчас работаете. Когда вы вводите или вставляете перевод, он будет добавляться прямо **под исходным текстом**.
 
-Press ++enter++ on your keyboard to go to the next segment. You can also use ++ctrl+u++ to jump to the next untranslated segment.
-A segment can also be activated by double clicking on it, it then becomes green.
+Нажмите ++enter++ на клавиатуре, чтобы перейти к следующему сегменту. Кроме того, можно использовать ++ctrl+u++ для перехода к следующему непереведенному сегменту.
+Сегмент можно также активировать двойным щелчком — после этого он становится зеленым.
 
 ![](../_img/07_active_segment.jpg)
 
-In OmegaT, the **color** of the segment's background will help you find your way around between the different segments:
+В OmegaT **цвет** фона сегмента помогает ориентироваться между различными сегментами:
 
-| Color                     | Language | Meaning                                         |
+| Цвет | Язык | Значение |
 | ------------------------- | -------- | ----------------------------------------------- |
-| **Green**{ .active }      | Source   | active segment (the segment you are working on) |
-| **Blue**{ .untranslated } | Source   | untranslated segment                            |
-| **Grey**{ .translated }   | Source   | manually translated segment                     |
-| **Pink**{ .auto }         | Target   | pretranslated segment                           |
-| **Orange**{ .enforce }    | Target   | pretranslated and locked segment (e.g. trend)   |
+| **Зеленый**{ .active } | Оригинал | активный сегмент (сегмент, над которым вы работаете) |
+| **Синий**{ .untranslated } | Оригинал | непереведенный сегмент |
+| **Серый**{ .translated } | Оригинал | сегмент переведен вручную |
+| **Розовый**{ .auto } | Перевод | сегмент переведен автоматически из памяти переводов |
+| **Оранжевый**{ .enforce } | Перевод | предварительно переведенный и заблокированный сегмент (например, тренд) |
 
 ![](../_img/08_color_coding.jpg)
 
 <!-- @todo: add pink pretranslate -->
 
-!!! caution
-If you want to change a trend translation, document it in the monitoring form but do not try to change it in OmegaT. Any changes you make to these segments will not be saved. The existing translation will be maintained.
+!!! Предупреждение
+    Если вы хотите изменить заблокированный сегмент, задокументируйте желаемое изменение в форме для мониторинга, но не пытайтесь изменить перевод в OmegaT. Любые изменения, внесенные в такие сегменты, не сохранятся. Существующий перевод останется в текущем виде.
 
-The following video shows navigation through segments, enjoy :octicons-heart-fill-24:{ .heart }:
+В следующем видео показана навигация по сегментам. Приятного просмотра :octicons-heart-fill-24:{ .heart }.
 
 <div style="padding:69.95% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/780443426?h=f715fb64e6" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>

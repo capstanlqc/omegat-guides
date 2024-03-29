@@ -11,9 +11,9 @@ You can recognize that you are in a repeated segment because the **Segment Prope
 
 ![](../_img/repetition-with-labels.png)
 
-  <!-- ![](../_img/15_repeated_segment.jpg) -->
+<!-- ![](../_img/15_repeated_segment.jpg) -->
 
-  <!-- @todo: harmonize font size across all screenshots and gifs -->
+<!-- @todo: harmonize font size across all screenshots and gifs -->
 
 Also, the segment number also includes how many more repetitions the active segment has.
 
@@ -54,14 +54,14 @@ And here's a quick summary:
 <!-- @todo for Danina: repeat video, Ctrl+S for every segment! -->
 
 !!! danger
-Alternative translations may be treacherous if not applied correctly. Make sure you follow the three steps above precisely.
+    Alternative translations may be treacherous if not applied correctly. Make sure you follow the three steps above precisely.
 
 The following video shows how to create alternative translations, enjoy :octicons-heart-fill-24:{ .heart }:
 
 <div style="padding:60% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/789832289?h=5fd29f998e" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
-!!! warning
-Remember that you can't create an alternative translation if the segment already has an alternative translation. See the section below to learn how you can recognize an alternative translation.
+!!! Предупреждение
+    Remember that you can't create an alternative translation if the segment already has an alternative translation. See the section below to learn how you can recognize an alternative translation.
 
 If you must modify an existing alternative translation, simply edit the target text and save (++ctrl+s++).
 

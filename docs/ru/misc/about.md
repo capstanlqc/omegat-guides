@@ -2,11 +2,11 @@
 
 ## OmegaT
 
-team 
+team
 
 ## cApStAn
 
-bar 
+bar
 ## cApStAn tech team
 
 baz
