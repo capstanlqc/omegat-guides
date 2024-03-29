@@ -31,7 +31,7 @@ Create your OmegaT project folders inside, say, `C:\Users\Manolo\Work\cApStAn\Gl
    - When the whole URL is highlighted (which means that it's selected), press ++ctrl+c++ in your keyboard.
 
    - Alternatively, you may right-click the highlighted text and select **Copy** in the contextual menu that will appear. <!-- @todo: gif -->
-     ![](../_img/copy-url.gif)
+      ![](../_img/copy-url.gif)
 
    - When you copy text, it'll be stored in your clipboard.
 

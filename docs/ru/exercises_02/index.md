@@ -8,7 +8,6 @@
 2. Unpack that project.
 
 !!! tip "Reminder"
-
     [How to unpack an offline project](https://capstanlqc.github.io/omegat-guides/translation/accessing-the-project/#unpacking-an-offline-project)
 
 <!-- @todo: make the link above role-specific -->

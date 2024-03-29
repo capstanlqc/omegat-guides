@@ -1,45 +1,44 @@
-# 06. Alternative translations
+# 06. Альтернативные переводы
 
-??? Abstract "The relevant section in the guides..." 
+??? Abstract "The relevant section in the guides..."
     See the relevant section in your guide:
-
-    [Translation](../../translation/repetitions/#create-alternative-translation){:target="_blank" .md-button }
+    [Перевод](../../translation/repetitions/#create-alternative-translation){:target="_blank" .md-button }
     [Reconciliation](../../reconciliation/repetitions/#create-alternative-translation){:target="_blank" .md-button }
-    [Adaptation](../../adaptation/repetitions/#create-alternative-translation){:target="_blank" .md-button }
-    [Verification](../../verification/repetitions/#create-alternative-translation){:target="_blank" .md-button }
+    [Адаптация](../../adaptation/repetitions/#create-alternative-translation){:target="_blank" .md-button }
+    [Верификация](../../verification/repetitions/#create-alternative-translation){:target="_blank" .md-button }
 
---- 
+---
 
 
 In the previous section you saw that translations of repeated segments (or edits in those translations) auto-propagate to all instances of that repeated segment when you save them (or leave the segment).
 
 That is convenient in many cases, but not always. Sometimes you'll have to prevent auto-propagation. To do that, you must create an **alternative translation**.
 
-## Exercise 06.1: create alternative translation
+## Упражнение 06.1: создание альтернативного перевода
 
-1. Go to segment #16 in the project. 
+1. Go to segment #16 in the project.
 
-    > Source text reads: `Pretty good`  
+   > Source text reads: `Pretty good`
 
 2. Notice that it is translated with an auto-propagated translation.
 
-    > `Pretty good` and `Pretty bad` in segments #16 and #17 in this context refer to "level of English" which is masculine in French. However, your translations ("Plutôt bonNE" and "Plutôt mauvaisE") refers to "situation economique", which is feminine.
+   > `Pretty good` and `Pretty bad` in segments #16 and #17 in this context refer to "level of English" which is masculine in French. However, your translations ("Plutôt bonNE" and "Plutôt mauvaisE") refers to "situation economique", which is feminine.
 
-You want to modify the translation in segments #16 and #17 to make it masculine, so that it agrees with "level" in French. 
+You want to modify the translation in segments #16 and #17 to make it masculine, so that it agrees with "level" in French.
 
 Follow these three simple but VERY IMPORTANT steps:
 
 1. Go to **Edit** > **Create Alternative Translation**.
 
-    > Tip: Also available if you right-click the segment.
+   > Tip: Also available if you right-click the segment.
 
 2. Modify the translation to make it masculine
 
-    > Just remove the last character if you don't know French
+   > Just remove the last character if you don't know French
 
 3. Press ++ctrl+s++ to register the translation
 
-!!! warning
+!!! Предупреждение
     This is a very important and delicate function of OmegaT. It's easy to use it correctly if you grasp well the three steps above, but it's also easy to make a mess if you don't. Please make sure you really follow the three steps above to the letter.
 
 Did you follow the steps above? If you did, now you'll notice that:
