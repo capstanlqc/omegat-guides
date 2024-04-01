@@ -40,7 +40,7 @@ In this exercise, you must insert the multiplication symbol but you don't know w
 
    > Source text reads: `Thermal conductivity coefficient <br/>(W/m × K)`
 
-2. Open the list of available shortcuts [here](../../misc/autotext/){:target="\_blank"}.
+2. Open the list of available shortcuts [here](../misc/autotext.md){:target="\_blank"}.
 3. Look for the autotext entry for the multiplication symbol.
 
    > You can use either `\times` or `\x` (how lucky, this one is shorter!)
@@ -55,7 +55,7 @@ In this exercise, you must insert the multiplication symbol but you don't know w
    > Incorrect translation: `W/m x K`
 
 !!! info
-You can find the list of autotext entries in [OmegaT guides](../../) > [Miscellanea](../../misc/) > [Autotext](../../misc/autotext/)
+You can find the list of autotext entries in [OmegaT guides](../index.md) > [Miscellanea](../misc/index.md) > [Autotext](../misc/autotext.md)
 
 ## Exercise 06.3: insert special character from the character table
 

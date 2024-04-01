@@ -18,5 +18,3 @@ webkitallowfullscreen mozallowfullscreen allowfullscreen>
 If you use Mac or Linux, please see the second slide above or get in touch through the Helpdesk.
 
 <!-- To install and customize OmegaT on a computer running on Windows, please consult the steps in the [OmegaT installation and customization guide](../tec-cb-ome-ins). -->
-
-

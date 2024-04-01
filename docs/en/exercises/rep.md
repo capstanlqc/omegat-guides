@@ -4,10 +4,10 @@
 ??? Abstract "The relevant section in the guides..." 
     See the relevant section in your guide:
 
-    [Translation](../../translation/repetitions/){:target="_blank" .md-button }
-    [Reconciliation](../../reconciliation/repetitions/){:target="_blank" .md-button }
-    [Adaptation](../../adaptation/repetitions/){:target="_blank" .md-button }
-    [Verification](../../verification/repetitions/){:target="_blank" .md-button }
+    [Translation](../translation/repetitions.md){:target="_blank" .md-button }
+    [Reconciliation](../reconciliation/repetitions.md){:target="_blank" .md-button }
+    [Adaptation](../adaptation/repetitions.md){:target="_blank" .md-button }
+    [Verification](../verification/repetitions.md){:target="_blank" .md-button }
 
 ---
 

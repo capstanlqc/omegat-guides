@@ -8,10 +8,10 @@ Unlike in previous cycles, in this cycle you will work on an online team project
 ??? Abstract "The relevant section in the guides..."
     See the relevant section in your guide:
 
-    [Translation](../../translation/accessing-the-project/#downloading-a-team-project){:target="_blank" .md-button }
-    [Reconciliation](../../reconciliation/accessing-the-project/#downloading-a-team-project){:target="_blank" .md-button }
-    [Adaptation](../../adaptation/accessing-the-project/#downloading-a-team-project){:target="_blank" .md-button }
-    [Verification](../../verification/accessing-the-project/#downloading-a-team-project){:target="_blank" .md-button }
+    [Translation](../translation/accessing-the-project.md#downloading-a-team-project){:target="_blank" .md-button }
+    [Reconciliation](../reconciliation/accessing-the-project.md#downloading-a-team-project){:target="_blank" .md-button }
+    [Adaptation](../adaptation/accessing-the-project.md#downloading-a-team-project){:target="_blank" .md-button }
+    [Verification](../verification/accessing-the-project.md#downloading-a-team-project){:target="_blank" .md-button }
 
 ### Details
 
@@ -66,7 +66,7 @@ If the proposed path to the local project folder is fine, just press **OK**. All
 
     ![](../_img/omt_git_keep_project_name.png)
 
-    Please check our [File organization](../misc/tips/#file-organization) tips, they could help you keep your files and folders more organized.
+    Please check our [File organization](../misc/tips.md/#file-organization) tips, they could help you keep your files and folders more organized.
 
 <!-- prettier-ignore -->
 !!! warning
@@ -90,10 +90,10 @@ If the proposed path to the local project folder is fine, just press **OK**. All
 ??? Abstract "The relevant section in the guides..."
     See the relevant section in your guide:
 
-    [Translation](../../translation/creating-your-deliverable/#online-team-project-via-repository){:target="_blank" .md-button }
-    [Reconciliation](../../reconciliation/creating-your-deliverable/#online-team-project-via-repository){:target="_blank" .md-button }
-    [Adaptation](../../adaptation/creating-your-deliverable/#online-team-project-via-repository){:target="_blank" .md-button }
-    [Verification](../../verification/creating-your-deliverable/#online-team-project-via-repository){:target="_blank" .md-button }
+    [Translation](../translation/creating-your-deliverable.md#online-team-project-via-repository){:target="_blank" .md-button }
+    [Reconciliation](../reconciliation/creating-your-deliverable.md#online-team-project-via-repository){:target="_blank" .md-button }
+    [Adaptation](../adaptation/creating-your-deliverable.md#online-team-project-via-repository){:target="_blank" .md-button }
+    [Verification](../verification/creating-your-deliverable.md#online-team-project-via-repository){:target="_blank" .md-button }
 
 To commit target files (e.g. to update the preview):
 

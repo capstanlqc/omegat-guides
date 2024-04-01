@@ -2,7 +2,7 @@
 
 <!-- prettier-ignore -->
 !!! tip
-    Please give some thought to the organization of your files and folders before you proceed with the steps below. We provide some tips [here](../../misc/tips/#file-organization){:target="\_blank"}.
+    Please give some thought to the organization of your files and folders before you proceed with the steps below. We provide some tips [here](../misc/tips.md#file-organization){:target="\_blank"}.
 
 <!-- @todo: add file organization tips -->
 
@@ -23,7 +23,7 @@ If you're not sure whether your project is online or offline, it's very easy: if
 
 <!-- prettier-ignore -->
 !!! caution
-    Unpacking or downloading an OmegaT project (depending on the distribution mode) needs to be done _only once_ for each project. After you have unpacked or downloaded a project, you can simply [re-open it from the list of recent projects](re-opening-an-existing-project).
+    Unpacking or downloading an OmegaT project (depending on the distribution mode) needs to be done _only once_ for each project. After you have unpacked or downloaded a project, you can simply [re-open it from the list of recent projects](#re-opening-an-existing-project).
 
 <!-- @todo: " If you unpack the OMT file again, you might overwrite your changes and lose your work." to be tested... -->
 
@@ -78,7 +78,7 @@ To download the team project, follow these steps:
     💀
     Make sure that location is NOT inside a sync'ed folder such as Dropbox, OneDrive, Nextcloud, Google Drive, Syncthing or the like, or in a server or a network drive.
 
-2.  [Copy](../../tips/#how-to-copy-paste-a-url){:target="\_blank"} the URL of the project repository to your clipboard (select it and press ++ctrl+c++ or right-click it and select Copy).
+2.  [Copy](../misc/tips.md#how-to-copy-paste-a-url){:target="\_blank"} the URL of the project repository to your clipboard (select it and press ++ctrl+c++ or right-click it and select Copy).
 
     ![](../_img/copy-url.gif)
 
