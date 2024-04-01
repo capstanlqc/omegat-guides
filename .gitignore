@@ -1,3 +1,7 @@
 site/
 venv/
 docs/_assets/2022_img.zip
+l10n/omt*/omegat/project_save.tmx.*bak
+l10n/omt*/omegat/last_entry.properties
+l10n/omt*/omegat/project_stats.json
+l10n/omt*/omegat/project_stats.txt
