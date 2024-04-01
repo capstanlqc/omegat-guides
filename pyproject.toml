@@ -5,7 +5,7 @@ description = ""
 authors = ["Manuel Souto Pico <m.soutopico@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 mkdocs = "^1.5.3"
 mkdocs-material = "^8.5.11"
 mkdocs-macros-plugin = "^0.7.0"
