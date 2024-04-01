@@ -4,10 +4,10 @@
 ??? Abstract "The relevant section in the guides..."
     See the relevant section in your guide:
 
-    [Translation](../../translation/repetitions/#create-alternative-translation){:target="_blank" .md-button }
-    [Reconciliation](../../reconciliation/repetitions/#create-alternative-translation){:target="_blank" .md-button }
-    [Adaptation](../../adaptation/repetitions/#create-alternative-translation){:target="_blank" .md-button }
-    [Verification](../../verification/repetitions/#create-alternative-translation){:target="_blank" .md-button }
+    [Translation](../translation/repetitions.md#create-alternative-translation){:target="_blank" .md-button }
+    [Reconciliation](../reconciliation/repetitions.md#create-alternative-translation){:target="_blank" .md-button }
+    [Adaptation](../adaptation/repetitions.md#create-alternative-translation){:target="_blank" .md-button }
+    [Verification](../verification/repetitions.md#create-alternative-translation){:target="_blank" .md-button }
 
 ---
 

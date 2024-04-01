@@ -2,7 +2,7 @@
 
 <!-- prettier-ignore -->
 ??? info "Other operating systems"
-    It's possible to install OmegaT 5.7.2 in other operating systems like macOS or Linux. Follow this other [guide to install on macOS](../install-and-setup-macos/). Please get in touch through the Helpdesk if you are a Linux user.
+    It's possible to install OmegaT 5.7.2 in other operating systems like macOS or Linux. Follow this other [guide to install on macOS](install-and-setup-macos.md). Please get in touch through the Helpdesk if you are a Linux user.
 
 Depending on your starting point, ==choose your path here carefully==:
 

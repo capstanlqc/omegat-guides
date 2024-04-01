@@ -4,10 +4,10 @@
 ??? Abstract "The relevant section in the guides..."
 	See the relevant section in your guide:
 
-    [Translation](../../translation/other-useful-features/#autotext){:target="_blank" .md-button }
-    [Reconciliation](../../reconciliation/other-useful-features/#autotext){:target="_blank" .md-button }
-    [Adaptation](../../adaptation/other-useful-features/#autotext){:target="_blank" .md-button }
-    [Verification](../../verification/other-useful-features/#autotext){:target="_blank" .md-button }
+    [Translation](../translation/other-useful-features.md#autotext){:target="_blank" .md-button }
+    [Reconciliation](../reconciliation/other-useful-features.md#autotext){:target="_blank" .md-button }
+    [Adaptation](../adaptation/other-useful-features.md#autotext){:target="_blank" .md-button }
+    [Verification](../verification/other-useful-features.md#autotext){:target="_blank" .md-button }
 
 ---
 
@@ -15,7 +15,7 @@ You may insert special characters in different ways: autotext shortcut, characte
 
 ## Exercise 07.1: use a known autotext shortcut
 
-You may use the autotext shortcut `\sub2` to insert a subscript number 2 (i.e. `₂`). Now you know! :)
+You may use the autotext shortcut `\sub2` to insert a subscript number 2 (i.e. `₂`). Now you know! :)
 
 <!-- prettier-ignore -->
 !!! tip
@@ -51,7 +51,7 @@ In this exercise, you must insert the multiplication symbol but you don't know w
 
    > Source text reads: `Thermal conductivity coefficient <br/>(W/m × K)`
 
-2. Open the list of available shortcuts [here](../../misc/autotext/){:target="\_blank"}.
+2. Open the list of available shortcuts [here](../misc/autotext.md){:target="\_blank"}.
 3. Look for the autotext entry for the multiplication symbol.
 
    > You can use either `\times` or `\x` (how lucky, this one is shorter!)
@@ -66,7 +66,7 @@ In this exercise, you must insert the multiplication symbol but you don't know w
 
 <!-- prettier-ignore -->
 !!! info
-	You can find the list of autotext entries in [OmegaT guides](../../) > [Miscellanea](../../misc/) > [Autotext](../../misc/autotext/)
+	You can find the list of autotext entries in [OmegaT guides](../index.md) > [Miscellanea](../misc/index.md) > [Autotext](../misc/autotext.md)
 
 ## Exercise 07.3: insert special character from the character table
 

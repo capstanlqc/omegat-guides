@@ -4,7 +4,7 @@
 ??? Abstract "The relevant section in the guide..."
 	See the relevant section (about matches) in your guide:
 
-    [Reconciliation](../../reconciliation/matches/){:target="_blank" .md-button }
+    [Reconciliation](../reconciliation/matches.md){:target="_blank" .md-button }
 
 ---
 
