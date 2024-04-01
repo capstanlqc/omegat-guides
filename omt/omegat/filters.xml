@@ -178,12 +178,13 @@
     <filter className="net.sf.okapi.lib.omegat.TTXFilter" enabled="true">
         <files sourceFilenameMask="*.ttx" targetFilenamePattern="${filename}"/>
     </filter>
-    <filter className="net.sf.okapi.lib.omegat.YAMLFilter" enabled="true">
+    <filter className="net.sf.okapi.lib.omegat.YAMLFilter" enabled="false">
         <files sourceFilenameMask="*.yaml" targetFilenamePattern="${filename}"/>
         <files sourceFilenameMask="*.yml" targetFilenamePattern="${filename}"/>
     </filter>
     <filter className="net.sf.okapi.lib.omegat.MarkdownFilter" enabled="true">
         <files sourceFilenameMask="*.md" targetFilenamePattern="${filename}"/>
+        <files sourceFilenameMask="*.yml" targetFilenamePattern="${filename}"/>
         <option name="includeTUName" value="yes"/>
         <option name="useCustom" value="okf_markdown@omegat-guides.fprm"/>
         <option name="useDefault" value="no"/>
