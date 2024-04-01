@@ -1,8 +1,9 @@
 # 03. Reconciliation
 
+<!-- prettier-ignore -->
 ??? Abstract "The relevant section in the guide..."
     See the relevant section (about matches) in your guide:
-    [Reconciliation](../../reconciliation/matches/){:target="_blank" .md-button }
+    [Reconciliation](../reconciliation/matches.md){:target="_blank" .md-button }
 
 ---
 
@@ -32,6 +33,7 @@ Please remember to restore the default value when you're not reconciling.
 5. You have one exact match. Press ++ctrl+i++ to translate the segment with that match.
 6. Still easy. Press ++ctrl+u++ to move to the next _unreconciled_ segment.
 
+<!-- prettier-ignore -->
 !!! info
     You only see one match if "translation 1" and "translation 2" are identical.
 
@@ -50,25 +52,26 @@ Please remember to restore the default value when you're not reconciling.
 10. Press ++ctrl+u++ to move to the next _unreconciled_ segment.
 
    > You're now on segment #58.
+
 11. Read segment #58.
-11. Here you want to use the second translation. Press ++ctrl+2++ to select match #2.
-12. Press ++ctrl+i++ to insert it.
+12. Here you want to use the second translation. Press ++ctrl+2++ to select match #2.
+13. Press ++ctrl+i++ to insert it.
 
    > Translation reads `D'autres fois, la première traduction était mauvaise, mais la seconde était bonne, donc le choix était également clair.`
 
-13. Press ++ctrl+u++ to move to the next _unreconciled_ segment.
+14. Press ++ctrl+u++ to move to the next _unreconciled_ segment.
 
 ## Exersise 04.03: editing the inserted translation
 
 > You're now on segment #59.
 
 14. Read segment #59.
-14. Press ++ctrl+i++ to insert the exiting match.
-15. Edit the translation to make it a good translation.
+15. Press ++ctrl+i++ to insert the exiting match.
+16. Edit the translation to make it a good translation.
 
    > Tip: Remove the excessive `SSs` in `parfoisSSs`.
 
-16. Press ++ctrl+u++ to move to the next _unreconciled_ segment.
+17. Press ++ctrl+u++ to move to the next _unreconciled_ segment.
 
 ## Exercise 03.03: assembling fragments
 
@@ -89,4 +92,3 @@ Please remember to restore the default threshold to show matches:
 
 1. In OmegaT, go to **Options** > **Preferences** > **TM Matches**.
 2. Change value of setting "Minimal threshold to show a fuzzy match" to 50.
-

@@ -1,9 +1,9 @@
-## Вставка текста оригинала в перевод
+## Inserting source segment in target
 
-В некоторых случаях перевод должен быть идентичен исходному тексту. Чтобы скопировать оригинальный текст в перевод, нажмите сочетание клавиш ++ctrl+shift+s++.
+In some cases, the translation must be identical to the source text. To copy the source text in the translation, press ++ctrl+shift+s++ on your keyboard.
 
 ![](../_img/24_identical_source.jpg)
 
 <!-- @todo: update screenshot -->
 
-Конечно, при желании исходный текст можно копировать и вставлять в перевод.
+Of course, you may also copy-paste the source text in the translation if you prefer.

@@ -1,11 +1,12 @@
 # 04. Tags
 
+<!-- prettier-ignore -->
 ??? Abstract "The relevant section in the guides..."
     See the relevant section in your guide:
-    [Перевод](../../translation/tags/){:target="_blank" .md-button }
-    [Reconciliation](../../reconciliation/tags/){:target="_blank" .md-button }
-    [Адаптация](../../adaptation/tags/){:target="_blank" .md-button }
-    [Верификация](../../verification/tags/){:target="_blank" .md-button }
+    [Translation](../translation/tags.md){:target="_blank" .md-button }
+    [Reconciliation](../reconciliation/tags.md){:target="_blank" .md-button }
+    [Adaptation](../adaptation/tags.md){:target="_blank" .md-button }
+    [Verification](../verification/tags.md/){:target="_blank" .md-button }
 
 ---
 
@@ -16,28 +17,28 @@
    > Source text reads: `Click <g1>Play</g1> to see it in action.`
 
 2. Notice the two tags in the segment.
-2. With your mouse, hover over the two tags and notice how the two tags are _paired_.
+3. With your mouse, hover over the two tags and notice how the two tags are _paired_.
 
    > The first tag stands for `<strong>` and the second tag stands for `</strong>`.
+
    <!-- > @quiz: what do you think these are? How to handle them: should we ignore them or reproduce them in the translation? @todo: move to quiz or remove -->
 
-3. Translate segment #40.
+4. Translate segment #40.
 
    > Suggested translation: `Cliquez sur Jouer pour voir ça en action.`
 
-4. Select the part of the translation that corresponds to "Play"
+5. Select the part of the translation that corresponds to "Play"
 
    > Tip: you should select `Jouer`
 
-5. Press ++ctrl+space++ to open the auto-completer.
-6. Press ++ctrl+space++ several times to cycle through all the sections in the auto-completer. Stop when you reach the “Missing tags” section.
-7. The first option (i.e. `<g1>|</g1>`) is selected by default. Press ++enter++ to insert tag pair.
-8. Notice how the two paired tags are inserted around the selected text in the translation.
+6. Press ++ctrl+space++ to open the auto-completer.
+7. Press ++ctrl+space++ several times to cycle through all the sections in the auto-completer. Stop when you reach the “Missing tags” section.
+8. The first option (i.e. `<g1>|</g1>`) is selected by default. Press ++enter++ to insert tag pair.
+9. Notice how the two paired tags are inserted around the selected text in the translation.
 
    > Expected result: `Cliquez sur <g1>Jouer</g1> pour le voir en action.`
 
 Well done!
-
 
 ## Exercise 04.2: see what tags stand for
 
@@ -56,7 +57,8 @@ Well done!
 
    > The tooltips should show `{{object1}}` and `{{object2}}`
 
-!!! Предупреждение
+<!-- prettier-ignore -->
+!!! warning
     The difference between two standalone tags and two paired tags is very important.
 
 ## Exercise 04.3: insert standalone tags
@@ -94,9 +96,6 @@ Well done!
 
 You have inserted the tag as you made progress through the translation.
 
-
-
-
 ## Exercise 04.5: trigger the tag tooltip
 
 <!-- translation: Le traducteur a dû prêter attention au formatage tel que le gras, l'italique, le soulignement</g3>. -->
@@ -111,33 +110,32 @@ You have inserted the tag as you made progress through the translation.
 
 <!-- @ŧodo: add exercise about notes, add exercise about search hash -->
 
-
 ## Exercise 04.6: insert more tags
 
 1. Still in segment #48, press ++ctrl+i++ to insert the fuzzy match.
 2. Notice how most tags are missing in the translation.
-2. Select the part of the translation that corresponds to “bold”
+3. Select the part of the translation that corresponds to “bold”
 
    > Tip: `le gras`
 
-3. Press ++ctrl+space++ to open the "Missing tags" section in the auto-completer.
+4. Press ++ctrl+space++ to open the "Missing tags" section in the auto-completer.
 
    > The first line (i.e. `<g1></g1>`) is selected by default.
 
-4. Press ++enter++ to insert the tag pair that appears in the first line of the auto-completer.
-4. Notice how the tags have been inserted around the selected text
+5. Press ++enter++ to insert the tag pair that appears in the first line of the auto-completer.
+6. Notice how the tags have been inserted around the selected text
 
    > Results should be `<g1>le gras</g1>`
 
-5. Do the same for the translation of “italics”
+7. Do the same for the translation of “italics”
 
    > Results should be `<g2>l’italique</g2>`
 
-5. Notice how you cannot insert a tag pair around the translation of “underline” because closing tag `</g3>` is already inserted.
+8. Notice how you cannot insert a tag pair around the translation of “underline” because closing tag `</g3>` is already inserted.
 
-6. Place the mouse cursor in the position where you would like to insert the tag that is paired with `</g3>`.
+9. Place the mouse cursor in the position where you would like to insert the tag that is paired with `</g3>`.
 
-7. Use the auto-completer (++ctrl+space++) to insert tag `<g3>`.
+10. Use the auto-completer (++ctrl+space++) to insert tag `<g3>`.
 
    > Results should be `<g3>le soulignement</g3>`
 
@@ -197,6 +195,3 @@ In this exercise, you'll practice another way to move a tag to its correct posit
     shows the expected result (the solution) @todo: complete
 
 -->
-
-
-

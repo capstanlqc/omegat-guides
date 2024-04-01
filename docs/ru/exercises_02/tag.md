@@ -63,7 +63,7 @@ Well done!
 
    > The tooltips should show `{{object1}}` and `{{object2}}`
 
-!!! Предупреждение
+!!! warning
     The difference between two standalone tags and two paired tags is very important.
 
 ## Exercise 04.4: insert standalone tags

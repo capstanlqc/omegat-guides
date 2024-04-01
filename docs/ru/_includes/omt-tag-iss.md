@@ -1,4 +1,4 @@
-## Исправление проблем с тегами
+## Fixing tag issues
 
 All tags you see in the source text should be present in the translation too and in the correct position. You must correct any errors that you may see when that's not the case.
 
@@ -8,16 +8,17 @@ You may find two types of issue:
 
 - A tag is inserted but misplaced: the solution may be either to [drag and drop](#moving-tags) single tags to the correct position, or simply to [delete the tag](#deleting-tags) (or tag pair) and [insert it](#inserting-tags) again correctly.
 
+<!-- prettier-ignore -->
 ??? warning "Warning for RTL languages"
     In right-to-left languages such as Arabic or Hebrew, moving tags will not work. Please delete the tag and insert it again if you work with any of these languages.
 
-### Удаление тегов
+### Deleting tags
 
 If you have inserted a tag incorrectly and need to [insert it](#inserting-tags) again, **double click** on the tag to select it in full and press ++backspace++ or ++delete++ on your keyboard to delete it first.
 
 ![](../_img/omt-tags-delete.gif)
 
-### Перемещение тегов
+### Moving tags
 
 If you have inserted a tag in the wrong position and need to insert it somewhere else, you can simply **drag and drop** it. Alternatively, you can also delete it and insert it again.
 

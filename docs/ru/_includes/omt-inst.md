@@ -1,6 +1,6 @@
-# Установка и настройка
+# Installation and setup
 
-Для установки и настройки OmegaT на компьютере под управлением Windows следуйте приведенному ниже руководству по установке и настройке OmegaT.
+To install OmegaT and set it up on a computer running Windows, please follow the OmegaT installation and setup guide below:
 
 <div style="width: 100%">
 
@@ -9,8 +9,6 @@
 
 </div>
 
-Если вы используете компьютер под управлением macOS или Linux, прочитайте информацию на втором слайде выше или свяжитесь с нами через Helpdesk.
+If you use Mac or Linux, please see the second slide above or get in touch through the Helpdesk.
 
 <!-- To install and customize OmegaT on a computer running on Windows, please consult the steps in the [OmegaT installation and customization guide](../tec-cb-ome-ins). -->
-
-

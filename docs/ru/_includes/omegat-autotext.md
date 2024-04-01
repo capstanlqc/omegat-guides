@@ -1,6 +1,6 @@
-| Сочетание клавиш | Символ | Описание |
+| Shorcut | Character | Description |
 |-----|-----|-----|
-| `\lq` | “ | верхняя левая двойная кавычка (U+201C) |
+| `\lq` | “ | upper left double quotation mark (U+201C) |
 | `\rq` | ” | upper right double quotation mark (U+201D) |
 | `\lolq` | „ | lower left (low-9) double quotation mark (U+201E) |
 | `<< ` | « | left-pointing double angle quotation mark (U+00AB) |

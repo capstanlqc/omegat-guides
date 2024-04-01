@@ -13,7 +13,7 @@ Please:
 - Download OmegaT 6.1.0 from the **link provided** in this guide. Do not download OmegaT from another link.
 - Install OmegaT version 6.1.0 (from the link in this guide). Do not install **any other** version of OmegaT.
 
-## Установка и конфигурация
+## Installation and configuration
 
 Notice that the setup process to get you started consists of **two** steps:
 
@@ -38,7 +38,7 @@ If OmegaT is already installed in your machine but it's not version 6.1.0, pleas
 
 Please download the cApStAn-signed OmegaT 6.1 installer from [here](https://github.com/capstanlqc/omegat-guides/raw/master/lfs/OmegaT_6.1.0_Beta_Windows_64_Signed.exe).
 
-> You must have a 64-bit machine to install this version of OmegaT. Если требуется установка на 32-разрядном компьютере, свяжитесь с нашей службой поддержки. <!-- Check the [¶ 64bit or 32bit machine?](#64bit-or-32bit-machine) section below if you're not sure how to check whether you have a 64-bit or 32-bit machine. -->
+> You must have a 64-bit machine to install this version of OmegaT. If that's not the case, please get in touch with our Helpdesk. <!-- Check the [¶ 64bit or 32bit machine?](#64bit-or-32bit-machine) section below if you're not sure how to check whether you have a 64-bit or 32-bit machine. -->
 
 It's a safe download, even if your browser might not trust the file.
 
