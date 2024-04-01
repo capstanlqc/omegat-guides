@@ -1,75 +1,75 @@
-# Руководство по установке OmegaT 5.7.2 для macOS
+# OmegaT 5.7.2 setup guide for macOS
 
-Вам следует ==тщательно выбрать правильный вариант==, исходя из своих начальных условий:
+Depending on your starting point, ==choose your path here carefully==:
 
-- Если у вас уже установлена предыдущая версия OmegaT (например, 5.7.1 или 4.2.0), вам следует сначала обновить конфигурацию программы. Как это сделать, описано в [разделе о конфигурации](#configuration) (следующий раздел).
-- Если в настоящий момент на вашем компьютере OmegaT не установлена, вам нужно вначале установить программу, как описано в [разделе об установке](#installation). После установки вам понадобится скачать и запустить скрипт конфигурации, как описано в пунктах 2 и 3 [раздела о конфигурации](#configuration) (следующий раздел).
+- IF you already have a previous version (e.g. 5.7.1 or 4.2.0) of OmegaT installed, you'll have to update your configuration first: to do so please go to the [configuration section](#configuration) (next section right down below).
+- IF there is no current installation of OmegaT in your machine, you will need to install it first as described in the [installation section](#installation). After the installation, you will have to download and run the configuration script as described in the points 2 and 3 of the [configuration section](#configuration) (next section right down below).
 
-## Конфигурация
+## Configuration
 
-Этот раздел предназначен для пользователей, на компьютере которых уже установленна предыдущая версия OmegaT (например, 5.7.1 или 4.2.0). Для обновления конфигурации программы выполните шаги, приведенные ниже.
+This section applies to users that already have a previous version (e.g. 5.7.1 or 4.2.0) of OmegaT installed. Please follow the next steps to update your configuration.
 
-1. Run OmegaT and go to **Tools** > **Scripting** to open your scripting console, In OmegaT 5.7.1, please open the scripting console. Проверьте, есть ли у вас скрипт под названием **Update Customisation Bundle (v572)**:
+1. Run OmegaT and go to **Tools** > **Scripting** to open your scripting console, In OmegaT 5.7.1, please open the scripting console. Check whethers you have a script called "**Update Customisation Bundle (v572)**":
 
-   !!! Предупреждение
-       Если в названии нет фрагмента **v572**, то это не тот скрипт, который нам нужен. В следующем шаге описано, где взять этот скрипт.
+   !!! warning
+       If you don't see the "**v572**" bit, then it's not the script we're looking for. See next step to fetch the script.
 
    ![](../_img/custom-script-572-in-scripting-console_Mac.png)
 
-   Если скрипт **Update Customisation Bundle (v572)** есть в списке, выберете его щелчком мыши и нажмите кнопку **Run** (Выполнить) в левом нижнем углу окна для запуска скрипта. Скрипт выполнит обновление файлов конфигурации и завершит работу OmegaT. Далее пропустите следующий шаг и перейдите непосредственно к [разделу установки](#installation).
+   If the script "**Update Customisation Bundle (v572)**" is there, please click on it to select it and press the **Run** button (at the bottom left) to run it. The script will run to update your config files and will quit OmegaT. After that, skip the next step and jump directly to the [installation section](#installation).
 
-   Если скрипт отсутствует в списке, вы можете скачать его самостоятельно. В дальнейших шагах описано, как это сделать.
+   If the script is not there, you may download it yourself. See next steps for how to do that.
 
-2. Нажмите правой кнопкой мыши на кнопку ниже и выберите «Сохранить как», чтобы загрузить скрипт конфигурации (например, на рабочий стол)7
+2. Right-click on the button below and select "Save Link As" to download the configuration script (e.g. to your Desktop)
 
-   [:material-download: Скачать UpdateConfigBundle.groovy](https://cat.capstan.be/OmegaT/v572/customization/scripts/updateConfigBundle.groovy){ .md-button .md-button--primary }
+   [:material-download: Download UpdateConfigBundle.groovy](https://cat.capstan.be/OmegaT/v572/customization/scripts/updateConfigBundle.groovy){ .md-button .md-button--primary }
 
-3. В главном окне OmegaT выполните следующие действия для запуска скаченного скрипта конфигурации:
+3. In OmegaT, follow these steps to run the configuration script you have downloaded:
 
-   - **Tools** (Инструменты) > **Scripting** (Скрипты) > **File** (Файл) > **Open script** (Открыть скрипт).
-   - Перейдите на рабочий стол (или в папку, в которой был сохранен скрипт) и выберите файл с расширением groovy.
-   - Нажмите кнопку **Open** (Открыть), чтобы открыть файл скрипта, далее нажмите кнопку **Run** (Выполнить)в левом нижнем углу окна.
+   - **Tools** > **Scripting** > **File** > **Open script**
+   - browse to your Desktop (or the folder where you have saved the script) and select the groovy file
+   - press the **Open** button to open the script file and press **Run** button (on the bottom left)
 
    ![](../_img/omt-open-script-and-run_Mac.gif)
 
-   Скрипт установит необходимые файлы конфигурации для OmegaT 5.7.2 и удалит старые файлы для предыдущих версий, после чего завершит работу программы.
+   The script will install the necessary config files for OmegaT 5.7.2 and delete old config files for OmegaT 5.7.1, and after that it will quit OmegaT.
 
-4. Удалите текущую версию OmegaT.
+4. Uninstall your current version of OmegaT.
 
-   Для этого просто переместите установленное приложение **OmegaT.app** в Корзину.
+   To do that, simply move the installed **OmegaT.app** to Trash.
 
-5. После этого переходите к [разделу установки](#installation) (следующий шаг).
+5. Finally, proceed now to the [installation section](#installation) (next step below).
 
-## Установка
+## Installation
 
-1. Нажмите на кнопку ниже, чтобы загрузить OmegaT 5.7.2. Это специальная версия, подготовленная компанией cApStAn. Она включает в себя несколько исправлений ошибок и улучшений, недоступных в других версиях.
+1. Click on the button below to download OmegaT 5.7.2. This is a custom version prepared by cApStAn which includes several bug fixes and enhancements not available in other versions.
 
-   [:material-download: Загрузить OmegaT 5.7.2](https://cat.capstan.be/OmegaT/exe/OmegaT_5.7.2_Mac.zip){ .md-button .md-button--primary }
+   [:material-download: Download OmegaT 5.7.2](https://cat.capstan.be/OmegaT/exe/OmegaT_5.7.2_Mac.zip){ .md-button .md-button--primary }
 
-2. Если вы используете Safari, то по окончании загрузки файл будет распакован автоматически. Если вы используете другой браузер, то для распаковки файла вам нужно дважды щелкнуть на нем по окончании загрузки.
+2. If you're using Safari, then the file will be unzipped automatically when the download ends.​ If you use another browser, double-click the file when the download ends to unzip it.
 
-3. Скачанный файл будет распакован в новую папку — откройте ее, чтобы просмотреть содержимое. Внутри вы увидите файл **OmegaT.app**.
+3. A folder is created, open it to see its contents. You'll see that it contains the **OmegaT.app** file.
 
-4. Перетащите файл **OmegaT.app** в папку **Applications** (Приложения).
+4. Drag the **OmegaT.app** file to the **Applications** folder.
 
 <div data-block-type="video" style="width: 480px; height: 304px; left: 400px; top: 326px;">
     <div class="sl-block-content" style="z-index: 10;" data-media-id="8242406" data-video-thumb="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/Sjlk4rKG/1kx16dhvq0_thumb_00001.jpg"><video playsinline="" controls="controls" poster="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/Sjlk4rKG/1kx16dhvq0_thumb_00001.jpg" data-paused-by-reveal="" data-lazy-loaded="" src="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/Sjlk4rKG/1kx16dhvq0.mp4"></video></div>
 </div>
 
-5. Теперь OmegaT установлена. Перейдите в папку **Applications** (Приложения) и откройте находящееся там приложение **OmegaT.app**.
-6. macOS может запросить подтверждение того, что вы действительно хотите запустить приложение. Если это произойдет, нажмите **Open** (Открыть). Далее запустится OmegaT.
+5. OmegaT is now installed. Go to the **Applications** folder and open **OmegaT** there.
+6. Your Mac might ask for confirmation that you want to open it. If that's the case, please press **Open**. OmegaT will now run.
 
 <div data-block-type="video" style="width: 480px; height: 304px; left: 400px; top: 326px;" >
     <div class="sl-block-content" style="z-index: 10;" data-media-id="8242392" data-video-thumb="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/eXYV2O_T/oiepooibjr_thumb_00001.jpg"><video playsinline="" controls="controls" poster="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/eXYV2O_T/oiepooibjr_thumb_00001.jpg" data-lazy-loaded="" data-paused-by-reveal="" src="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/eXYV2O_T/oiepooibjr.mp4"></video></div>
 </div>
 
-7. Если вы хотите выполнить проверку после установки, чтобы убедиться, действительно ли у вас установлена правильная версия, вы можете проверить это в меню **Help** (Справка) > **About** (О программе) > **Copy Support Info** (Копировать информацию для поддержки). Вы должны увидеть:
+7. If you want to run a post-installation check to confirm that you have the correct version, you can check that in **Help** > **About** > **Copy Support Info**. You should see:
 
    > Version: OmegaT-5.7.2_0_a978d82ee  
-   > Platform: [ваша операционная система]  
+   > Platform: [your operating system]  
    > Java: 11.0.19 amd64
 
-Все готово. Можно приступать к использованию OmegaT 5.7.2.
+You're done now. You can start using OmegaT 5.7.2.
 
 <!--
 To install OmegaT and set it up on a computer running Windows, please follow the OmegaT installation and setup guide below:

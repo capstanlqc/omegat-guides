@@ -1,11 +1,12 @@
 # 02. Matches
 
+<!-- prettier-ignore -->
 ??? Abstract "The relevant section in the guides..."
     See the relevant section in your guide:
-    [Перевод](../../translation/matches/){:target="_blank" .md-button }
-    [Reconciliation](../../reconciliation/matches/){:target="_blank" .md-button }
-    [Адаптация](../../adaptation/matches/){:target="_blank" .md-button }
-    [Верификация](../../verification/matches/){:target="_blank" .md-button }
+    [Translation](../translation/matches.md){:target="_blank" .md-button }
+    [Reconciliation](../reconciliation/matches.md){:target="_blank" .md-button }
+    [Adaptation](../adaptation/matches.md){:target="_blank" .md-button }
+    [Verification](../verification/matches.md){:target="_blank" .md-button }
 
 ---
 
@@ -33,7 +34,7 @@
 1. Make some edits to modify the translation.
 1. Press F5 to reload the project.
 1. Notice how your edits are now gone.
-2. Press ++ctrl+u++ to go to the next _untranslated_ segment.
+1. Press ++ctrl+u++ to go to the next _untranslated_ segment.
 
    > That should take you to segment #3.
 
@@ -50,7 +51,7 @@
 
    > Tip: Replace `sanitaire` with `économique`.
 
-10. Press ++ctrl+u++ to go to the next _untranslated_ segment.
+7. Press ++ctrl+u++ to go to the next _untranslated_ segment.
 
    > That should take you to segment #5.
 
@@ -61,16 +62,15 @@
    > You're in segment #5.
 
 3. There is a 50% match that you could use. Press ++ctrl+i++ to insert it.
-12. Now update the translation so that it corresponds to the source text.
+4. Now update the translation so that it corresponds to the source text.
 
    > Tip: delete `Très` and change the case of the first letter.
 
    > Expected result: `Bon`
 
-10. Press ++ctrl+u++ to go to the next _untranslated_ segment.
+5. Press ++ctrl+u++ to go to the next _untranslated_ segment.
 
    > That should take you to segment #6.
-
 
 ## Exercise 02.5: insert exact match
 
@@ -85,37 +85,34 @@
 
    > That should take you to segment #7.
 
-
 ## Exercise 02.6: select text and insert
 
 > You're in segment #7.
 
 3. Notice that there are two 50% matches that you could use.
-3. See what is the part that can be used in the first match.
-3. Press ++ctrl+2++ to select the second match.
-3. See what is the part that can be used in the second match.
-3. Press ++ctrl+1++ to select the first match again.
+4. See what is the part that can be used in the first match.
+5. Press ++ctrl+2++ to select the second match.
+6. See what is the part that can be used in the second match.
+7. Press ++ctrl+1++ to select the first match again.
 
    > Alternate between ++ctrl+1++ and ++ctrl+2++ to highlight the differences in each match.
 
-4. With your mouse, select `Très` in match #1.
+8. With your mouse, select `Très` in match #1.
 
    > The translation of "very" in the first match is something you can use.
 
-4. Press ++ctrl+i++ to insert your selection.
-4. With your mouse, select `mauvais` in match #2.
+9. Press ++ctrl+i++ to insert your selection.
+10. With your mouse, select `mauvais` in match #2.
 
    > You can also use the translation of "bad" in the second match.
 
-4. Press ++ctrl+i++ to insert your selection.
+11. Press ++ctrl+i++ to insert your selection.
 
    > Expected result: `très mauvais`
 
-
-10. Press ++ctrl+u++ to go to the next _untranslated_ segment.
+12. Press ++ctrl+u++ to go to the next _untranslated_ segment.
 
    > That should take you to segment #8.
-
 
 ## Exercise 02.7: select a match and insert it
 
@@ -141,16 +138,16 @@
 
    > Source text reads `Welcome to this survey.`
 
-17. Notice how this segment is almost identical to the first segment you translated.
+3. Notice how this segment is almost identical to the first segment you translated.
 
    > The only difference is in the final punctuation.
 
-18. Press ++ctrl+i++ to insert the match.
-19. Update the translation now.
+4. Press ++ctrl+i++ to insert the match.
+5. Update the translation now.
 
    > Replace the exclamation mark ` !` with a full stop `.`
 
-10. Press ++ctrl+u++ to go to the next _untranslated_ segment.
+6. Press ++ctrl+u++ to go to the next _untranslated_ segment.
 
    > That should take you to segment #12.
 
@@ -158,11 +155,9 @@
 quiz: which one is more efficient?
 -->
 
-
 <!--
 quiz: do you prefer to select and insert, or insert and update?
 -->
-
 
 ## Exercise 02.10: insert match and update it
 

@@ -11,11 +11,11 @@ You may use the autotext shortcut `\sub2` to insert a subscript number 2 (i.e. `
 !!! tip
     The "suB" part in the shorcut `\sub2` stands for subindex or subscript.
 
-
 <!-- @todo: add "subindex" and "superindex" to cheatsheet -->
 
 !!! note inline end "←TODO"
 @quiz: what do you notice in segment #47 (@todo: complete)
+
 1. Go to segment #47 and read the source text.
 
    > Target text reads `Le dioxyde de carbone (CO2) se dissout dans l'eau de mer pour former de l'acide carbonique.`
@@ -25,13 +25,12 @@ You may use the autotext shortcut `\sub2` to insert a subscript number 2 (i.e. `
    > A subscript number should be used instead of a regular digit.
 
 3. In that same position, type the autotext shortcut `\sub2`
-3. Notice how the auto-completer window opens showing the autotext entry.
-4. Press ++enter++ to insert the special character `₂`.
+4. Notice how the auto-completer window opens showing the autotext entry.
+5. Press ++enter++ to insert the special character `₂`.
 
    > The result should be: `CO₂`
 
 In this exercise you have used an autotext shortcut that you knew already. In the following exercises you'll find out an autotext entry that you don't know.
-
 
 ## Exercise 06.2: find special character in the list of autotext entries
 
@@ -41,7 +40,7 @@ In this exercise, you must insert the multiplication symbol but you don't know w
 
    > Source text reads: `Thermal conductivity coefficient <br/>(W/m × K)`
 
-2. Open the list of available shortcuts [here](../../misc/autotext/){:target="_blank"}.
+2. Open the list of available shortcuts [here](../misc/autotext.md){:target="\_blank"}.
 3. Look for the autotext entry for the multiplication symbol.
 
    > You can use either `\times` or `\x` (how lucky, this one is shorter!)
@@ -56,7 +55,7 @@ In this exercise, you must insert the multiplication symbol but you don't know w
    > Incorrect translation: `W/m x K`
 
 !!! info
-    You can find the list of autotext entries in [OmegaT guides](../../) > [Miscellanea](../../misc/) > [Autotext](../../misc/autotext/)
+    You can find the list of autotext entries in [OmegaT guides](../index.md) > [Miscellanea](../misc/index.md) > [Autotext](../misc/autotext.md)
 
 ## Exercise 06.3: insert special character from the character table
 

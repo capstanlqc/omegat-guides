@@ -1,10 +1,10 @@
-## Навигация между областями программы
+## Navigation across panes
 
-Открыв OmegaT, вы заметите, что главный экран разделен на несколько областей:
+When you open OmegaT you will notice the screen is split in several panes:
 
-- **Editor** (Область редактирования) — это основная область, в которой вы будете работать.
-- Перевод похожих сегментов будет отображаться в области **Fuzzy Matches** (Нечеткие совпадения) (в более поздних версиях эта область называется **Matches** в английском интерфейсе программы).
-- В области **Glossary** (Глоссарий) будут отображаться ранее добавленные и ваши собственные записи глоссария.
+- The **Editor** pane is the main pane in which you will be working.
+- Translation suggestions will appear in the **Fuzzy Matches** pane (or just **Matches** pane).
+- The **Glossary** pane will display the existing glossary entries and the ones you may add.
 - The **Multiple Translations** pane will show if a repeated segment has alternative translations.
 
 ![](../_img/05_omegat_panes.jpg)

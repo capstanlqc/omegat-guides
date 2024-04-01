@@ -1,12 +1,12 @@
 # 09. QA checks
 
-
+<!-- prettier-ignore -->
 ??? Abstract "The relevant section in the guides..."
     See the relevant section in your guide:
-    [Перевод](../../translation/qa-checks/){:target="_blank" .md-button }
-    [Reconciliation](../../reconciliation/qa-checks/){:target="_blank" .md-button }
-    [Адаптация](../../adaptation/qa-checks/){:target="_blank" .md-button }
-    [Верификация](../../verification/qa-checks/){:target="_blank" .md-button }
+    [Translation](../translation/qa-checks.md){:target="_blank" .md-button }
+    [Reconciliation](../reconciliation/qa-checks.md){:target="_blank" .md-button }
+    [Adaptation](../adaptation/qa-checks.md){:target="_blank" .md-button }
+    [Verification](../verification/qa-checks.md){:target="_blank" .md-button }
 
 ---
 
@@ -36,15 +36,15 @@
 <!--
 Old stuff
 
-1. There are two segments with tag errors, can you find them?
-2. On which segment is there a glossary error?
 
+10. There are two segments with tag errors, can you find them?
+11. On which segment is there a glossary error?
 
 -->
 
-
 <!-- QA checks for verifiers: they should not uncheck spelling (at least)... -->
 
+<!-- prettier-ignore -->
 !!! tip
     If you're not sure how to fix a tag issue during a production task, please request support through the Helpdesk.
 
@@ -54,8 +54,10 @@ Old stuff
 2. Look at the **Remaining** row in the project statistics.
 3. Notice whether the project is fully translated.
 
+<!-- prettier-ignore -->
 !!! tip
     If you see a number higher than zero in the **Remaining** row(s), that means that there are still some remaining untranslated segments. All segments should be translated before you can finalize your task.
 
+<!-- prettier-ignore -->
 !!! tip
     Press ++ctrl+u++ to go to the next _untranslated_ segment.

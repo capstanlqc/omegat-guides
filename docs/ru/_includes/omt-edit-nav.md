@@ -1,15 +1,19 @@
-# Навигация
+# Navigation
 
 <!-- section: navigation panes -->
+
 {% include 'omt-nav1-panes.md' %}
 
 <!-- section: navigation files -->
+
 {% include 'omt-nav2-files.md' %}
 
 <!-- section: navigation segments -->
+
 {% include 'omt-nav3-seg.md' %}
 
-!!! Предупреждение
-    При работе над задачами редактирования (например, верификацией, корректурой и т. д.) все сегменты должны содержать перевод, т. е. быть выделенными либо **серым цветом**{ .translated } (переведенные сегменты), либо **розовым** { .auto } (переведенные автоматически из памяти переводов) или **оранжевым** { .enforce } (переведенные из памяти и заблокированные — для предыдущих переводов, которые должны оставаться неизменными). Если вы видите непереведенный сегмент, выделенный **синим**{ .untranslated } цветом, свяжитесь с проектным менеджером cApStAn, чтобы узнать, как следует поступить в этом случае.
+<!-- prettier-ignore -->
+!!! warning
+    All segments should appear translated for an editing task (such as verification, proofreading, etc.), i.e. highlighted either in **gray**{ .translated } (translated) or in **pink**{ .auto } (pretranslated) or in **orange**{ .enforce } (pretranslated and locked, for trend or legacy translations). If you notice an untranslated segment in **blue**{ .untranslated }, please contact cApStAn's project managers to see how it should be handled.
 
-----
+---

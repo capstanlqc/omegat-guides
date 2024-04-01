@@ -1,4 +1,4 @@
-# 01. Навигация
+# 01. Navigation
 <!--
 - Ctrl+U
 - Enter / Ctrl+Enter

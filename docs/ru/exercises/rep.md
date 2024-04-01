@@ -1,15 +1,17 @@
 # 05. Repetitions
 
+<!-- prettier-ignore -->
 ??? Abstract "The relevant section in the guides..."
     See the relevant section in your guide:
-    [Перевод](../../translation/repetitions/){:target="_blank" .md-button }
-    [Reconciliation](../../reconciliation/repetitions/){:target="_blank" .md-button }
-    [Адаптация](../../adaptation/repetitions/){:target="_blank" .md-button }
-    [Верификация](../../verification/repetitions/){:target="_blank" .md-button }
+    [Translation](../translation/repetitions.md){:target="_blank" .md-button }
+    [Reconciliation](../reconciliation/repetitions.md){:target="_blank" .md-button }
+    [Adaptation](../adaptation/repetitions.md){:target="_blank" .md-button }
+    [Verification](../verification/repetitions.md){:target="_blank" .md-button }
 
 ---
 
 ## Exercise 05.1: recognize repeated segments
+
 <!-- @todo !!! note inline end "←TODO"
     @quiz: how many reps in total?  -->
 
@@ -35,18 +37,18 @@
    > You can insert the match (++ctrl+i++) and update it (replace `financière` with `économique`)
 
 3. Notice how "situation économique" is grammatically feminine in French.
-3. Go to segment #13 and translate it. Suggested translation: `Plutôt bonNE`
+4. Go to segment #13 and translate it. Suggested translation: `Plutôt bonNE`
 
    > The -NE ending is the feminine suffix, because "Good" here refers to "economic situation", which is feminine in French
 
-2. Press ++enter++ after translating segment #13 to go to segment #14.
-3. Notice how the translation is auto-propagated to segment #16.
-4. Translate segment #14. Suggested translation: `Plutôt mauvaisE`
+5. Press ++enter++ after translating segment #13 to go to segment #14.
+6. Notice how the translation is auto-propagated to segment #16.
+7. Translate segment #14. Suggested translation: `Plutôt mauvaisE`
 
    > The -E ending is the feminine suffix, because "Bad" here refers to "economic situation", which is feminine in French
 
-5. Press ++enter++ after translating segment #14 to confirm the translation of segment #14 and go to the next segment.
-6. Notice how the translation is auto-propagated to segment #17.
+8. Press ++enter++ after translating segment #14 to confirm the translation of segment #14 and go to the next segment.
+9. Notice how the translation is auto-propagated to segment #17.
 
 ## Exercise 05.3: auto-propagate edits in translations
 
@@ -58,6 +60,7 @@
 
 <!-- add link in the guide to the shortcuts page when we mention a shortcut -->
 
+<!-- prettier-ignore -->
 !!! tip
     Shortcut ++ctrl+s++ saves the translation. You can also save in **Project** > **Save**, but using the mouse takes longer ;)
 

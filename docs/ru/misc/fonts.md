@@ -11,7 +11,7 @@ Go to **Windows Settings** > **Apps** > **Optional Features** > **+ Add a featu
 
 ## Recommended fonts in OmegaT
 
-| Язык | Fonts | Comment |
+| Language | Fonts | Comment |
 |---|---|---|
 | Korean | UnDotum, Malgun Gothic |  |
 | Chinese | NSimSun | Source Han Sans or Source Han Serif (untested!) |

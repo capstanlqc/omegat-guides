@@ -11,6 +11,7 @@ In order to do these exercises, you'll have to download an offline OmegaT projec
 
    - **Project** > **Unpack project from OMT file...**
 
+<!-- prettier-ignore -->
 !!! tip "Relevant section in the OmegaT guide"
     [How to unpack an offline project](https://capstanlqc.github.io/omegat-guides/translation/accessing-the-project/#unpacking-an-offline-project){:target="_blank"}.
 

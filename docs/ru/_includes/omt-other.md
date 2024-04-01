@@ -1,4 +1,4 @@
-# Другие полезные функции
+# Other useful features
 
 <!-- section: insert source text -->
 {% include 'omt-ins-src.md' %}
