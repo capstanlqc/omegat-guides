@@ -2357,6 +2357,7 @@
 
 
 <h1 id="08-search">08. Search<a class="headerlink" href="#08-search" title="Permanent link">&para;</a></h1>
+<!-- prettier-ignore -->
 <details class="abstract">
 <summary>The relevant section in the guides...</summary>
 <p>See the relevant section in your guide:</p>
@@ -2372,16 +2373,14 @@
 <li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-j">J</kbd></span> and enter 47 to go to segment #47.</li>
 <li>Select the word <code>translator</code>.</li>
 <li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-f">F</kbd></span> to open the <strong>Text Search</strong> dialog.</li>
-<li>Notice how the word "translator" is already filled in in the search box. </li>
+<li>Notice how the word "translator" is already filled in in the search box.</li>
 <li>Check option "Translated" so that you will only find translated segments.</li>
 <li>Check box "TMs" under "Search in" to search in the translations memories.</li>
-<li>
-<p>Press the <strong>Search</strong> button.</p>
+<li>Press the <strong>Search</strong> button.</li>
+</ol>
 <blockquote>
 <p>Expected result: <code>traducteur</code></p>
 </blockquote>
-</li>
-</ol>
 <!-- @todo: add exercise that shows how sometimes you don't get a fuzzy match because of low similarity score and poor matching algorithm but there's a useful concordance in the TM -->
 
 <h2 id="exercise-082-search-for-a-segment-identifier">Exercise 08.2: search for a segment identifier<a class="headerlink" href="#exercise-082-search-for-a-segment-identifier" title="Permanent link">&para;</a></h2>
@@ -2390,28 +2389,29 @@
 <li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-f">F</kbd></span> to open the <strong>Text Search</strong> dialog unless it's already open.</li>
 <li>
 <p>Check option:</p>
-<ul>
-<li>In comments</li>
-</ul>
+</li>
+<li>
+<p>In comments</p>
 </li>
 <li>
 <p>Type <code>123abc</code> in the search box, and press <strong>Search</strong>.</p>
+</li>
+</ol>
 <blockquote>
-<p>Expected results: </p>
+<p>Expected results:</p>
 <blockquote>
 <p>01_qq/03_qq_paq.xml<br />
 -- 22&gt; Neither good nor bad<br />
 # name = 123abc</p>
 </blockquote>
 </blockquote>
-</li>
-</ol>
+<!-- prettier-ignore -->
 <div class="admonition info">
 <p class="admonition-title">Info</p>
 <p>Here <code># name</code> refers to the segment identifier.</p>
 </div>
 <!--
-## Exercise 08.4: 
+## Exercise 08.4:
 
 4. Find source text "Subject" in the project, but only if it has a translation.
 -->
@@ -2422,22 +2422,27 @@
 <li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-f">F</kbd></span> to open the <strong>Text Search</strong> dialog.</li>
 <li>
 <p>Check options:</p>
-<ul>
-<li>Exact search</li>
+</li>
+<li>
+<p>Exact search</p>
+</li>
 <li>In source</li>
 <li>All matching segments</li>
-<li>Search in: Memory</li>
-</ul>
+<li>
+<p>Search in: Memory</p>
 </li>
 <li>
 <p>Do not check options:</p>
-<ul>
-<li>Search in: TMs</li>
-</ul>
-<!-- screenshot! -->
 </li>
 <li>
-<p>Type <code>Rather satisfied</code> in the search box, and press <strong>Search</strong>.</p>
+<p>Search in: TMs</p>
+</li>
+</ol>
+<!-- screenshot! -->
+
+<ol>
+<li>Type <code>Rather satisfied</code> in the search box, and press <strong>Search</strong>.</li>
+</ol>
 <blockquote>
 <p>Expected results:</p>
 <ul>
@@ -2446,14 +2451,12 @@
 <li>37&gt; Plutôt satisfait</li>
 </ul>
 </blockquote>
-</li>
-<li>
-<p>Notice that here is one instance of the repeated segment "Rather satisfied" that was not translated consistenly.</p>
-<blockquote>
-<p>Can you see which translation is inconsistent? </p>
-</blockquote>
-</li>
+<ol>
+<li>Notice that here is one instance of the repeated segment "Rather satisfied" that was not translated consistenly.</li>
 </ol>
+<blockquote>
+<p>Can you see which translation is inconsistent?</p>
+</blockquote>
 <!-- @todo: write RFF: go to next segment with a comment -->
 
 
