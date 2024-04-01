@@ -18,7 +18,8 @@ You can check whether the translation adheres to the glossary and key terms have
   - Correct the error if necessary.
   - Press the **Refresh** button to update the list of issues.
 
+<!-- prettier-ignore -->
 !!! info
-Not all flagged issues are errors by default. In some cases, you may get _false positives_. In the screenshot below, "apple trees" should be translated as "pommiers" as in the first segment. In the second segment (active segment) "apple trees" was rendered as "ces arbres" (backtranslation: these trees) to avoid a repetition that would be disturbing in French. Such deviations from the glossary are intentional, so you would disregard the issue.
+    Not all flagged issues are errors by default. In some cases, you may get _false positives_. In the screenshot below, "apple trees" should be translated as "pommiers" as in the first segment. In the second segment (active segment) "apple trees" was rendered as "ces arbres" (backtranslation: these trees) to avoid a repetition that would be disturbing in French. Such deviations from the glossary are intentional, so you would disregard the issue.
 
     ![](../_img/37_false_positive.jpg)

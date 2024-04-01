@@ -1,7 +1,8 @@
 ## Adding new entries to the glossary
 
+<!-- prettier-ignore -->
 !!! tip
-Feeding the glossary with technical or sensitive wording or terms or expressions that appear frequently can be very useful to speed up typing, to keep consistency, to avoid typos, etc..
+   Feeding the glossary with technical or sensitive wording or terms or expressions that appear frequently can be very useful to speed up typing, to keep consistency, to avoid typos, etc..
 
 To add a new term entry to the glossary:
 

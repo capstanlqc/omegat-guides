@@ -21,8 +21,9 @@ In OmegaT, the **color** of the segment's background will help you find your way
 
 <!-- @todo: add pink pretranslate -->
 
+<!-- prettier-ignore -->
 !!! caution
-If you want to change a trend translation, document it in the monitoring form but do not try to change it in OmegaT. Any changes you make to these segments will not be saved. The existing translation will be maintained.
+    If you want to change a trend translation, document it in the monitoring form but do not try to change it in OmegaT. Any changes you make to these segments will not be saved. The existing translation will be maintained.
 
 The following video shows navigation through segments, enjoy :octicons-heart-fill-24:{ .heart }:
 

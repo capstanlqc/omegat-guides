@@ -19,8 +19,10 @@ To ensure that all tags have been inserted correctly:
   - Fix the tag issue (as explained in the [Fixing tag issues](../tags/#fixing-tag-issues){:target="\_blank"} section)
   - Press the **Refresh** button to update the list of issues.
 
+<!-- prettier-ignore -->
 !!! failure "Avoid"
-Please do not click on "Apply fix". Fix each issue manually.
+    Please do not click on "Apply fix". Fix each issue manually.
 
+<!-- prettier-ignore -->
 !!! tip
-If the source text has tags that you do not use in your language, you can insert them at the end of the segment to avoid having false positives in the error report. That should not have an impact on the translation.
+    If the source text has tags that you do not use in your language, you can insert them at the end of the segment to avoid having false positives in the error report. That should not have an impact on the translation.

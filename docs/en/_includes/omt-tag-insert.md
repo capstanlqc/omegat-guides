@@ -13,8 +13,9 @@ To insert **paired tags** in your translation, proceed as follows:
 
 ![](../_img/omt-tags-autocomplete-paired.gif)
 
+<!-- prettier-ignore -->
 !!! info
-The auto-completer has several sections, so if you don't see the tags section straight-away, just press ++ctrl+space++ again to cycle through the auto-completer until you see it.
+    The auto-completer has several sections, so if you don't see the tags section straight-away, just press ++ctrl+space++ again to cycle through the auto-completer until you see it.
 
 <!-- ### Standalone tags -->
 
