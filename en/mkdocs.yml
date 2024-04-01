@@ -1,0 +1,110 @@
+- Contents: en/index.md
+- Translation guide:
+    - Translation: en/translation/index.md
+    - Installation and setup: en/translation/install-and-setup.md
+    - Accessing a project: en/translation/accessing-the-project.md
+    - Navigation: en/translation/navigation.md
+    - Tags: en/translation/tags.md
+    - Matches: en/translation/matches.md
+    - Glossary: en/translation/glossary.md
+    - Repetitions: en/translation/repetitions.md
+    - Other useful features: en/translation/other-useful-features.md
+    - QA checks: en/translation/qa-checks.md
+    - Creating target files: en/translation/creating-target-files.md
+    - Creating your deliverable: en/translation/creating-your-deliverable.md
+    - Shortcuts: en/translation/shortcuts.md
+- Reconciliation guide:
+    - Reconciliation: en/reconciliation/index.md
+    - Installation and setup: en/reconciliation/install-and-setup.md
+    - Accessing a project: en/reconciliation/accessing-the-project.md
+    - Navigation: en/reconciliation/navigation.md
+    - Tags: en/reconciliation/tags.md
+    - Matches: en/reconciliation/matches.md
+    - Glossary: en/reconciliation/glossary.md
+    - Repetitions: en/reconciliation/repetitions.md
+    - Other useful features: en/reconciliation/other-useful-features.md
+    - QA checks: en/reconciliation/qa-checks.md
+    - Creating target files: en/reconciliation/creating-target-files.md
+    - Creating your deliverable: en/reconciliation/creating-your-deliverable.md
+    - Shortcuts: en/reconciliation/shortcuts.md
+- Adaptation guide:
+    - Adaptation: en/adaptation/index.md
+    - Installation and setup: en/adaptation/install-and-setup.md
+    - Accessing a project: en/adaptation/accessing-the-project.md
+    - Navigation: en/adaptation/navigation.md
+    - Tags: en/adaptation/tags.md
+    - Matches: en/adaptation/matches.md
+    - Glossary: en/adaptation/glossary.md
+    - Repetitions: en/adaptation/repetitions.md
+    - Other useful features: en/adaptation/other-useful-features.md
+    - QA checks: en/adaptation/qa-checks.md
+    - Creating target files: en/adaptation/creating-target-files.md
+    - Creating your deliverable: en/adaptation/creating-your-deliverable.md
+    - Shortcuts: en/adaptation/shortcuts.md
+- Verification guide:
+    - Verification: en/verification/index.md
+    - Installation and setup: en/verification/install-and-setup.md
+    - Accessing a project: en/verification/accessing-the-project.md
+    - Navigation: en/verification/navigation.md
+    - Editing: en/verification/editing.md
+    - Tags: en/verification/tags.md
+    - Matches: en/verification/matches.md
+    - Glossary: en/verification/glossary.md
+    - Repetitions: en/verification/repetitions.md
+    - Other useful features: en/verification/other-useful-features.md
+    - QA checks: en/verification/qa-checks.md
+    - Creating target files: en/verification/creating-target-files.md
+    - Creating your deliverable: en/verification/creating-your-deliverable.md
+    - Shortcuts: en/verification/shortcuts.md
+- Editing guide:
+    - Editing: en/editing/index.md
+    - Installation and setup: en/editing/install-and-setup.md
+    - Accessing a project: en/editing/accessing-the-project.md
+    - Navigation: en/editing/navigation.md
+    - Tags: en/editing/tags.md
+    - Matches: en/editing/matches.md
+    - Glossary: en/editing/glossary.md
+    - Repetitions: en/editing/repetitions.md
+    - Other useful features: en/editing/other-useful-features.md
+    - QA checks: en/editing/qa-checks.md
+    - Creating target files: en/editing/creating-target-files.md
+    - Creating your deliverable: en/editing/creating-your-deliverable.md
+    - Shortcuts: en/editing/shortcuts.md
+- Review guide:
+    - Review: en/review/index.md
+    - Installation and setup: en/review/install-and-setup.md
+    - Accessing a project: en/review/accessing-the-project.md
+    - Navigation: en/review/navigation.md
+    - Tags: en/review/tags.md
+    - Matches: en/review/matches.md
+    - Glossary: en/review/glossary.md
+    - Repetitions: en/review/repetitions.md
+    - Other useful features: en/review/other-useful-features.md
+    - QA checks: en/review/qa-checks.md
+    - Creating target files: en/review/creating-target-files.md
+    - Creating your deliverable: en/review/creating-your-deliverable.md
+    - Shortcuts: en/review/shortcuts.md
+- Exercises:
+    - Getting started: en/exercises/index.md
+    - 01 - Navigation: en/exercises/nav.md
+    - 02 - Matches: en/exercises/mat.md
+    - 03 - Reconciliation: en/exercises/rec.md
+    - 04 - Tags: en/exercises/tag.md
+    - 05 - Repetitions: en/exercises/rep.md
+    - 06 - Alternative translations: en/exercises/alt.md
+    - 07 - Special characters: en/exercises/aut.md
+    - 08 - Search: en/exercises/fnd.md
+    - 09 - QA checks: en/exercises/qac.md
+    - 10 - Team projects: en/exercises/tgt.md
+- Miscellanea:
+    - Miscellanea: en/misc/index.md
+    - IT security: en/misc/security.md
+    - Videos: en/misc/videos.md
+    - Autotext: en/misc/autotext.md
+    - Shortcuts: en/misc/shortcuts.md
+    - Bidirectionality: en/misc/bidi.md
+    - Fonts: en/misc/fonts.md
+    - FAQ: en/misc/faq.md
+    - Tips and tricks: en/misc/tips.md
+    - Auxiliary tools: en/misc/aux.md
+    - About: en/misc/about.md
