@@ -1,5 +1,6 @@
 site_name: OmegaT guides [cApStAn]
-site_url: https://capstanlqc.github.com/omegat-guides
+site_url: https://capstanlqc.github.com/omegat-guides/
+docs_dir: docs # default
 nav:
   - Contents: en/index.md
   #- Tags: misc/tags.md
@@ -7,87 +8,87 @@ nav:
       - Translation: en/translation/index.md
       - Installation and setup: en/translation/install-and-setup.md
       - Accessing a project: en/translation/accessing-the-project.md
-      - en/translation/navigation.md
-      - en/translation/tags.md
-      - en/translation/matches.md
-      - en/translation/glossary.md
-      - en/translation/repetitions.md
-      - en/translation/other-useful-features.md
+      - Navigation: en/translation/navigation.md
+      - Tags: en/translation/tags.md
+      - Matches: en/translation/matches.md
+      - Glossary: en/translation/glossary.md
+      - Repetitions: en/translation/repetitions.md
+      - Other useful features: en/translation/other-useful-features.md
       - QA checks: en/translation/qa-checks.md
-      - en/translation/creating-target-files.md
-      - en/translation/creating-your-deliverable.md
-      - en/translation/shortcuts.md
+      - Creating target files: en/translation/creating-target-files.md
+      - Creating your deliverable: en/translation/creating-your-deliverable.md
+      - Shortcuts: en/translation/shortcuts.md
   - Reconciliation guide:
       - Reconciliation: en/reconciliation/index.md
       - Installation and setup: en/reconciliation/install-and-setup.md
       - Accessing a project: en/reconciliation/accessing-the-project.md
-      - en/reconciliation/navigation.md
-      - en/reconciliation/tags.md
-      - en/reconciliation/matches.md
-      - en/reconciliation/glossary.md
-      - en/reconciliation/repetitions.md
-      - en/reconciliation/other-useful-features.md
+      - Navigation: en/reconciliation/navigation.md
+      - Tags: en/reconciliation/tags.md
+      - Matches: en/reconciliation/matches.md
+      - Glossary: en/reconciliation/glossary.md
+      - Repetitions: en/reconciliation/repetitions.md
+      - Other useful features: en/reconciliation/other-useful-features.md
       - QA checks: en/reconciliation/qa-checks.md
-      - en/reconciliation/creating-target-files.md
-      - en/reconciliation/creating-your-deliverable.md
-      - en/reconciliation/shortcuts.md
+      - Creating target files: en/reconciliation/creating-target-files.md
+      - Creating your deliverable: en/reconciliation/creating-your-deliverable.md
+      - Shortcuts: en/reconciliation/shortcuts.md
   - Adaptation guide:
       - Adaptation: en/adaptation/index.md
       - Installation and setup: en/adaptation/install-and-setup.md
       - Accessing a project: en/adaptation/accessing-the-project.md
-      - en/adaptation/navigation.md
-      - en/adaptation/tags.md
-      - en/adaptation/matches.md
-      - en/adaptation/glossary.md
-      - en/adaptation/repetitions.md
-      - en/adaptation/other-useful-features.md
+      - Navigation: en/adaptation/navigation.md
+      - Tags: en/adaptation/tags.md
+      - Matches: en/adaptation/matches.md
+      - Glossary: en/adaptation/glossary.md
+      - Repetitions: en/adaptation/repetitions.md
+      - Other useful features: en/adaptation/other-useful-features.md
       - QA checks: en/adaptation/qa-checks.md
-      - en/adaptation/creating-target-files.md
-      - en/adaptation/creating-your-deliverable.md
-      - en/adaptation/shortcuts.md
+      - Creating target files: en/adaptation/creating-target-files.md
+      - Creating your deliverable: en/adaptation/creating-your-deliverable.md
+      - Shortcuts: en/adaptation/shortcuts.md
   - Verification guide:
       - Verification: en/verification/index.md
       - Installation and setup: en/verification/install-and-setup.md
       - Accessing a project: en/verification/accessing-the-project.md
-      - en/verification/navigation.md
-      - en/verification/editing.md
-      - en/verification/tags.md
-      - en/verification/matches.md
-      - en/verification/glossary.md
-      - en/verification/repetitions.md
-      - en/verification/other-useful-features.md
+      - Navigation: en/verification/navigation.md
+      - Editing: en/verification/editing.md
+      - Tags: en/verification/tags.md
+      - Matches: en/verification/matches.md
+      - Glossary: en/verification/glossary.md
+      - Repetitions: en/verification/repetitions.md
+      - Other useful features: en/verification/other-useful-features.md
       - QA checks: en/verification/qa-checks.md
-      - en/verification/creating-target-files.md
-      - en/verification/creating-your-deliverable.md
-      - en/verification/shortcuts.md
+      - Creating target files: en/verification/creating-target-files.md
+      - Creating your deliverable: en/verification/creating-your-deliverable.md
+      - Shortcuts: en/verification/shortcuts.md
   - Editing guide:
       - Editing: en/editing/index.md
       - Installation and setup: en/editing/install-and-setup.md
       - Accessing a project: en/editing/accessing-the-project.md
-      - en/editing/navigation.md
-      - en/editing/tags.md
-      - en/editing/matches.md
-      - en/editing/glossary.md
-      - en/editing/repetitions.md
-      - en/editing/other-useful-features.md
+      - Navigation: en/editing/navigation.md
+      - Tags: en/editing/tags.md
+      - Matches: en/editing/matches.md
+      - Glossary: en/editing/glossary.md
+      - Repetitions: en/editing/repetitions.md
+      - Other useful features: en/editing/other-useful-features.md
       - QA checks: en/editing/qa-checks.md
-      - en/editing/creating-target-files.md
-      - en/editing/creating-your-deliverable.md
-      - en/editing/shortcuts.md
+      - Creating target files: en/editing/creating-target-files.md
+      - Creating your deliverable: en/editing/creating-your-deliverable.md
+      - Shortcuts: en/editing/shortcuts.md
   - Review guide:
       - Review: en/review/index.md
       - Installation and setup: en/review/install-and-setup.md
       - Accessing a project: en/review/accessing-the-project.md
-      - en/review/navigation.md
-      - en/review/tags.md
-      - en/review/matches.md
-      - en/review/glossary.md
-      - en/review/repetitions.md
-      - en/review/other-useful-features.md
+      - Navigation: en/review/navigation.md
+      - Tags: en/review/tags.md
+      - Matches: en/review/matches.md
+      - Glossary: en/review/glossary.md
+      - Repetitions: en/review/repetitions.md
+      - Other useful features: en/review/other-useful-features.md
       - QA checks: en/review/qa-checks.md
-      - en/review/creating-target-files.md
-      - en/review/creating-your-deliverable.md
-      - en/review/shortcuts.md
+      - Creating target files: en/review/creating-target-files.md
+      - Creating your deliverable: en/review/creating-your-deliverable.md
+      - Shortcuts: en/review/shortcuts.md
   - Exercises:
       - Getting started: en/exercises/index.md
       - 01 - Navigation: en/exercises/nav.md
@@ -113,7 +114,118 @@ nav:
       - Auxiliary tools: en/misc/aux.md
       - About: en/misc/about.md
       # - OmegaT 6.1 (experimental): misc/omt61-inst.md
-
+  - Contents: ru/index.md
+  #- Tags: misc/tags.md
+  - Translation guide:
+      - Translation: ru/translation/index.md
+      - Installation and setup: ru/translation/install-and-setup.md
+      - Accessing a project: ru/translation/accessing-the-project.md
+      - Navigation: ru/translation/navigation.md
+      - Tags: ru/translation/tags.md
+      - Matches: ru/translation/matches.md
+      - Glossary: ru/translation/glossary.md
+      - Repetitions: ru/translation/repetitions.md
+      - Other useful features: ru/translation/other-useful-features.md
+      - QA checks: ru/translation/qa-checks.md
+      - Creating target files: ru/translation/creating-target-files.md
+      - Creating your deliverable: ru/translation/creating-your-deliverable.md
+      - Shortcuts: ru/translation/shortcuts.md
+  - Reconciliation guide:
+      - Reconciliation: ru/reconciliation/index.md
+      - Installation and setup: ru/reconciliation/install-and-setup.md
+      - Accessing a project: ru/reconciliation/accessing-the-project.md
+      - Navigation: ru/reconciliation/navigation.md
+      - Tags: ru/reconciliation/tags.md
+      - Matches: ru/reconciliation/matches.md
+      - Glossary: ru/reconciliation/glossary.md
+      - Repetitions: ru/reconciliation/repetitions.md
+      - Other useful features: ru/reconciliation/other-useful-features.md
+      - QA checks: ru/reconciliation/qa-checks.md
+      - Creating target files: ru/reconciliation/creating-target-files.md
+      - Creating your deliverable: ru/reconciliation/creating-your-deliverable.md
+      - Shortcuts: ru/reconciliation/shortcuts.md
+  - Adaptation guide:
+      - Adaptation: ru/adaptation/index.md
+      - Installation and setup: ru/adaptation/install-and-setup.md
+      - Accessing a project: ru/adaptation/accessing-the-project.md
+      - Navigation: ru/adaptation/navigation.md
+      - Tags: ru/adaptation/tags.md
+      - Matches: ru/adaptation/matches.md
+      - Glossary: ru/adaptation/glossary.md
+      - Repetitions: ru/adaptation/repetitions.md
+      - Other useful features: ru/adaptation/other-useful-features.md
+      - QA checks: ru/adaptation/qa-checks.md
+      - Creating target files: ru/adaptation/creating-target-files.md
+      - Creating your deliverable: ru/adaptation/creating-your-deliverable.md
+      - Shortcuts: ru/adaptation/shortcuts.md
+  - Verification guide:
+      - Verification: ru/verification/index.md
+      - Installation and setup: ru/verification/install-and-setup.md
+      - Accessing a project: ru/verification/accessing-the-project.md
+      - Navigation: ru/verification/navigation.md
+      - Editing: ru/verification/editing.md
+      - Tags: ru/verification/tags.md
+      - Matches: ru/verification/matches.md
+      - Glossary: ru/verification/glossary.md
+      - Repetitions: ru/verification/repetitions.md
+      - Other useful features: ru/verification/other-useful-features.md
+      - QA checks: ru/verification/qa-checks.md
+      - Creating target files: ru/verification/creating-target-files.md
+      - Creating your deliverable: ru/verification/creating-your-deliverable.md
+      - Shortcuts: ru/verification/shortcuts.md
+  - Editing guide:
+      - Editing: ru/editing/index.md
+      - Installation and setup: ru/editing/install-and-setup.md
+      - Accessing a project: ru/editing/accessing-the-project.md
+      - Navigation: ru/editing/navigation.md
+      - Tags: ru/editing/tags.md
+      - Matches: ru/editing/matches.md
+      - Glossary: ru/editing/glossary.md
+      - Repetitions: ru/editing/repetitions.md
+      - Other useful features: ru/editing/other-useful-features.md
+      - QA checks: ru/editing/qa-checks.md
+      - Creating target files: ru/editing/creating-target-files.md
+      - Creating your deliverable: ru/editing/creating-your-deliverable.md
+      - Shortcuts: ru/editing/shortcuts.md
+  - Review guide:
+      - Review: ru/review/index.md
+      - Installation and setup: ru/review/install-and-setup.md
+      - Accessing a project: ru/review/accessing-the-project.md
+      - Navigation: ru/review/navigation.md
+      - Tags: ru/review/tags.md
+      - Matches: ru/review/matches.md
+      - Glossary: ru/review/glossary.md
+      - Repetitions: ru/review/repetitions.md
+      - Other useful features: ru/review/other-useful-features.md
+      - QA checks: ru/review/qa-checks.md
+      - Creating target files: ru/review/creating-target-files.md
+      - Creating your deliverable: ru/review/creating-your-deliverable.md
+      - Shortcuts: ru/review/shortcuts.md
+  - Exercises:
+      - Getting started: ru/exercises/index.md
+      - 01 - Navigation: ru/exercises/nav.md
+      - 02 - Matches: ru/exercises/mat.md
+      - 03 - Reconciliation: ru/exercises/rec.md
+      - 04 - Tags: ru/exercises/tag.md
+      - 05 - Repetitions: ru/exercises/rep.md
+      - 06 - Alternative translations: ru/exercises/alt.md
+      - 07 - Special characters: ru/exercises/aut.md
+      - 08 - Search: ru/exercises/fnd.md
+      - 09 - QA checks: ru/exercises/qac.md
+      - 10 - Team projects: ru/exercises/tgt.md
+  - Miscellanea:
+      - Miscellanea: ru/misc/index.md
+      - IT security: ru/misc/security.md
+      - Videos: ru/misc/videos.md
+      - Autotext: ru/misc/autotext.md
+      - Shortcuts: ru/misc/shortcuts.md
+      - Bidirectionality: ru/misc/bidi.md
+      - Fonts: ru/misc/fonts.md
+      - FAQ: ru/misc/faq.md
+      - Tips and tricks: ru/misc/tips.md
+      - Auxiliary tools: ru/misc/aux.md
+      - About: ru/misc/about.md
+      # - OmegaT 6.1 (experimental): misc/omt61-inst.md
 theme:
   language: en
   name: material
@@ -153,7 +265,16 @@ theme:
     - navigation.path
     - toc.follow
     - navigation.indexes
+    - content.tooltips
 markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
   - toc:
       #baselevel: 2
       permalink: True
@@ -161,23 +282,12 @@ markdown_extensions:
       toc_depth: 1-3
   - abbr
   - attr_list
-  - md_in_html
-  - tables
-  - admonition
-  - footnotes
   - pymdownx.snippets:
       auto_append:
         - en/_includes/abbreviations.md
-  - pymdownx.details
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde
-  - pymdownx.betterem
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - md_in_html
+  - tables
+  - footnotes
 extra_css:
   - _assets/css/extra.css
 extra_javascript:
@@ -188,37 +298,41 @@ plugins:
         "index.md": "en/index.md"
   #- with-pdf
   - search
+  #- awesome-pages
   - exclude-search:
       exclude:
-        - /**/misc/hidden.md
-        - /**/adaptation/hidden.md
-        - /**/editing/hidden.md
-        - /**/reconciliation/hidden.md
-        - /**/review/hidden.md
-        - /**/translation/hidden.md
-        - /**/verification/hidden.md
-        - /*/hidden.md
+        - "**/hidden.md"
         - /**/page.md#section
-        - /**/_includes/*
+        - "**/_includes/*"
+        - "**/misc/omt61-inst.md"
+        - "**/misc/hidden/**"
+        - "**/omt61-inst-setup"
   #- mkpdfs
   - tags:
       tags_file: en/misc/tags.md
   - mkdocs-video
   - macros:
-      verbose: true
       include_dir: docs/en/_includes
+      # verbose: true
       # https://github.com/mondeja/mkdocs-include-markdown-plugin
       # https://github.com/cmacmackin/markdown-include
       # https://github.com/neurobin/mdx_include
-#  - awesome-pages
-# - print-site
-# - page-to-pdf:
-#     disableOnServe: false
-#     displayHeaderFooter: false
-#     exclude: [nav]
+  # - print-site
+  # - page-to-pdf:
+  #     disableOnServe: false
+  #     displayHeaderFooter: false
+  #     exclude: [nav]
+  - exclude:
+      glob:
+        - exclude/this/path/*
+        - "*.tmp"
+        - "*.pdf"
+        - "*.gz"
+      regex:
+        - '.*\.(tmp|bin|tar)$'
 copyright: Copyright &copy; 2024 cApStAn
 extra:
-  generator: false
+  generator: true
   alternate:
     - name: English
       link: /omegat-guides/en/
@@ -227,3 +341,12 @@ extra:
       link: /omegat-guides/ru/
       lang: ru
 # https://github.com/pawamoy/best-of-mkdocs#-snippets--includes-reusing-contents
+validation:
+  nav:
+    omitted_files: info
+    not_found: warn
+    absolute_links: info
+  links:
+    not_found: ignore
+    absolute_links: info
+    unrecognized_links: info
