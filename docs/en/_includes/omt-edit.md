@@ -30,5 +30,6 @@ You can only edit the translation of the **active**{ .active } segment. You must
 
 You may also activate any segment (and make it editable) by double-clicking it, but in that case you might want to return to the segment you were originally to continue revising from there.
 
+<!-- prettier-ignore -->
 !!! tip
-You can recognize the **active**{ .active } segment because it is highlighted in **green**{ .active }.
+    You can recognize the **active**{ .active } segment because it is highlighted in **green**{ .active }.

@@ -8,8 +8,9 @@ You may find two types of issue:
 
 - A tag is inserted but misplaced: the solution may be either to [drag and drop](#moving-tags) single tags to the correct position, or simply to [delete the tag](#deleting-tags) (or tag pair) and [insert it](#inserting-tags) again correctly.
 
+<!-- prettier-ignore -->
 ??? warning "Warning for RTL languages"
-In right-to-left languages such as Arabic or Hebrew, moving tags will not work. Please delete the tag and insert it again if you work with any of these languages.
+    In right-to-left languages such as Arabic or Hebrew, moving tags will not work. Please delete the tag and insert it again if you work with any of these languages.
 
 ### Deleting tags
 

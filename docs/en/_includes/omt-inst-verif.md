@@ -1,7 +1,8 @@
 # OmegaT 5.7.2 setup guide for Windows
 
+<!-- prettier-ignore -->
 ??? info "Other operating systems"
-It's possible to install OmegaT 5.7.2 in other operating systems like macOS or Linux. Follow this other [guide to install on macOS](../install-and-setup-macos/). Please get in touch through the Helpdesk if you are a Linux user.
+    It's possible to install OmegaT 5.7.2 in other operating systems like macOS or Linux. Follow this other [guide to install on macOS](../install-and-setup-macos/). Please get in touch through the Helpdesk if you are a Linux user.
 
 Depending on your starting point, ==choose your path here carefully==:
 
@@ -12,48 +13,51 @@ Depending on your starting point, ==choose your path here carefully==:
 
 This section applies to users that already have a previous version (e.g. 5.7.1 or 4.2.0) of OmegaT installed. Please follow the next steps to update your configuration.
 
-1. Run OmegaT and go to **Tools** > **Scripting** to open your scripting console, In OmegaT 5.7.1, please open the scripting console. Check whethers you have a script called "**Update Customisation Bundle (v572)**":
+1.  Run OmegaT and go to **Tools** > **Scripting** to open your scripting console, In OmegaT 5.7.1, please open the scripting console. Check whethers you have a script called "**Update Customisation Bundle (v572)**":
 
-   !!! warning
-   If you don't see the "**v572**" bit, then it's not the script we're looking for. See next step to fetch the script.
+    <!-- prettier-ignore -->
+    !!! warning
+        If you don't see the "**v572**" bit, then it's not the script we're looking for. See next step to fetch the script.
 
-   ![](../_img/custom-script-572-in-scripting-console.png)
+    ![](../_img/custom-script-572-in-scripting-console.png)
 
-   If the script "**Update Customisation Bundle (v572)**" is there, please click on it to select it and press the **Run** button (at the bottom left) to run it. The script will run to update your config files and will quit OmegaT. After that, skip the next step and jump directly to the [installation section](#installation).
+    If the script "**Update Customisation Bundle (v572)**" is there, please click on it to select it and press the **Run** button (at the bottom left) to run it. The script will run to update your config files and will quit OmegaT. After that, skip the next step and jump directly to the [installation section](#installation).
 
-   If the script is not there, you may download it yourself. See next steps for how to do that.
+    If the script is not there, you may download it yourself. See next steps for how to do that.
 
-2. Right-click on the button below and select "Save Link As" to download the configuration script (e.g. to your Desktop)
+2.  Right-click on the button below and select "Save Link As" to download the configuration script (e.g. to your Desktop)
 
-   [ :material-download: Download UpdateConfigBundle.groovy](https://cat.capstan.be/OmegaT/customization/scripts/updateConfigBundle-572.groovy){ .md-button .md-button--primary }
+    [ :material-download: Download UpdateConfigBundle.groovy](https://cat.capstan.be/OmegaT/customization/scripts/updateConfigBundle-572.groovy){ .md-button .md-button--primary }
 
-3. In OmegaT, follow these steps to run the configuration script you have downloaded:
+3.  In OmegaT, follow these steps to run the configuration script you have downloaded:
 
-   - **Tools** > **Scripting** > **File** > **Open script**
-   - browse to your Desktop (or the folder where you have saved the script) and select the groovy file
-   - press the **Open** button to open the script file and press **Run** button (on the bottom left)
+    - **Tools** > **Scripting** > **File** > **Open script**
+    - browse to your Desktop (or the folder where you have saved the script) and select the groovy file
+    - press the **Open** button to open the script file and press **Run** button (on the bottom left)
 
-   ![](../_img/omt-open-script-and-run.gif)
+    ![](../_img/omt-open-script-and-run.gif)
 
-   The script will install the necessary config files for OmegaT 5.7.2 and delete old config files for OmegaT 5.7.1, and after that it will quit OmegaT.
+    The script will install the necessary config files for OmegaT 5.7.2 and delete old config files for OmegaT 5.7.1, and after that it will quit OmegaT.
 
-4. Uninstall your current version of OmegaT.
+4.  Uninstall your current version of OmegaT.
 
-5. Finally, proceed now to the [installation section](#installation) (next step below).
+5.  Finally, proceed now to the [installation section](#installation) (next step below).
 
 ## Installation
 
+<!-- prettier-ignore -->
 !!! warning
-You must have a 64-bit machine to install OmegaT. If that's not the case, please get in touch with our Helpdesk.
+    You must have a 64-bit machine to install OmegaT. If that's not the case, please get in touch with our Helpdesk.
 
 1.  Click on the button below to download OmegaT 5.7.2. This is a custom version prepared by cApStAn which includes several bug fixes and enhancements not available in other versions.
 
     [ :material-download: Download OmegaT 5.7.2](https://cat.capstan.be/OmegaT/exe/OmegaT_5.7.2_Windows_64_Signed.exe){ .md-button .md-button--primary }
 
+    <!-- prettier-ignore -->
     ??? question "Trouble to download?"
-    Some browsers (e.g. Microsoft Edge) might ask you whether downloading the installer is safe. It is safe, and you can follow the following steps in the video below to let your browser download the file.
+        Some browsers (e.g. Microsoft Edge) might ask you whether downloading the installer is safe. It is safe, and you can follow the following steps in the video below to let your browser download the file.
 
-        ![](../_img/edge-keep-download.gif)
+    ![](../_img/edge-keep-download.gif)
 
 2.  When the download is complete, double-click the installer file to start the installation wizard.
 

@@ -29,5 +29,6 @@ Alternatively, you can also insert only part of a match or combine several match
 
 <!-- @todo: gif -->
 
+<!-- prettier-ignore -->
 !!! tip "Remember"
-It is important to make sure the final translation is **harmonized** as the two translators may use different terms and styles. To ensure this, make sure you preview the item prior to delivery and perform concordance searches on recurring instructions and terminology.
+    It is important to make sure the final translation is **harmonized** as the two translators may use different terms and styles. To ensure this, make sure you preview the item prior to delivery and perform concordance searches on recurring instructions and terminology.

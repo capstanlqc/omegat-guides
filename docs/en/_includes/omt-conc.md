@@ -12,5 +12,6 @@ The list results will be displayed. You can copy (select with mouse and press ++
 
 ![](../_img/38_concordance_search.jpg)
 
+<!-- prettier-ignore -->
 !!! note
-There might be small differences (in punctuation, spacing, etc.) between the text you're searching for and other occurrences of the same text that would prevent an _exact match_. The option "Keyword search" might help overcome that problem, please use it if you don't get the results you were expecting.
+    There might be small differences (in punctuation, spacing, etc.) between the text you're searching for and other occurrences of the same text that would prevent an _exact match_. The option "Keyword search" might help overcome that problem, please use it if you don't get the results you were expecting.
