@@ -82,7 +82,7 @@ This section applies to users that already have a previous version (e.g. 5.7.1 o
 6.  OmegaT will propose the path `C:\Users\USER\AppData\Local\Programs\OmegaT` for the installation, where it should be possible for non-admin users to install.
 
     !!! warning
-    Please do not modify this installation path unless you're IT personnel and you know what you're doing.
+        Please do not modify this installation path unless you're IT personnel and you know what you're doing.
 
     ![](../_img/omt572-install-05-path.png)
 
@@ -141,7 +141,7 @@ The steps above will normally get up and running, but but it's always a good ide
     ![](../_img/omt-scripts-shortcuts.png)
 
     !!! note
-    The script shortcuts might be updated occasionally, don't worry if your list is not identical to the screenshot above.
+        The script shortcuts might be updated occasionally, don't worry if your list is not identical to the screenshot above.
 
     Also, if you open the scripting dialog, you should see the whole list of scripts on the left-hand side.
 
