@@ -1,20 +1,20 @@
 # 06. Special characters
 
 !!! note inline end "←TODO"
-Add link to the section in the guide.
-You may insert special characters in different ways: autotext shortcut, character table, etc.
+    Add link to the section in the guide.
+    You may insert special characters in different ways: autotext shortcut, character table, etc.
 
 ## Exercise 06.1: use a known autotext shortcut
 
 You may use the autotext shortcut `\sub2` to insert a subscript number 2 (i.e. `₂`). Now you know! :)
 
 !!! tip
-The "suB" part in the shorcut `\sub2` stands for subindex or subscript.
+    The "suB" part in the shorcut `\sub2` stands for subindex or subscript.
 
 <!-- @todo: add "subindex" and "superindex" to cheatsheet -->
 
 !!! note inline end "←TODO"
-@quiz: what do you notice in segment #47 (@todo: complete)
+    @quiz: what do you notice in segment #47 (@todo: complete)
 
 1. Go to segment #47 and read the source text.
 
@@ -55,7 +55,7 @@ In this exercise, you must insert the multiplication symbol but you don't know w
    > Incorrect translation: `W/m x K`
 
 !!! info
-You can find the list of autotext entries in [OmegaT guides](../index.md) > [Miscellanea](../misc/index.md) > [Autotext](../misc/autotext.md)
+    You can find the list of autotext entries in [OmegaT guides](../index.md) > [Miscellanea](../misc/index.md) > [Autotext](../misc/autotext.md)
 
 ## Exercise 06.3: insert special character from the character table
 
@@ -72,6 +72,6 @@ Remember the auto-completer? You used it to insert tags. You'll use it again now
    > The result should be: `km²`
 
 !!! tip
-You could have inserted character ² with shortcut `\sup2` (where "suP" stands for superscript or superindex or superordinate).
+    You could have inserted character ² with shortcut `\sup2` (where "suP" stands for superscript or superindex or superordinate).
 
 <!-- @todo: add to the guides: if you find the character table handy but it does not contain ghe charcter you need to insert, you can let us know through the Helpdesk and we'll add it there for you -->
