@@ -22,7 +22,7 @@ This section applies to users that already have a previous version (e.g. 5.7.1 o
 
 2. Right-click on the button below and select "Save Link As" to download the configuration script (e.g. to your Desktop)
 
-   [ :material-download: Download UpdateConfigBundle.groovy](https://cat.capstan.be/OmegaT/v572/customization/scripts/updateConfigBundle.groovy){ .md-button .md-button--primary }
+   [ 📥 Download UpdateConfigBundle.groovy](https://cat.capstan.be/OmegaT/v572/customization/scripts/updateConfigBundle.groovy){ .md-button .md-button--primary }
 
 3. In OmegaT, follow these steps to run the configuration script you have downloaded:
 
@@ -44,7 +44,7 @@ This section applies to users that already have a previous version (e.g. 5.7.1 o
 
 1. Click on the button below to download OmegaT 5.7.2. This is a custom version prepared by cApStAn which includes several bug fixes and enhancements not available in other versions.
 
-   [ :material-download: Download OmegaT 5.7.2](https://cat.capstan.be/OmegaT/exe/OmegaT_5.7.2_Mac.zip){ .md-button .md-button--primary }
+   [ 📥 Download OmegaT 5.7.2](https://cat.capstan.be/OmegaT/exe/OmegaT_5.7.2_Mac.zip){ .md-button .md-button--primary }
 
 2. If you're using Safari, then the file will be unzipped automatically when the download ends.​ If you use another browser, double-click the file when the download ends to unzip it.
 
