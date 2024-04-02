@@ -30,4 +30,5 @@ When the source text contains one or more **standalone tags**, you must insert t
 
 In the following example, the standalone tag represents a text entry field where the respondent will have to select a number:
 
-> <b>**<x1/>**{ .omttag } hours</b><br/> > **<x1/>**{ .omttag } heures
+> <b>**<x1/>**{ .omttag } hours</b><br/> 
+> **<x1/>**{ .omttag } heures

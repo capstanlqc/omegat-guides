@@ -1,8 +1,8 @@
 # 06. Special characters
 
 !!! note inline end "←TODO"
-Add link to the section in the guide.
-You may insert special characters in different ways: autotext shortcut, character table, etc.
+    Add link to the section in the guide.
+    You may insert special characters in different ways: autotext shortcut, character table, etc.
 
 ## Exercise 06.1: use a known autotext shortcut
 
@@ -14,7 +14,7 @@ You may use the autotext shortcut `\sub2` to insert a subscript number 2 (i.e. `
 <!-- @todo: add "subindex" and "superindex" to cheatsheet -->
 
 !!! note inline end "←TODO"
-@quiz: what do you notice in segment #47 (@todo: complete)
+    @quiz: what do you notice in segment #47 (@todo: complete)
 
 1. Go to segment #47 and read the source text.
 
