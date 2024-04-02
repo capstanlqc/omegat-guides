@@ -74,9 +74,10 @@ To download the team project, follow these steps:
 
 1.  Define a location in your machine where you would like to create the OmegaT project. We recommend a `Work` folder (or whatever you prefer to call it) in your user's home directory. Let's assume path `C:\Users\USER\Work\` (for user `USER`).
 
+    <!-- prettier-ignore -->
     !!! danger "Danger ❗❗❗"
-    💀
-    Make sure that location is NOT inside a sync'ed folder such as Dropbox, OneDrive, Nextcloud, Google Drive, Syncthing or the like, or in a server or a network drive.
+        💀
+        Make sure    that location is NOT inside a sync'ed folder such as Dropbox, OneDrive, Nextcloud, Google Drive, Syncthing or the like, or in a server or a network drive.
 
 2.  [Copy](../misc/tips.md#how-to-copy-paste-a-url){:target="\_blank"} the URL of the project repository to your clipboard (select it and press ++ctrl+c++ or right-click it and select Copy).
 
@@ -93,8 +94,9 @@ To download the team project, follow these steps:
 
 5.  Click in the **New Local Project Folder** field. OmegaT will propose a path to the location where it will create the project folder. Please wait until you see that path.
 
+    <!-- prettier-ignore -->
     !!! Failure
-    DO NOT click on the `...` button.
+        DO NOT click on the `...` button.
 
     <!-- ![](../_img/download-git-dialog-default-values.png) -->
     <!-- ![](../_img/download-team-project.gif) -->
@@ -105,19 +107,18 @@ To download the team project, follow these steps:
 
 6.  You might want to modify that path to create the folder in the location that you have defined in the first step above. For example:
 
-        + By default, it's likely that OmegaT proposes to create the project inside your home directory, e.g. `C:\Users\USER\repo-name`.
-        + Modify that path so that it points ot the actual location you prefer, e.g. if you follow our recommendation above, that would be `C:\Users\USER\Work\repo-name`.
+    + By default, it's likely that OmegaT proposes to create the project inside your home directory, e.g. `C:\Users\USER\repo-name`.
+    + Modify that path so that it points ot the actual location you prefer, e.g. if you follow our recommendation above, that would be `C:\Users\USER\Work\repo-name`.
 
-        For example:
+    For example:
 
-        ![](../_img/omt-download-team-proj-edit-local-path.gif)
+    ![](../_img/omt-download-team-proj-edit-local-path.gif)
 
-
-        !!! Caution
-            Make sure there's a slash between every two folders in your path.
+    <!-- prettier-ignore -->
+    !!! Caution
+        Make sure there's a slash between every two folders in your path.
 
     <!-- To do that:
-    
         + Copy the path to the location where you want to create the project, e.g. `C:/Work/`. 
         ![](../_img/download-git-dialog-copy-path.gif)
         + Then, in the **New Local Project Folder** field, select the part of the path up to the slash before the project folder and delete it.
@@ -125,8 +126,7 @@ To download the team project, follow these steps:
         ![](../_img/download-git-dialog-update-path.gif)
         !!! Caution
             Make sure there's a slash between the path that you paste and the project folder name.
-
--->
+    -->
 
 ## Closing the project
 
