@@ -2325,11 +2325,12 @@
 <ol>
 <li>
 <p>Define a location in your machine where you would like to create the OmegaT project. We recommend a <code>Work</code> folder (or whatever you prefer to call it) in your user's home directory. Let's assume path <code>C:\Users\USER\Work\</code> (for user <code>USER</code>).</p>
+<!-- prettier-ignore -->
 <div class="admonition danger">
 <p class="admonition-title">Danger ❗❗❗</p>
-</div>
 <p>💀
-Make sure that location is NOT inside a sync'ed folder such as Dropbox, OneDrive, Nextcloud, Google Drive, Syncthing or the like, or in a server or a network drive.</p>
+Make sure    that location is NOT inside a sync'ed folder such as Dropbox, OneDrive, Nextcloud, Google Drive, Syncthing or the like, or in a server or a network drive.</p>
+</div>
 </li>
 <li>
 <p><a href="../../misc/tips/#how-to-copy-paste-a-url" target="_blank">Copy</a> the URL of the project repository to your clipboard (select it and press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-c">C</kbd></span> or right-click it and select Copy).</p>
@@ -2347,10 +2348,11 @@ Make sure that location is NOT inside a sync'ed folder such as Dropbox, OneDrive
 </li>
 <li>
 <p>Click in the <strong>New Local Project Folder</strong> field. OmegaT will propose a path to the location where it will create the project folder. Please wait until you see that path.</p>
+<!-- prettier-ignore -->
 <div class="admonition failure">
 <p class="admonition-title">Failure</p>
-</div>
 <p>DO NOT click on the <code>...</code> button.</p>
+</div>
 <p><!-- <img alt="" src="../_img/download-git-dialog-default-values.png" /> -->
 <!-- <img alt="" src="../_img/download-team-project.gif" /> --></p>
 <p>See the three steps above in the following animation:</p>
@@ -2358,28 +2360,28 @@ Make sure that location is NOT inside a sync'ed folder such as Dropbox, OneDrive
 </li>
 <li>
 <p>You might want to modify that path to create the folder in the location that you have defined in the first step above. For example:</p>
-<pre><code>+ By default, it's likely that OmegaT proposes to create the project inside your home directory, e.g. `C:\Users\USER\repo-name`.
-+ Modify that path so that it points ot the actual location you prefer, e.g. if you follow our recommendation above, that would be `C:\Users\USER\Work\repo-name`.
-
-For example:
-
-![](../_img/omt-download-team-proj-edit-local-path.gif)
-
-!!! Caution
-    Make sure there's a slash between every two folders in your path.
-</code></pre>
-<p>&lt;!-- To do that:</p>
-<pre><code>+ Copy the path to the location where you want to create the project, e.g. `C:/Work/`. 
-![](../_img/download-git-dialog-copy-path.gif)
-+ Then, in the **New Local Project Folder** field, select the part of the path up to the slash before the project folder and delete it.
-+ Then, press ++ctrl+v++ to paste your path in replacement of the deleted part. 
-![](../_img/download-git-dialog-update-path.gif)
-!!! Caution
-    Make sure there's a slash between the path that you paste and the project folder name.
-</code></pre>
+<ul>
+<li>By default, it's likely that OmegaT proposes to create the project inside your home directory, e.g. <code>C:\Users\USER\repo-name</code>.</li>
+<li>Modify that path so that it points ot the actual location you prefer, e.g. if you follow our recommendation above, that would be <code>C:\Users\USER\Work\repo-name</code>.</li>
+</ul>
+<p>For example:</p>
+<p><img alt="" src="../../_img/omt-download-team-proj-edit-local-path.gif"></p>
+<!-- prettier-ignore -->
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>Make sure there's a slash between every two folders in your path.</p>
+</div>
+<!-- To do that:
+    + Copy the path to the location where you want to create the project, e.g. <code>C:/Work/</code>. 
+    <img alt="" src="../_img/download-git-dialog-copy-path.gif" />
+    + Then, in the **New Local Project Folder** field, select the part of the path up to the slash before the project folder and delete it.
+    + Then, press ++ctrl+v++ to paste your path in replacement of the deleted part. 
+    <img alt="" src="../_img/download-git-dialog-update-path.gif" />
+    !!! Caution
+        Make sure there's a slash between the path that you paste and the project folder name.
+-->
 </li>
 </ol>
-<p>--&gt;</p>
 <h2 id="closing-the-project">Closing the project<a class="headerlink" href="#closing-the-project" title="Permanent link">¶</a></h2>
 <p>When you are done working for the day, quit OmegaT (<span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-q">Q</kbd></span>).</p>
 <h2 id="re-opening-an-existing-project">Re-opening an existing project<a class="headerlink" href="#re-opening-an-existing-project" title="Permanent link">¶</a></h2>
