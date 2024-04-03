@@ -14,29 +14,29 @@
 
 1. Press ++ctrl+j++ and enter 40 to go to segment #40, which is untranslated.
 
-   > Source text reads: `Click <g1>Play</g1> to see it in action.`
+    > Source text reads: `Click <g1>Play</g1> to see it in action.`
 
 2. Notice the two tags in the segment.
 3. With your mouse, hover over the two tags and notice how the two tags are _paired_.
 
-   > The first tag stands for `<strong>` and the second tag stands for `</strong>`.
+    > The first tag stands for `<strong>` and the second tag stands for `</strong>`.
 
-   <!-- > @quiz: what do you think these are? How to handle them: should we ignore them or reproduce them in the translation? @todo: move to quiz or remove -->
+    <!-- > @quiz: what do you think these are? How to handle them: should we ignore them or reproduce them in the translation? @todo: move to quiz or remove -->
 
 4. Translate segment #40.
 
-   > Suggested translation: `Cliquez sur Jouer pour voir ça en action.`
+    > Suggested translation: `Cliquez sur Jouer pour voir ça en action.`
 
 5. Select the part of the translation that corresponds to "Play"
 
-   > Tip: you should select `Jouer`
+    > Tip: you should select `Jouer`
 
 6. Press ++ctrl+space++ to open the auto-completer.
 7. Press ++ctrl+space++ several times to cycle through all the sections in the auto-completer. Stop when you reach the “Missing tags” section.
 8. The first option (i.e. `<g1>|</g1>`) is selected by default. Press ++enter++ to insert tag pair.
 9. Notice how the two paired tags are inserted around the selected text in the translation.
 
-   > Expected result: `Cliquez sur <g1>Jouer</g1> pour le voir en action.`
+    > Expected result: `Cliquez sur <g1>Jouer</g1> pour le voir en action.`
 
 Well done!
 
@@ -44,18 +44,18 @@ Well done!
 
 1. Go to segment #41.
 
-   > Source text reads `if <x1/> sensor detects black`
+    > Source text reads `if <x1/> sensor detects black`
 
 2. Notice how the segment contains one standalone tag.
 3. Hover over the tag to see what the tag stands for.
 
-   > The tooltip should show `{{sensor_type}}`
+    > The tooltip should show `{{sensor_type}}`
 
 4. Go to the next segment, #42.
 5. Notice how this segment has _two_ standalone tags, not two paired tags!
 6. Check what the two tags stand for.
 
-   > The tooltips should show `{{object1}}` and `{{object2}}`
+    > The tooltips should show `{{object1}}` and `{{object2}}`
 
 <!-- prettier-ignore -->
 !!! Предупреждение
@@ -67,14 +67,14 @@ Well done!
 2. Notice that the tag is missing in the translation.
 3. Place the mouse cursor in the position where you would like to insert the tag.
 
-   > Tip: right at the end of the translation
+    > Tip: right at the end of the translation
 
 4. Press ++ctrl+space++ to launch the auto-completer and insert the tag.
 5. Go to segment #44.
 6. Notice how the tag is also missing in this translation.
 7. Place the mouse cursor in the position where you would like to insert the tag.
 
-   > Tip: click between `tourner à droite jusqu'à ce que` and `le capteur détecte le noir`
+    > Tip: click between `tourner à droite jusqu'à ce que` and `le capteur détecte le noir`
 
 8. Use the auto-completer to insert the missing tag.
 
@@ -84,15 +84,15 @@ Well done!
 2. To translate the segment and insert the tag, proceed in this way:
 3. Translate "repeat"
 
-   > Suggested translation of the first part: `répéter`
+    > Suggested translation of the first part: `répéter`
 
 4. Use the auto-completer to insert the missing tag
 
-   > Remember the shortcut to launch the auto-completer is ++ctrl+space++.
+    > Remember the shortcut to launch the auto-completer is ++ctrl+space++.
 
 5. Translate "times"
 
-   > Suggested translation of the second part: `fois`
+    > Suggested translation of the second part: `fois`
 
 You have inserted the tag as you made progress through the translation.
 
@@ -102,11 +102,11 @@ You have inserted the tag as you made progress through the translation.
 
 1. Press ++ctrl+j++ and enter 48 to go to segment #48.
 
-   > Source text reads: `The translator had to pay attention to formatting such as <g1>bold</g1>, <g2>italics</g2>, <g3>underline</g3>.`
+    > Source text reads: `The translator had to pay attention to formatting such as <g1>bold</g1>, <g2>italics</g2>, <g3>underline</g3>.`
 
 2. Hover over the tags with your mouse to display a tooltip that shows the line code the tags stand for.
 
-   > Tip: the tooltip should display HTML tags `<strong>`, `<em>`, `<span class="underline">` etc.
+    > Tip: the tooltip should display HTML tags `<strong>`, `<em>`, `<span class="underline">` etc.
 
 <!-- @ŧodo: add exercise about notes, add exercise about search hash -->
 
@@ -116,20 +116,20 @@ You have inserted the tag as you made progress through the translation.
 2. Notice how most tags are missing in the translation.
 3. Select the part of the translation that corresponds to “bold”
 
-   > Tip: `le gras`
+    > Tip: `le gras`
 
 4. Press ++ctrl+space++ to open the "Missing tags" section in the auto-completer.
 
-   > The first line (i.e. `<g1></g1>`) is selected by default.
+    > The first line (i.e. `<g1></g1>`) is selected by default.
 
 5. Press ++enter++ to insert the tag pair that appears in the first line of the auto-completer.
 6. Notice how the tags have been inserted around the selected text
 
-   > Results should be `<g1>le gras</g1>`
+    > Results should be `<g1>le gras</g1>`
 
 7. Do the same for the translation of “italics”
 
-   > Results should be `<g2>l’italique</g2>`
+    > Results should be `<g2>l’italique</g2>`
 
 8. Notice how you cannot insert a tag pair around the translation of “underline” because closing tag `</g3>` is already inserted.
 
@@ -137,7 +137,7 @@ You have inserted the tag as you made progress through the translation.
 
 10. Use the auto-completer (++ctrl+space++) to insert tag `<g3>`.
 
-   > Results should be `<g3>le soulignement</g3>`
+    > Results should be `<g3>le soulignement</g3>`
 
 Well done!
 

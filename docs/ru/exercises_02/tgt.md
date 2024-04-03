@@ -6,7 +6,7 @@
 
 1. Go to the `C:` drive in your computer and create a new folder called `Work` (or something else if you really dislike "Work" as a folder name).
 
-   | If you don't have permissions to create a folder under `C:`, you can use another location such as `C:\Users\USER\`
+    | If you don't have permissions to create a folder under `C:`, you can use another location such as `C:\Users\USER\`
 
 2. The path to this folder will be `C:\Work`. This is where you will create your project.
 

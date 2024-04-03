@@ -46,7 +46,7 @@ Password:
 
 3. Then click on the "New Local Project Folder" field.
 
-   > OmegaT will propose a location to clone the project in your machine, e.g. something like `C:\Users\USER\project_task_fr-ZZ_omt` (where `USER` is your username).
+    > OmegaT will propose a location to clone the project in your machine, e.g. something like `C:\Users\USER\project_task_fr-ZZ_omt` (where `USER` is your username).
 
 The name of the project is highlighted in yellow in the screenshot below:
 ![](../_img/omt_git_keep_project_name.png)

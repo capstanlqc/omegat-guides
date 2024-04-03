@@ -15,11 +15,11 @@
 
 1. Press ++ctrl+j++ and enter 1 to go to segment #1.
 
-   > Source text reads `Welcome to this survey!`
+    > Source text reads `Welcome to this survey!`
 
 1. Translate segment #1.
 
-   > Suggested translation: `Bienvenue à cette enquète !`
+    > Suggested translation: `Bienvenue à cette enquète !`
 
 1. Press ++enter++ to go to the next segment.
 
@@ -30,14 +30,14 @@
 1. Notice how this segment is pretranslated.
 1. Notice that it has an orange background. That means that this is an enforced translation.
 
-   > In other words, the translation is not editable.
+    > In other words, the translation is not editable.
 
 1. Make some edits to modify the translation.
 1. Press F5 to reload the project.
 1. Notice how your edits are now gone.
 1. Press ++ctrl+u++ to go to the next _untranslated_ segment.
 
-   > That should take you to segment #3.
+    > That should take you to segment #3.
 
 <!-- harmonize: move to -> go to @todo -->
 
@@ -50,28 +50,28 @@
 5. Looking at the match in the **Matches** pane, notice the difference between the new source text and the source text in "tracked changes".
 6. Update the inserted translation so that it corresponds to the source text you're translating.
 
-   > Tip: Replace `sanitaire` with `économique`.
+    > Tip: Replace `sanitaire` with `économique`.
 
 7. Press ++ctrl+u++ to go to the next _untranslated_ segment.
 
-   > That should take you to segment #5.
+    > That should take you to segment #5.
 
 ## Exercise 02.4: insert match and update it
 
 2. Notice how pressing ++ctrl+u++ has jumped over segment #4, which was already translated.
 
-   > You're in segment #5.
+    > You're in segment #5.
 
 3. There is a 50% match that you could use. Press ++ctrl+i++ to insert it.
 4. Now update the translation so that it corresponds to the source text.
 
-   > Tip: delete `Très` and change the case of the first letter.
+    > Tip: delete `Très` and change the case of the first letter.
 
-   > Expected result: `Bon`
+    > Expected result: `Bon`
 
 5. Press ++ctrl+u++ to go to the next _untranslated_ segment.
 
-   > That should take you to segment #6.
+    > That should take you to segment #6.
 
 ## Exercise 02.5: insert exact match
 
@@ -80,7 +80,7 @@
 8. Notice that there's an exact match which you can use as is. Your lucky day!
 9. Press ++ctrl+i++ to insert it.
 
-   > There's nothing else to do this time :)
+    > There's nothing else to do this time :)
 
 10. Press ++ctrl+u++ to go to the next _untranslated_ segment.
 
@@ -96,11 +96,11 @@
 6. See what is the part that can be used in the second match.
 7. Press ++ctrl+1++ to select the first match again.
 
-   > Alternate between ++ctrl+1++ and ++ctrl+2++ to highlight the differences in each match.
+    > Alternate between ++ctrl+1++ and ++ctrl+2++ to highlight the differences in each match.
 
 8. With your mouse, select `Très` in match #1.
 
-   > The translation of "very" in the first match is something you can use.
+    > The translation of "very" in the first match is something you can use.
 
 9. Press ++ctrl+i++ to insert your selection.
 10. With your mouse, select `mauvais` in match #2.
@@ -137,20 +137,20 @@
 
 2. Notice how pressing ++ctrl+u++ has jumped over the two pretranslated segments.
 
-   > Source text reads `Welcome to this survey.`
+    > Source text reads `Welcome to this survey.`
 
 3. Notice how this segment is almost identical to the first segment you translated.
 
-   > The only difference is in the final punctuation.
+    > The only difference is in the final punctuation.
 
 4. Press ++ctrl+i++ to insert the match.
 5. Update the translation now.
 
-   > Replace the exclamation mark ` !` with a full stop `.`
+    > Replace the exclamation mark ` !` with a full stop `.`
 
 6. Press ++ctrl+u++ to go to the next _untranslated_ segment.
 
-   > That should take you to segment #12.
+    > That should take you to segment #12.
 
 <!--
 quiz: which one is more efficient?
@@ -171,6 +171,6 @@ Ok, the last one if you have time :)
 5. Looking at the match in the **Matches** pane, notice the difference between the new source text and the source text in "tracked changes".
 6. Update the inserted translation so that it corresponds to the source text you're translating.
 
-   > Tip: Replace `financière` with `économique`
+    > Tip: Replace `financière` with `économique`
 
 Well done!

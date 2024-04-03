@@ -18,11 +18,11 @@ That is convenient in many cases, but not always. Sometimes you'll have to preve
 
 1. Go to segment #16 in the project.
 
-   > Source text reads: `Pretty good`
+    > Source text reads: `Pretty good`
 
 2. Notice that it is translated with an auto-propagated translation.
 
-   > `Pretty good` and `Pretty bad` in segments #16 and #17 in this context refer to "level of English" which is masculine in French. However, your translations ("Plutôt bonNE" and "Plutôt mauvaisE") refers to "situation economique", which is feminine.
+    > `Pretty good` and `Pretty bad` in segments #16 and #17 in this context refer to "level of English" which is masculine in French. However, your translations ("Plutôt bonNE" and "Plutôt mauvaisE") refers to "situation economique", which is feminine.
 
 You want to modify the translation in segments #16 and #17 to make it masculine, so that it agrees with "level" in French.
 
@@ -30,11 +30,11 @@ Follow these three simple but VERY IMPORTANT steps:
 
 1. Go to **Edit** > **Create Alternative Translation**.
 
-   > Tip: Also available if you right-click the segment.
+    > Tip: Also available if you right-click the segment.
 
 2. Modify the translation to make it masculine
 
-   > Just remove the last character if you don't know French
+    > Just remove the last character if you don't know French
 
 3. Press ++ctrl+s++ to register the translation
 
