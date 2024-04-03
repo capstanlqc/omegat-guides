@@ -22,7 +22,7 @@ Try to find the translation of "translator" in the translation memories.
 6. Check box "TMs" under "Search in" to search in the translations memories.
 7. Press the **Search** button.
 
-   > Expected result: `traducteur`
+    > Expected result: `traducteur`
 
 <!-- @todo: add exercise that shows how sometimes you don't get a fuzzy match because of low similarity score and poor matching algorithm but there's a useful concordance in the TM -->
 
@@ -33,15 +33,15 @@ You might need to refer to a certain segment by its identifier (the segment ID o
 1. Press ++ctrl+f++ to open the **Text Search** dialog unless it's already open.
 2. Check option:
 
-   - In comments
+    - In comments
 
 3. Type `123abc` in the search box, and press **Search**.
 
-   > Expected results:
-   >
-   > > 01_qq/03_qq_paq.xml  
-   > > -- 22> Neither good nor bad  
-   > > \# name = 123abc
+    > Expected results:
+    >
+    > > 01_qq/03_qq_paq.xml  
+    > > -- 22> Neither good nor bad  
+    > > \# name = 123abc
 
 <!-- prettier-ignore -->
 !!! info
@@ -60,27 +60,27 @@ One instance of the repeated segment "Rather satisfied" was not translated consi
 1. Press ++ctrl+f++ to open the **Text Search** dialog.
 2. Check options:
 
-   - Exact search
-   - In source
-   - All matching segments
-   - Search in: Memory
+    - Exact search
+    - In source
+    - All matching segments
+    - Search in: Memory
 
 3. Do not check options:
 
-   - Search in: TMs
+    - Search in: TMs
 
-   <!-- screenshot! -->
+    <!-- screenshot! -->
 
 4. Type `Rather satisfied` in the search box, and press **Search**.
 
-   > Expected results:
-   >
-   > - 27> Plutôt satisfait
-   > - 32> Assez satisfait
-   > - 37> Plutôt satisfait
+    > Expected results:
+    >
+    > - 27> Plutôt satisfait
+    > - 32> Assez satisfait
+    > - 37> Plutôt satisfait
 
 5. Notice that here is one instance of the repeated segment "Rather satisfied" that was not translated consistenly.
 
-   > Can you see which translation is inconsistent?
+    > Can you see which translation is inconsistent?
 
 <!-- @todo: write RFF: go to next segment with a comment -->

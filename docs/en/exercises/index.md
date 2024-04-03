@@ -9,7 +9,7 @@ In order to do these exercises, you'll have to download an offline OmegaT projec
 1. Download project package [project_task_fr-ZZ_offline_omt.omt](../../_downloads/project_task_fr-ZZ_offline_omt.omt). <!-- @todo -->
 2. Unpack that project from OmegaT:
 
-   - **Project** > **Unpack project from OMT file...**
+    - **Project** > **Unpack project from OMT file...**
 
 <!-- prettier-ignore -->
 !!! tip "Relevant section in the OmegaT guide"

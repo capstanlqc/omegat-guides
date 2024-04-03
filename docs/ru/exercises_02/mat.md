@@ -7,7 +7,7 @@
 
 1. Translate segment #1.
 
-   > Suggested translation: `Bienvenue à cette enquète.`
+    > Suggested translation: `Bienvenue à cette enquète.`
 
 2. Press ++ctrl+u++ to go to segment #2.
 
@@ -20,7 +20,7 @@ You're in segment #2.
 5. Looking at the **Matches** pane, notice that there's a difference between the new source text and the source text in the match.
 6. Update the inserted translation so that it corresponds to the source text you're translating.
 
-   > Tip: Replace `financiere` with `économique`.
+    > Tip: Replace `financiere` with `économique`.
 
 7. Press ++ctrl+u++ to go to segment #3.
 
@@ -31,7 +31,7 @@ You're in segment #3.
 8. Notice that there's an exact match which you can use as is.
 9. Press ++ctrl+i++ to insert it.
 
-   > There's nothing else to do this time :)
+    > There's nothing else to do this time :)
 
 10. Press ++ctrl+u++ to go to segment #4.
 
@@ -42,9 +42,9 @@ You're in segment #4. Your previous translation is now a 50% match that you coul
 11. Press ++ctrl+i++ to insert the 50% match.
 12. Now update the translation so that it corresponds to the source text.
 
-   > Tip: delete `bon`, type `mauvaise`
+    > Tip: delete `bon`, type `mauvaise`
 
-   > Expected result: `Plutôt mauvaise`
+    > Expected result: `Plutôt mauvaise`
 
 
 ## Exercise 02.5: pretranslated and editable
@@ -63,12 +63,12 @@ You're in segment #8.
 
 17. Notice how this segment is almost identical to the first segment you translated.
 
-   > The only difference is in the final punctuation.
+    > The only difference is in the final punctuation.
 
 18. Press ++ctrl+i++ to insert the match.
 19. Update the translation now.
 
-   > Replace final dot `.` with exclamation mark ` !`
+    > Replace final dot `.` with exclamation mark ` !`
 
 ## Exercise 02.7: pretranslated and locked
 
@@ -88,14 +88,14 @@ You're still in segment #8.
 2. Notice that this segment is pretranslated.
 3. Go to segment #16.
 
-   > Source text reads `Good`
+    > Source text reads `Good`
 
 4. Notice how the **Matches** pane presents two matches you could use.
 5. Press ++ctrl+2++ to select the second match (match #2).
 6. Press ++ctrl+i++ to insert the selected match (match #2).
 7. Delete `plutôt` and change the case.
 
-   > Expected result: `Bon`
+    > Expected result: `Bon`
 
 <!-- @todo: disable predictive typing and delete files... -->
 
@@ -110,9 +110,9 @@ You're still in segment #8.
 10. Now press ++ctrl+i++ to insert the selected text
 11. Update the match.
 
-   > Change case of `m` to `M`
+    > Change case of `m` to `M`
 
-   > Expected result: `Mauvais`ç
+    > Expected result: `Mauvais`ç
 
 ## Exercise 02.10:
 
@@ -121,9 +121,9 @@ You're still in segment #8.
 14. Notice how match #2 and match #3 get seleted when you press the shortcuts above.
 15. Select one and insert it, then updated it.
 
-   > Here you're free to update the fuzzy match as you like.
+    > Here you're free to update the fuzzy match as you like.
 
-   > Expected resul: `Très mauvais`
+    > Expected resul: `Très mauvais`
 
 !!! info "Recap"
     To recap, the available options are:

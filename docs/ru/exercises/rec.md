@@ -25,7 +25,7 @@ Please remember to restore the default value when you're not reconciling.
 
 1. Go to segment #55 and read it. Here comes a story for you.
 
-   > Source text reads `Once upon a time there was a reconciler who worked in OmegaT.`
+    > Source text reads `Once upon a time there was a reconciler who worked in OmegaT.`
 
 2. You have one exact match. Press ++ctrl+i++ to insert it.
 3. Easy start. Now press ++ctrl+u++ to move to the next _unreconciled_ segment.
@@ -47,17 +47,17 @@ Please remember to restore the default value when you're not reconciling.
 8. Notice that now you can see **_two_** matches because "translation 1" and "translation 2" are different now.
 9. You want to use the first translation (selected by default). Press ++ctrl+i++ to insert match #1.
 
-   > Translation reads `Parfois, l'une des deux traductions était bonne, et l'autre était mauvaise, donc le choix était clair.`
+    > Translation reads `Parfois, l'une des deux traductions était bonne, et l'autre était mauvaise, donc le choix était clair.`
 
 10. Press ++ctrl+u++ to move to the next _unreconciled_ segment.
 
-   > You're now on segment #58.
+    > You're now on segment #58.
 
 11. Read segment #58.
 12. Here you want to use the second translation. Press ++ctrl+2++ to select match #2.
 13. Press ++ctrl+i++ to insert it.
 
-   > Translation reads `D'autres fois, la première traduction était mauvaise, mais la seconde était bonne, donc le choix était également clair.`
+    > Translation reads `D'autres fois, la première traduction était mauvaise, mais la seconde était bonne, donc le choix était également clair.`
 
 14. Press ++ctrl+u++ to move to the next _unreconciled_ segment.
 
@@ -69,7 +69,7 @@ Please remember to restore the default value when you're not reconciling.
 15. Press ++ctrl+i++ to insert the exiting match.
 16. Edit the translation to make it a good translation.
 
-   > Tip: Remove the excessive `SSs` in `parfoisSSs`.
+    > Tip: Remove the excessive `SSs` in `parfoisSSs`.
 
 17. Press ++ctrl+u++ to move to the next _unreconciled_ segment.
 
@@ -82,7 +82,7 @@ Please remember to restore the default value when you're not reconciling.
 19. In match #2, select `, mais l'autre partie était meilleure dans la deuxième traduction, ou vice versa, donc il fallait les combiner les combiner.`
 20. Press ++ctrl+i++ to insert the text you have selected now.
 
-   > Expected result: `Et encore d'autres fois, la première traduction avait une partie qui était bonne, mais l'autre partie était meilleure dans la deuxième traduction, ou vice versa, donc il fallait les combiner les combiner.`
+    > Expected result: `Et encore d'autres fois, la première traduction avait une partie qui était bonne, mais l'autre partie était meilleure dans la deuxième traduction, ou vice versa, donc il fallait les combiner les combiner.`
 
 You have combined two parts of two translations to create one single reconciled version. Congrats!
 

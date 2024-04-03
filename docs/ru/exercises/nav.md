@@ -23,37 +23,37 @@ to avoid directing the user to later in the project ...
 
 1. Press ++ctrl+j++ and enter `1` to go to segment #1.
 
-   > Source text reads `Welcome to this survey!`
+    > Source text reads `Welcome to this survey!`
 
 2. Press ++enter++ to move to the _next_ segment.
 
-   > You are now in segment #2.
+    > You are now in segment #2.
 
-   <!-- > Source text reads `How is your economic situation?` -->
+    <!-- > Source text reads `How is your economic situation?` -->
 
 3. Press ++ctrl+u++ to move to the next _untranslated_ segment.
 
-   > You are now in segment #3.
+    > You are now in segment #3.
 
-   <!-- Source text reads `Pretty good` -->
+    <!-- Source text reads `Pretty good` -->
 
 4. Press ++enter++ twice in a row to go forward 2 segments.
 
-   > You end up in segment #5.
+    > You end up in segment #5.
 
-   <!-- > Source text reads `Pretty good` again -->
+    <!-- > Source text reads `Pretty good` again -->
 
 5. Press ++ctrl+enter++ twice in a row to go backwards 2 segments.
 
-   > You are now in segment #3.
+    > You are now in segment #3.
 
-   <!-- > Source text reads `Pretty bad` -->
+    <!-- > Source text reads `Pretty bad` -->
 
 6. Press ++ctrl+u++ once to go to the next _untranslated_ segment.
 
-   > You end up in segment #5 again.
+    > You end up in segment #5 again.
 
-   <!-- > Source text reads `Pretty good` again -->
+    <!-- > Source text reads `Pretty good` again -->
 
 7. Notice that you have jumped segment #4, which is already translated (in pink).
 
@@ -75,27 +75,27 @@ remove if unnecessary, check with adri
 
 1. Press ++ctrl+j++ and enter number 25 to go to segment #25.
 
-   > Source text reads: `Generally speaking, please tell me <g1>how satisfied</g1> you are with public transport where you live.`
+    > Source text reads: `Generally speaking, please tell me <g1>how satisfied</g1> you are with public transport where you live.`
 
 2. Press ++ctrl+u++ to jump to the next untranslated segment.
 
-   > You are now on segment #30.
+    > You are now on segment #30.
 
 3. Press ++enter++ to move the next segment.
 
-   > You are now on segment #31.
+    > You are now on segment #31.
 
 4. Oops, you haven't translated segment #30. Press ++ctrl+enter++ to go back to it.
 
-   > You are now on segment #30 again.
+    > You are now on segment #30 again.
 
 5. Scroll down until you see another untranslated segment in that file.
 
-   > Source text reads: `Generally speaking, please tell me <g1>how satisfied</g1> you are with schools and other educational facilities where you live.`
+    > Source text reads: `Generally speaking, please tell me <g1>how satisfied</g1> you are with schools and other educational facilities where you live.`
 
 6. Double click on that segment.
 
-   > You are now on segment #53.
+    > You are now on segment #53.
 
 7. Press keyboard shortcut ++ctrl+j++ and enter number 1 to go to segment number #1.
 
