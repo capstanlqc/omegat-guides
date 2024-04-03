@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#tags" class="md-skip">
+        <a href="#_1" class="md-skip">
           Skip to content
         </a>
       
@@ -1826,27 +1826,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-are-tags" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      What are tags
+      Что такое теги
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#types-of-tags" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
-      Types of tags
+      Типы тегов
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#inserting-tags" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
-      Inserting tags
+      Вставка тегов
     </span>
   </a>
   
@@ -2191,60 +2191,61 @@
                   
 
 
-<div><h1 id="tags">Tags<a class="headerlink" href="#tags" title="Permanent link">¶</a></h1>
+<div><h1 id="_1">Теги<a class="headerlink" href="#_1" title="Permanent link">¶</a></h1>
 <!-- todo: use autocompleter -->
 
-<h2 id="what-are-tags">What are tags<a class="headerlink" href="#what-are-tags" title="Permanent link">¶</a></h2>
-<p>The source text might include some inline codes that stand for formatting or other elements. In OmegaT, those inline codes are handled as <strong>tags</strong>.</p>
-<p>For example, part of the source text could be, say, underlined (e.g. the word "after" below):</p>
+<h2 id="_2">Что такое теги<a class="headerlink" href="#_2" title="Permanent link">¶</a></h2>
+<p>Исходный текст может включать встроенные коды, которые соответствуют форматированию или другим элементам в документе оригинала. В OmegaT эти встроенные коды обрабатываются как <strong>теги</strong>.</p>
+<p>Например, часть исходного текста может быть, например, подчеркнута (например, слово «после» ниже):</p>
 <blockquote>
-<p>I came to this school <u>after</u> the start of this school year.</p>
+<p>Я пришел в эту школу <u>после</u> начала этого учебного года.</p>
 </blockquote>
-<p>The segment in OmegaT will look like this (notice the paired tags enclosing the word "after"):</p>
+<p>Сегмент в OmegaT будет выглядеть следующим образом (обратите внимание на парные теги вокруг слова «после»):</p>
 <blockquote>
-<p>I came to this school <strong class="omttag">&lt;g1&gt;</strong>after<strong class="omttag">&lt;/g1&gt;</strong> the start of this school year.</p>
+<p>Я пришел в эту школу <strong class="omttag"><g1></g1></strong>после<strong class="omttag"></strong> начала этого учебного года.</p>
 </blockquote>
-<p>You will recognize tags because they are in <strong>red font</strong>.</p>
-<p>Hover over a tag if you want to see what it stands for. A tooltip will show the original inline code:</p>
+<p>Теги легко узнать по выделению <strong>красным шрифтом</strong>.</p>
+<p>Наведите курсор на тег, чтобы узнать, что он обозначает. Во всплывающей подсказке будет показан исходный встроенный код:</p>
 <!-- ![Hover over a tag to see what it stands for](../_img/omt-hover-over-tag.png) -->
 
 <blockquote>
-<p><img alt="Hover over a tag to see what it stands for" src="../../_img/omt-hover-over-tag-segment.png"></p>
+<p><img alt="Наведите курсор на тег, чтобы узнать, что он обозначает" src="../../_img/omt-hover-over-tag-segment.png"></p>
 </blockquote>
 <!-- section: recognzing tags -->
-<h2 id="types-of-tags">Types of tags<a class="headerlink" href="#types-of-tags" title="Permanent link">¶</a></h2>
-<p>There are two types of tags: standalone tags and paired tags or double tags:</p>
+<h2 id="_3">Типы тегов<a class="headerlink" href="#_3" title="Permanent link">¶</a></h2>
+<p>Существует два типа тегов: отдельные теги и парные или двойные теги.</p>
 <ul>
-<li><strong>Standalone tags</strong>: a single tag (e.g. <strong class="omttag">&lt;x1/&gt;</strong>) which stands for some element that appears at that position, such as a line break, an image, an input field, etc.</li>
-</ul>
+<li>
+<p><strong>Отдельный тег</strong>: один тег (например. <strong class="omttag"><x1></x1></strong>), который обозначает тот или иной элемент, появляющийся в исходном документе в данной позиции: перенос строки, изображение, поле ввода и т. д.</p>
 <p><img alt="" src="../../_img/omt-tags-types-standalone-02.png"></p>
-<ul>
-<li><strong>Paired tags</strong> are composed of an opening tag and a closing tag (e.g. <strong class="omttag">&lt;g2&gt;</strong> and <strong class="omttag">&lt;/g2&gt;</strong>) and affect the text between them. You can see that two tags are paired when they have the same number.</li>
-</ul>
+</li>
+<li>
+<p><strong>Парные теги</strong> состоят из открывающего и закрывающего тегов (например, <strong class="omttag"><g2></g2></strong> и <strong class="omttag"></strong>) и применяются к тексту между ними. Парные теги можно определить по тому, что в них использовано одинаковое число.</p>
 <p><img alt="" src="../../_img/omt-tags-types-paired.png"></p>
-<!-- ![](../_img/10_types_of_tags.jpg) -->
-<!-- ![](../_img/omt-tags-types-labels.png) -->
-<!-- @todo: png, use example of same text in source and corresponding translation with tags aruond the same -->
-
-<p>When the source text contains <strong>paired tags</strong> around a word or expression, you must insert the same paired tags around the part of the translation that corresponds to the formatted word or expression in the source text.</p>
-<p>For example, here the paired tags represent some formatting that applies to the word "after" and its translation "après".</p>
+<p><!-- <img alt="" src="../_img/10_types_of_tags.jpg" /> -->
+<!-- <img alt="" src="../_img/omt-tags-types-labels.png" /> -->
+<!-- @todo: png, use example of same text in source and corresponding translation with tags aruond the same --></p>
+</li>
+</ul>
+<p>Если исходный текст содержит <strong>парные теги</strong> вокруг слова или выражения, необходимо вставить такие же парные теги вокруг соответствующего слова или выражения в переводе.</p>
+<p>В приведенном ниже примере парные теги представляют собой форматирование, применяемое к слову «после» и его переводу «après».</p>
 <blockquote>
-<p><b>I came to this school <strong class="omttag">&lt;g1&gt;</strong>after<strong class="omttag">&lt;/g1&gt;</strong> the start of this school year.</b><br>
-Je suis venu à cette école <strong class="omttag">&lt;g1&gt;</strong>après<strong class="omttag">&lt;/g1&gt;</strong> le début de cette année scolaire.</p>
+<p>Я пришел в эту школу <strong class="omttag"><g1></g1></strong>после<strong class="omttag"></strong> начала этого учебного года.
+Je suis venu à cette école <strong class="omttag"><g1></g1></strong>après<strong class="omttag"></strong> le début de cette année scolaire.</p>
 </blockquote>
-<p>When the source text contains one or more <strong>standalone tags</strong>, you must insert them in the translation in a position that is equivalent to their position in the source text.</p>
+<p>Если исходный текст содержит один или несколько <strong>отдельных тегов</strong>, их необходимо вставить в перевод в положении, эквивалентном их положению в оригинале.</p>
 <!--
 >> Write your answer in numerals in the box.<br/>
 > Écrivez votre réponse en chiffres dans la boîte.
 -->
 
-<p>In the following example, the standalone tag represents a text entry field where the respondent will have to select a number:</p>
+<p>В следующем примере отдельный тег представляет собой поле для ввода текста, в котором респондент должен выбрать число:</p>
 <blockquote>
-<p><b><strong class="omttag">&lt;x1/&gt;</strong> hours</b><br> 
-<strong class="omttag">&lt;x1/&gt;</strong> heures</p>
+<p><b><strong class="omttag"><x1></x1></strong> hours</b><br>
+<strong class="omttag"><x1></x1></strong> heures</p>
 </blockquote>
 <!-- section: tag insertion -->
-<h2 id="inserting-tags">Inserting tags<a class="headerlink" href="#inserting-tags" title="Permanent link">¶</a></h2>
+<h2 id="_4">Вставка тегов<a class="headerlink" href="#_4" title="Permanent link">¶</a></h2>
 <p>Before inserting tags you must know whether it is a standalone tag or two paired tags.</p>
 <!-- ### Paired tags -->
 
@@ -2271,7 +2272,7 @@ Je suis venu à cette école <strong class="omttag">&lt;g1&gt;</strong>après<s
 </ol>
 <p><img alt="" src="../../_img/omt-tags-autocomplete-standalone.gif"></p>
 <p>You can also insert a tag one by one with shortcut <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-t">T</kbd></span>.</p>
-<p>The following video shows how to handle tags, enjoy <span class="twemoji heart"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M14 20.408c-.492.308-.903.546-1.192.709-.153.086-.308.17-.463.252h-.002a.75.75 0 0 1-.686 0 16.709 16.709 0 0 1-.465-.252 31.147 31.147 0 0 1-4.803-3.34C3.8 15.572 1 12.331 1 8.513 1 5.052 3.829 2.5 6.736 2.5 9.03 2.5 10.881 3.726 12 5.605 13.12 3.726 14.97 2.5 17.264 2.5 20.17 2.5 23 5.052 23 8.514c0 3.818-2.801 7.06-5.389 9.262A31.146 31.146 0 0 1 14 20.408Z"></path></svg></span>:</p>
+<p>В следующем видео показана работа с тегами. Приятного просмотра <span class="twemoji heart"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M14 20.408c-.492.308-.903.546-1.192.709-.153.086-.308.17-.463.252h-.002a.75.75 0 0 1-.686 0 16.709 16.709 0 0 1-.465-.252 31.147 31.147 0 0 1-4.803-3.34C3.8 15.572 1 12.331 1 8.513 1 5.052 3.829 2.5 6.736 2.5 9.03 2.5 10.881 3.726 12 5.605 13.12 3.726 14.97 2.5 17.264 2.5 20.17 2.5 23 5.052 23 8.514c0 3.818-2.801 7.06-5.389 9.262A31.146 31.146 0 0 1 14 20.408Z"></path></svg></span>.</p>
 <div style="padding:69.95% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/780434399?h=c7ab23ed9d" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
 <script src="https://player.vimeo.com/api/player.js"></script></div>
 

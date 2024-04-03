@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#qa-checks" class="md-skip">
+        <a href="#qa" class="md-skip">
           Skip to content
         </a>
       
@@ -2191,7 +2191,7 @@
                   
 
 
-<div><h1 id="qa-checks">QA checks<a class="headerlink" href="#qa-checks" title="Permanent link">¶</a></h1>
+<div><h1 id="qa">Проверки качества (QA)<a class="headerlink" href="#qa" title="Permanent link">¶</a></h1>
 <!-- section: qa comp -->
 <h2 id="completion-check">Completion check<a class="headerlink" href="#completion-check" title="Permanent link">¶</a></h2>
 <p>All segments in the project must have a translation. To confirm that is the case, please check for completion before your delivery.</p>
@@ -2229,9 +2229,9 @@
 <!-- prettier-ignore -->
 <div class="admonition tip inline end">
 <p class="admonition-title">Tip</p>
-<p>You may untick the other checks (Spelling, Terminology, LanguageTool) if you want to focus on tags only first.</p>
 </div>
-<p><img alt="" src="../../_img/33_check_issues.jpg"></p>
+<p>You may untick the other checks (Spelling, Terminology, LanguageTool) if you want to focus on tags only first.
+<img alt="" src="../../_img/33_check_issues.jpg"></p>
 </li>
 <li>
 <p>Press <strong>OK</strong>.</p>
@@ -2242,12 +2242,12 @@
 </li>
 <li>
 <p>Go through the issues one by one. For every issue in the list, do the following:</p>
-</li>
-<li>
-<p>Click a row in the list (or click on <strong>Jump to Segment</strong>) to open that segment in the editor</p>
-</li>
+<ul>
+<li>Click a row in the list (or click on <strong>Jump to Segment</strong>) to open that segment in the editor</li>
 <li>Fix the tag issue (as explained in the <a href="../tags/#fixing-tag-issues" target="_blank">Fixing tag issues</a> section)</li>
 <li>Press the <strong>Refresh</strong> button to update the list of issues.</li>
+</ul>
+</li>
 </ul>
 <!-- prettier-ignore -->
 <div class="admonition failure">
@@ -2255,8 +2255,8 @@
 <p>Please do not click on "Apply fix". Fix each issue manually.</p>
 </div>
 <!-- prettier-ignore -->
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
+<div class="admonition совет">
+<p class="admonition-title">Совет</p>
 <p>If the source text has tags that you do not use in your language, you can insert them at the end of the segment to avoid having false positives in the error report. That should not have an impact on the translation.</p>
 </div>
 <!-- section: qa glossary adherence -->
@@ -2264,29 +2264,31 @@
 <p>You can check whether the translation adheres to the glossary and key terms have been translated consistently throughout:</p>
 <ul>
 <li>Go to <strong>Tools</strong> &gt; <strong>Check Issues</strong></li>
-<li>Make sure the box next to <strong>Terminology Issues</strong> is ticked</li>
-</ul>
+<li>
+<p>Make sure the box next to <strong>Terminology Issues</strong> is ticked</p>
 <p><img alt="" src="../../_img/35_terminology_issues.jpg"></p>
-<ul>
-<li>Press <strong>OK</strong></li>
-<li>A list of potential errors will open:</li>
-</ul>
+</li>
+<li>
+<p>Press <strong>OK</strong></p>
+</li>
+<li>
+<p>A list of potential errors will open:</p>
 <p><img alt="" src="../../_img/36_error_report_terminology.jpg"></p>
-<ul>
+</li>
 <li>
 <p>Go through the issues one by one. For every issue in the list, do the following:</p>
-</li>
-<li>
-<p>Click a row in the list (or click on <strong>Jump to Segment</strong>) to open that segment in the editor.</p>
-</li>
+<ul>
+<li>Click a row in the list (or click on <strong>Jump to Segment</strong>) to open that segment in the editor.</li>
 <li>Correct the error if necessary.</li>
 <li>Press the <strong>Refresh</strong> button to update the list of issues.</li>
+</ul>
+</li>
 </ul>
 <!-- prettier-ignore -->
 <div class="admonition info">
 <p class="admonition-title">Info</p>
-<p>Not all flagged issues are errors by default. In some cases, you may get <em>false positives</em>. In the screenshot below, "apple trees" should be translated as "pommiers" as in the first segment. In the second segment (active segment) "apple trees" was rendered as "ces arbres" (backtranslation: these trees) to avoid a repetition that would be disturbing in French. Such deviations from the glossary are intentional, so you would disregard the issue.</p>
-<p><img alt="" src="../../_img/37_false_positive.jpg"></p>
+<p>Not all flagged issues are errors by default. In some cases, you may get <em>false positives</em>. In the screenshot below, "apple trees" should be translated as "pommiers" as in the first segment. In the second segment (active segment) "apple trees" was rendered as "ces arbres" (backtranslation: these trees) to avoid a repetition that would be disturbing in French. Such deviations from the glossary are intentional, so you would disregard the issue.
+<img alt="" src="../../_img/37_false_positive.jpg"></p>
 </div></div>
 
 
