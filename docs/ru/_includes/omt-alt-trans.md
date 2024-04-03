@@ -1,13 +1,13 @@
-# Create alternative translation
+# Создание альтернативного перевода
 
-In some cases, you may not wish to modify the translation of repeated segments. If you want your edits to be autopropagated, nothing special needs to be done: just edit one segment in a group of repetitions and save. If however, due to a different context, you may need to change the translation of only ONE of the repeated segments:
+В некоторых случаях может возникнуть необходимость перевести сегмент, не меняя при этом перевод во всех повторяемых сегментах. Если вы хотите, чтобы ваши изменения были автоматически скопированы во всех повторах, то никаких дополнительных действий не требуется. Достаточно отредактировать любой сегмент, имеющий повторы, и сохранить проект. Если же, исходя из контекста, вам нужно изменить перевод только ОДНОГО из повторяемых сегментов, сделайте следующее:
 
-- **Right click** on the segment
-- Choose **Create Alternative Translation** from the contextual menu
+- **Щелкните правой кнопкой** мыши на сегменте.
+- Выберите пункт контекстного меню **Create Alternative Translation** (Создать вариант перевода).
    ![](../_img/18_create_alternative_translation.jpg)
 
-- Change the translation of your active segment and then either press ++ctrl+s++ or move to the next one.
+- Измените перевод активного сегмента, а затем либо нажмите ++ctrl+s++, либо перейдите к следующему сегменту.
 
 ![](../_img/19_alternative_translation_created.jpg)
 
-If you return on the repeated segment, you will see the different translations appear in the Multiple Translations pane.
+Если вы вернетесь к повторному сегменту, то увидите, что различные переводы отображаются на панели Multiple Translations (Варианты перевода).

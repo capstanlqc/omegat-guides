@@ -1,12 +1,12 @@
-# 01. Navigation
+# 01. Навигация
 
 <!-- prettier-ignore -->
 ??? Abstract "The relevant section in the guides..."
     See the relevant section in your guide:
-    [Translation](../translation/navigation.md){:target="_blank" .md-button }
-    [Reconciliation](../reconciliation/navigation.md){:target="_blank" .md-button }
-    [Adaptation](../adaptation/navigation.md){:target="_blank" .md-button }
-    [Verification](../verification/navigation.md){:target="_blank" .md-button }
+    [Перевод](../translation/navigation.md){:target="_blank" .md-button }
+    [Согласование](../reconciliation/navigation.md){:target="_blank" .md-button }
+    [Адаптация](../adaptation/navigation.md){:target="_blank" .md-button }
+    [Верификация](../verification/navigation.md){:target="_blank" .md-button }
 
 ---
 
@@ -58,7 +58,7 @@ to avoid directing the user to later in the project ...
 7. Notice that you have jumped segment #4, which is already translated (in pink).
 
 <!-- prettier-ignore -->
-!!! tip
+!!! Совет
     Press ++ctrl+u++ when you're translating.  
     Press ++enter++ when you're reviewing a translation.
 

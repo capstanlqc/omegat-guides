@@ -1,1 +1,1 @@
-**OmegaT** is the open source computer-assisted translation tool (CAT tool) which will be used to translate, reconcile, adapt, review and verify materials. The software has been customized to optimize your task.
+**OmegaT** — это программа для автоматизированного перевода (CAT) с открытым исходным кодом. Она будет использоваться для перевода, согласования, адаптации, рецензирования и проверки материалов. Программа была предварительно настроена таким образом, чтобы оптимизировать вашу работу.

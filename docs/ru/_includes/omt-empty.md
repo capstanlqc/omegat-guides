@@ -1,3 +1,3 @@
-## Creating an empty translation
+## Создание пустых переводов
 
-All segments must have a translation, even if it's an empty translation. If you want to produce an empty translation, simply press the space bar in your keyboard to **insert a space** as the translation.
+Все сегменты должны содержать перевод, даже если перевод будет пустым. Чтобы создать пустой перевод, просто нажмите на клавиатуре пробел — перевод сегмента будет содержать только символ **пробела**.

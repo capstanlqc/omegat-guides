@@ -1,12 +1,12 @@
-# 06. Alternative translations
+# 06. Альтернативные переводы
 
 <!-- prettier-ignore -->
 ??? Abstract "The relevant section in the guides..."
     See the relevant section in your guide:
-    [Translation](../translation/repetitions.md#create-alternative-translation){:target="_blank" .md-button }
-    [Reconciliation](../reconciliation/repetitions.md#create-alternative-translation){:target="_blank" .md-button }
-    [Adaptation](../adaptation/repetitions.md#create-alternative-translation){:target="_blank" .md-button }
-    [Verification](../verification/repetitions.md#create-alternative-translation){:target="_blank" .md-button }
+    [Перевод](../translation/repetitions.md#create-alternative-translation){:target="_blank" .md-button }
+    [Согласование](../reconciliation/repetitions.md#create-alternative-translation){:target="_blank" .md-button }
+    [Адаптация](../adaptation/repetitions.md#create-alternative-translation){:target="_blank" .md-button }
+    [Верификация](../verification/repetitions.md#create-alternative-translation){:target="_blank" .md-button }
 
 ---
 
@@ -14,7 +14,7 @@ In the previous section you saw that translations of repeated segments (or edits
 
 That is convenient in many cases, but not always. Sometimes you'll have to prevent auto-propagation. To do that, you must create an **alternative translation**.
 
-## Exercise 06.1: create alternative translation
+## Упражнение 06.1: создание альтернативного перевода
 
 1. Go to segment #16 in the project.
 
@@ -39,7 +39,7 @@ Follow these three simple but VERY IMPORTANT steps:
 3. Press ++ctrl+s++ to register the translation
 
 <!-- prettier-ignore -->
-!!! warning
+!!! Предупреждение
     This is a very important and delicate function of OmegaT. It's easy to use it correctly if you grasp well the three steps above, but it's also easy to make a mess if you don't. Please make sure you really follow the three steps above to the letter.
 
 Did you follow the steps above? If you did, now you'll notice that:

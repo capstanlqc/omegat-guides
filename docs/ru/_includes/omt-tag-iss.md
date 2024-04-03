@@ -1,26 +1,26 @@
-## Fixing tag issues
+## Исправление проблем с тегами
 
-All tags you see in the source text should be present in the translation too and in the correct position. You must correct any errors that you may see when that's not the case.
+Все теги, которые вы видите в исходном тексте, должны присутствовать и в переводе, причем в соответствующих местах. Если это не так, вам необходимо исправить все ошибки, которые будут обнаружены.
 
-You may find two types of issue:
+Такие ошибки могут быть двух типов:
 
-- A tag or tag pair is missing: in that case, the solution is simply to [insert it](#inserting-tags).
+- Отсутствует тег или пара тегов. В этом случае нужно просто [вставить теги](#inserting-tags).
 
-- A tag is inserted but misplaced: the solution may be either to [drag and drop](#moving-tags) single tags to the correct position, or simply to [delete the tag](#deleting-tags) (or tag pair) and [insert it](#inserting-tags) again correctly.
+- Тег вставлен, но расположен неправильно. Решение может заключаться либо в [перетаскивании](#moving-tags) отдельных тегов в нужное место, либо в [удалении тега](#deleting-tags) (или пары тегов) и повторной правильной [вставке](#inserting-tags).
 
 <!-- prettier-ignore -->
-??? warning "Warning for RTL languages"
-    In right-to-left languages such as Arabic or Hebrew, moving tags will not work. Please delete the tag and insert it again if you work with any of these languages.
+??? warning "Предупреждение для языков с письмом справа налево"
+    В языках с письмом справа налево (например, в арабском или иврите) перетаскивание тегов не сработает. Удалите тег и вставьте его заново в нужном месте, если вы работаете с одним из таких языков.
 
-### Deleting tags
+### Удаление тегов
 
-If you have inserted a tag incorrectly and need to [insert it](#inserting-tags) again, **double click** on the tag to select it in full and press ++backspace++ or ++delete++ on your keyboard to delete it first.
+Если вы вставили тег неправильно и вам нужно [вставить его](#inserting-tags) снова, **дважды щелкните** по тегу, чтобы выделить его полностью, и удалите его, нажав на клавиатуре клавишу ++backspace++ или ++delete++.
 
 ![](../_img/omt-tags-delete.gif)
 
-### Moving tags
+### Перемещение тегов
 
-If you have inserted a tag in the wrong position and need to insert it somewhere else, you can simply **drag and drop** it. Alternatively, you can also delete it and insert it again.
+Если вы вставили тег в неправильном месте и вам нужно вставить его в другое место, то тег можно просто **перетащить мышью**. Можно также удалить его и вставить заново.
 
 ![](../_img/omt-tags-moving.gif)
 

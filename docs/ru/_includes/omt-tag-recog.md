@@ -1,12 +1,12 @@
-## Types of tags
+## Типы тегов
 
-There are two types of tags: standalone tags and paired tags or double tags:
+Существует два типа тегов: отдельные теги и парные или двойные теги.
 
-- **Standalone tags**: a single tag (e.g. **<x1/>**{ .omttag }) which stands for some element that appears at that position, such as a line break, an image, an input field, etc.
+- **Отдельный тег**: один тег (например. **<x1/>**{ .omttag }), который обозначает тот или иной элемент, появляющийся в исходном документе в данной позиции: перенос строки, изображение, поле ввода и т. д.
 
    ![](../_img/omt-tags-types-standalone-02.png)
 
-- **Paired tags** are composed of an opening tag and a closing tag (e.g. **<g2>**{ .omttag } and **</g2>**{ .omttag }) and affect the text between them. You can see that two tags are paired when they have the same number.
+- **Парные теги** состоят из открывающего и закрывающего тегов (например, **<g2>**{ .omttag } и **</g2>**{ .omttag }) и применяются к тексту между ними. Парные теги можно определить по тому, что в них использовано одинаковое число.
 
    ![](../_img/omt-tags-types-paired.png)
 
@@ -14,21 +14,20 @@ There are two types of tags: standalone tags and paired tags or double tags:
    <!-- ![](../_img/omt-tags-types-labels.png) -->
    <!-- @todo: png, use example of same text in source and corresponding translation with tags aruond the same -->
 
-When the source text contains **paired tags** around a word or expression, you must insert the same paired tags around the part of the translation that corresponds to the formatted word or expression in the source text.
+Если исходный текст содержит **парные теги** вокруг слова или выражения, необходимо вставить такие же парные теги вокруг соответствующего слова или выражения в переводе.
 
-For example, here the paired tags represent some formatting that applies to the word "after" and its translation "après".
+В приведенном ниже примере парные теги представляют собой форматирование, применяемое к слову «после» и его переводу «après».
 
-> <b>I came to this school **<g1>**{ .omttag }after**</g1>**{ .omttag } the start of this school year.</b><br/>
+> Я пришел в эту школу **<g1>**{ .omttag }после**</g1>**{ .omttag } начала этого учебного года.
 > Je suis venu à cette école **<g1>**{ .omttag }après**</g1>**{ .omttag } le début de cette année scolaire.
 
-When the source text contains one or more **standalone tags**, you must insert them in the translation in a position that is equivalent to their position in the source text.
+Если исходный текст содержит один или несколько **отдельных тегов**, их необходимо вставить в перевод в положении, эквивалентном их положению в оригинале.
 
 <!--
 >> Write your answer in numerals in the box.<br/>
 > Écrivez votre réponse en chiffres dans la boîte.
 -->
 
-In the following example, the standalone tag represents a text entry field where the respondent will have to select a number:
+В следующем примере отдельный тег представляет собой поле для ввода текста, в котором респондент должен выбрать число:
 
-> <b>**<x1/>**{ .omttag } hours</b><br/> 
-> **<x1/>**{ .omttag } heures
+> <b>**<x1/>**{ .omttag } hours</b><br/> > **<x1/>**{ .omttag } heures

@@ -1,4 +1,4 @@
-# QA checks
+# Проверки качества (QA)
 
 <!-- section: qa comp -->
 {% include 'omt-qa-comp.md' %}

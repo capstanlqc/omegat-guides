@@ -1,17 +1,17 @@
-## Running concordance searches
+## Поиск соответствий
 
-A concordance search allows you to find words and expressions in the translation memory and the glossary.
+Поиск соответствий позволяет находить слова и выражения в памяти переводов и глоссарии.
 
-To perform a search follow the steps below:
+Для выполнения поиска необходимы следующие действия:
 
-- In the active segment, select the word or fragment you want to search for with your mouse.
-- While that part of the text is selected, press ++ctrl+f++ on your keyboard.
-- Press the **Search** button in the **Search** window that will open.
+- В активном сегменте выделите мышью слово или фрагмент текста, который вы хотите найти.
+- Не снимая выделения текста, нажмите на клавиатуре ++ctrl+f++.
+- Нажмите кнопку **Search** (Поиск) в открывшемся окне **Search** (Поиск текста).
 
-The list results will be displayed. You can copy (select with mouse and press ++ctrl+c++ on your keyboard) what you need from the results and paste it in the right place in the translation.
+В окне появится список результатов. Вы можете скопировать (выделить мышью и нажать на клавиатуре ++ctrl+c++) требуемый фрагмент текста в показанных результатах и вставить в нужное место в переводе.
 
 ![](../_img/38_concordance_search.jpg)
 
 <!-- prettier-ignore -->
-!!! note
-    There might be small differences (in punctuation, spacing, etc.) between the text you're searching for and other occurrences of the same text that would prevent an _exact match_. The option "Keyword search" might help overcome that problem, please use it if you don't get the results you were expecting.
+!!! Примечание
+    Между текстом, который вы ищете, и другими вариантами того же текста могут быть небольшие различия (в пунктуации, пробелах и т. д.), которые не позволят получить _точное совпадение_. Опция «Keyword search» (По ключевым словам) позволяет обойти это ограничение. Используйте ее, если точный поиск не дал ожидаемых результатов.
