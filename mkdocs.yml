@@ -260,6 +260,7 @@ theme:
     - navigation.top
     - navigation.sections
     - navigation.tabs
+    - navigation.footer
     #- navigation.tabs.sticky
     - navigation.expand
     - navigation.path
