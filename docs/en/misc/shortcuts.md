@@ -1,3 +1,3 @@
 # Keyboard shortcuts
 
-{% include 'cheatsheet.md' %}
+{% include 'en/cheatsheet.md' %}

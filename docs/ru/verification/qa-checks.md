@@ -1,3 +1,3 @@
 <!-- section: qa -->
 
-{% include 'omt-qa.md' %}
+{% include 'ru/omt-qa.md' %}

@@ -1,5 +1,5 @@
 <!-- section: tags (tra) -->
 
-{% include 'omt-rec-tags.md' %}
+{% include 'ru/omt-rec-tags.md' %}
 
 

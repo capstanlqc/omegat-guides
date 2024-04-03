@@ -1,5 +1,5 @@
 <!-- section: mk tgt -->
 
-{% include 'omt-pack.md' %}
+{% include 'ru/omt-pack.md' %}
 
 

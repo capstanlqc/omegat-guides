@@ -1,5 +1,5 @@
 <!-- section: navigation -->
 
-{% include 'omt-nav.md' %}
+{% include 'ru/omt-nav.md' %}
 
 

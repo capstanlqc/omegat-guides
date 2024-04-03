@@ -316,7 +316,7 @@ plugins:
       tags_file: en/misc/tags.md
   - mkdocs-video
   - macros:
-      include_dir: docs/en/_includes
+      include_dir: docs/_includes
       # verbose: true
       # https://github.com/mondeja/mkdocs-include-markdown-plugin
       # https://github.com/cmacmackin/markdown-include
