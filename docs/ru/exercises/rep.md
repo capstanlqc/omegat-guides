@@ -3,10 +3,10 @@
 <!-- prettier-ignore -->
 ??? Abstract "The relevant section in the guides..."
     See the relevant section in your guide:
-    [Translation](../translation/repetitions.md){:target="_blank" .md-button }
-    [Reconciliation](../reconciliation/repetitions.md){:target="_blank" .md-button }
-    [Adaptation](../adaptation/repetitions.md){:target="_blank" .md-button }
-    [Verification](../verification/repetitions.md){:target="_blank" .md-button }
+    [Перевод](../translation/repetitions.md){:target="_blank" .md-button }
+    [Согласование](../reconciliation/repetitions.md){:target="_blank" .md-button }
+    [Адаптация](../adaptation/repetitions.md){:target="_blank" .md-button }
+    [Верификация](../verification/repetitions.md){:target="_blank" .md-button }
 
 ---
 
@@ -61,7 +61,7 @@
 <!-- add link in the guide to the shortcuts page when we mention a shortcut -->
 
 <!-- prettier-ignore -->
-!!! tip
+!!! Совет
     Shortcut ++ctrl+s++ saves the translation. You can also save in **Project** > **Save**, but using the mouse takes longer ;)
 
 <!-- add this tip to the guides -->

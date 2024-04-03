@@ -1,3 +1,3 @@
-# Keyboard shortcuts
+# Сочетания клавиш
 
 {% include 'cheatsheet.md' %}

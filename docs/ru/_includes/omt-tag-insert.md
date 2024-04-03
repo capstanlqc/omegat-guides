@@ -1,4 +1,4 @@
-## Inserting tags
+## Вставка тегов
 
 Before inserting tags you must know whether it is a standalone tag or two paired tags.
 

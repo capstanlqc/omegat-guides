@@ -1,12 +1,12 @@
-# Accessing a project
+# Доступ к проекту
 
 <!-- prettier-ignore -->
-!!! tip
-    Please give some thought to the organization of your files and folders before you proceed with the steps below. We provide some tips [here](../misc/tips.md#file-organization){:target="\_blank"}.
+!!! Совет
+    Прежде чем приступить к выполнению описанных ниже действий, продумайте организацию ваших файлов и папок. Несколько рекомендаций можно найти [здесь](../misc/tips.md#file-organization){:target="\_blank"}.
 
 <!-- @todo: add file organization tips -->
 
-## Accessing a new project
+## Доступ к новому проекту
 
 There are two ways you may access a project for the first time, depending on whether it is an **online project** (or _team project_) or an **offline project**.
 
@@ -18,11 +18,11 @@ If you're not sure whether your project is online or offline, it's very easy: if
 
 | You receive | Project is |
 | --------------- | --------------- |
-| OMT file | offline/package |
+| Файл OMT | offline/package |
 | URL to git repo | online/team |
 
 <!-- prettier-ignore -->
-!!! caution
+!!! Предупреждение
     Unpacking or downloading an OmegaT project (depending on the distribution mode) needs to be done _only once_ for each project. After you have unpacked or downloaded a project, you can simply [re-open it from the list of recent projects](#re-opening-an-existing-project).
 
 <!-- @todo: " If you unpack the OMT file again, you might overwrite your changes and lose your work." to be tested... -->
@@ -140,5 +140,5 @@ The next times you want to access the project in OmegaT, go to **Project** > **O
 ![](../_img/04_open_recent_project.jpg)
 
 <!-- prettier-ignore -->
-!!! note
+!!! Примечание
     Make sure the disctinction between _opening_ a **recent** project and _downloading_ or _unpacking_ a **new** project (depending on the distribution mode) is clear. You can open a project that already exists only after you have already unpacked it or downloaded it. In turn, you only need to download or unpack (once) a project that doesn't exist yet in your machine.

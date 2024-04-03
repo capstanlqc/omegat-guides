@@ -1,6 +1,6 @@
-# Matches
+# Нечеткие совпадения
 
-Translations are saved in the working TM of the project. When you open a segment that is similar to one that has already been translated, you will see translation suggestions (or matches) appearing in the **Matches** pane.
+Переводы сохраняются в рабочей памяти переводов проекта. При открытии сегмента, похожего на уже переведенный, на панели **Matches** (Нечеткие совпадения) появляются предложения по переводу (или совпадения).
 
 The source text in the **Matches** pane uses “track changes” mode to show the differences (e.g. {~~old~>new~~}) between the new source text in the active segment and the source text in the fuzzy match selected.
 

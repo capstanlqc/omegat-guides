@@ -1,12 +1,12 @@
-# 09. QA checks
+# 09. Проверки качества (QA)
 
 <!-- prettier-ignore -->
 ??? Abstract "The relevant section in the guides..."
     See the relevant section in your guide:
-    [Translation](../translation/qa-checks.md){:target="_blank" .md-button }
-    [Reconciliation](../reconciliation/qa-checks.md){:target="_blank" .md-button }
-    [Adaptation](../adaptation/qa-checks.md){:target="_blank" .md-button }
-    [Verification](../verification/qa-checks.md){:target="_blank" .md-button }
+    [Перевод](../translation/qa-checks.md){:target="_blank" .md-button }
+    [Согласование](../reconciliation/qa-checks.md){:target="_blank" .md-button }
+    [Адаптация](../adaptation/qa-checks.md){:target="_blank" .md-button }
+    [Верификация](../verification/qa-checks.md){:target="_blank" .md-button }
 
 ---
 
@@ -45,7 +45,7 @@ Old stuff
 <!-- QA checks for verifiers: they should not uncheck spelling (at least)... -->
 
 <!-- prettier-ignore -->
-!!! tip
+!!! Совет
     If you're not sure how to fix a tag issue during a production task, please request support through the Helpdesk.
 
 ## Exercise 09.2: check completion
@@ -55,9 +55,9 @@ Old stuff
 3. Notice whether the project is fully translated.
 
 <!-- prettier-ignore -->
-!!! tip
+!!! Совет
     If you see a number higher than zero in the **Remaining** row(s), that means that there are still some remaining untranslated segments. All segments should be translated before you can finalize your task.
 
 <!-- prettier-ignore -->
-!!! tip
+!!! Совет
     Press ++ctrl+u++ to go to the next _untranslated_ segment.

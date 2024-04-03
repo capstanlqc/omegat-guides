@@ -1,4 +1,4 @@
-# 01. Navigation
+# 01. Навигация
 <!--
 - Ctrl+U
 - Enter / Ctrl+Enter
@@ -45,7 +45,7 @@ to avoid directing the user to later in the project ...
 
 7. Notice that you have jumped segment #5, which is already translated (in pink).
 
-!!! tip
+!!! Совет
     when you tranlsate: ctrl+u  
     when you review: enter
 

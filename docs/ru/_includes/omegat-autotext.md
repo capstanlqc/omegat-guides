@@ -1,6 +1,6 @@
-| Shorcut | Character | Description |
+| Сочетание клавиш | Символ | Описание |
 |-----|-----|-----|
-| `\lq` | “ | upper left double quotation mark (U+201C) |
+| `\lq` | “ | верхняя левая двойная кавычка (U+201C) |
 | `\rq` | ” | upper right double quotation mark (U+201D) |
 | `\lolq` | „ | lower left (low-9) double quotation mark (U+201E) |
 | `<< ` | « | left-pointing double angle quotation mark (U+00AB) |
@@ -45,21 +45,21 @@
 | `\pm` | ± | plus or minus |
 | `\le` | ≤ | less than or equal to |
 | `\ge` | ≥ | greater than or equal to |
-| `\ne` | ≠ | does not equal |
-| `\approx` | ≈ | approximately equal to |
-| `\emptyset` | ∅ | empty set |
-| `\sqrt` | √ | square root (U+221A) |
-| `\deg` | ° | degree |
-| `\infty` | ∞ | infinity |
-| `\copyright` | © | copyright symbol |
-| `\smalle` | ᵉ | modifier letter small e (U+1D49) |
-| `\Omegat` | Ω | Greek capital letter omega / Ohm |
-| `\pound` | £ | pound currency |
-| `\euro` | € | euro currency |
-| `\cent` | ¢ | cent (U+00A2) |
-| `\yen` | ¥ | yen (U+00A5) |
-| `\ordf` | ª | feminine ordinal indicator (U+00AA) |
-| `\ordm` | º | masculine ordinal indicator (U+00BA) |
+| `\ne` | ≠ | не равно |
+| `\approx` | ≈ | приблизительно равно |
+| `\emptyset` | ∅ | пустое множество |
+| `\sqrt` | √ | квадратный корень (U+221A) |
+| `\deg` | ° | градус |
+| `\infty` | ∞ | бесконечность |
+| `\copyright` | © | символ авторского права |
+| `\smalle` | ᵉ | буква-модификатор строчная e (U+1D49) |
+| `\Omegat` | Ω | греческая заглавная буква омега / Ом |
+| `\pound` | £ | знак фунта стерлингов |
+| `\euro` | € | знак евро |
+| `\cent` | ¢ | знак цента (U+00A2) |
+| `\yen` | ¥ | знак йены (U+00A5) |
+| `\ordf` | ª | порядковый показатель женского рода (U+00AA) |
+| `\ordm` | º | порядковый показатель мужского рода (U+00BA) |
 | `\shy` | ­ | soft hyphen (U+00AD) |
 | `\micro` | µ | micro (U+00B5) |
 | `\not` | ¬ | not sign (U+00AC) |
@@ -114,5 +114,5 @@
 | `\sub6` | ₆ | subscript 6 (U+2086) |
 | `\sub7` | ₇ | subscript 7 (U+2087) |
 | `\sub8` | ₈ | subscript 8 (U+2088) |
-| `\sub9` | ₉ | subscript 9 (U+2089) |
+| `\sub9` | ₉ | 9, нижний индекс (U+2089) |
 | `\subs` | ₛ | subscript s (U+209B) |

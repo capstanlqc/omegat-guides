@@ -1,12 +1,12 @@
-# 02. Matches
+# 02. Нечеткие совпадения
 
 <!-- prettier-ignore -->
 ??? Abstract "The relevant section in the guides..."
     See the relevant section in your guide:
-    [Translation](../translation/matches.md){:target="_blank" .md-button }
-    [Reconciliation](../reconciliation/matches.md){:target="_blank" .md-button }
-    [Adaptation](../adaptation/matches.md){:target="_blank" .md-button }
-    [Verification](../verification/matches.md){:target="_blank" .md-button }
+    [Перевод](../translation/matches.md){:target="_blank" .md-button }
+    [Согласование](../reconciliation/matches.md){:target="_blank" .md-button }
+    [Адаптация](../adaptation/matches.md){:target="_blank" .md-button }
+    [Верификация](../verification/matches.md){:target="_blank" .md-button }
 
 ---
 

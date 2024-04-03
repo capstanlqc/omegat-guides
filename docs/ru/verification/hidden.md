@@ -1,3 +1,3 @@
-# Hidden
+# Скрытый текст
 
-This is a hidden page.
+Это скрытая страница.
