@@ -9,7 +9,7 @@
 
 Этот раздел предназначен для пользователей, на компьютере которых уже установленна предыдущая версия OmegaT (например, 5.7.1 или 4.2.0). Для обновления конфигурации программы выполните шаги, приведенные ниже.
 
-1. Run OmegaT and go to **Tools** > **Scripting** to open your scripting console, In OmegaT 5.7.1, please open the scripting console. Проверьте, есть ли у вас скрипт под названием **Update Customisation Bundle (v572)**:
+1. Запустите OmegaT и перейдите в меню **Tools** (Инструменты) > **Scripting** (Скрипты), чтобы открыть консоль скриптов. В OmegaT 5.7.1 откройте консоль скриптов. Проверьте, есть ли у вас скрипт под названием **Update Customisation Bundle (v572)**:
 
    !!! Предупреждение
        Если в названии нет фрагмента **v572**, то это не тот скрипт, который нам нужен. В следующем шаге описано, где взять этот скрипт.
@@ -22,7 +22,7 @@
 
 2. Нажмите правой кнопкой мыши на кнопку ниже и выберите «Сохранить как», чтобы загрузить скрипт конфигурации (например, на рабочий стол)7
 
-   [:material-download: Скачать UpdateConfigBundle.groovy](https://cat.capstan.be/OmegaT/v572/customization/scripts/updateConfigBundle.groovy){ .md-button .md-button--primary }
+   [📥 Скачать UpdateConfigBundle.groovy](https://cat.capstan.be/OmegaT/v572/customization/scripts/updateConfigBundle.groovy){ .md-button .md-button--primary }
 
 3. В главном окне OmegaT выполните следующие действия для запуска скаченного скрипта конфигурации:
 
@@ -44,7 +44,7 @@
 
 1. Нажмите на кнопку ниже, чтобы загрузить OmegaT 5.7.2. Это специальная версия, подготовленная компанией cApStAn. Она включает в себя несколько исправлений ошибок и улучшений, недоступных в других версиях.
 
-   [:material-download: Загрузить OmegaT 5.7.2](https://cat.capstan.be/OmegaT/exe/OmegaT_5.7.2_Mac.zip){ .md-button .md-button--primary }
+   [📥 Скачать OmegaT 5.7.2](https://cat.capstan.be/OmegaT/exe/OmegaT_5.7.2_Mac.zip){ .md-button .md-button--primary }
 
 2. Если вы используете Safari, то по окончании загрузки файл будет распакован автоматически. Если вы используете другой браузер, то для распаковки файла вам нужно дважды щелкнуть на нем по окончании загрузки.
 
@@ -53,14 +53,14 @@
 4. Перетащите файл **OmegaT.app** в папку **Applications** (Приложения).
 
 <div data-block-type="video" style="width: 480px; height: 304px; left: 400px; top: 326px;">
-    <div class="sl-block-content" style="z-index: 10;" data-media-id="8242406" data-video-thumb="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/Sjlk4rKG/1kx16dhvq0_thumb_00001.jpg"><video playsinline="" controls="controls" poster="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/Sjlk4rKG/1kx16dhvq0_thumb_00001.jpg" data-paused-by-reveal="" data-lazy-loaded="" src="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/Sjlk4rKG/1kx16dhvq0.mp4"></video></div>
+     <div class="sl-block-content" style="z-index: 10;" data-media-id="8242406" data-video-thumb="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/Sjlk4rKG/1kx16dhvq0_thumb_00001.jpg"><video playsinline="" controls="controls" poster="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/Sjlk4rKG/1kx16dhvq0_thumb_00001.jpg" data-paused-by-reveal="" data-lazy-loaded="" src="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/Sjlk4rKG/1kx16dhvq0.mp4"></video></div>
 </div>
 
 5. Теперь OmegaT установлена. Перейдите в папку **Applications** (Приложения) и откройте находящееся там приложение **OmegaT.app**.
 6. macOS может запросить подтверждение того, что вы действительно хотите запустить приложение. Если это произойдет, нажмите **Open** (Открыть). Далее запустится OmegaT.
 
 <div data-block-type="video" style="width: 480px; height: 304px; left: 400px; top: 326px;" >
-    <div class="sl-block-content" style="z-index: 10;" data-media-id="8242392" data-video-thumb="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/eXYV2O_T/oiepooibjr_thumb_00001.jpg"><video playsinline="" controls="controls" poster="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/eXYV2O_T/oiepooibjr_thumb_00001.jpg" data-lazy-loaded="" data-paused-by-reveal="" src="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/eXYV2O_T/oiepooibjr.mp4"></video></div>
+     <div class="sl-block-content" style="z-index: 10;" data-media-id="8242392" data-video-thumb="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/eXYV2O_T/oiepooibjr_thumb_00001.jpg"><video playsinline="" controls="controls" poster="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/eXYV2O_T/oiepooibjr_thumb_00001.jpg" data-lazy-loaded="" data-paused-by-reveal="" src="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/eXYV2O_T/oiepooibjr.mp4"></video></div>
 </div>
 
 7. Если вы хотите выполнить проверку после установки, чтобы убедиться, действительно ли у вас установлена правильная версия, вы можете проверить это в меню **Help** (Справка) > **About** (О программе) > **Copy Support Info** (Копировать информацию для поддержки). Вы должны увидеть:
