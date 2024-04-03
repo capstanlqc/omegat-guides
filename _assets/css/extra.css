@@ -8,9 +8,9 @@
   --md-accent-fg-color: #025B5B;
 }
 
-a.md-nav__link[href*="/ru/"] {
+/* a.md-nav__link[href*="/ru/"] {
   display: none;
-}
+} */
 
 
 .md-grid {
