@@ -4,6 +4,15 @@
   --md-primary-fg-color--dark:  #025B5B;
 }
 
+[data-md-color-accent="indigo"] {
+  --md-accent-fg-color: #025B5B;
+}
+
+a.md-nav__link[href*="/ru/"] {
+  display: none;
+}
+
+
 .md-grid {
   max-width: 1440px; 
 }
@@ -17,7 +26,7 @@ table colgroup col {
 }
 
 .md-tabs,
-/* .md-copyright, */
+.md-copyright,
 a.md-footer__link--next[aria-label="Next: Introduction"], 
 a.md-footer__link--prev[aria-label="Previous: Tags"],
 .md-nav__icon
