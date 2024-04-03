@@ -1,4 +1,4 @@
-# 04. Tags
+# 04. Теги
 
 !!! tip "Reminder"
     Section in the guides about [Tags](https://capstanlqc.github.io/omegat-guides/translation/tags/).
@@ -63,7 +63,7 @@ Well done!
 
    > The tooltips should show `{{object1}}` and `{{object2}}`
 
-!!! warning
+!!! Предупреждение
     The difference between two standalone tags and two paired tags is very important.
 
 ## Exercise 04.4: insert standalone tags

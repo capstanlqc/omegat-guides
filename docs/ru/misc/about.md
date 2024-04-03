@@ -1,12 +1,12 @@
-# About
+# Кто есть кто
 
 ## OmegaT
 
-team
+команда
 
 ## cApStAn
 
 bar
-## cApStAn tech team
+## Техническая команда cApStAn
 
 baz

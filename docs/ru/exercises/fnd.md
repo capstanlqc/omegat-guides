@@ -3,10 +3,10 @@
 <!-- prettier-ignore -->
 ??? Abstract "The relevant section in the guides..."
     See the relevant section in your guide:
-    [Translation](../translation/other-useful-features.md#running-concordance-searches){:target="_blank" .md-button }
-    [Reconciliation](../reconciliation/other-useful-features.md#running-concordance-searches){:target="_blank" .md-button }
-    [Adaptation](../adaptation/other-useful-features.md#running-concordance-searches){:target="_blank" .md-button }
-    [Verification](../verification/other-useful-features.md#running-concordance-searches){:target="_blank" .md-button }
+    [Перевод](../translation/other-useful-features.md#running-concordance-searches){:target="_blank" .md-button }
+    [Согласование](../reconciliation/other-useful-features.md#running-concordance-searches){:target="_blank" .md-button }
+    [Адаптация](../adaptation/other-useful-features.md#running-concordance-searches){:target="_blank" .md-button }
+    [Верификация](../verification/other-useful-features.md#running-concordance-searches){:target="_blank" .md-button }
 
 ---
 

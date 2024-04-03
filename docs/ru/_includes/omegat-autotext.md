@@ -1,6 +1,6 @@
-| Shorcut | Character | Description |
+| Сокращение | Символ | Описание |
 |-----|-----|-----|
-| `\lq` | “ | upper left double quotation mark (U+201C) |
+| `\lq` | “ | верхняя левая двойная кавычка (U+201C) |
 | `\rq` | ” | upper right double quotation mark (U+201D) |
 | `\lolq` | „ | lower left (low-9) double quotation mark (U+201E) |
 | `<< ` | « | left-pointing double angle quotation mark (U+00AB) |
@@ -45,21 +45,21 @@
 | `\pm` | ± | plus or minus |
 | `\le` | ≤ | less than or equal to |
 | `\ge` | ≥ | greater than or equal to |
-| `\ne` | ≠ | does not equal |
-| `\approx` | ≈ | approximately equal to |
-| `\emptyset` | ∅ | empty set |
-| `\sqrt` | √ | square root (U+221A) |
-| `\deg` | ° | degree |
-| `\infty` | ∞ | infinity |
-| `\copyright` | © | copyright symbol |
-| `\smalle` | ᵉ | modifier letter small e (U+1D49) |
-| `\Omegat` | Ω | Greek capital letter omega / Ohm |
-| `\pound` | £ | pound currency |
-| `\euro` | € | euro currency |
-| `\cent` | ¢ | cent (U+00A2) |
-| `\yen` | ¥ | yen (U+00A5) |
-| `\ordf` | ª | feminine ordinal indicator (U+00AA) |
-| `\ordm` | º | masculine ordinal indicator (U+00BA) |
+| `\ne` | ≠ | не равно |
+| `\approx` | ≈ | приблизительно равно |
+| `\emptyset` | ∅ | пустое множество |
+| `\sqrt` | √ | квадратный корень (U+221A) |
+| `\deg` | ° | градус |
+| `\infty` | ∞ | бесконечность |
+| `\copyright` | © | символ авторского права |
+| `\smalle` | ᵉ | буква-модификатор строчная e (U+1D49) |
+| `\Omegat` | Ω | греческая заглавная буква омега / Ом |
+| `\pound` | £ | знак фунта стерлингов |
+| `\euro` | € | знак евро |
+| `\cent` | ¢ | знак цента (U+00A2) |
+| `\yen` | ¥ | знак йены (U+00A5) |
+| `\ordf` | ª | порядковый показатель женского рода (U+00AA) |
+| `\ordm` | º | порядковый показатель мужского рода (U+00BA) |
 | `\shy` | ­ | soft hyphen (U+00AD) |
 | `\micro` | µ | micro (U+00B5) |
 | `\not` | ¬ | not sign (U+00AC) |
@@ -108,11 +108,11 @@
 | `\sub0` | ₀ | subscript 0 (U+2080) |
 | `\sub1` | ₁ | subscript 1 (U+2081) |
 | `\sub2` | ₂ | subscript 2 (U+2082) |
-| `\sub3` | ₃ | subscript 3 (U+2083) |
-| `\sub4` | ₄ | subscript 4 (U+2084) |
-| `\sub5` | ₅ | subscript 5 (U+2085) |
-| `\sub6` | ₆ | subscript 6 (U+2086) |
-| `\sub7` | ₇ | subscript 7 (U+2087) |
-| `\sub8` | ₈ | subscript 8 (U+2088) |
-| `\sub9` | ₉ | subscript 9 (U+2089) |
+| `\sub3` | ₃ | подстрочная 3 (U+2083) |
+| `\sub4` | ₄ | подстрочная 4 (U+2084) |
+| `\sub5` | ₅ | подстрочная 5 (U+2085) |
+| `\sub6` | ₆ | подстрочная 6 (U+2086) |
+| `\sub7` | ₇ | подстрочная 7 (U+2087) |
+| `\sub8` | ₈ | подстрочная 8 (U+2088) |
+| `\sub9` | ₉ | подстрочная 9 (U+2089) |
 | `\subs` | ₛ | subscript s (U+209B) |

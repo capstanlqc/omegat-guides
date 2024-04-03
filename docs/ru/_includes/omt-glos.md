@@ -1,4 +1,4 @@
-# Using the glossary
+# Использование глоссария
 
 OmegaT supports glossaries. Your project may already contain a glossary with key terms, but you can also add terms to the glossary yourself.
 

@@ -1,111 +1,110 @@
-nav:
-  - Contents: ru/index.md
-  - Translation guide:
-      - Translation: ru/translation/index.md
-      - Installation and setup: ru/translation/install-and-setup.md
-      - Accessing a project: ru/translation/accessing-the-project.md
-      - ru/translation/navigation.md
-      - ru/translation/tags.md
-      - ru/translation/matches.md
-      - ru/translation/glossary.md
-      - ru/translation/repetitions.md
-      - ru/translation/other-useful-features.md
-      - QA checks: ru/translation/qa-checks.md
-      - ru/translation/creating-target-files.md
-      - ru/translation/creating-your-deliverable.md
-      - ru/translation/shortcuts.md
-  - Reconciliation guide:
-      - Reconciliation: ru/reconciliation/index.md
-      - Installation and setup: ru/reconciliation/install-and-setup.md
-      - Accessing a project: ru/reconciliation/accessing-the-project.md
-      - ru/reconciliation/navigation.md
-      - ru/reconciliation/tags.md
-      - ru/reconciliation/matches.md
-      - ru/reconciliation/glossary.md
-      - ru/reconciliation/repetitions.md
-      - ru/reconciliation/other-useful-features.md
-      - QA checks: ru/reconciliation/qa-checks.md
-      - ru/reconciliation/creating-target-files.md
-      - ru/reconciliation/creating-your-deliverable.md
-      - ru/reconciliation/shortcuts.md
-  - Adaptation guide:
-      - Adaptation: ru/adaptation/index.md
-      - Installation and setup: ru/adaptation/install-and-setup.md
-      - Accessing a project: ru/adaptation/accessing-the-project.md
-      - ru/adaptation/navigation.md
-      - ru/adaptation/tags.md
-      - ru/adaptation/matches.md
-      - ru/adaptation/glossary.md
-      - ru/adaptation/repetitions.md
-      - ru/adaptation/other-useful-features.md
-      - QA checks: ru/adaptation/qa-checks.md
-      - ru/adaptation/creating-target-files.md
-      - ru/adaptation/creating-your-deliverable.md
-      - ru/adaptation/shortcuts.md
-  - Verification guide:
-      - Verification: ru/verification/index.md
-      - Installation and setup: ru/verification/install-and-setup.md
-      - Accessing a project: ru/verification/accessing-the-project.md
-      - ru/verification/navigation.md
-      - ru/verification/editing.md
-      - ru/verification/tags.md
-      - ru/verification/matches.md
-      - ru/verification/glossary.md
-      - ru/verification/repetitions.md
-      - ru/verification/other-useful-features.md
-      - QA checks: ru/verification/qa-checks.md
-      - ru/verification/creating-target-files.md
-      - ru/verification/creating-your-deliverable.md
-      - ru/verification/shortcuts.md
-  - Editing guide:
-      - Editing: ru/editing/index.md
-      - Installation and setup: ru/editing/install-and-setup.md
-      - Accessing a project: ru/editing/accessing-the-project.md
-      - ru/editing/navigation.md
-      - ru/editing/tags.md
-      - ru/editing/matches.md
-      - ru/editing/glossary.md
-      - ru/editing/repetitions.md
-      - ru/editing/other-useful-features.md
-      - QA checks: ru/editing/qa-checks.md
-      - ru/editing/creating-target-files.md
-      - ru/editing/creating-your-deliverable.md
-      - ru/editing/shortcuts.md
-  - Review guide:
-      - Review: ru/review/index.md
-      - Installation and setup: ru/review/install-and-setup.md
-      - Accessing a project: ru/review/accessing-the-project.md
-      - ru/review/navigation.md
-      - ru/review/tags.md
-      - ru/review/matches.md
-      - ru/review/glossary.md
-      - ru/review/repetitions.md
-      - ru/review/other-useful-features.md
-      - QA checks: ru/review/qa-checks.md
-      - ru/review/creating-target-files.md
-      - ru/review/creating-your-deliverable.md
-      - ru/review/shortcuts.md
-  - Exercises:
-      - Getting started: ru/exercises/index.md
-      - 01 - Navigation: ru/exercises/nav.md
-      - 02 - Matches: ru/exercises/mat.md
-      - 03 - Reconciliation: ru/exercises/rec.md
-      - 04 - Tags: ru/exercises/tag.md
-      - 05 - Repetitions: ru/exercises/rep.md
-      - 06 - Alternative translations: ru/exercises/alt.md
-      - 07 - Special characters: ru/exercises/aut.md
-      - 08 - Search: ru/exercises/fnd.md
-      - 09 - QA checks: ru/exercises/qac.md
-      - 10 - Team projects: ru/exercises/tgt.md
-  - Miscellanea:
-      - Miscellanea: ru/misc/index.md
-      - IT security: ru/misc/security.md
-      - Videos: ru/misc/videos.md
-      - Autotext: ru/misc/autotext.md
-      - Shortcuts: ru/misc/shortcuts.md
-      - Bidirectionality: ru/misc/bidi.md
-      - Fonts: ru/misc/fonts.md
-      - FAQ: ru/misc/faq.md
-      - Tips and tricks: ru/misc/tips.md
-      - Auxiliary tools: ru/misc/aux.md
-      - About: ru/misc/about.md
+- Содержание: ru/index.md
+- Руководство по переводу:
+    - Перевод: ru/translation/index.md
+    - Установка и настройка: ru/translation/install-and-setup.md
+    - Доступ к проекту: ru/translation/accessing-the-project.md
+    - Навигация: ru/translation/navigation.md
+    - Теги: ru/translation/tags.md
+    - Нечеткие совпадения: ru/translation/matches.md
+    - Глоссарий: ru/translation/glossary.md
+    - Повторы: ru/translation/repetitions.md
+    - Другие полезные функции: ru/translation/other-useful-features.md
+    - Проверки качества (QA): ru/translation/qa-checks.md
+    - Создание переведенных файлов: ru/translation/creating-target-files.md
+    - Создание готовых материалов: ru/translation/creating-your-deliverable.md
+    - Сочетания клавиш: ru/translation/shortcuts.md
+- Руководство по согласованию перевода:
+    - Согласование перевода: ru/reconciliation/index.md
+    - Установка и настройка: ru/reconciliation/install-and-setup.md
+    - Доступ к проекту: ru/reconciliation/accessing-the-project.md
+    - Навигация: ru/reconciliation/navigation.md
+    - Теги: ru/reconciliation/tags.md
+    - Нечеткие совпадения: ru/reconciliation/matches.md
+    - Глоссарий: ru/reconciliation/glossary.md
+    - Повторы: ru/reconciliation/repetitions.md
+    - Другие полезные функции: ru/reconciliation/other-useful-features.md
+    - Проверки качества (QA): ru/reconciliation/qa-checks.md
+    - Создание переведенных файлов: ru/reconciliation/creating-target-files.md
+    - Создание готовых материалов: ru/reconciliation/creating-your-deliverable.md
+    - Сочетания клавиш: ru/reconciliation/shortcuts.md
+- Руководство по адаптации перевода:
+    - Адаптация: ru/adaptation/index.md
+    - Установка и настройка: ru/adaptation/install-and-setup.md
+    - Доступ к проекту: ru/adaptation/accessing-the-project.md
+    - Навигация: ru/adaptation/navigation.md
+    - Теги: ru/adaptation/tags.md
+    - Нечеткие совпадения: ru/adaptation/matches.md
+    - Глоссарий: ru/adaptation/glossary.md
+    - Повторы: ru/adaptation/repetitions.md
+    - Другие полезные функции: ru/adaptation/other-useful-features.md
+    - Проверки качества (QA): ru/adaptation/qa-checks.md
+    - Создание переведенных файлов: ru/adaptation/creating-target-files.md
+    - Создание готовых материалов: ru/adaptation/creating-your-deliverable.md
+    - Сочетания клавиш: ru/adaptation/shortcuts.md
+- Руководство по верификация перевода:
+    - Верификация: ru/verification/index.md
+    - Установка и настройка: ru/verification/install-and-setup.md
+    - Доступ к проекту: ru/verification/accessing-the-project.md
+    - Навигация: ru/verification/navigation.md
+    - Редактирование: ru/verification/editing.md
+    - Теги: ru/verification/tags.md
+    - Нечеткие совпадения: ru/verification/matches.md
+    - Глоссарий: ru/verification/glossary.md
+    - Повторы: ru/verification/repetitions.md
+    - Другие полезные функции: ru/verification/other-useful-features.md
+    - Проверки качества (QA): ru/verification/qa-checks.md
+    - Создание переведенных файлов: ru/verification/creating-target-files.md
+    - Создание готовых материалов: ru/verification/creating-your-deliverable.md
+    - Сочетания клавиш: ru/verification/shortcuts.md
+- Руководство по редактированию перевода:
+    - Редактирование: ru/editing/index.md
+    - Установка и настройка: ru/editing/install-and-setup.md
+    - Доступ к проекту: ru/editing/accessing-the-project.md
+    - Навигация: ru/editing/navigation.md
+    - Теги: ru/editing/tags.md
+    - Нечеткие совпадения: ru/editing/matches.md
+    - Глоссарий: ru/editing/glossary.md
+    - Повторы: ru/editing/repetitions.md
+    - Другие полезные функции: ru/editing/other-useful-features.md
+    - Проверки качества (QA): ru/editing/qa-checks.md
+    - Создание переведенных файлов: ru/editing/creating-target-files.md
+    - Создание готовых материалов: ru/editing/creating-your-deliverable.md
+    - Сочетания клавиш: ru/editing/shortcuts.md
+- Руководство по рецензированию перевода:
+    - Рецензирование: ru/review/index.md
+    - Установка и настройка: ru/review/install-and-setup.md
+    - Доступ к проекту: ru/review/accessing-the-project.md
+    - Навигация: ru/review/navigation.md
+    - Теги: ru/review/tags.md
+    - Нечеткие совпадения: ru/review/matches.md
+    - Глоссарий: ru/review/glossary.md
+    - Повторы: ru/review/repetitions.md
+    - Другие полезные функции: ru/review/other-useful-features.md
+    - Проверки качества (QA): ru/review/qa-checks.md
+    - Создание переведенных файлов: ru/review/creating-target-files.md
+    - Создание готовых материалов: ru/review/creating-your-deliverable.md
+    - Сочетания клавиш: ru/review/shortcuts.md
+- Упражнения:
+    - Начало работы: ru/exercises/index.md
+    - 01 - Навигация: ru/exercises/nav.md
+    - 02 - Нечеткие совпадения: ru/exercises/mat.md
+    - 03 - Согласование перевода: ru/exercises/rec.md
+    - 04 - Теги: ru/exercises/tag.md
+    - 05 - Повторы: ru/exercises/rep.md
+    - 06 - Альтернативные переводы: ru/exercises/alt.md
+    - 07 - Специальные символы: ru/exercises/aut.md
+    - 08 - Поиск: ru/exercises/fnd.md
+    - 09 - Проверки качества (QA): ru/exercises/qac.md
+    - 10 - Командные проекты: ru/exercises/tgt.md
+- Разное:
+    - Разное: ru/misc/index.md
+    - ИТ-безопасность: ru/misc/security.md
+    - Видео: ru/misc/videos.md
+    - Автотекст: ru/misc/autotext.md
+    - Сочетания клавиш: ru/misc/shortcuts.md
+    - Двунаправленность текста: ru/misc/bidi.md
+    - Шрифты: ru/misc/fonts.md
+    - Часто задаваемые вопросы: ru/misc/faq.md
+    - Советы и рекомендации: ru/misc/tips.md
+    - Вспомогательные инструменты: ru/misc/aux.md
+    - Кто есть кто: ru/misc/about.md

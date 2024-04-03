@@ -1,132 +1,132 @@
-# OmegaT 5.7.2 setup guide for Windows
+# Руководство по установке OmegaT 5.7.2 для Windows
 
 <!-- prettier-ignore -->
-??? info "Other operating systems"
-    It's possible to install OmegaT 5.7.2 in other operating systems like macOS or Linux. Follow this other [guide to install on macOS](install-and-setup-macos.md). Please get in touch through the Helpdesk if you are a Linux user.
+??? info "Другие операционные системы"
+    Программ OmegaT может быть установлена на другие операционные системы, такие как macOS или Linux. Установка на macOS описана в [этом руководстве](install-and-setup-macos.md). Если требуется установка на Linux, свяжитесь с нашей службой поддержки.
 
-Depending on your starting point, ==choose your path here carefully==:
+Вам следует ==тщательно выбрать правильный вариант==, исходя из своих начальных условий:
 
-- IF you already have a previous version (e.g. 5.7.1 or 4.2.0) of OmegaT installed, you'll have to update your configuration first: to do so please go to the [configuration section](#configuration) (next section right down below).
-- IF you have _never_ installed there OmegaT (any version) in your machine, you can skip the following section about configuration and jump directly to the [installation section](#installation). OmegaT will configure itself as part of the installation.
+- Если у вас уже установлена предыдущая версия OmegaT (например, 5.7.1 или 4.2.0), вам следует сначала обновить конфигурацию программы. Как это сделать, описано в [разделе о конфигурации](#configuration) (следующий раздел).
+- Если на вашем компьютере ранее _никогда_ не была установлена OmegaT (любой версии), то вы можете пропустить следующий раздел, посвященный конфигурации программы, и перейти непосредственно к [разделу об установке](#installation). OmegaT будет сконфигурирована автоматически в процессе установки.
 
-## Configuration
+## Конфигурация
 
-This section applies to users that already have a previous version (e.g. 5.7.1 or 4.2.0) of OmegaT installed. Please follow the next steps to update your configuration.
+Этот раздел предназначен для пользователей, на компьютере которых уже установленна предыдущая версия OmegaT (например, 5.7.1 или 4.2.0). Для обновления конфигурации программы выполните шаги, приведенные ниже.
 
-1. Run OmegaT and go to **Tools** > **Scripting** to open your scripting console, In OmegaT 5.7.1, please open the scripting console. Check whethers you have a script called "**Update Customisation Bundle (v572)**":
+1. Запустите OmegaT и перейдите в меню **Tools** (Инструменты) > **Scripting** (Скрипты), чтобы открыть консоль скриптов. В OmegaT 5.7.1 откройте консоль скриптов. Проверьте, есть ли у вас скрипт под названием **Update Customisation Bundle (v572)**:
 
    <!-- prettier-ignore -->
-   !!! warning
-       If you don't see the "**v572**" bit, then it's not the script we're looking for. See next step to fetch the script.
+   !!! Предупреждение
+       Если в названии нет фрагмента **v572**, то это не тот скрипт, который нам нужен. В следующем шаге описано, где взять этот скрипт.
 
    ![](../_img/custom-script-572-in-scripting-console.png)
 
-   If the script "**Update Customisation Bundle (v572)**" is there, please click on it to select it and press the **Run** button (at the bottom left) to run it. The script will run to update your config files and will quit OmegaT. After that, skip the next step and jump directly to the [installation section](#installation).
+   Если скрипт **Update Customisation Bundle (v572)** есть в списке, выберете его щелчком мыши и нажмите кнопку **Run** (Выполнить) в левом нижнем углу окна для запуска скрипта. Скрипт выполнит обновление файлов конфигурации и завершит работу OmegaT. Далее пропустите следующий шаг и перейдите непосредственно к [разделу установки](#installation).
 
-   If the script is not there, you may download it yourself. See next steps for how to do that.
+   Если скрипт отсутствует в списке, вы можете скачать его самостоятельно. В дальнейших шагах описано, как это сделать.
 
-2. Right-click on the button below and select "Save Link As" to download the configuration script (e.g. to your Desktop)
+2. Нажмите правой кнопкой мыши на кнопку ниже и выберите «Сохранить как», чтобы загрузить скрипт конфигурации (например, на рабочий стол)7
 
-   [:material-download: Download UpdateConfigBundle.groovy](https://cat.capstan.be/OmegaT/customization/scripts/updateConfigBundle-572.groovy){ .md-button .md-button--primary }
+   [:material-download: Скачать UpdateConfigBundle.groovy](https://cat.capstan.be/OmegaT/customization/scripts/updateConfigBundle-572.groovy){ .md-button .md-button--primary }
 
-3. In OmegaT, follow these steps to run the configuration script you have downloaded:
+3. В главном окне OmegaT выполните следующие действия для запуска скаченного скрипта конфигурации:
 
-   - **Tools** > **Scripting** > **File** > **Open script**
-   - browse to your Desktop (or the folder where you have saved the script) and select the groovy file
-   - press the **Open** button to open the script file and press **Run** button (on the bottom left)
+   - **Tools** (Инструменты) > **Scripting** (Скрипты) > **File** (Файл) > **Open script** (Открыть скрипт).
+   - Перейдите на рабочий стол (или в папку, в которой был сохранен скрипт) и выберите файл с расширением groovy.
+   - Нажмите кнопку **Open** (Открыть), чтобы открыть файл скрипта, далее нажмите кнопку **Run** (Выполнить)в левом нижнем углу окна.
 
    ![](../_img/omt-open-script-and-run.gif)
 
-   The script will install the necessary config files for OmegaT 5.7.2 and delete old config files for OmegaT 5.7.1, and after that it will quit OmegaT.
+   Скрипт установит необходимые файлы конфигурации для OmegaT 5.7.2 и удалит старые файлы для предыдущих версий, после чего завершит работу программы.
 
-4. Uninstall your current version of OmegaT.
+4. Удалите текущую версию OmegaT.
 
-5. Finally, proceed now to the [installation section](#installation) (next step below).
+5. После этого переходите к [разделу установки](#installation) (следующий шаг).
 
-## Installation
+## Установка
 
 <!-- prettier-ignore -->
-!!! warning
-    You must have a 64-bit machine to install OmegaT. If that's not the case, please get in touch with our Helpdesk.
+!!! Предупреждение
+    Для установки OmegaT необходим 64-разрядный компьютер. Если требуется установка на 32-разрядном компьютере, свяжитесь с нашей службой поддержки.
 
-1. Click on the button below to download OmegaT 5.7.2. This is a custom version prepared by cApStAn which includes several bug fixes and enhancements not available in other versions.
+1. Нажмите на кнопку ниже, чтобы загрузить OmegaT 5.7.2. Это специальная версия, подготовленная компанией cApStAn. Она включает в себя несколько исправлений ошибок и улучшений, недоступных в других версиях.
 
-   [:material-download: Download OmegaT 5.7.2](https://cat.capstan.be/OmegaT/exe/OmegaT_5.7.2_Windows_64_Signed.exe){ .md-button .md-button--primary }
+   [:material-download: Загрузить OmegaT 5.7.2](https://cat.capstan.be/OmegaT/exe/OmegaT_5.7.2_Windows_64_Signed.exe){ .md-button .md-button--primary }
 
    <!-- prettier-ignore -->
-   ??? question "Trouble to download?"
-       Some browsers (e.g. Microsoft Edge) might ask you whether downloading the installer is safe. It is safe, and you can follow the following steps in the video below to let your browser download the file.
+   ??? question "Проблемы с загрузкой?"
+       В некоторых браузерах (например, в Microsoft Edge) может появиться диалоговое окно с вопросом о безопасности загрузки установочного файла. Файл безопасен. Чтобы разрешить загрузку файла в браузере, вы можете выполнить действия, показанные в следующем видео.
 
    ![](../_img/edge-keep-download.gif)
 
-2. When the download is complete, double-click the installer file to start the installation wizard.
+2. После завершения загрузки дважды щелкните установочный файл, чтобы запустить мастер установки.
 
-3. Windows Defender might show a dialog warning against the risk of running an unrecognized app.
+3. Windows Defender (Центр защиты Windows) может показать предупреждение о риске запуска неизвестного приложения.
 
-   ![](../_img/omegat-win-protected-your-pc-01.png) <!-- # omt572-install-01.png -->s
+   ![](../_img/omegat-win-protected-your-pc-01.png)<!-- # omt572-install-01.png -->
 
-   If you see that, click on the <u>More info</u> link in that dialog. In the information displayed you should see that cApStAn is the publisher of this installer.
+   При появлении такого диалогового окна щелкните ссылку <u>More info</u> (Подробнее). В появившемся окне вы должны увидеть информацию о том, что издателем этой программы установки является cApStAn.
 
    ![](../_img/omt572-install-02-run-anyway.png)
 
-   If that's the case, prease press the **Run anyway** button to proceed with the installation.
+   Если это действительно так, нажмите кнопку **Run anyway** (Выполнить в любом случае) для продолжения установки.
 
-4. In the next dialog, you may choose the language of the installation, then press **Ok**:
+4. В следующем диалоговом окне можно выбрать язык установки. Далее нажмите **OK**:
 
    ![](../_img/omt572-install-03-lang.png)
 
-5. Please accept the GPL license agreement to proceed, and press **Next**:
+5. Чтобы продолжить установку, примите лицензионное лицензионное соглашение GPL и нажмите **Next** (Далее):
 
    ![](../_img/omt572-install-04-accept.png)
 
-6. OmegaT will propose the path `C:\Users\USER\AppData\Local\Programs\OmegaT` for the installation, where it should be possible for non-admin users to install.
+6. В процессе установки будет предложено установить программу OmegaT в папку `C:\Users\USER\AppData\Local\Programs\OmegaT`. Такой выбор пути установки позволяет установить программу пользователям без административных прав.
 
-   !!! warning
-       Please do not modify this installation path unless you're IT personnel and you know what you're doing.
+   !!! Предупреждение
+       Не изменяйте путь установки, если вы не являетесь ИТ-специалистом и не знаете, что делаете.
 
    ![](../_img/omt572-install-05-path.png)
 
-7. A desktop shortcut (launcher) will be created on your Desktop (which you can double-click later on to launch OmegaT). Do not uncheck that option.
+7. На рабочем столе будет создан ярлык, благодаря которому впоследствии можно запускать OmegaT двойным щелчком. Оставьте эту опцию включенной.
 
    ![](../_img/omt572-install-06-desktop-shortcut.png)
 
-8. You may modify the name of the OmegaT folder in the start menu, but "OmegaT " is fine, no need to change it in a standard installation.
+8. Вы можете изменить название папки OmegaT в меню «Пуск», но предложенное название «OmegaT» вполне подходить, при стандартной установке его менять не нужно.
 
    ![](../_img/omt572-install-07-start-menu.png)
 
-9. You're ready to proceed with the installation, press **Next**.
+9. Теперь вы можете приступить к установке. Нажмите кнопку **Next** (Далее).
 
    ![](../_img/omt572-install-08-ready.png)
 
-10. After a couple of minutes, your installation should be complete.
+10. Установка должна завершиться через несколько минут.
 
    ![](../_img/omt572-install-09-done.png)
 
-11. See the section below to know how to run a few post-installation checks to confirm that everything is okay.
+11. В следующем разделе вы узнаете, как после установки выполнить несколько проверок, чтобы убедиться, что все в порядке.
 
-You're done now. You can start using OmegaT 5.7.2.
+Все готово. Можно приступать к использованию OmegaT 5.7.2.
 
-## Setup checks
+## Проверка надлежащей установки
 
-The steps above will normally get up and running, but but it's always a good idea to check that everything is okay just in case. One stick in time saves nine. These are the things that you can check:
+Описанные выше действия, как правило, приводят к успешной установке и запуску OmegaT, но на всякий случай бывает полезно проверить, все ли в порядке.  Проверить можно следующее:
 
-1. _OmegaT version_
+1. _Версия OmegaT_
 
-   To confirm that you have the correct version, you can check that in **Help** > **About** > **Copy Support Info**. You should see:
+   Чтобы подтвердить, что у вас действительно установлена правильная версия, вы можете проверить информацию в меню **Help** (Справка) > **About** (О программе) > **Copy Support Info** (Копировать информацию для поддержки). Вы должны увидеть:
 
        > Version: OmegaT-5.7.2_0_a978d82ee
-       > Platform: [your operating system]
+       > Platform: [ваша операционная система]
        > Java: 11.0.19 amd64
 
-2. _Custom configuration version_
+2. _Версия пользовательской конфигурации_
 
-   To confirm that your custom configuration is up to date, you can go to **Options** > **Access Configuration Folder** and find a file called `local_version_notes.txt` there.
+   Чтобы убедиться в том, что ваша пользовательская конфигурация актуальна, можно выбрать пункт меню **Options** (Параметры) > **Access Configuration Folder** (Открыть папку настроек) и найти в открывшейся папке файл под названием `local_version_notes.txt`.
 
-   If you open that file, the line at the top showing the most recent update should be the same as the one you can see in page [https://cat.capstan.be/OmegaT/v572/](https://cat.capstan.be/OmegaT/v572/).
+   Если вы откроете этот файл, строка в начале файла, показывающая самое последнее обновление, должна совпадать с той, которую можно увидеть на странице [https://cat.capstan.be/OmegaT/v572/](https://cat.capstan.be/OmegaT/v572/).
 
-3. _OMT un/packaging menu entries_
+3. _Пункты меню распаковки/упаковки OMT_
 
-   Even if you don't use OMT packages, you should have three entries under the **Project** menu in OmegaT:
+   Даже если вы не используете пакеты OMT, у вас должно быть три пункта в меню **Project** (Проект) в OmegaT:
 
    ![](../_img/omt-package-entries.png)
 
@@ -134,16 +134,16 @@ The steps above will normally get up and running, but but it's always a good ide
        - Pack project as OMT file...
        - Pack and delete project...  -->
 
-4. _Scripts and script shortcuts_
+4. _Скрипты и сочетания клавиш для запуска скриптов_
 
-   In the **Tools** menu, under **Scripting**, you should see a list of 12 script shortcuts.
+   В меню **Tools** (Инструменты), под пунктом **Scripting** (Скрипты), вы должны увидеть перечень из 12 сочетаний клавиш для запуска скриптов.
 
    ![](../_img/omt-scripts-shortcuts.png)
 
-   !!! note
-       The script shortcuts might be updated occasionally, don't worry if your list is not identical to the screenshot above.
+   !!! Примечание
+       Время от времени перечень и сочетания могут обновляться, и если ваш список не совпадает со снимком экрана, не стоит волноваться.
 
-   Also, if you open the scripting dialog, you should see the whole list of scripts on the left-hand side.
+   Кроме того, если вы откроете окно со скриптами, то увидите весь список доступных скриптов в левой части окна.
 
 <!--
 To install OmegaT and set it up on a computer running Windows, please follow the OmegaT installation and setup guide below:

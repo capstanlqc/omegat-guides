@@ -1,10 +1,10 @@
-# 06. Alternative translations
+# 06. Альтернативные переводы
 
 In the previous section you saw that translations of repeated segments (or edits in those translations) auto-propagate to all instances of that repeated segment when you save them (or leave the segment).
 
 That is convenient in many cases, but not always. Sometimes you'll have to prevent auto-propagation. To do that, you must create an **alternative translation**.
 
-## Exercise 06.1: create alternative translation
+## Упражнение 06.1: создание альтернативного перевода
 
 1. Go to segment #5 in the project.
 
@@ -29,7 +29,7 @@ Follow these three simple but VERY IMPORTANT steps:
 3. Press ++ctrl+s++ to register the translation
 
 <!-- prettier-ignore -->
-!!! warning
+!!! Предупреждение
     This is a very important and delicate function of OmegaT. It's easy to use it correctly if you grasp well the three steps above, but it's also easy to make a mess if you don't. Please make sure you really follow the three steps above to the letter.
 
 Did you follow the steps above? If you did, now you'll notice that:

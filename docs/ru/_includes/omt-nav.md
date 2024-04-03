@@ -1,4 +1,4 @@
-# Navigation
+# Навигация
 
 <!-- section: navigation panes -->
 {% include 'omt-nav1-panes.md' %}

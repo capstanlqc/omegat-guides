@@ -1,19 +1,19 @@
-## What are tags
+## Что такое теги
 
-The source text might include some inline codes that stand for formatting or other elements. In OmegaT, those inline codes are handled as **tags**.
+Исходный текст может включать встроенные коды, которые соответствуют форматированию или другим элементам в документе оригинала. В OmegaT эти встроенные коды обрабатываются как **теги**.
 
-For example, part of the source text could be, say, underlined (e.g. the word "after" below):
+Например, часть исходного текста может быть, например, подчеркнута (например, слово «после» ниже):
 
-> I came to this school <u>after</u> the start of this school year.
+> Я пришел в эту школу <u>после</u> начала этого учебного года.
 
-The segment in OmegaT will look like this (notice the paired tags enclosing the word "after"):
+Сегмент в OmegaT будет выглядеть следующим образом (обратите внимание на парные теги вокруг слова «после»):
 
-> I came to this school **<g1>**{ .omttag }after**</g1>**{ .omttag } the start of this school year.
+> Я пришел в эту школу **<g1>**{ .omttag }после**</g1>**{ .omttag } начала этого учебного года.
 
-You will recognize tags because they are in **red font**.
+Теги легко узнать по выделению **красным шрифтом**.
 
-Hover over a tag if you want to see what it stands for. A tooltip will show the original inline code:
+Наведите курсор на тег, чтобы узнать, что он обозначает. Во всплывающей подсказке будет показан исходный встроенный код:
 
 <!-- ![Hover over a tag to see what it stands for](../_img/omt-hover-over-tag.png) -->
 
-> ![Hover over a tag to see what it stands for](../_img/omt-hover-over-tag-segment.png)
+> ![Наведите курсор на тег, чтобы узнать, что он обозначает](../_img/omt-hover-over-tag-segment.png)

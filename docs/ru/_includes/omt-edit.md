@@ -1,8 +1,8 @@
-# Revising and editing
+# Рецензирование и редактирование
 
-## Revising the translation
+## Рецензирование перевода
 
-To revise the translation, you must move through segments one by one.
+Для рецензирования перевода необходимо поочередно перемещаться по сегментам.
 
 Read every translation, while comparing with the source text, considering the rest of the context and taking into account any specific instructions you may have received for your particular task.
 
@@ -20,7 +20,7 @@ segments with translations from
 
 -->
 
-## Editing the translation
+## Редактирование перевода
 
 To correct an error in the translation, you must edit the target text. To edit a translation, simply delete the text that must be removed and type the text that must be added.
 
@@ -31,5 +31,5 @@ You can only edit the translation of the **active**{ .active } segment. You must
 You may also activate any segment (and make it editable) by double-clicking it, but in that case you might want to return to the segment you were originally to continue revising from there.
 
 <!-- prettier-ignore -->
-!!! tip
-    You can recognize the **active**{ .active } segment because it is highlighted in **green**{ .active }.
+!!! Совет
+    **Активный**{ .active } сегмент легко отличить от других по выделению **зеленым**{ .active } цветом.

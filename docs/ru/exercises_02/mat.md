@@ -99,7 +99,7 @@ You're still in segment #8.
 
 <!-- @todo: disable predictive typing and delete files... -->
 
-!!! note
+!!! Примечание
     In this case both matches required the same amount of work to update them.  
     The only reason why you have to select and insert match #2 is to make you practice ;)
 

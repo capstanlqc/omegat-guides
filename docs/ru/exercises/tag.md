@@ -1,16 +1,16 @@
-# 04. Tags
+# 04. Теги
 
 <!-- prettier-ignore -->
 ??? Abstract "The relevant section in the guides..."
     See the relevant section in your guide:
-    [Translation](../translation/tags.md){:target="_blank" .md-button }
-    [Reconciliation](../reconciliation/tags.md){:target="_blank" .md-button }
-    [Adaptation](../adaptation/tags.md){:target="_blank" .md-button }
-    [Verification](../verification/tags.md/){:target="_blank" .md-button }
+    [Перевод](../translation/tags.md){:target="_blank" .md-button }
+    [Согласование](../reconciliation/tags.md){:target="_blank" .md-button }
+    [Адаптация](../adaptation/tags.md){:target="_blank" .md-button }
+    [Верификация](../verification/tags.md/){:target="_blank" .md-button }
 
 ---
 
-## Exercise 04.1: insert paired tags
+## Упражнение 04.1: вставка парных тегов
 
 1. Press ++ctrl+j++ and enter 40 to go to segment #40, which is untranslated.
 
@@ -58,7 +58,7 @@ Well done!
    > The tooltips should show `{{object1}}` and `{{object2}}`
 
 <!-- prettier-ignore -->
-!!! warning
+!!! Предупреждение
     The difference between two standalone tags and two paired tags is very important.
 
 ## Exercise 04.3: insert standalone tags

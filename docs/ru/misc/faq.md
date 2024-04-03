@@ -59,7 +59,7 @@ Yes. To export the contents of the OmegaT project in Excel, go to **Tools** > **
 To access the exported Excel, go to **Project** > **Access Project Contents** > **Root**. The Excel will be found in the **script_output** folder.
 
 <!-- prettier-ignore -->
-!!! warning
+!!! Предупреждение
     Please remember that the Excel file cannot be reimported in OmegaT. Any change you make in translations in that Excel export needs to be reflected in the OmegaT project.
 
 <!-- topic:font -->
@@ -85,7 +85,7 @@ A spelling checker is available in OmegaT and you must install the spellchecking
 You can close the remaining pop up window. The spellchecker is now installed.
 
 <!-- prettier-ignore -->
-!!! tip
+!!! Совет
     You can also watch the following video to see those steps in action:
     <div style="padding:69.95% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/780395752?h=5a92c211b3" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
@@ -133,7 +133,7 @@ Yes. Please follow these steps:
 3. Correct any term that contains an error and Save the file.
 
 <!-- prettier-ignore -->
-!!! warning
+!!! Предупреждение
     Do not open the glossary file in Microsoft Word or any other similar word processor.
 
 <!-- topic:TMs -->
