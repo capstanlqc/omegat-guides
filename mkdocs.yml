@@ -341,7 +341,7 @@ extra:
     - name: English
       link: /omegat-guides/en/
       lang: en
-    - name: Russian
+    - name: Русский
       link: /omegat-guides/ru/
       lang: ru
 # https://github.com/pawamoy/best-of-mkdocs#-snippets--includes-reusing-contents
