@@ -128,7 +128,7 @@ Yes. Please follow these steps:
 1. Go to **Project > Access Project contents > Glossaries** to access your writeable glossary file. The `Glossaries` folder will open, which contains a file named `glossary.txt`.
 2. Open it in your plain text editor (e.g. Notepad):
 
-   ![](../_img/qa07_glossary_correct.jpg)
+    ![](../_img/qa07_glossary_correct.jpg)
 
 3. Correct any term that contains an error and Save the file.
 
