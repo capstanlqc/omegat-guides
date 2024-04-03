@@ -1,4 +1,4 @@
-# 08. QA checks
+# 08. Проверки качества (QA)
 
     @todo: review
 

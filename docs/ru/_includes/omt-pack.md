@@ -18,7 +18,7 @@ That's it! :smile:
    <!-- @todo: update screenshot with current wording -->
 
 - In the window that pops up, select the location where you want to save the OMT package.
-<!-- @todo: link to http://127.0.0.1:8000/omegat-guides/misc/tips/#file-organization / add 01_Incoming, 02_Work, 03_Outgoing for packages -->
+   <!-- @todo: link to http://127.0.0.1:8000/omegat-guides/misc/tips/#file-organization / add 01_Incoming, 02_Work, 03_Outgoing for packages -->
 - Press **Save**
 - Press **OK** in the Pop-up window notifying that the package was successfully created.
 

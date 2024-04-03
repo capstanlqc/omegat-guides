@@ -3,10 +3,10 @@
 <!-- prettier-ignore -->
 ??? Abstract "The relevant section in the guides..."
     See the relevant section in your guide:
-    [Translation](../translation/other-useful-features.md#autotext){:target="_blank" .md-button }
-    [Reconciliation](../reconciliation/other-useful-features.md#autotext){:target="_blank" .md-button }
-    [Adaptation](../adaptation/other-useful-features.md#autotext){:target="_blank" .md-button }
-    [Verification](../verification/other-useful-features.md#autotext){:target="_blank" .md-button }
+    [Перевод](../translation/other-useful-features.md#autotext){:target="_blank" .md-button }
+    [Согласование](../reconciliation/other-useful-features.md#autotext){:target="_blank" .md-button }
+    [Адаптация](../adaptation/other-useful-features.md#autotext){:target="_blank" .md-button }
+    [Верификация](../verification/other-useful-features.md#autotext){:target="_blank" .md-button }
 
 ---
 
@@ -17,7 +17,7 @@ You may insert special characters in different ways: autotext shortcut, characte
 You may use the autotext shortcut `\sub2` to insert a subscript number 2 (i.e. `₂`). Now you know! :)
 
 <!-- prettier-ignore -->
-!!! tip
+!!! Совет
     The "suB" part in the shorcut `\sub2` stands for subindex or subscript.
 
 <!-- @todo: add "subindex" and "superindex" to cheatsheet -->
@@ -82,7 +82,7 @@ Remember the auto-completer? You used it to insert tags. You'll use it again now
    > The result should be: `km²`
 
 <!-- prettier-ignore -->
-!!! tip
+!!! Совет
     You could have inserted character ² with shortcut `\sup2` (where "suP" stands for superscript or superindex or superordinate).
 
 <!-- @todo: add to the guides: if you find the character table handy but it does not contain ghe charcter you need to insert, you can let us know through the Helpdesk and we'll add it there for you -->

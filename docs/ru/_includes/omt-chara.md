@@ -1,32 +1,32 @@
-## Inserting special characters
+## Вставка специальных символов
 
-You may need to type special characters such as:
+Вам может потребоваться ввести специальные символы, например:
 
-- quotation marks: `«»`, `„“`, `‘’`, etc.
-- mathematical symbols: `×`, `π`, `÷`, `≤`, `≠`, `√`, etc.
-- superindex or subindex numbers or letters: `₂`, `²`, `³`, etc.
-- other characters: `®`, `™`, etc.
+- кавычки: `«»`, `„“`, `‘’` и т. д.
+- математические символы: `×`, `π`, `÷`, `≤`, `≠`, `√` и т. д.
+- надстрочные или подстрочные цифры или буквы: `₂`, `²`, `³` и т. д.
+- другие символы: `®`, `™`, и т. д.
 
-### Character table
+### Таблица символов
 
-We put the most frequent special characters in the **Character Table**. To insert a special character from the **Character Table**, follow these steps:
+Мы поместили наиболее часто используемые символы в таблицу символов (**Character Table**). Для вставки специального символа из таблицы символов (**Character Table**) выполните следующие действия:
 
-- Press ++ctrl+space++ on your keyboard several times until you reach the **Character Table**.
+- Нажмите на клавиатуре ++ctrl+пробел++ несколько раз, пока не появится блок **Character Table** (Таблица символов).
    ![](../_img/25_character_table.jpg)
-- Double-click the character you want to insert.
+- Дважды щелкните по символу, который требуется вставить.
    <!-- ![](../_img/26_inserted_special_characters.jpg) -->
 
-### Autotext
+### Автотекст
 
-Alternatively, you may use **Autotext** entries to insert a special character by typing a shortcut. You can see the list of available shortcuts [here](../misc/autotext.md){:target="\_blank"}.
+Кроме того, можно использовать записи **автотекста** для вставки специальных символов, вводя установленные сокращения. Список доступных сокращений приводится [здесь](../misc/autotext.md){:target="\_blank"}.
 
-Let's see some examples:
+Рассмотрим несколько примеров:
 
-- For example, to write the abbreviation of square meters ("m²"), you can type shortcut `\sup2` to insert superindex character `²`.
+- Например, чтобы ввести обозначение квадратных метров («м²»), можно ввести сокращение `\sup2`, которое даст возможность вставить надстрочную двойку — `²`.
 
-- Another example: in chemical formulas, the number of atoms is often noted with a subindex number, e.g. "CO₂". To insert character `₂`, type shortcut `\sub2`.
+- Еще один пример. В химических формулах количество атомов часто обозначается подстрочным числом, например «CO₂». Чтобы вставить символ `₂`, введите сокращение `\sub2`.
    ![](../_img/sub2.gif)
    <!-- @ŧodo: @exercise: type CO₂ using autotext -->
 
-- In order to insert a non-breaking space, type `\nbsp`: the auto-completer will propose to insert the character from the autotext list.
+- Чтобы вставить неразрывный пробел, введите `\nbsp`. Модуль автозавершения предложит вставить соответствующий символ из списка автотекста.
    ![](../_img/nbsp.gif)

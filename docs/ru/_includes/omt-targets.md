@@ -1,7 +1,7 @@
-# Creating the target file
+# Создание переведенных файлов
 
-Press ++ctrl+shift+d++ to create the target file you were working on. This will allow you to preview the translated file with your changes.
+Нажмите ++ctrl+shift+d++, чтобы создать переведенный файл текущего документа, над которым вы работали. Таким образом вы можете просмотреть свои изменения, внесенные в файл.
 
-To access the file, go to **Project>Access Project Contents** > **Target Files**. A window with the contents of the "target" folder will open. Find the file you were working on, if there are several files and preview it to read the translation in context.
+Для получения доступа к файлу перейдите в меню **Project** (Проект) > **Access Project Contents** (Открыть содержимое проекта) > **Target Files** (Переведенные файлы). Откроется окно, в котором будет показано содержимое папки «target». Найдите файл, над которым вы работали (если в папке несколько файлов) и откройте его в соответствующем приложении, чтобы просмотреть перевод в контексте.
 
 ![](../_img/28_target_files.jpg)

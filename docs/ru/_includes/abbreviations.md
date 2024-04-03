@@ -1,7 +1,5 @@
 ---
 
-*[HTML]: Hyper Text Markup Language
-*[W3C]: World Wide Web Consortium
 *[TM]: translation memory
 *[W3C]: World Wide Web Consortium
 *[tag]: a protected piece of text that stands for some inline code

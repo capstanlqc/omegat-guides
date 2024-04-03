@@ -7,17 +7,17 @@ Unlike in previous cycles, in this cycle you will work on an online team project
 <!-- prettier-ignore -->
 ??? Abstract "The relevant section in the guides..."
     See the relevant section in your guide:
-    [Translation](../translation/accessing-the-project.md#downloading-a-team-project){:target="_blank" .md-button }
-    [Reconciliation](../reconciliation/accessing-the-project.md#downloading-a-team-project){:target="_blank" .md-button }
-    [Adaptation](../adaptation/accessing-the-project.md#downloading-a-team-project){:target="_blank" .md-button }
-    [Verification](../verification/accessing-the-project.md#downloading-a-team-project){:target="_blank" .md-button }
+    [Перевод](../translation/accessing-the-project.md#downloading-a-team-project){:target="_blank" .md-button }
+    [Согласование](../reconciliation/accessing-the-project.md#downloading-a-team-project){:target="_blank" .md-button }
+    [Адаптация](../adaptation/accessing-the-project.md#downloading-a-team-project){:target="_blank" .md-button }
+    [Верификация](../verification/accessing-the-project.md#downloading-a-team-project){:target="_blank" .md-button }
 
 ### Details
 
 Here are the details of a team project you can download for training purposes.
 
 <!-- prettier-ignore -->
-!!! warning
+!!! Предупреждение
     This is not the project where you must work to produce your translation.
 
 URL of the git repository:
@@ -64,7 +64,7 @@ If the proposed path to the local project folder is fine, just press **OK**. All
     Please check our [File organization](../misc/tips.md/#file-organization) tips, they could help you keep your files and folders more organized.
 
 <!-- prettier-ignore -->
-!!! warning
+!!! Предупреждение
     The location where you create the team project should not be inside a folder sync'ed by Dropbox, OneDrive, Nextcloud, etc. (any sync'ing service in your machine).
 
 <!-- ![](../_img/omt_git_three_dots.png) -->
@@ -84,10 +84,10 @@ If the proposed path to the local project folder is fine, just press **OK**. All
 <!-- prettier-ignore -->
 ??? Abstract "The relevant section in the guides..."
     See the relevant section in your guide:
-    [Translation](../translation/creating-your-deliverable.md#online-team-project-via-repository){:target="_blank" .md-button }
-    [Reconciliation](../reconciliation/creating-your-deliverable.md#online-team-project-via-repository){:target="_blank" .md-button }
-    [Adaptation](../adaptation/creating-your-deliverable.md#online-team-project-via-repository){:target="_blank" .md-button }
-    [Verification](../verification/creating-your-deliverable.md#online-team-project-via-repository){:target="_blank" .md-button }
+    [Перевод](../translation/creating-your-deliverable.md#online-team-project-via-repository){:target="_blank" .md-button }
+    [Согласование](../reconciliation/creating-your-deliverable.md#online-team-project-via-repository){:target="_blank" .md-button }
+    [Адаптация](../adaptation/creating-your-deliverable.md#online-team-project-via-repository){:target="_blank" .md-button }
+    [Верификация](../verification/creating-your-deliverable.md#online-team-project-via-repository){:target="_blank" .md-button }
 
 To commit target files (e.g. to update the preview):
 

@@ -2,23 +2,23 @@
 
 ![](https://s3.amazonaws.com/media-p.slid.es/uploads/1129410/images/9336786/omt3d_256_2.png){: style="height:150px;width:150px" align=right }
 
-# Руководства OmegaT
+# Руководства по OmegaT
 
-Добро пожаловать в руководства cApStAn по OmegaT.
+Перед вами руководства cApStAn по OmegaT. Добро пожаловать!
 
 ## Руководство по каждой задаче
 
 - [Перевод](translation/index.md)
-- [Reconciliation](reconciliation/index.md)
-- [Adaptation](adaptation/index.md)
-- [Verification](verification/index.md)
-- [Review](review/index.md)
+- [Согласование](reconciliation/index.md)
+- [Адаптация](adaptation/index.md)
+- [Верификация](verification/index.md)
+- [Рецензирование](review/index.md)
 
 ## Прочее
 
-- [Videos](misc/videos.md)
-- [Exercises](exercises/index.md)
-- [Miscellanea](misc/index.md)
+- [Видео](misc/videos.md)
+- [Упражнения](exercises/index.md)
+- [Разное](misc/index.md)
 
 <!-- @todo add the rest of misc articles -->
 
@@ -44,4 +44,4 @@
 	:octicons-heart-fill-24:{ .heart }
 -->
 
-Maintained with ❤ by [cApStAn](https://www.capstan.be)
+Создано с ❤ компанией [cApStAn](https://www.capstan.be)
