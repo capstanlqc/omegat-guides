@@ -22,7 +22,7 @@ a.md-footer__link--prev[aria-label^="Previous:"],
 
 <!-- section: omegat intro -->
 
-{% include 'omt-intro.md' %}
+{% include 'ru/omt-intro.md' %}
 
 В этом руководстве содержится информация обо всех функциях OmegaT, необходимых для выполнения перевода.
 

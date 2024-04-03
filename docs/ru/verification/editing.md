@@ -1,5 +1,5 @@
 <!-- section: editing -->
 
-{% include 'omt-edit.md' %}
+{% include 'ru/omt-edit.md' %}
 
 

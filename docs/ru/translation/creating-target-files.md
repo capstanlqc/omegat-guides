@@ -1,5 +1,5 @@
 <!-- section: mk tgt -->
 
-{% include 'omt-mk-tgt.md' %}
+{% include 'ru/omt-mk-tgt.md' %}
 
 

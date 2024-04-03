@@ -19,7 +19,7 @@ a.md-footer__link--prev[aria-label^="Previous:"],
 
 <!-- section: omegat intro -->
 
-{% include 'omt-intro.md' %}
+{% include 'en/omt-intro.md' %}
 
 This guide includes information about all the functions in OmegaT that you need to perform the translation task.
 

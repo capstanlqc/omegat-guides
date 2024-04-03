@@ -1,5 +1,5 @@
-<!-- section: installation and customization -->
+<!-- section: accessing the project -->
 
-{% include 'omt-unpack-and-recent.md' %}
+{% include 'ru/omt-unpack-and-recent.md' %}
 
 

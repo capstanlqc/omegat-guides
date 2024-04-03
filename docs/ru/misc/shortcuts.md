@@ -1,3 +1,3 @@
 # Сочетания клавиш
 
-{% include 'cheatsheet.md' %}
+{% include 'ru/cheatsheet.md' %}

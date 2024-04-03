@@ -1,5 +1,5 @@
 <!-- section: repetitions -->
 
-{% include 'omt-reps.md' %}
+{% include 'ru/omt-reps.md' %}
 
 

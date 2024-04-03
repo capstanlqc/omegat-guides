@@ -1,5 +1,5 @@
 <!-- section: qa -->
 
-{% include 'omt-qa.md' %}
+{% include 'en/omt-qa.md' %}
 
 

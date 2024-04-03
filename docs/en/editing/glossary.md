@@ -1,5 +1,5 @@
 <!-- section: glossary -->
 
-{% include 'omt-glos.md' %}
+{% include 'en/omt-glos.md' %}
 
 
