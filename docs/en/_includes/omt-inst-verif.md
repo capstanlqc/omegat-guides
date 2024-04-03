@@ -47,7 +47,7 @@ This section applies to users that already have a previous version (e.g. 5.7.1 o
 
 <!-- prettier-ignore -->
 !!! warning
-    You must have a 64-bit machine to install OmegaT. If that's not the case, please get in touch with our Helpdesk.
+    You must have a 64-bit machine to install OmegaT.
 
 1.  Click on the button below to download OmegaT 5.7.2. This is a custom version prepared by cApStAn which includes several bug fixes and enhancements not available in other versions.
 
