@@ -143,6 +143,12 @@ Also, issues that we try to solve or avoid:
 
 <!-- @todo:
 
+orphan files
+
+omt-alt-trans.md
+omt-autoprop.md
+
+
     todo:
 
 see what files in _includes are not in this list
