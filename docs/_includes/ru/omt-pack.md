@@ -1,31 +1,31 @@
-# Delivery
+# Сдача готовых материалов
 
-Once you have finished your task in the OmegaT project and have performed the relevant QA checks, you need to deliver the project. The delivery mode will vary depending on whether it's an _offline project_ or a _team project_.
+По окончании полученного вами задания в проекте OmegaT и выполнении требуемых проверок качества вам нужно сдать готовые материалы проекта. Способ сдачи материалов будет зависеть от того, над каким проектом вы работали: _автономным_ или _командным_.
 
-## Online / team project (via repository)
+## Онлайн-проекты (командные проекты), подключенные к репозиторию
 
-To deliver from a team project:
+Для сдачи готовой работы в командном проекте выполните следующие действия:
 
-- Go to **Project** > **Commit Target Files**.
+- Выберите пункт меню **Project** (Проект) > **Commit Target Files** (Зафиксировать переведенные файлы).
 
-That's it! :smile:
+Вот и все! :smile:
 
-## Offline project (via package)
+## Автономный проект/пакет
 
-- Go to **Project** > **Pack project as OMT file...**
+- Выберите пункт меню **Project** (Проект) > **Pack project as OMT file...** (Экспортировать пакет OMT...)
 
-    ![](../_img/29_export_omt.png)
-    <!-- @todo: update screenshot with current wording -->
+   ![](../_img/29_export_omt.png)
+   <!-- @todo: update screenshot with current wording -->
 
-- In the window that pops up, select the location where you want to save the OMT package.
-    <!-- @todo: link to http://127.0.0.1:8000/omegat-guides/misc/tips/#file-organization / add 01_Incoming, 02_Work, 03_Outgoing for packages -->
-- Press **Save**
-- Press **OK** in the Pop-up window notifying that the package was successfully created.
+- В открывшемся окне выберите папку, в которой будет сохранен пакет OMT.
+   <!-- @todo: link to http://127.0.0.1:8000/omegat-guides/misc/tips/#file-organization / add 01_Incoming, 02_Work, 03_Outgoing for packages -->
+- Нажмите **Save** (Сохранить).
+- Нажмите **OK** в информационном окне, сообщающем об успешном создании пакета.
 
-    ![](../_img/30_omt_successful.png)
+   ![](../_img/30_omt_successful.png)
 
-The folder where exported package is stored will open automatically in your file explorer.
+Папка, в которой был сохранен экспортированный пакет, отроется автоматически.
 
-You will recognize the package because it has the extension `.omt`. That's the file you have to deliver.
+Отличить файл пакета от других файлов можно по расширению `.omt`. Именно этот файл вам необходимо сдать.
 
 ![](../_img/31_recognizing_omt.png)

@@ -1,11 +1,11 @@
 ## Your user Name/ID
 
-When opening OmegaT for the first time, please update your Name/ID. To do that click on **Options** > **Preferences** > **Team**.
+При первом открытии OmegaT обновите свое имя или псевдоним Для этого щелкните выберите **Options** (Параметры) > **Preferences** (Настройки) > **Team** (Командная работа).
 
-The Name/ID box might already contain your username. If that's the case, it's fine like that. Otherwise, if the box is empty or ther's some detail that doesn't identify you (e.g. USER), please enter your name or a nickname that identifies you more or less uniquely and that we can associate with you.
+В поле «Имя» уже может быть указано ваше имя пользователя. В таком случае имя можно оставить, как есть. В противном случае, если поле пустое или в нем содержится текст, по которому вас невозможно идентифицировать (например, USER), введите свое имя или псевдоним, который идентифицирует вас более или менее однозначно и который мы можем связать с вами.
 
-If you have been asked to use "VER" in a specific project and you only work as a verifier, you can append your name or initials to that (e.g. `VER_msoutopico`, `VER_manuel`, etc).
+Если вас просили использовать «VER» в том или ином проекте, а вы работаете только как верификатор, вы можете добавить также свое имя или инициалы (например, `VER_msoutopico`, `VER_manuel`и т. д.).
 
-Then press OK.
+Далее нажмите кнопку OK.
 
 ![](../_img/omt_team_name.png)

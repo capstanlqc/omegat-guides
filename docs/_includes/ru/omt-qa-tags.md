@@ -1,29 +1,29 @@
-## Check and fix tags
+## Проверка тегов и исправление проблем
 
-To ensure that all tags have been inserted correctly:
+Для проверки правильной вставки тегов в проекте выполните следующие действия
 
-- Go to **Tools** > **Check Issues** to open the _Issues_ window.
+- Выберите пункт меню **Tools** (Инструменты) > **Check Issues** (Проверка ошибок), чтобы открыть окно _Issues_ (Ошибки).
 
-    <!-- prettier-ignore -->
-    !!! tip inline end
-    You may untick the other checks (Spelling, Terminology, LanguageTool) if you want to focus on tags only first.
-    ![](../_img/33_check_issues.jpg)
+   <!-- prettier-ignore -->
+!!! tip inline end "Совет"
+    Вы можете отключить другие проверки (ошибки орфографии, ошибки терминологии, ошибки LanguageTool), если вам нужно сначала сфокусироваться только на ошибках в тегах.
+   ![](../_img/33_check_issues.jpg)
 
-- Press **OK**.
-- An error report will open.
+- Нажмите кнопку **OK**.
+- Откроется окно, в котором будет приведен список ошибок.
 
-    ![](../_img/34_error_report.jpg)
+   ![](../_img/34_error_report.jpg)
 
-- Go through the issues one by one. For every issue in the list, do the following:
+- Рассмотрите каждую проблему отдельно. Для исправления каждой ошибки выполните следующие действия:
 
-    - Click a row in the list (or click on **Jump to Segment**) to open that segment in the editor
-    - Fix the tag issue (as explained in the [Fixing tag issues](tags.md#fixing-tag-issues){:target="\_blank"} section)
-    - Press the **Refresh** button to update the list of issues.
-
-<!-- prettier-ignore -->
-!!! failure "Avoid"
-    Please do not click on "Apply fix". Fix each issue manually.
+   - Дважды щелкните по строке в списке или нажмите кнопку **Jump to Segment** (Перейти к сегменту), чтобы открыть проблемный сегмент в области редактирования.
+   - Исправьте проблему с тегами (как описано в разделе [Исправление проблем с тегами](tags.md#fixing-tag-issues){:target="\_blank"}).
+   - Нажмите кнопку **Refresh** (Обновить) в списке ошибок.
 
 <!-- prettier-ignore -->
-!!! Совет
-    If the source text has tags that you do not use in your language, you can insert them at the end of the segment to avoid having false positives in the error report. That should not have an impact on the translation.
+!!! failure "Чего следует избегать"
+    Не нажимайте кнопку Apply fix (Исправить) в окне со списком ошибок. Каждая ошибка должна быть устранена вручную.
+
+<!-- prettier-ignore -->
+!!! tip "Совет"
+    Если в исходном тексте присутствуют теги, представляющее форматирования, не используемое в переведенном тексте, то такие теги можно вставить в конец сегмента, чтобы избежать ложных срабатываний в отчете об ошибках. Это не должно повлиять на перевод.

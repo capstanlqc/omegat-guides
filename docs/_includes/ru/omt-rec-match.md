@@ -1,4 +1,4 @@
-# Reconciling using matches
+# Согласование переводов с использованием совпадений
 
 During the reconciliation task, the translations from **translator 1** and **translator 2** are handled as matches and are displayed in the **Matches** pane.
 
@@ -22,7 +22,7 @@ Alternatively, you can also insert only part of a match or combine several match
 
 - Double-click the match you want to use to activate it
 - Drag your mouse over the part of the match you wish to insert to select it
-- Press ++ctrl+i++ on your keyboard to insert it
+- Нажмите сочетание клавиш ++ctrl+i++ для вставки текста
 - Select (part of) another match if appropriate or type the rest of the translation
 
 ![](../_img/14_select_part_fuzzy.jpg)

@@ -1,24 +1,24 @@
-## Check glossary adherence
+## Проверка соответствия глоссарию
 
-You can check whether the translation adheres to the glossary and key terms have been translated consistently throughout:
+Вы можете проверить, соответствует ли перевод глоссарию и были ли ключевые термины переведены единообразно на протяжении всего перевода:
 
-- Go to **Tools** > **Check Issues**
-- Make sure the box next to **Terminology Issues** is ticked
+- Выберите пункт меню **Tools** (Инструменты) > **Check Issues** (Проверка ошибок).
+- Убедитесь, что у вас включена опция **Terminology Issues** (Ошибки терминологии).
 
-    ![](../_img/35_terminology_issues.jpg)
+   ![](../_img/35_terminology_issues.jpg)
 
-- Press **OK**
-- A list of potential errors will open:
+- Нажмите кнопку **OK**.
+- Откроется окно, в котором будет приведен список потенциальных ошибок.
 
-    ![](../_img/36_error_report_terminology.jpg)
+   ![](../_img/36_error_report_terminology.jpg)
 
-- Go through the issues one by one. For every issue in the list, do the following:
+- Рассмотрите каждую проблему отдельно. Для исправления каждой ошибки выполните следующие действия:
 
-    - Click a row in the list (or click on **Jump to Segment**) to open that segment in the editor.
-    - Correct the error if necessary.
-    - Press the **Refresh** button to update the list of issues.
+   - Дважды щелкните по строке в списке или нажмите кнопку **Jump to Segment** (Перейти к сегменту), чтобы открыть проблемный сегмент в области редактирования.
+   - При необходимости исправьте ошибку.
+   - Нажмите кнопку **Refresh** (Обновить) в списке ошибок.
 
 <!-- prettier-ignore -->
-!!! info
-    Not all flagged issues are errors by default. In some cases, you may get _false positives_. In the screenshot below, "apple trees" should be translated as "pommiers" as in the first segment. In the second segment (active segment) "apple trees" was rendered as "ces arbres" (backtranslation: these trees) to avoid a repetition that would be disturbing in French. Such deviations from the glossary are intentional, so you would disregard the issue.
+!!! info "Информация"
+    Не все пункты в списке обязательно являются ошибками. В некоторых случаях список ошибок может содержать _ложные срабатывания_. На приведенном ниже снимке экрана «apple trees» следует перевести как «pommiers», что было сделано в первом сегменте. Во втором сегменте (активном сегменте) словосочетание «apple trees» было переведено как «ces arbres» (обратный перевод: «эти деревья»), чтобы избежать повторения, нежелательного во французском языке. Подобные отклонения от глоссария являются преднамеренными, поэтому такие проблемы можно проигнорировать.
     ![](../_img/37_false_positive.jpg)

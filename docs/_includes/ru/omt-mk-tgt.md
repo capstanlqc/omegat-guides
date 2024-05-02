@@ -1,17 +1,17 @@
-# Creating target files
+# Создание переведенных файлов
 
-A target file (or translated document) has the same structure as the source file but contains the target text (your translation).
+Переведенный (или целевой) файл имеет ту же структуру, что и исходный файл оригинала, но содержит переведенный вами текст.
 
-If you need to use the target file directly, you must create it every time you update the translation in the editor.
+Если вам постоянно нужно обращаться к переведенному файлу, его необходимо создавать каждый раз при обновлении перевода в области редактирования в OmegaT.
 
-Press ++ctrl+shift+d++ (or go to **Project** > **Create Current Translated Document**) to create the target file you were working on.
+Нажмите сочетание клавиш ++ctrl+shift+d++ или выберите пункт меню **Project** (Проект) > **Create Current Translated Document** (Создать текущий переведенный документ) для создания перевода того файла, над которым вы работаете.
 
-To access the file(s), go to **Project** > **Access Project Contents** > **Target Files** to open your file explorer in the `/target` folder of the project. The file you were working on should be there.
+Чтобы открыть папку с переведенными файлами, выберите пункт меню **Project** (Проект) > **Access Project Contents** (Открыть содержимое проекта) > **Target Files** (Переведенные файлы). Папка с переведенными файлами называется `target`. В ней должен находится файл, над которым вы работали.
 
 ![](../_img/28_target_files.jpg)
 
 <!-- @todo: update screenshot with standard font size -->
 
 <!-- prettier-ignore -->
-!!! info
-    The target file will be overwritten every time you press ++ctrl+shift+d++
+!!! info "Информация"
+    Переведенный файл будет перезаписываться каждый раз при создании переведенных документов (или при нажатии ++ctrl+shift+d++)

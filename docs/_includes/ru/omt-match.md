@@ -2,33 +2,33 @@
 
 Переводы сохраняются в рабочей памяти переводов проекта. При открытии сегмента, похожего на уже переведенный, на панели **Matches** (Нечеткие совпадения) появляются предложения по переводу (или совпадения).
 
-The source text in the **Matches** pane uses “track changes” mode to show the differences (e.g. {~~old~>new~~}) between the new source text in the active segment and the source text in the fuzzy match selected.
+Различия исходного текста отмечаются в области **Matches** (Нечеткие совпадения) в стиле «отслеживания изменений» (т. е. {~~старый~>новый~~} текст). Благодаря этому можно увидеть разницу между текстом оригинала в текущем сегменте и текстом оригинала в выбранном совпадении (т. е. ранее переведенном сегменте).
 
-- Parts that do not appear in the active segment are {~~struck through~>~~}
-- Parts that appear in the match are {~~~>underlined~~} <!-- ^^underlined^^ -->
+- Те части текста, которые есть в совпадении, но отсутствуют в текущем сегменте, отмечаются {~~перечеркиванием~>~~}
+- Части текста, которые есть текущем сегменте, но отсутствуют в совпадении, отмечаются {~~~>подчеркиванием~~} <!-- ^^underlined^^ -->
 
-    <!-- ![](../_img/12_fuzzy_matches.jpg) -->
+   <!-- ![](../_img/12_fuzzy_matches.jpg) -->
 
-    ![](../_img/match-diff.png)
-    <!-- normalize text size in screenshots -->
+   ![](../_img/match-diff.png)
+   <!-- normalize text size in screenshots -->
 
-Also, the **Matches** pane shows a similarity score that tells you how different the new source text is from the source text of every match.
+Кроме того, в области **Matches** (Нечеткие совпадения) отображается процент схожести, благодаря которому можно определить, насколько текущий исходный текст отличается от исходного текста в выбранном совпадении.
 
 <!-- @todo: add screenshot that shows the score -->
 
-When there are several matches for a segment, they are sorted by their similarity to the new segment. The active match is the one in **bold** (by default, the one at the top of the list). If you want to use a different match, **double click** on it to activate it.
+Если для текущего сегмента найдено несколько соответствий, они будут отсортированы по уровню схожести с текущим сегментом. Выбранное соответствие выделяется **жирным** (по умолчанию выбирается первое совпадение в списке). Если вы хотите использовать другое соответствие, **щелкните по нему дважды** для изменения выбора.
 
 ![](../_img/13_selected_fuzzy.jpg)
 
-To insert the match in full, press ++ctrl+i++ on your keyboard. After inserting it, do not forget to make any necessary changes so that it fits the segment you are translating.
+Чтобы вставить совпадение полностью, нажмите на клавиатуре ++ctrl+i++. После вставки текста не забудьте сделать необходимые изменения, чтобы перевод соответствовал оригиналу текущего сегмента.
 
-Alternatively, you can also insert only a part of the fuzzy match or combine several matches:
+Можно также вставить только часть совпадения или объединить текст нескольких совпадений:
 
-- _Double-click_ the match you want to use to activate it
-- With your mouse, select the part you wish to insert
-- Press ++ctrl+i++ on your keyboard to insert it
+- _Дважды щелкните_ по тому совпадению, которое нужно сделать активным
+- Выберите мышью часть текста, который вы желаете вставить
+- Нажмите сочетание клавиш ++ctrl+i++ для вставки текста
 
-Do the same to insert (part of) other matches if appropriate or finish translating the segment.
+Повторите эти же действия для вставки других совпадений или их частей, если это необходимо, или закончите перевод сегмента.
 
 ![](../_img/14_select_part_fuzzy.jpg)
 
