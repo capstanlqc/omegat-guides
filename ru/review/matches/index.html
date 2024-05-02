@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../../../_assets/favicon.ico">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.20">
     
     
       
@@ -26,7 +26,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.bcfcd587.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.66ac8b77.min.css">
       
         
         <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
@@ -2136,29 +2136,29 @@
 
 <div><h1 id="_1">Нечеткие совпадения<a class="headerlink" href="#_1" title="Permanent link">¶</a></h1>
 <p>Переводы сохраняются в рабочей памяти переводов проекта. При открытии сегмента, похожего на уже переведенный, на панели <strong>Matches</strong> (Нечеткие совпадения) появляются предложения по переводу (или совпадения).</p>
-<p>The source text in the <strong>Matches</strong> pane uses “track changes” mode to show the differences (e.g. <del class="critic">old</del><ins class="critic">new</ins>) between the new source text in the active segment and the source text in the fuzzy match selected.</p>
+<p>Различия исходного текста отмечаются в области <strong>Matches</strong> (Нечеткие совпадения) в стиле «отслеживания изменений» (т. е. <del class="critic">старый</del><ins class="critic">новый</ins> текст). Благодаря этому можно увидеть разницу между текстом оригинала в текущем сегменте и текстом оригинала в выбранном совпадении (т. е. ранее переведенном сегменте).</p>
 <ul>
-<li>Parts that do not appear in the active segment are <del class="critic">struck through</del><ins class="critic"></ins></li>
-<li>
-<p>Parts that appear in the match are <del class="critic"></del><ins class="critic">underlined</ins> <!-- ^^underlined^^ --></p>
-<!-- <img alt="" src="../_img/12_fuzzy_matches.jpg" /> -->
-<p><img alt="" src="../../_img/match-diff.png">
-<!-- normalize text size in screenshots --></p>
-</li>
+<li>Те части текста, которые есть в совпадении, но отсутствуют в текущем сегменте, отмечаются <del class="critic">перечеркиванием</del><ins class="critic"></ins></li>
+<li>Части текста, которые есть текущем сегменте, но отсутствуют в совпадении, отмечаются <del class="critic"></del><ins class="critic">подчеркиванием</ins> <!-- ^^underlined^^ --></li>
 </ul>
-<p>Also, the <strong>Matches</strong> pane shows a similarity score that tells you how different the new source text is from the source text of every match.</p>
+<!-- ![](../_img/12_fuzzy_matches.jpg) -->
+
+<p><img alt="" src="../../_img/match-diff.png">
+   <!-- normalize text size in screenshots -->
+</p>
+<p>Кроме того, в области <strong>Matches</strong> (Нечеткие совпадения) отображается процент схожести, благодаря которому можно определить, насколько текущий исходный текст отличается от исходного текста в выбранном совпадении.</p>
 <!-- @todo: add screenshot that shows the score -->
 
-<p>When there are several matches for a segment, they are sorted by their similarity to the new segment. The active match is the one in <strong>bold</strong> (by default, the one at the top of the list). If you want to use a different match, <strong>double click</strong> on it to activate it.</p>
+<p>Если для текущего сегмента найдено несколько соответствий, они будут отсортированы по уровню схожести с текущим сегментом. Выбранное соответствие выделяется <strong>жирным</strong> (по умолчанию выбирается первое совпадение в списке). Если вы хотите использовать другое соответствие, <strong>щелкните по нему дважды</strong> для изменения выбора.</p>
 <p><img alt="" src="../../_img/13_selected_fuzzy.jpg"></p>
-<p>To insert the match in full, press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-i">I</kbd></span> on your keyboard. After inserting it, do not forget to make any necessary changes so that it fits the segment you are translating.</p>
-<p>Alternatively, you can also insert only a part of the fuzzy match or combine several matches:</p>
+<p>Чтобы вставить совпадение полностью, нажмите на клавиатуре <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-i">I</kbd></span>. После вставки текста не забудьте сделать необходимые изменения, чтобы перевод соответствовал оригиналу текущего сегмента.</p>
+<p>Можно также вставить только часть совпадения или объединить текст нескольких совпадений:</p>
 <ul>
-<li><em>Double-click</em> the match you want to use to activate it</li>
-<li>With your mouse, select the part you wish to insert</li>
-<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-i">I</kbd></span> on your keyboard to insert it</li>
+<li><em>Дважды щелкните</em> по тому совпадению, которое нужно сделать активным</li>
+<li>Выберите мышью часть текста, который вы желаете вставить</li>
+<li>Нажмите сочетание клавиш <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-i">I</kbd></span> для вставки текста</li>
 </ul>
-<p>Do the same to insert (part of) other matches if appropriate or finish translating the segment.</p>
+<p>Повторите эти же действия для вставки других совпадений или их частей, если это необходимо, или закончите перевод сегмента.</p>
 <p><img alt="" src="../../_img/14_select_part_fuzzy.jpg"></p>
 <!-- @todo: gif needed, vertical, less space --></div>
 
@@ -2260,7 +2260,7 @@
     <script id="__config" type="application/json">{"base": "../../..", "features": ["toc.integrate", "navigation.instant", "navigation.tracking", "navigation.prune", "navigation.top", "navigation.sections", "navigation.tabs", "navigation.footer", "navigation.expand", "navigation.path", "toc.follow", "navigation.indexes", "content.tooltips"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.dd8806f2.min.js"></script>
       
         <script src="../../../_assets/js/extra.js"></script>
       

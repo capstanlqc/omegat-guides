@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../../../_assets/favicon.ico">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.20">
     
     
       
@@ -26,7 +26,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.bcfcd587.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.66ac8b77.min.css">
       
         
         <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
@@ -2189,77 +2189,66 @@
 <hr>
 <h2 id="041">Упражнение 04.1: вставка парных тегов<a class="headerlink" href="#041" title="Permanent link">¶</a></h2>
 <ol>
-<li>
-<p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-j">J</kbd></span> and enter 40 to go to segment #40, which is untranslated.</p>
+<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-j">J</kbd></span> and enter 40 to go to segment #40, which is untranslated.</li>
+</ol>
 <blockquote>
 <p>Source text reads: <code>Click &lt;g1&gt;Play&lt;/g1&gt; to see it in action.</code></p>
 </blockquote>
-</li>
-<li>
-<p>Notice the two tags in the segment.</p>
-</li>
-<li>
-<p>With your mouse, hover over the two tags and notice how the two tags are <em>paired</em>.</p>
+<ol>
+<li>Notice the two tags in the segment.</li>
+<li>With your mouse, hover over the two tags and notice how the two tags are <em>paired</em>.</li>
+</ol>
 <blockquote>
 <p>The first tag stands for <code>&lt;strong&gt;</code> and the second tag stands for <code>&lt;/strong&gt;</code>.</p>
 </blockquote>
 <!-- > @quiz: what do you think these are? How to handle them: should we ignore them or reproduce them in the translation? @todo: move to quiz or remove -->
-</li>
-<li>
-<p>Translate segment #40.</p>
+
+<ol>
+<li>Translate segment #40.</li>
+</ol>
 <blockquote>
 <p>Suggested translation: <code>Cliquez sur Jouer pour voir ça en action.</code></p>
 </blockquote>
-</li>
-<li>
-<p>Select the part of the translation that corresponds to "Play"</p>
+<ol>
+<li>Select the part of the translation that corresponds to "Play"</li>
+</ol>
 <blockquote>
 <p>Tip: you should select <code>Jouer</code></p>
 </blockquote>
-</li>
-<li>
-<p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-space">Space</kbd></span> to open the auto-completer.</p>
-</li>
+<ol>
+<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-space">Space</kbd></span> to open the auto-completer.</li>
 <li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-space">Space</kbd></span> several times to cycle through all the sections in the auto-completer. Stop when you reach the “Missing tags” section.</li>
 <li>The first option (i.e. <code>&lt;g1&gt;|&lt;/g1&gt;</code>) is selected by default. Press <span class="keys"><kbd class="key-enter">Enter</kbd></span> to insert tag pair.</li>
-<li>
-<p>Notice how the two paired tags are inserted around the selected text in the translation.</p>
+<li>Notice how the two paired tags are inserted around the selected text in the translation.</li>
+</ol>
 <blockquote>
 <p>Expected result: <code>Cliquez sur &lt;g1&gt;Jouer&lt;/g1&gt; pour le voir en action.</code></p>
 </blockquote>
-</li>
-</ol>
 <p>Well done!</p>
 <h2 id="exercise-042-see-what-tags-stand-for">Exercise 04.2: see what tags stand for<a class="headerlink" href="#exercise-042-see-what-tags-stand-for" title="Permanent link">¶</a></h2>
 <ol>
-<li>
-<p>Go to segment #41.</p>
+<li>Go to segment #41.</li>
+</ol>
 <blockquote>
 <p>Source text reads <code>if &lt;x1/&gt; sensor detects black</code></p>
 </blockquote>
-</li>
-<li>
-<p>Notice how the segment contains one standalone tag.</p>
-</li>
-<li>
-<p>Hover over the tag to see what the tag stands for.</p>
+<ol>
+<li>Notice how the segment contains one standalone tag.</li>
+<li>Hover over the tag to see what the tag stands for.</li>
+</ol>
 <blockquote>
 <p>The tooltip should show <code>{{ sensor_type }}</code></p>
 </blockquote>
-</li>
-<li>
-<p>Go to the next segment, #42.</p>
-</li>
+<ol>
+<li>Go to the next segment, #42.</li>
 <li>Notice how this segment has <em>two</em> standalone tags, not two paired tags!</li>
-<li>
-<p>Check what the two tags stand for.</p>
+<li>Check what the two tags stand for.</li>
+</ol>
 <blockquote>
 <p>The tooltips should show <code>{{ object1 }}</code> and <code>{{ object2 }}</code></p>
 </blockquote>
-</li>
-</ol>
 <!-- prettier-ignore -->
-<div class="admonition предупреждение">
+<div class="admonition warning">
 <p class="admonition-title">Предупреждение</p>
 <p>The difference between two standalone tags and two paired tags is very important.</p>
 </div>
@@ -2267,101 +2256,91 @@
 <ol>
 <li>Go to segment #43.</li>
 <li>Notice that the tag is missing in the translation.</li>
-<li>
-<p>Place the mouse cursor in the position where you would like to insert the tag.</p>
+<li>Place the mouse cursor in the position where you would like to insert the tag.</li>
+</ol>
 <blockquote>
 <p>Tip: right at the end of the translation</p>
 </blockquote>
-</li>
-<li>
-<p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-space">Space</kbd></span> to launch the auto-completer and insert the tag.</p>
-</li>
+<ol>
+<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-space">Space</kbd></span> to launch the auto-completer and insert the tag.</li>
 <li>Go to segment #44.</li>
 <li>Notice how the tag is also missing in this translation.</li>
-<li>
-<p>Place the mouse cursor in the position where you would like to insert the tag.</p>
+<li>Place the mouse cursor in the position where you would like to insert the tag.</li>
+</ol>
 <blockquote>
 <p>Tip: click between <code>tourner à droite jusqu'à ce que</code> and <code>le capteur détecte le noir</code></p>
 </blockquote>
-</li>
-<li>
-<p>Use the auto-completer to insert the missing tag.</p>
-</li>
+<ol>
+<li>Use the auto-completer to insert the missing tag.</li>
 </ol>
 <h2 id="exercise-044-insert-standalone-tag-as-you-translate">Exercise 04.4: insert standalone tag as you translate<a class="headerlink" href="#exercise-044-insert-standalone-tag-as-you-translate" title="Permanent link">¶</a></h2>
 <ol>
 <li>Go to segment #45.</li>
 <li>To translate the segment and insert the tag, proceed in this way:</li>
-<li>
-<p>Translate "repeat"</p>
+<li>Translate "repeat"</li>
+</ol>
 <blockquote>
 <p>Suggested translation of the first part: <code>répéter</code></p>
 </blockquote>
-</li>
-<li>
-<p>Use the auto-completer to insert the missing tag</p>
+<ol>
+<li>Use the auto-completer to insert the missing tag</li>
+</ol>
 <blockquote>
 <p>Remember the shortcut to launch the auto-completer is <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-space">Space</kbd></span>.</p>
 </blockquote>
-</li>
-<li>
-<p>Translate "times"</p>
+<ol>
+<li>Translate "times"</li>
+</ol>
 <blockquote>
 <p>Suggested translation of the second part: <code>fois</code></p>
 </blockquote>
-</li>
-</ol>
 <p>You have inserted the tag as you made progress through the translation.</p>
 <h2 id="exercise-045-trigger-the-tag-tooltip">Exercise 04.5: trigger the tag tooltip<a class="headerlink" href="#exercise-045-trigger-the-tag-tooltip" title="Permanent link">¶</a></h2>
 <!-- translation: Le traducteur a dû prêter attention au formatage tel que le gras, l'italique, le soulignement</g3>. -->
 
 <ol>
-<li>
-<p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-j">J</kbd></span> and enter 48 to go to segment #48.</p>
+<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-j">J</kbd></span> and enter 48 to go to segment #48.</li>
+</ol>
 <blockquote>
 <p>Source text reads: <code>The translator had to pay attention to formatting such as &lt;g1&gt;bold&lt;/g1&gt;, &lt;g2&gt;italics&lt;/g2&gt;, &lt;g3&gt;underline&lt;/g3&gt;.</code></p>
 </blockquote>
-</li>
-<li>
-<p>Hover over the tags with your mouse to display a tooltip that shows the line code the tags stand for.</p>
+<ol>
+<li>Hover over the tags with your mouse to display a tooltip that shows the line code the tags stand for.</li>
+</ol>
 <blockquote>
 <p>Tip: the tooltip should display HTML tags <code>&lt;strong&gt;</code>, <code>&lt;em&gt;</code>, <code>&lt;span class="underline"&gt;</code> etc.</p>
 </blockquote>
-</li>
-</ol>
 <!-- @ŧodo: add exercise about notes, add exercise about search hash -->
 
 <h2 id="exercise-046-insert-more-tags">Exercise 04.6: insert more tags<a class="headerlink" href="#exercise-046-insert-more-tags" title="Permanent link">¶</a></h2>
 <ol>
 <li>Still in segment #48, press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-i">I</kbd></span> to insert the fuzzy match.</li>
 <li>Notice how most tags are missing in the translation.</li>
-<li>
-<p>Select the part of the translation that corresponds to “bold”</p>
+<li>Select the part of the translation that corresponds to “bold”</li>
+</ol>
 <blockquote>
 <p>Tip: <code>le gras</code></p>
 </blockquote>
-</li>
-<li>
-<p>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-space">Space</kbd></span> to open the "Missing tags" section in the auto-completer.</p>
+<ol>
+<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-space">Space</kbd></span> to open the "Missing tags" section in the auto-completer.</li>
+</ol>
 <blockquote>
 <p>The first line (i.e. <code>&lt;g1&gt;&lt;/g1&gt;</code>) is selected by default.</p>
 </blockquote>
-</li>
-<li>
-<p>Press <span class="keys"><kbd class="key-enter">Enter</kbd></span> to insert the tag pair that appears in the first line of the auto-completer.</p>
-</li>
-<li>
-<p>Notice how the tags have been inserted around the selected text</p>
+<ol>
+<li>Press <span class="keys"><kbd class="key-enter">Enter</kbd></span> to insert the tag pair that appears in the first line of the auto-completer.</li>
+<li>Notice how the tags have been inserted around the selected text</li>
+</ol>
 <blockquote>
 <p>Results should be <code>&lt;g1&gt;le gras&lt;/g1&gt;</code></p>
 </blockquote>
-</li>
-<li>
-<p>Do the same for the translation of “italics”</p>
+<ol>
+<li>Do the same for the translation of “italics”</li>
+</ol>
 <blockquote>
 <p>Results should be <code>&lt;g2&gt;l’italique&lt;/g2&gt;</code></p>
 </blockquote>
-</li>
+<ol>
 <li>
 <p>Notice how you cannot insert a tag pair around the translation of “underline” because closing tag <code>&lt;/g3&gt;</code> is already inserted.</p>
 </li>
@@ -2370,11 +2349,11 @@
 </li>
 <li>
 <p>Use the auto-completer (<span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-space">Space</kbd></span>) to insert tag <code>&lt;g3&gt;</code>.</p>
+</li>
+</ol>
 <blockquote>
 <p>Results should be <code>&lt;g3&gt;le soulignement&lt;/g3&gt;</code></p>
 </blockquote>
-</li>
-</ol>
 <p>Well done!</p>
 <!-- @ŧodo > @quiz: insert  -->
 
@@ -2529,7 +2508,7 @@ In this exercise, you'll practice another way to move a tag to its correct posit
     <script id="__config" type="application/json">{"base": "../../..", "features": ["toc.integrate", "navigation.instant", "navigation.tracking", "navigation.prune", "navigation.top", "navigation.sections", "navigation.tabs", "navigation.footer", "navigation.expand", "navigation.path", "toc.follow", "navigation.indexes", "content.tooltips"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.dd8806f2.min.js"></script>
       
         <script src="../../../_assets/js/extra.js"></script>
       

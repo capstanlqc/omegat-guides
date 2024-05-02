@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../../../_assets/favicon.ico">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.20">
     
     
       
@@ -26,7 +26,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.bcfcd587.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.66ac8b77.min.css">
       
         
         <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
@@ -2248,22 +2248,21 @@
 <h2 id="_3">Типы тегов<a class="headerlink" href="#_3" title="Permanent link">¶</a></h2>
 <p>Существует два типа тегов: отдельные теги и парные или двойные теги.</p>
 <ul>
-<li>
-<p><strong>Отдельный тег</strong>: один тег (например. <strong class="omttag"><x1></x1></strong>), который обозначает тот или иной элемент, появляющийся в исходном документе в данной позиции: перенос строки, изображение, поле ввода и т. д.</p>
-<p><img alt="" src="../../_img/omt-tags-types-standalone-02.png"></p>
-</li>
-<li>
-<p><strong>Парные теги</strong> состоят из открывающего и закрывающего тегов (например, <strong class="omttag"><g2></g2></strong> и <strong class="omttag"></strong>) и применяются к тексту между ними. Парные теги можно определить по тому, что в них использовано одинаковое число.</p>
-<p><img alt="" src="../../_img/omt-tags-types-paired.png"></p>
-<p><!-- <img alt="" src="../_img/10_types_of_tags.jpg" /> -->
-<!-- <img alt="" src="../_img/omt-tags-types-labels.png" /> -->
-<!-- @todo: png, use example of same text in source and corresponding translation with tags aruond the same --></p>
-</li>
+<li><strong>Отдельный тег</strong>: один тег (например. <strong class="omttag"><x1></x1></strong>), который обозначает тот или иной элемент, появляющийся в исходном документе в данной позиции: перенос строки, изображение, поле ввода и т. д.</li>
 </ul>
+<p><img alt="" src="../../_img/omt-tags-types-standalone-02.png"></p>
+<ul>
+<li><strong>Парные теги</strong> состоят из открывающего и закрывающего тегов (например, <strong class="omttag"><g2></g2></strong> и <strong class="omttag"></strong>) и применяются к тексту между ними. Парные теги можно определить по тому, что в них использовано одинаковое число.</li>
+</ul>
+<p><img alt="" src="../../_img/omt-tags-types-paired.png"></p>
+<!-- ![](../_img/10_types_of_tags.jpg) -->
+<!-- ![](../_img/omt-tags-types-labels.png) -->
+<!-- @todo: png, use example of same text in source and corresponding translation with tags aruond the same -->
+
 <p>Если исходный текст содержит <strong>парные теги</strong> вокруг слова или выражения, необходимо вставить такие же парные теги вокруг соответствующего слова или выражения в переводе.</p>
 <p>В приведенном ниже примере парные теги представляют собой форматирование, применяемое к слову «после» и его переводу «après».</p>
 <blockquote>
-<p>Я пришел в эту школу <strong class="omttag"><g1></g1></strong>после<strong class="omttag"></strong> начала этого учебного года.
+<p><b>Я пришел в эту школу <strong class="omttag"><g1></g1></strong>после<strong class="omttag"></strong> начала этого учебного года.</b><br>
 Je suis venu à cette école <strong class="omttag"><g1></g1></strong>après<strong class="omttag"></strong> le début de cette année scolaire.</p>
 </blockquote>
 <p>Если исходный текст содержит один или несколько <strong>отдельных тегов</strong>, их необходимо вставить в перевод в положении, эквивалентном их положению в оригинале.</p>
@@ -2279,32 +2278,32 @@ Je suis venu à cette école <strong class="omttag"><g1></g1></strong>après<st
 </blockquote>
 <!-- section: tag insertion -->
 <h2 id="_4">Вставка тегов<a class="headerlink" href="#_4" title="Permanent link">¶</a></h2>
-<p>Before inserting tags you must know whether it is a standalone tag or two paired tags.</p>
+<p>Прежде чем вставить тег, вам нужно знать, является ли он отдельным тегом или частью пары тегов.</p>
 <!-- ### Paired tags -->
 
-<p>To insert <strong>paired tags</strong> in your translation, proceed as follows:</p>
+<p>Для вставки в перевод <strong>парных тегов</strong> выполните следующие действия:</p>
 <ol>
-<li>Translate the segment.</li>
-<li>Select the part of the translation that corresponds to the formatted part in the source text.</li>
-<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-space">Space</kbd></span> to launch the auto-completer.</li>
-<li>In the tags section of the auto-completer, select the paired tags you want to insert.</li>
+<li>Переведите сегмент.</li>
+<li>Выделите ту часть переведенного текста, которая отвечает отформатированному фрагменту в тексте оригинала.</li>
+<li>Нажмите <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-space">Space</kbd></span>, чтобы запустить автозавершение.</li>
+<li>В окне автозавершения в разделе тегов выберите парные теги, которые вы хотите вставить.</li>
 </ol>
 <p><img alt="" src="../../_img/omt-tags-autocomplete-paired.gif"></p>
 <!-- prettier-ignore -->
 <div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>The auto-completer has several sections, so if you don't see the tags section straight-away, just press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-space">Space</kbd></span> again to cycle through the auto-completer until you see it.</p>
+<p class="admonition-title">Информация</p>
+<p>Окно автозавершения содержит несколько разделов. Если раздел с тегами не открылся сразу, просто нажмите <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-space">Space</kbd></span> еще раз — разделы будут меняться циклично, так вы сможете выбрать нужный раздел.</p>
 </div>
 <!-- ### Standalone tags -->
 
-<p>To insert a <strong>standalone tag</strong>, proceed as follows:</p>
+<p>Чтобы вставить <strong>отдельный тег</strong>, выполните следующие действия:</p>
 <ol>
-<li>Click on the position where you want to insert the tag (before, after or while translating).</li>
-<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-space">Space</kbd></span> to launch the auto-completer.</li>
-<li>In the tags section of the auto-completer, select the standalone tag you want to insert.</li>
+<li>Поместите текстовый курсор в нужное положение в тексте перевода, щелкнув мышью (это можно сделать перед началом перевода сегмента, во время перевода или по его окончании).</li>
+<li>Нажмите <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-space">Space</kbd></span>, чтобы запустить автозавершение.</li>
+<li>В окне автозавершения в разделе тегов выберите отдельный тег, который вы хотите вставить.</li>
 </ol>
 <p><img alt="" src="../../_img/omt-tags-autocomplete-standalone.gif"></p>
-<p>You can also insert a tag one by one with shortcut <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-t">T</kbd></span>.</p>
+<p>Кроме того, теги можно вставлять по одному, используя сочетание клавиш <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-t">T</kbd></span>.</p>
 <p>В следующем видео показана работа с тегами. Приятного просмотра <span class="twemoji heart"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M14 20.408c-.492.308-.903.546-1.192.709-.153.086-.308.17-.463.252h-.002a.75.75 0 0 1-.686 0 16.709 16.709 0 0 1-.465-.252 31.147 31.147 0 0 1-4.803-3.34C3.8 15.572 1 12.331 1 8.513 1 5.052 3.829 2.5 6.736 2.5 9.03 2.5 10.881 3.726 12 5.605 13.12 3.726 14.97 2.5 17.264 2.5 20.17 2.5 23 5.052 23 8.514c0 3.818-2.801 7.06-5.389 9.262A31.146 31.146 0 0 1 14 20.408Z"></path></svg></span>.</p>
 <div style="padding:69.95% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/780434399?h=c7ab23ed9d" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
 <script src="https://player.vimeo.com/api/player.js"></script>
@@ -2451,7 +2450,7 @@ The tags are inserted around the text you have selected.
     <script id="__config" type="application/json">{"base": "../../..", "features": ["toc.integrate", "navigation.instant", "navigation.tracking", "navigation.prune", "navigation.top", "navigation.sections", "navigation.tabs", "navigation.footer", "navigation.expand", "navigation.path", "toc.follow", "navigation.indexes", "content.tooltips"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.dd8806f2.min.js"></script>
       
         <script src="../../../_assets/js/extra.js"></script>
       

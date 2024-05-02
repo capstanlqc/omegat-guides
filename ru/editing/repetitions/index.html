@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../../../_assets/favicon.ico">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.20">
     
     
       
@@ -26,7 +26,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.bcfcd587.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.66ac8b77.min.css">
       
         
         <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#handling-repetitions" class="md-skip">
+        <a href="#_1" class="md-skip">
           Skip to content
         </a>
       
@@ -1815,45 +1815,45 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#identifying-repeated-segments" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      Identifying repeated segments
+      Определение повторяющихся сегментов
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#autopropagation" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
-      Autopropagation
+      Автоматическое использование переводов
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#creating-alternative-translation" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
-      Creating alternative translation
+      Создание альтернативного перевода
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#identifying-alternative-translations" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
-      Identifying alternative translations
+      Определение альтернативных переводов
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#restoring-the-default-translation" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
-      Restoring the default translation
+      Восстановление перевода по умолчанию
     </span>
   </a>
   
@@ -2209,10 +2209,10 @@
                   
 
 
-<div><h1 id="handling-repetitions">Handling repetitions<a class="headerlink" href="#handling-repetitions" title="Permanent link">¶</a></h1>
-<p>Some segments may be <strong>repeated</strong> in the project. By default, the translation of a repeated segment is <strong>autopropagated</strong> to all its instances.</p>
-<h2 id="identifying-repeated-segments">Identifying repeated segments<a class="headerlink" href="#identifying-repeated-segments" title="Permanent link">¶</a></h2>
-<p>You can recognize that you are in a repeated segment because the <strong>Segment Properties</strong> pane will show a field called <strong>Is duplicate</strong> (with value <code>FIRST</code> for the first repetitions and value <code>NEXT</code> for any others).</p>
+<div><h1 id="_1">Работа с повторами<a class="headerlink" href="#_1" title="Permanent link">¶</a></h1>
+<p>Некоторые сегменты в проекте могут <strong>повторяться</strong>. По умолчанию перевод, введенный в одном из повторяющихся сегментов, <strong>используется автоматически</strong> во всех повторах.</p>
+<h2 id="_2">Определение повторяющихся сегментов<a class="headerlink" href="#_2" title="Permanent link">¶</a></h2>
+<p>Определить, является ли текущий сегмент повторяющимся, можно по тому, что область <strong>Segment Properties</strong> (Свойства сегмента) будет содержать поле <strong>isDup</strong> со значением <code>FIRST</code> для первого сегмента в группе повторов и <code>NEXT</code> для всех последующих.</p>
 <!-- @todo: in the navigation across panes add segment properties -->
 <!-- @todo: update "navigation across panes" > "navigation through panes" -->
 
@@ -2221,64 +2221,65 @@
 
 <!-- @todo: harmonize font size across all screenshots and gifs -->
 
-<p>Also, the segment number also includes how many more repetitions the active segment has.</p>
-<p>Also, repeated segments from the second instance onwards have grey font, which could help you realize they are instances of a repeated segment.</p>
+<p>Кроме того, маркер текущего сегмента, в котором отображается его номер, также содержит информацию о том, сколько повторов имеется у текущего сегмента.</p>
+<p>Второй и все последующие повторы выделяются серым шрифтом, благодаря чему можно определить, что такие сегменты повторяются в проекте.</p>
 <!-- @todo: repetitions in black and gray font -->
 
-<p>If you <strong>right click</strong> on a repeated segment, the contextual menu will list all the other instances. It can be useful to jump to them (by clicking on one of them from the contextual menu) to see the different contexts in which that repeated segment appears in the project.</p>
+<p>Если <strong>щелкнуть правой кнопкой мыши</strong> по повторяющемуся сегменту, в контекстом меню будет список всех его повторов. Он дает возможность перейти к другим повторам (для этого нужно выбрать соответствующий пункт контекстного меню). Таким образом вы можете просмотреть контекст, в котором повторяющийся сегмент используется в проекте.</p>
 <p><img alt="" src="../../_img/16_repeated_context.jpg"></p>
-<h2 id="autopropagation">Autopropagation<a class="headerlink" href="#autopropagation" title="Permanent link">¶</a></h2>
-<p>When you edit the translation of a repeated segment, as soon as the edit is saved the changes will be automatically reflected in all the repetitions in the project.</p>
+<h2 id="_3">Автоматическое использование переводов<a class="headerlink" href="#_3" title="Permanent link">¶</a></h2>
+<p>При редактировании перевода повторяющегося сегмента следует помнить о том, что как только изменения будут сохранены, они автоматически отобразятся во всех повторах сегмента в проекте.</p>
 <p><img alt="" src="../../_img/17_autopropagation.jpg"></p>
-<h2 id="creating-alternative-translation">Creating alternative translation<a class="headerlink" href="#creating-alternative-translation" title="Permanent link">¶</a></h2>
-<p>In some cases, two instances of a repeated segment might need to be translated differently in different contexts. In that situation, you may want to modify the translation of only one of the repetitions without altering the rest.</p>
-<p>In other words, you must create an <strong>alternative translation</strong> to prevent <em>auto-propagating</em> your update.</p>
-<p>To create an <strong>alternative translation</strong>:</p>
+<h2 id="_4">Создание альтернативного перевода<a class="headerlink" href="#_4" title="Permanent link">¶</a></h2>
+<p>В некоторых случаях перевод повторяющегося сегмента должен быть разным в зависимости от контекста. В такой ситуации возникает необходимость изменить перевод только в одном из повторов, не меняя при этом перевод всех остальных.</p>
+<p>Другими словами, вам необходимо создать <strong>вариант перевода</strong> (или альтернативный перевод), который не будет <em>распространяться автоматически</em> на все остальные повторы.</p>
+<p>Для создания <strong>альтернативного перевода</strong> выполните следующие действия:</p>
 <ol>
-<li><em>Right click</em> on the segment and choose <strong>Create Alternative Translation</strong> from the contextual menu.</li>
+<li><em>Щелкните правой кнопкой мыши</em> по текущему сегменту и выберите пункт контекстного меню <strong>Create Alternative Translation</strong> (Создать вариант перевода).</li>
 </ol>
 <!-- ![](../_img/18_create_alternative_translation.jpg) -->
 <ol>
-<li>Edit the translation of the active segment.</li>
-<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-s">S</kbd></span> to register the alternative translation.
-    <!-- <img alt="" src="../_img/19_alternative_translation_created.jpg" /> -->
-    <!-- @todo: use the example from the slides --></li>
+<li>Отредактируйте перевод текущего сегмента.</li>
+<li>Нажмите <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-s">S</kbd></span> для записи альтернативного перевода.
+   <!-- ![](../_img/19_alternative_translation_created.jpg) --></li>
 </ol>
-<p>The <strong>Multiple Translations</strong> pane will show the different translations.</p>
-<p>And here's a quick summary:
+<!-- @todo: use the example from the slides -->
+
+<p>В области <strong>Multiple Translations</strong> (Варианты перевода) будут показаны варианты перевода текущего текста оригинала.</p>
+<p>Вкратце процесс создания альтернативного перевода выглядит так:
 <img alt="" src="../../_img/create-alternative-translation-in-3-steps.gif"></p>
 <!-- @todo for Danina: repeat video, Ctrl+S for every segment! -->
 
 <!-- prettier-ignore -->
 <div class="admonition danger">
-<p class="admonition-title">Danger</p>
-<p>Alternative translations may be treacherous if not applied correctly. Make sure you follow the three steps above precisely.</p>
+<p class="admonition-title">Опасность</p>
+<p>Альтернативные переводы могут оказаться коварными при неправильном применении. Если вам нужно создать альтернативный перевод, точное выполнение трех описанных выше шагов является обязательным.</p>
 </div>
-<p>The following video shows how to create alternative translations, enjoy <span class="twemoji heart"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M14 20.408c-.492.308-.903.546-1.192.709-.153.086-.308.17-.463.252h-.002a.75.75 0 0 1-.686 0 16.709 16.709 0 0 1-.465-.252 31.147 31.147 0 0 1-4.803-3.34C3.8 15.572 1 12.331 1 8.513 1 5.052 3.829 2.5 6.736 2.5 9.03 2.5 10.881 3.726 12 5.605 13.12 3.726 14.97 2.5 17.264 2.5 20.17 2.5 23 5.052 23 8.514c0 3.818-2.801 7.06-5.389 9.262A31.146 31.146 0 0 1 14 20.408Z"></path></svg></span>:</p>
+<p>В следующем видео показано, как создавать альтернативные переводы. Приятного просмотра <span class="twemoji heart"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M14 20.408c-.492.308-.903.546-1.192.709-.153.086-.308.17-.463.252h-.002a.75.75 0 0 1-.686 0 16.709 16.709 0 0 1-.465-.252 31.147 31.147 0 0 1-4.803-3.34C3.8 15.572 1 12.331 1 8.513 1 5.052 3.829 2.5 6.736 2.5 9.03 2.5 10.881 3.726 12 5.605 13.12 3.726 14.97 2.5 17.264 2.5 20.17 2.5 23 5.052 23 8.514c0 3.818-2.801 7.06-5.389 9.262A31.146 31.146 0 0 1 14 20.408Z"></path></svg></span>.</p>
 <div style="padding:60% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/789832289?h=5fd29f998e" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
 <script src="https://player.vimeo.com/api/player.js"></script>
 
 <!-- prettier-ignore -->
-<div class="admonition предупреждение">
+<div class="admonition warning">
 <p class="admonition-title">Предупреждение</p>
-<p>Remember that you can't create an alternative translation if the segment already has an alternative translation. See the section below to learn how you can recognize an alternative translation.</p>
+<p>Если перевод сегмента уже является альтернативным, то создать альтернативный перевод такого сегмента будет невозможно. В приведенном ниже разделе описано, как определить, является ли перевод текущего сегмента альтернативным.</p>
 </div>
-<p>If you must modify an existing alternative translation, simply edit the target text and save (<span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-s">S</kbd></span>).</p>
-<h2 id="identifying-alternative-translations">Identifying alternative translations<a class="headerlink" href="#identifying-alternative-translations" title="Permanent link">¶</a></h2>
-<p>Here's how you can recognize whether a segment has an alternative translation.</p>
-<p>On the one hand, if a segment has an alternative translation, the <strong>Segment properties</strong> pane will show a property called <strong>Is alternative</strong> with value <code>true</code>. That field will flash in orange when you active the segment or when you save the project while that segment is active.</p>
+<p>Если необходимо изменить существующий альтернативный перевод, просто отредактируйте его и сохраните изменения (<span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-s">S</kbd></span>).</p>
+<h2 id="_5">Определение альтернативных переводов<a class="headerlink" href="#_5" title="Permanent link">¶</a></h2>
+<p>Определить, является ли перевод текущего сегмента альтернативным, можно следующим образом:</p>
+<p>Во-первых, если сегмент содержит альтернативный перевод, в области <strong>Segment Properties</strong> (Свойства сегмента) будет содержаться поле <strong>isAlt</strong> со значением <code>true</code>. Это поле будет мигать оранжевым при переходе к такому сегменту или при сохранении проекта, если такой сегмент будет в этот момент активным.</p>
 <p><img alt="" src="../../_img/omt-alt-prop-flash.png"></p>
-<p>On the other hand, you will notice that the <strong>Multiple translations</strong> pane shows that translation and the context properties that the alternative translation binds too (typically the file name and some identifier, e.g. the segment ID or a key).</p>
+<p>Во-вторых, в области <strong>Multiple Translations</strong> (Варианты перевода) будут отображаться варианты перевода и контекст, к которому они привязаны (обычно альтернативные переводы привязаны к имени файла и дополнительным идентификаторам, например ID или ключу сегмента).</p>
 <p><img alt="" src="../../_img/omt-alt-multiple-pane.png"></p>
-<p>Finally, and most eloquent, you can see that the segment has an alternative translation if the <strong>Create Alternative Translation</strong> item in the segment's contextual menu (or the <strong>Edit</strong> menu) is grayed out and cannot be selected.</p>
+<p>И наконец, наиболее выразительно наличие альтернативного перевода видно по тому, что вы не сможете выбрать пункт <strong>Create Alternative Translation</strong> (Создать вариант перевода) в контекстом меню сегмента или в меню <strong>Edit</strong> (Правка), так как он будет неактивным.</p>
 <p><img alt="" src="../../_img/omt-alt-grayed-out.png"></p>
-<h2 id="restoring-the-default-translation">Restoring the default translation<a class="headerlink" href="#restoring-the-default-translation" title="Permanent link">¶</a></h2>
-<p>If for some reason an existing alternative translation is unnecessary and you would like to restore auto-propagation into that segment, the simplest way is to just delete the alternative translation. To do that, follow these simple steps:</p>
+<h2 id="_6">Восстановление перевода по умолчанию<a class="headerlink" href="#_6" title="Permanent link">¶</a></h2>
+<p>Если по какой-то причине существующий альтернативный перевод стал ненужным, и вы хотите, чтобы перевод сегмента стал таким же, как в других повторах, проще всего просто удалить текущий вариант перевода. Для этого выполните следующие простые шаги:</p>
 <ul>
-<li>Go to the segment where you want to restore the default translation</li>
-<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-a">A</kbd></span> on your keyboard to select the whole target text</li>
-<li>Press the <span class="keys"><kbd class="key-delete">Del</kbd></span> on your keyboard to delete the translation</li>
-<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-s">S</kbd></span> to save (or leave the segment) to restore the default translation</li>
+<li>Перейдите к сегменту, в котором вы хотите восстановить перевод по умолчанию</li>
+<li>Нажмите сочетание клавиш <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-a">A</kbd></span>, чтобы выбрать весь переведенный текст</li>
+<li>Нажмите клавишу <span class="keys"><kbd class="key-delete">Del</kbd></span>, чтобы удалить перевод</li>
+<li>Нажмите сочетание клавиш <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-s">S</kbd></span> для сохранения изменений или перейдите к другому сегменту, чтобы восстановить перевод по умолчанию</li>
 </ul></div>
 
 
@@ -2379,7 +2380,7 @@
     <script id="__config" type="application/json">{"base": "../../..", "features": ["toc.integrate", "navigation.instant", "navigation.tracking", "navigation.prune", "navigation.top", "navigation.sections", "navigation.tabs", "navigation.footer", "navigation.expand", "navigation.path", "toc.follow", "navigation.indexes", "content.tooltips"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.dd8806f2.min.js"></script>
       
         <script src="../../../_assets/js/extra.js"></script>
       
