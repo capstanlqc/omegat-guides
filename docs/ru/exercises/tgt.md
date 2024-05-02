@@ -17,7 +17,7 @@ Unlike in previous cycles, in this cycle you will work on an online team project
 Here are the details of a team project you can download for training purposes.
 
 <!-- prettier-ignore -->
-!!! Предупреждение
+!!! warning "Предупреждение"
     This is not the project where you must work to produce your translation.
 
 URL of the git repository:
@@ -40,13 +40,13 @@ Password:
 
 ### Steps
 
-1. In OmegaT, go to **Project** > **Download Team Project**.
+1. В OmegaT перейдите в меню **Project** (Проект) > **Download Team Project** (Загрузить командный проект).
 
 2. Paste the URL of the git repository in the "Repository URL" field.
 
 3. Then click on the "New Local Project Folder" field.
 
-    > OmegaT will propose a location to clone the project in your machine, e.g. something like `C:\Users\USER\project_task_fr-ZZ_omt` (where `USER` is your username).
+   > OmegaT will propose a location to clone the project in your machine, e.g. something like `C:\Users\USER\project_task_fr-ZZ_omt` (where `USER` is your username).
 
 The name of the project is highlighted in yellow in the screenshot below:
 ![](../_img/omt_git_keep_project_name.png)
@@ -64,7 +64,7 @@ If the proposed path to the local project folder is fine, just press **OK**. All
     Please check our [File organization](../misc/tips.md/#file-organization) tips, they could help you keep your files and folders more organized.
 
 <!-- prettier-ignore -->
-!!! Предупреждение
+!!! warning "Предупреждение"
     The location where you create the team project should not be inside a folder sync'ed by Dropbox, OneDrive, Nextcloud, etc. (any sync'ing service in your machine).
 
 <!-- ![](../_img/omt_git_three_dots.png) -->
@@ -91,4 +91,4 @@ If the proposed path to the local project folder is fine, just press **OK**. All
 
 To commit target files (e.g. to update the preview):
 
-- Go to **Project** > **Commit Target Files**.
+- Выберите пункт меню **Project** (Проект) > **Commit Target Files** (Зафиксировать переведенные файлы).

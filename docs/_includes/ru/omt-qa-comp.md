@@ -1,29 +1,29 @@
-## Completion check
+## Проверка полного завершения перевода
 
-All segments in the project must have a translation. To confirm that is the case, please check for completion before your delivery.
+Все сегменты проекта должны содержать перевод. Перед сдачей выполненной работы надлежит убедиться, что это действительно так.
 
-To check completion, hover with your mouse pointer over the progress status bar, in the bottom right corner of OmegaT's main window.
+Для проверки полного завершения перевода наведите указатель мыши на строку состояния в правом нижнем углу главного окна OmegaT.
 
 ![](../_img/progress-status.png)
 
 <!-- @todo: red square around the figures -->
 
-That bar shows some statistics:
+В этой панели показана статистика:
 
-- unique translated (unique left) per file (e.g. `100% (0 left)` as above)
+- количество переведенных уникальных сегментов (оставшееся количество уникальных сегментов) в текущем файле (например, `100 % (осталось: 0)`, как на снимке экрана выше)
 
-* unique translated (unique left) per project (e.g. `100% (0 left)` as above)
-* total number of segments (e.g. `54` as above)
+* количество переведенных уникальных сегментов (оставшееся количество уникальных сегментов) в проекте (например, `100 % (осталось: 0)`, как на снимке экрана выше)
+* общее количество сегментов (например, `54` как на снимке экрана выше)
 <!-- @todo: screenshot with labels showing what is what -->
 
-If you see something like `100% (0 left) / 100% (0 left), 54`, that means that all 54 segments in the project are translated. If you see a number higher that zero segments left, the translation is not complete.
+Если у вас в этой панели показана подобная информация (`100 % (осталось: 0) / 100 % (осталось: 0), 54`), то это означает, что в проекте переведены все 54 сегмента. Если же вы видите, что оставшихся сегментов больше, чем ноль, то перевод проекта не завершен.
 
-If you have left some segment(s) untranslated, proceed as follows to fix that:
+При наличии непереведенных сегментов необходимо выполнить следующие действия:
 
-1. Press ++escape++ to close the **Project Files** window.
-2. Press ++ctrl+u++ on your keyboard to jump to the **Next Untranslated Segment**.
-3. Translate the segment
+1. Нажмите ++escape++, чтобы закрыть окно **Project Files** (Файлы проекта).
+2. Нажмите сочетание клавиш ++ctrl+u++, чтобы перейти к **следующему непереведенному сегменту**.
+3. Переведите сегмент.
 
-Repeat the steps above until no untranslated segments remain.
+Повторяйте описанные выше действия до тех пока, пока в проекте не останется непереведенных сегментов.
 
-Finally, check the progress status bar again to confirm completion.
+Наконец, еще раз проверьте строку состояния, чтобы подтвердить завершение перевода.

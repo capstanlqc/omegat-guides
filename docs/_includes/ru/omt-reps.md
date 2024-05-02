@@ -1,10 +1,10 @@
-# Handling repetitions
+# Работа с повторами
 
-Some segments may be **repeated** in the project. By default, the translation of a repeated segment is **autopropagated** to all its instances.
+Некоторые сегменты в проекте могут **повторяться**. По умолчанию перевод, введенный в одном из повторяющихся сегментов, **используется автоматически** во всех повторах.
 
-## Identifying repeated segments
+## Определение повторяющихся сегментов
 
-You can recognize that you are in a repeated segment because the **Segment Properties** pane will show a field called **Is duplicate** (with value `FIRST` for the first repetitions and value `NEXT` for any others).
+Определить, является ли текущий сегмент повторяющимся, можно по тому, что область **Segment Properties** (Свойства сегмента) будет содержать поле **isDup** со значением `FIRST` для первого сегмента в группе повторов и `NEXT` для всех последующих.
 
 <!-- @todo: in the navigation across panes add segment properties -->
 <!-- @todo: update "navigation across panes" > "navigation through panes" -->
@@ -15,79 +15,79 @@ You can recognize that you are in a repeated segment because the **Segment Prope
 
 <!-- @todo: harmonize font size across all screenshots and gifs -->
 
-Also, the segment number also includes how many more repetitions the active segment has.
+Кроме того, маркер текущего сегмента, в котором отображается его номер, также содержит информацию о том, сколько повторов имеется у текущего сегмента.
 
-Also, repeated segments from the second instance onwards have grey font, which could help you realize they are instances of a repeated segment.
+Второй и все последующие повторы выделяются серым шрифтом, благодаря чему можно определить, что такие сегменты повторяются в проекте.
 
 <!-- @todo: repetitions in black and gray font -->
 
-If you **right click** on a repeated segment, the contextual menu will list all the other instances. It can be useful to jump to them (by clicking on one of them from the contextual menu) to see the different contexts in which that repeated segment appears in the project.
+Если **щелкнуть правой кнопкой мыши** по повторяющемуся сегменту, в контекстом меню будет список всех его повторов. Он дает возможность перейти к другим повторам (для этого нужно выбрать соответствующий пункт контекстного меню). Таким образом вы можете просмотреть контекст, в котором повторяющийся сегмент используется в проекте.
 
 ![](../_img/16_repeated_context.jpg)
 
-## Autopropagation
+## Автоматическое использование переводов
 
-When you edit the translation of a repeated segment, as soon as the edit is saved the changes will be automatically reflected in all the repetitions in the project.
+При редактировании перевода повторяющегося сегмента следует помнить о том, что как только изменения будут сохранены, они автоматически отобразятся во всех повторах сегмента в проекте.
 
 ![](../_img/17_autopropagation.jpg)
 
-## Creating alternative translation
+## Создание альтернативного перевода
 
-In some cases, two instances of a repeated segment might need to be translated differently in different contexts. In that situation, you may want to modify the translation of only one of the repetitions without altering the rest.
+В некоторых случаях перевод повторяющегося сегмента должен быть разным в зависимости от контекста. В такой ситуации возникает необходимость изменить перевод только в одном из повторов, не меняя при этом перевод всех остальных.
 
-In other words, you must create an **alternative translation** to prevent _auto-propagating_ your update.
+Другими словами, вам необходимо создать **вариант перевода** (или альтернативный перевод), который не будет _распространяться автоматически_ на все остальные повторы.
 
-To create an **alternative translation**:
+Для создания **альтернативного перевода** выполните следующие действия:
 
-1. _Right click_ on the segment and choose **Create Alternative Translation** from the contextual menu.
+1. _Щелкните правой кнопкой мыши_ по текущему сегменту и выберите пункт контекстного меню **Create Alternative Translation** (Создать вариант перевода).
 <!-- ![](../_img/18_create_alternative_translation.jpg) -->
-2. Edit the translation of the active segment.
-3. Press ++ctrl+s++ to register the alternative translation.
-    <!-- ![](../_img/19_alternative_translation_created.jpg) -->
-    <!-- @todo: use the example from the slides -->
+2. Отредактируйте перевод текущего сегмента.
+3. Нажмите ++ctrl+s++ для записи альтернативного перевода.
+   <!-- ![](../_img/19_alternative_translation_created.jpg) -->
+   <!-- @todo: use the example from the slides -->
 
-The **Multiple Translations** pane will show the different translations.
+В области **Multiple Translations** (Варианты перевода) будут показаны варианты перевода текущего текста оригинала.
 
-And here's a quick summary:
+Вкратце процесс создания альтернативного перевода выглядит так:
 ![](../_img/create-alternative-translation-in-3-steps.gif)
 
 <!-- @todo for Danina: repeat video, Ctrl+S for every segment! -->
 
 <!-- prettier-ignore -->
-!!! danger
-    Alternative translations may be treacherous if not applied correctly. Make sure you follow the three steps above precisely.
+!!! danger "Опасность"
+    Альтернативные переводы могут оказаться коварными при неправильном применении. Если вам нужно создать альтернативный перевод, точное выполнение трех описанных выше шагов является обязательным.
 
-The following video shows how to create alternative translations, enjoy :octicons-heart-fill-24:{ .heart }:
+В следующем видео показано, как создавать альтернативные переводы. Приятного просмотра :octicons-heart-fill-24:{ .heart }.
 
 <div style="padding:60% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/789832289?h=5fd29f998e" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 <!-- prettier-ignore -->
-!!! Предупреждение
-    Remember that you can't create an alternative translation if the segment already has an alternative translation. See the section below to learn how you can recognize an alternative translation.
+!!! warning "Предупреждение"
+    Если перевод сегмента уже является альтернативным, то создать альтернативный перевод такого сегмента будет невозможно. В приведенном ниже разделе описано, как определить, является ли перевод текущего сегмента альтернативным.
 
-If you must modify an existing alternative translation, simply edit the target text and save (++ctrl+s++).
+Если необходимо изменить существующий альтернативный перевод, просто отредактируйте его и сохраните изменения (++ctrl+s++).
 
-## Identifying alternative translations
+## Определение альтернативных переводов
 
-Here's how you can recognize whether a segment has an alternative translation.
+Определить, является ли перевод текущего сегмента альтернативным, можно следующим образом:
 
-On the one hand, if a segment has an alternative translation, the **Segment properties** pane will show a property called **Is alternative** with value `true`. That field will flash in orange when you active the segment or when you save the project while that segment is active.
+Во-первых, если сегмент содержит альтернативный перевод, в области **Segment Properties** (Свойства сегмента) будет содержаться поле **isAlt** со значением `true`. Это поле будет мигать оранжевым при переходе к такому сегменту или при сохранении проекта, если такой сегмент будет в этот момент активным.
 
 ![](../_img/omt-alt-prop-flash.png)
 
-On the other hand, you will notice that the **Multiple translations** pane shows that translation and the context properties that the alternative translation binds too (typically the file name and some identifier, e.g. the segment ID or a key).
+Во-вторых, в области **Multiple Translations** (Варианты перевода) будут отображаться варианты перевода и контекст, к которому они привязаны (обычно альтернативные переводы привязаны к имени файла и дополнительным идентификаторам, например ID или ключу сегмента).
 
 ![](../_img/omt-alt-multiple-pane.png)
 
-Finally, and most eloquent, you can see that the segment has an alternative translation if the **Create Alternative Translation** item in the segment's contextual menu (or the **Edit** menu) is grayed out and cannot be selected.
+И наконец, наиболее выразительно наличие альтернативного перевода видно по тому, что вы не сможете выбрать пункт **Create Alternative Translation** (Создать вариант перевода) в контекстом меню сегмента или в меню **Edit** (Правка), так как он будет неактивным.
 
 ![](../_img/omt-alt-grayed-out.png)
 
-## Restoring the default translation
+## Восстановление перевода по умолчанию
 
-If for some reason an existing alternative translation is unnecessary and you would like to restore auto-propagation into that segment, the simplest way is to just delete the alternative translation. To do that, follow these simple steps:
+Если по какой-то причине существующий альтернативный перевод стал ненужным, и вы хотите, чтобы перевод сегмента стал таким же, как в других повторах, проще всего просто удалить текущий вариант перевода. Для этого выполните следующие простые шаги:
 
-- Go to the segment where you want to restore the default translation
-- Press ++ctrl+a++ on your keyboard to select the whole target text
-- Press the ++del++ on your keyboard to delete the translation
-- Press ++ctrl+s++ to save (or leave the segment) to restore the default translation
+- Перейдите к сегменту, в котором вы хотите восстановить перевод по умолчанию
+- Нажмите сочетание клавиш ++ctrl+a++, чтобы выбрать весь переведенный текст
+- Нажмите клавишу ++del++, чтобы удалить перевод
+- Нажмите сочетание клавиш ++ctrl+s++ для сохранения изменений или перейдите к другому сегменту, чтобы восстановить перевод по умолчанию

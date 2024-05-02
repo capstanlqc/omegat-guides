@@ -4,13 +4,13 @@
 
 Для рецензирования перевода необходимо поочередно перемещаться по сегментам.
 
-Read every translation, while comparing with the source text, considering the rest of the context and taking into account any specific instructions you may have received for your particular task.
+Прочитывайте каждый переведенный сегмент, сравнивая его с текстом оригинала и принимая во внимание остальной контекст и те инструкции, которые вы могли получить для выполнения вашего задания.
 
-Press the ++enter++ key to move to the next segment. The segment you jump to becomes **active**{ .active } and ready for edits. This will also allow you to keep track of your progress.
+Для перехода к следующему сегменту нажмите клавишу ++enter++. Сегмент, к которому вы перейдете, станет **активным**{ .active } и готовым к редактированию. Таким образом вы можете отслеживать свой прогресс.
 
 ![](../_img/omt-enter.gif)
 
-If you need to move backwards, you can press ++ctrl+enter++.
+Если вам нужно вернуться обратно к предыдущему сегменту, вы можете нажать ++ctrl+enter++.
 
 <!-- @todo: RFF: ask Kos to add option to filter: segments with translation from x-auto or x-enforce or both, or segments that do not have a translation coming from x-auto, or that do not have a translation coming from x-enforce, or both
 
@@ -22,14 +22,14 @@ segments with translations from
 
 ## Редактирование перевода
 
-To correct an error in the translation, you must edit the target text. To edit a translation, simply delete the text that must be removed and type the text that must be added.
+Для исправления ошибок в переводе необходимо отредактировать текст в поле перевода в соответствующем сегменте. Чтобы отредактировать перевод, просто удалите текст, который нужно удалить, и введите текст, который нужно добавить.
 
 ![](../_img/omt-edit.gif)
 
-You can only edit the translation of the **active**{ .active } segment. You must activate a segment to make it editable. The segment you jump to pressing ++enter++ becomes **active**{ .active } and ready for edits.
+Редактировать перевод можно только в **активном**{ .active } сегменте. Чтобы сегмент стал редактируемым, его нужно активировать. Сегмент, к которому вы перешли, нажимая клавишу ++enter++, становится **активным**{ .active } и готовым к редактированию.
 
-You may also activate any segment (and make it editable) by double-clicking it, but in that case you might want to return to the segment you were originally to continue revising from there.
+Кроме того, активировать (и сделать редактируемым) можно любой сегмент, дважды щелкнув по нему. Вероятно, в таком случае вам потребуется вернуться к тому сегменту, который изначально был активным, чтобы продолжить редактирование с того места.
 
 <!-- prettier-ignore -->
-!!! Совет
+!!! tip "Совет"
     **Активный**{ .active } сегмент легко отличить от других по выделению **зеленым**{ .active } цветом.

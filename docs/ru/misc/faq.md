@@ -1,4 +1,4 @@
-# FAQ
+# Часто задаваемые вопросы
 
 <!--
 ## [ALL] How can I contact the helpdesk ?
@@ -52,41 +52,41 @@ You can also change your e-mail information by click in the top right menu after
 
 <!-- topic:export -->
 
-## Can I export the contents of the OmegaT project in Excel ?
+## Можно ли экспортировать содержимое проекта OmegaT в Excel?
 
-Yes. To export the contents of the OmegaT project in Excel, go to **Tools** > **Write Project to Excel**.
+Да. Чтобы экспортировать содержимое проекта OmegaT в Excel, перейдите в меню **Tools** (Инструменты) > **Write Project to Excel**.
 
-To access the exported Excel, go to **Project** > **Access Project Contents** > **Root**. The Excel will be found in the **script_output** folder.
+Для получения доступа к экспортированному файлу Excel перейдите в меню **Project** (Проект) > **Access Project Contents** (Открыть содержимое проекта) > **Root** (Корень). Файл Excel будет находиться в подпапке **script_output**.
 
 <!-- prettier-ignore -->
-!!! Предупреждение
-    Please remember that the Excel file cannot be reimported in OmegaT. Any change you make in translations in that Excel export needs to be reflected in the OmegaT project.
+!!! warning "Предупреждение"
+    Следует помнить о том, что файл Excel невозможно импортировать обратно в OmegaT. Любые изменения, внесенные в перевод в этом экспортированном файле, должны быть отражены в проекте OmegaT.
 
 <!-- topic:font -->
 
-## The size of text in the editor is too small or too big.
+## Размер текста в области редактирования слишком мал или слишком велик.
 
-To change the font size go to **Options** > **Preferences** > **Font**.
-Change the font size to one you find suitable. This has no impact on the actual font size in the target files, it only changes the display in OmegaT.
+Чтобы изменить размер шрифта, перейдите в меню **Options** (Параметры) > **Preferences** (Настройки) > **Font** (Шрифт).
+Измените шрифт по своему усмотрению. Это никак не влияет на фактический размер шрифта в переведенных файлах, а только изменяет отображение в OmegaT.
 
 ![](../_img/qa01_font.jpg)
 
 <!-- topic:checks -->
 
-## How do I install the spellchecker files?
+## Как установить файлы проверки орфографии?
 
-A spelling checker is available in OmegaT and you must install the spellchecking dictionary for your language in order to use it. Follow these steps:
+В OmegaT доступна проверка орфографии, для использования которой необходимо установить словарь для вашего языка. Выполните следующие действия:
 
-1. Go to **Options > Preferences > Spellchecker**.
-2. Click on **Install new dictionary**, and a list of languages will appear.
-3. Select the appropriate language for your language version (e.g. _es_AR - Spanish (Argentina)_ if your language is Spanish and your country is Argentina).
-4. Press the **Install** button.
+1. Перейдите в меню **Options** (Параметры) > **Preferences** (Настройки) > **Spellchecker** (Проверка орфографии).
+2. Нажмите кнопку **Install new dictionary...** (Установить...) Появится список языков.
+3. Выберите язык, соответствующий вашей языковой версии (например, _es_AR — Испанский (Аргентина)_, если ваш язык — испанский, а страна — Аргентина).
+4. Нажмите кнопку **Install** (Установить).
 
-You can close the remaining pop up window. The spellchecker is now installed.
+Окно со списком языков можно закрыть. Словарь проверки орфографии установлен.
 
 <!-- prettier-ignore -->
-!!! Совет
-    You can also watch the following video to see those steps in action:
+!!! tip "Совет"
+    Вы можете просмотреть видео, в котором показаны эти шаги:
     <div style="padding:69.95% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/780395752?h=5a92c211b3" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 <!-- ![](../_img/qa_02_spellcheck.jpg) -->
@@ -95,7 +95,7 @@ You can close the remaining pop up window. The spellchecker is now installed.
 
 <!-- topic:config -->
 
-## There is no spellchecker for my language.
+## В моем языке нет словаря проверки орфографии.
 
 If you cannot find your language in the list when you go to **Options > Preferences > Spellchecker.** and then clicking on **Install new dictionary**, please contact the helpdesk and our team will try to find a spellchecking dictionary for you.
 
@@ -123,29 +123,29 @@ In OmegaT, when you navigate from one segment to another, the source text will b
 
 ## How can I correct a typo in a term in the glossary?
 
-Yes. Please follow these steps:
+Да. Выполните следующие действия:
 
 1. Go to **Project > Access Project contents > Glossaries** to access your writeable glossary file. The `Glossaries` folder will open, which contains a file named `glossary.txt`.
 2. Open it in your plain text editor (e.g. Notepad):
 
-    ![](../_img/qa07_glossary_correct.jpg)
+   ![](../_img/qa07_glossary_correct.jpg)
 
 3. Correct any term that contains an error and Save the file.
 
 <!-- prettier-ignore -->
-!!! Предупреждение
+!!! warning "Предупреждение"
     Do not open the glossary file in Microsoft Word or any other similar word processor.
 
 <!-- topic:TMs -->
 
 ## Do we have access to the TMs from previous cycles?
 
-Yes. TMs (translation memories) from previous cycles should already be included in your project. You may see translations coming from them in the **Matches** pane, or you may find them by running a text search (see the relevant section in the guide, under **Other useful features** > **Running concordance searches**).
+Да. TMs (translation memories) from previous cycles should already be included in your project. You may see translations coming from them in the **Matches** pane, or you may find them by running a text search (see the relevant section in the guide, under **Other useful features** > **Running concordance searches**).
 
 You may also access translations from all previous cycles of the project for your language in [MemoryLn](https://capps.capstan.be/memoryln.php).
 
 <!-- prettier-ignore -->
-!!! info
+!!! info "Информация"
     If you don't see the expected translations in your OmegaT project and in MemoryLn, please contact the Helpdesk.
 
 <!--

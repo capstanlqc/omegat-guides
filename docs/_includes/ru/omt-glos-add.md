@@ -1,18 +1,18 @@
 ## Добавление новых записей в глоссарий
 
 <!-- prettier-ignore -->
-!!! Совет
-    Feeding the glossary with technical or sensitive wording or terms or expressions that appear frequently can be very useful to speed up typing, to keep consistency, to avoid typos, etc..
+!!! tip "Совет"
+    Добавление в глоссарий технических или важных для проекта слов, терминов или часто используемых выражений может быть очень полезным для ускорения набора текста, сохранения единообразия, предотвращения опечаток и т. д.
 
-To add a new term entry to the glossary:
+Для добавления нового термина в глоссарий выполните следующие действия:
 
-1. In the active segment, drag your mouse over the term you want to insert **to select it**.
-2. **Right click** and choose **Add glossary entry** from the contextual menu.
+1. **Выделите** мышью текст, который необходимо добавить в глоссарий.
+2. **Щелкните правой кнопкой** мыши и выберите в контекстном меню пункт **Add glossary entry** (Добавить в глоссарий).
 
-    ![](../_img/22_add_glossary_entry.jpg)
+   ![](../_img/22_add_glossary_entry.jpg)
 
-3. In the **Create Glossary Entry** that will pop up, enter the target term (and any comments you want).
+3. В появившемся окне **Create Glossary Entry** (Добавить в глоссарий) введите перевод термина (и комментарий, если есть такая необходимость).
 
-    ![](../_img/23_glossary_term.jpg)
+   ![](../_img/23_glossary_term.jpg)
 
-4. Press the **OK** button to save the new entry.
+4. Для сохранения новой записи нажмите **OK**.

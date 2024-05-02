@@ -2,11 +2,11 @@
 
 # OmegaT 6.1.0 setup guide
 
-OmegaT is the open source computer-assisted translation tool (CAT tool) which we use to translate, reconcile, adapt, review and verify materials. You must install OmegaT and set it up with some additional files, in order to ensure an optimal interface and compatibility with the project we'll prepare for you.
+OmegaT — это программа для автоматизированного перевода (CAT) с открытым исходным кодом. Мы будем ее использовать для перевода, согласования, адаптации, рецензирования и проверки материалов. You must install OmegaT and set it up with some additional files, in order to ensure an optimal interface and compatibility with the project we'll prepare for you.
 
 > In particular, OmegaT 6.1 is necessary to work with Myanmar languages.
 
-## OmegaT version
+## Версия OmegaT
 
 Please:
 
@@ -17,7 +17,7 @@ Please:
 
 Notice that the setup process to get you started consists of **two** steps:
 
-1. Installing OmegaT
+1. Установка OmegaT
 2. Installing your user configuration files
 
 > Any configuration updates won't require re-installing OmegaT (unless exlicitedly noted).
@@ -38,7 +38,7 @@ If OmegaT is already installed in your machine but it's not version 6.1.0, pleas
 
 Please download the cApStAn-signed OmegaT 6.1 installer from [here](https://github.com/capstanlqc/omegat-guides/raw/master/lfs/OmegaT_6.1.0_Beta_Windows_64_Signed.exe).
 
-> You must have a 64-bit machine to install this version of OmegaT. Если требуется установка на 32-разрядном компьютере, свяжитесь с нашей службой поддержки. <!-- Check the [¶ 64bit or 32bit machine?](#64bit-or-32bit-machine) section below if you're not sure how to check whether you have a 64-bit or 32-bit machine. -->
+> You must have a 64-bit machine to install this version of OmegaT.  <!-- Check the [¶ 64bit or 32bit machine?](#64bit-or-32bit-machine) section below if you're not sure how to check whether you have a 64-bit or 32-bit machine. -->
 
 It's a safe download, even if your browser might not trust the file.
 
@@ -50,49 +50,49 @@ In order to proceed with the installation, please follow these steps:
 
 - Windows could display a blue screen saying that it might be risky to install OmegaT. If that's the case, click on "More info"
 
-    ![](https://capstanlqc.github.io/omegat-guid_img/omegat-win-protected-your-pc-01.png)
+   ![](https://capstanlqc.github.io/omegat-guid_img/omegat-win-protected-your-pc-01.png)
 
-    That will show information about the application and the publisher. You can be confidently press the **Run anyway** button as long as you see the publisher is cApStAn.
+   That will show information about the application and the publisher. You can be confidently press the **Run anyway** button as long as you see the publisher is cApStAn.
 
-    ![](https://capstanlqc.github.io/omegat-guid_img/omegat-win-protected-your-pc-02.png)
+   ![](https://capstanlqc.github.io/omegat-guid_img/omegat-win-protected-your-pc-02.png)
 
 - If you see the following screen, click on "Yes":
 
-    <!-- https://imgur.com/g9oaURq.png -->
+   <!-- https://imgur.com/g9oaURq.png -->
 
-    ![](https://capstanlqc.github.io/omegat-guid_img/omegat-signed-installation-01.png)
+   ![](https://capstanlqc.github.io/omegat-guid_img/omegat-signed-installation-01.png)
 
 - Choose (or keep) English as the language of the installation:
 
-    ![](https://capstanlqc.github.io/omegat-guid_img/omegat-signed-installation-02.png)
-    <!-- {: style="height:50%;width:50%"} -->
+   ![](https://capstanlqc.github.io/omegat-guid_img/omegat-signed-installation-02.png)
+   <!-- {: style="height:50%;width:50%"} -->
 
 - Please also use English as the language of the OmegaT user interface:
 
-    ![](https://capstanlqc.github.io/omegat-guid_img/omegat-signed-installation-03.png)
-    <!-- {: style="height:70%;width:70%"} -->
+   ![](https://capstanlqc.github.io/omegat-guid_img/omegat-signed-installation-03.png)
+   <!-- {: style="height:70%;width:70%"} -->
 
 - In the License Agreement screen, please select "I accept the agreement” and click “Next”:
 
-    ![](https://capstanlqc.github.io/omegat-guid_img/omegat-signed-installation-04.png)<!-- {: style="height:70%;width:70%"} -->
+   ![](https://capstanlqc.github.io/omegat-guid_img/omegat-signed-installation-04.png)<!-- {: style="height:70%;width:70%"} -->
 
 - In all the next dialogs, just press “Next” to use the default options until you reach the **Ready to Install** screen.
 
 - We recommend that you do not change the default installation path, just click Next in this screen:
 
-    ![](https://capstanlqc.github.io/omegat-guid_img/omegat-signed-installation-05.png)
+   ![](https://capstanlqc.github.io/omegat-guid_img/omegat-signed-installation-05.png)
 
 - We also recommend that you create a desktop shortcut (if that's a useful way for you to run OmegaT):
 
-    ![](https://capstanlqc.github.io/omegat-guid_img/omegat-signed-installation-07.png)
+   ![](https://capstanlqc.github.io/omegat-guid_img/omegat-signed-installation-07.png)
 
 - In the **Ready to Install** screen, click on “Install”.
 
-    ![](https://capstanlqc.github.io/omegat-guid_img/omegat-signed-installation-08.png)<!-- {: style="height:70%;width:70%"} -->
+   ![](https://capstanlqc.github.io/omegat-guid_img/omegat-signed-installation-08.png)<!-- {: style="height:70%;width:70%"} -->
 
 - When the installation is finalized, you will see the last screen:
 
-    ![](https://i.imgur.com/NGjakJv.png)
+   ![](https://i.imgur.com/NGjakJv.png)
 
 After that, you'll be able to run OmegaT from the OmegaT desktop shortcut icon (if you have created one) or from the applications menu.
 

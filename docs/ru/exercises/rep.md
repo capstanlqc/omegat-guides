@@ -17,11 +17,11 @@
 
 1. Press ++ctrl+j++ and enter 13 to go to segment #13.
 
-    > Source text reads: `Pretty good`
+   > Source text reads: `Pretty good`
 
 2. Notice how the segment marker says that this segment is repeated three more times.
 
-    > `<segment 0013 +1 more ¶>`.
+   > `<segment 0013 +1 more ¶>`.
 
 3. Look at the **Segment Properties** pane. It says "Is duplicate: FIRST"
 4. Right click on the segment. See how all the instances are listed and identified by their segment number.
@@ -34,18 +34,18 @@
 1. Go to segment #12.
 2. Translate segment #12. <!-- put this translation in auto @todo -->
 
-    > You can insert the match (++ctrl+i++) and update it (replace `financière` with `économique`)
+   > You can insert the match (++ctrl+i++) and update it (replace `financière` with `économique`)
 
 3. Notice how "situation économique" is grammatically feminine in French.
 4. Go to segment #13 and translate it. Suggested translation: `Plutôt bonNE`
 
-    > The -NE ending is the feminine suffix, because "Good" here refers to "economic situation", which is feminine in French
+   > The -NE ending is the feminine suffix, because "Good" here refers to "economic situation", which is feminine in French
 
 5. Press ++enter++ after translating segment #13 to go to segment #14.
 6. Notice how the translation is auto-propagated to segment #16.
 7. Translate segment #14. Suggested translation: `Plutôt mauvaisE`
 
-    > The -E ending is the feminine suffix, because "Bad" here refers to "economic situation", which is feminine in French
+   > The -E ending is the feminine suffix, because "Bad" here refers to "economic situation", which is feminine in French
 
 8. Press ++enter++ after translating segment #14 to confirm the translation of segment #14 and go to the next segment.
 9. Notice how the translation is auto-propagated to segment #17.
@@ -61,7 +61,7 @@
 <!-- add link in the guide to the shortcuts page when we mention a shortcut -->
 
 <!-- prettier-ignore -->
-!!! Совет
+!!! tip "Совет"
     Shortcut ++ctrl+s++ saves the translation. You can also save in **Project** > **Save**, but using the mouse takes longer ;)
 
 <!-- add this tip to the guides -->

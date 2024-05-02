@@ -1,24 +1,24 @@
-# Fonts
+# Шрифты
 
-## Installing suplemental fonts
+## Установка дополнительных шрифтов
 
-#### On Windows 10
+#### Windows 10
 
-If your language has special requirements (such as a double-byte writing system for some Asian languages, etc.), please follow these steps (where `LANGUAGE` would be your language):
+Если ваш язык имеет особые требования (например, двухбайтовая система письма для некоторых азиатских языков и т. д.), выполните следующие шаги (где `ЯЗЫК` — это ваш язык):
 
-Go to **Windows Settings** > **Apps** > **Optional Features** > **+ Add a feature** > **`LANGUAGE` Suplemental Fonts**. The install that package and then restart OmegaT.
+Перейдите в раздел **Windows Settings** (Настройки Windows) > **Apps** (Приложения) > **Optional Features**  (Дополнительные функции) > **+ Add a feature** (Добавить функцию) > **`ЯЗЫК` Suplemental Fonts** (Дополнительные шрифты). Далее установите требуемый пакет и перезапустите OmegaT.
 
 
-## Recommended fonts in OmegaT
+## Рекомендуемые шрифты в OmegaT
 
-| Язык | Fonts | Comment |
+| Язык | Шрифты | Комментарий |
 |---|---|---|
-| Korean | UnDotum, Malgun Gothic |  |
-| Chinese | NSimSun | Source Han Sans or Source Han Serif (untested!) |
-| Amharic, Tigrinya | Ebrima |  |
-| Thai | Leelawadee UI |  |
-| Japanese | Meiryo, NSimSun |  |
-| Khmer | Khmer UI |  |
+| Корейский | UnDotum, Malgun Gothic |  |
+| Китайский | NSimSun | Source Han Sans или Source Han Serif (не проверено!) |
+| Амхарский, тигринья | Ebrima |  |
+| Тайский | Leelawadee UI |  |
+| Японский | Meiryo, NSimSun |  |
+| Кхмерский | Khmer UI |  |
 
 <!-- Japan recomments font Meiryo for the PISA preview – untested in Windows or OmegaT  -->
 

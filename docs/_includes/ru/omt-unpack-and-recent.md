@@ -1,124 +1,124 @@
 # Доступ к проекту
 
 <!-- prettier-ignore -->
-!!! Совет
+!!! tip "Совет"
     Прежде чем приступить к выполнению описанных ниже действий, продумайте организацию ваших файлов и папок. Несколько рекомендаций можно найти [здесь](../misc/tips.md#file-organization){:target="\_blank"}.
 
 <!-- @todo: add file organization tips -->
 
 ## Доступ к новому проекту
 
-There are two ways you may access a project for the first time, depending on whether it is an **online project** (or _team project_) or an **offline project**.
+В зависимости от того, каким является проект, с которым вы должны работать (**онлайн-проектом**, то есть _командным проектом_, или **автономным проектом**), существует два способа открыть проект для работы первый раз.
 
-- If you must work on an **offline project**, you will receive a new OmegaT project package (aka an OMT package, or a file with `.omt` extension). Go to the section [Unpacking an offline project](#unpacking-an-offline-project) below to see what you must do to unpack a project package.
+- Если вам нужно работать с **автономным проектом**, то вы получите новый пакет для OmegaT (так называемый пакет OMT или файл с разрешением `.omt`). Перейдите к разделу [Распаковка автономного проекта](#unpacking-an-offline-project) ниже, чтобы узнать, что нужно сделать для распаковки проекта.
 
-- If you must work on an **online project** (or **team project**), you will receive the URL to the repository where the OmegaT project is hosted. Go to the section [Downloading a team project](#downloading-a-team-project) below to see what you must to do download a team project from a repository.
+- Если вам нужно работать с **онлайн-проектом** (иначе **командным проектом**), то вы получите URL-адрес  репозитория, в котором хранится проект OmegaT. Перейдите к разделу [Скачивание командного проекта](#downloading-a-team-project) ниже, чтобы узнать, что нужно сделать, чтобы загрузить командный проект из репозитория.
 
-If you're not sure whether your project is online or offline, it's very easy: if you receive an OMT package, the project is offline, and if you receive a URL to a git repository, the project is online.
+Если вы не уверены, с каким типом проектов вам необходимо работать, то выяснить это очень просто: если вы получили пакет OMT, то у вас автономный проект; если же вы получили URL-адрес репозитория git, то у вас онлайн-проект.
 
-| You receive | Project is |
+| Вы получили | Проект |
 | --------------- | --------------- |
-| Файл OMT | offline/package |
-| URL to git repo | online/team |
+| Файл OMT | автономный проект/пакет |
+| URL-адрес репозитория git | онлайн-проект (командный проект) |
 
 <!-- prettier-ignore -->
 !!! Предупреждение
-    Unpacking or downloading an OmegaT project (depending on the distribution mode) needs to be done _only once_ for each project. After you have unpacked or downloaded a project, you can simply [re-open it from the list of recent projects](#re-opening-an-existing-project).
+    Распаковку или скачивание каждого проекта OmegaT (в зависимости от того, как именно распространяется проект) необходимо выполнить _только один раз_. После распаковки или скачивания проекта его можно просто [открыть заново, выбрав соответствующую запись в списке последних проектов](#re-opening-an-existing-project).
 
 <!-- @todo: " If you unpack the OMT file again, you might overwrite your changes and lose your work." to be tested... -->
 
-### Unpacking an offline project
+### Распаковка автономного проекта
 
-If you receive an OMT package, you must unpack the project (from the OMT package) to access the project for the first time.
+Если вы получили пакет OMT, вам необходимо распаковать проект (из пакета OMT), чтобы иметь возможность открыть его в OmegaT в первый раз.
 
-To unpack a project, follow these steps:
+Для распаковки проекта выполните следующие действия:
 
-1. Store the OMT package in the folder where you would like to create the OmegaT project.<!-- @todo: tips on file organization -->
+1. Сохраните пакет OMT в той папке, в которой вы желаете создать проект OmegaT.<!-- @todo: tips on file organization -->
 
-2. To unpack the project from the OMT package:
+2. Для распаковки проекта из пакета OMT:
 
-    - Launch OmegaT.
+   - Запустите OmegaT.
 
-    - Go to **Project** > **Unpack project from OMT file**:<!-- @todo: update screenshot -->
+   - Перейдете в меню **Project** (Проект) > **Unpack project from OMT file** (Распаковать проект из файла OMT):<!-- @todo: update screenshot -->
 
-        ![](../_img/01_import_omt_package.png)
-        <!-- @todo: update screenshot, current version -->
+      ![](../_img/01_import_omt_package.png)
+      <!-- @todo: update screenshot, current version -->
 
-        <!-- ![](../_img/01_import_omt_package.jpg){ align=right } -->
+      <!-- ![](../_img/01_import_omt_package.jpg){ align=right } -->
 
-    - Navigate to the location where you stored the OMT package. Select the **OMT package** and click on Open:
+   - Выберите папку, в которой вы сохранили пакет OMT. Выберите **пакет OMT** и нажмите кнопку Open (Открыть):
 
-        ![](../_img/02_open_omt_package.png)
+      ![](../_img/02_open_omt_package.png)
 
-    - A pop up opens. Click **Yes**.
+   - Откроется всплывающее окно. Нажмите **Yes** (Да).
 
-        ![](../_img/03_delete_original_package.png)
+      ![](../_img/03_delete_original_package.png)
 
-3. You can now perform your task in the project.
+3. Теперь вы можете работать в проекте.
 
-### Downloading a team project
+### Скачивание командного проекта
 
-If you receive a URL to a git repository, you must download the team project from that repository to access the project for the first time.
+Если вы получили URL-адрес репозитория git, вам необходимо скачать командный проект из указанного репозитория, чтобы иметь возможность открыть его в OmegaT в первый раз.
 
 <!-- prettier-ignore -->
-!!! info
-    The URL should look a bit like this: `https://domain.com/path/to/repo-name.git`.
+!!! info "Информация"
+    URL-адрес должен выглядеть так: `https://домен.com/путь/к/репозиторию.git`.
 
-#### Authentication
+#### Аутентификация
 
-At some point during the steps below, or afterwards, OmegaT will ask you to authenticate, so please make sure you have your credentials at hand. OmegaT might ask you to authenticate one or more times (depending on the project settings), please just enter the same credentials as many time as requested.
+В какой-то момент во время выполнения описанных ниже действий или после них OmegaT попросит вас выполнить аутентификацию, поэтому убедитесь, что ваши учетные данные у вас под рукой. OmegaT может попросить вас выполнить аутентификацию один или несколько раз (в зависимости от настроек проекта). Просто введите одни и те же учетные данные столько раз, сколько потребуется.
 
-#### How to download the project from the repository
+#### Как скачать проект из репозитория
 
-To download the team project, follow these steps:
+Для скачивания проекта выполните следующие действия:
 
-1. Define a location in your machine where you would like to create the OmegaT project. We recommend a `Work` folder (or whatever you prefer to call it) in your user's home directory. Let's assume path `C:\Users\USER\Work\` (for user `USER`).
+1. Определите папку на своем компьютере, в которой вы хотите создать проект OmegaT. Мы рекомендуем создать папку `Work` (или с любым другим именем) в домашнем каталоге пользователя. Предположим, что путь к папке с проектами будет `C:\Users\USER\Work\` (для пользователя `USER`).
 
-    <!-- prettier-ignore -->
-    !!! danger "Danger ❗❗❗"
+   <!-- prettier-ignore -->
+!!! danger "Опасность ❗❗❗"
        💀
-       Make sure    that location is NOT inside a sync'ed folder such as Dropbox, OneDrive, Nextcloud, Google Drive, Syncthing or the like, or in a server or a network drive.
+       Проследите за тем, чтобы выбранный путь НЕ находился внутри папок, синхронизующихся с сетевыми сервисами, такими как Dropbox, OneDrive, Nextcloud, Google Drive, Syncthing и т. п., или на удаленном сервере или сетевом диске.
 
-2. [Copy](../misc/tips.md#how-to-copy-paste-a-url){:target="\_blank"} the URL of the project repository to your clipboard (select it and press ++ctrl+c++ or right-click it and select Copy).
+2. [Скопируйте](../misc/tips.md#how-to-copy-paste-a-url){:target="\_blank"} URL-адрес репозитория проекта в буфер обмена (выделите его и нажмите ++ctrl+c++ или щелкните правой кнопкой мыши и выберите Copy (Копировать)).
 
-    ![](../_img/copy-url.gif)
+   ![](../_img/copy-url.gif)
 
-3. In OmegaT, go to **Project** > **Download Team Project**.
-    <!-- @todo: update screenshot -->
-    <!-- ![](../_img/download-team-project.png) -->
+3. В OmegaT перейдите в меню **Project** (Проект) > **Download Team Project** (Загрузить командный проект).
+   <!-- @todo: update screenshot -->
+   <!-- ![](../_img/download-team-project.png) -->
 
-    <!-- That will open the **Download Team Project** dialog. -->
-    <!-- ![](../_img/download-git-dialog.png) -->
+   <!-- That will open the **Download Team Project** dialog. -->
+   <!-- ![](../_img/download-git-dialog.png) -->
 
-4. In the **Download Team Project** dialog, click in the **Repository URL** field and then press ++ctrl+v++ to paste the URL from your clipboard.
+4. В диалоговом окне **Download Team Project** (Загрузка командного проекта) щелкните в поле **Repository URL** (Ссылка на репозиторий), а затем нажмите ++ctrl+v++, чтобы вставить URL-адрес из буфера обмена.
 
-5. Click in the **New Local Project Folder** field. OmegaT will propose a path to the location where it will create the project folder. Please wait until you see that path.
+5. Щелкните в поле **New Local Project Folder** (Локальная папка нового проекта). OmegaT предложит путь к тому месту, где будет создана папка проекта. Дождитесь, пока это поле не заполнится.
 
-    <!-- prettier-ignore -->
-    !!! Failure
-       DO NOT click on the `...` button.
+   <!-- prettier-ignore -->
+!!! Проблема
+       НЕ НАЖИМАЙТЕ на кнопку `...`
 
-    <!-- ![](../_img/download-git-dialog-default-values.png) -->
-    <!-- ![](../_img/download-team-project.gif) -->
+   <!-- ![](../_img/download-git-dialog-default-values.png) -->
+   <!-- ![](../_img/download-team-project.gif) -->
 
-    See the three steps above in the following animation:
+   Три вышеописанных шага показаны в следующей анимации:
 
-    ![](../_img/omt-download-team-proj-up-to-local-path.gif)
+   ![](../_img/omt-download-team-proj-up-to-local-path.gif)
 
-6. You might want to modify that path to create the folder in the location that you have defined in the first step above. For example:
+6. Возможно, вам потребуется изменить предложенный путь, чтобы создать папку в том месте, которое вы определили в первом шаге выше. Например:
 
-    + By default, it's likely that OmegaT proposes to create the project inside your home directory, e.g. `C:\Users\USER\repo-name`.
-    + Modify that path so that it points ot the actual location you prefer, e.g. if you follow our recommendation above, that would be `C:\Users\USER\Work\repo-name`.
+   + Скорее всего, OmegaT по умолчанию предложит создать проект в вашем домашнем каталоге, например `C:\Users\USER\имя_репозитория`.
+   + Измените этот путь так, чтобы он указывал на то место, которое вы предпочитаете, например, следуя нашей рекомендации выше, это будет `C:\Users\USER\Work\имя_репозитория`.
 
-    For example:
+   Например:
 
-    ![](../_img/omt-download-team-proj-edit-local-path.gif)
+   ![](../_img/omt-download-team-proj-edit-local-path.gif)
 
-    <!-- prettier-ignore -->
-    !!! Caution
-       Make sure there's a slash between every two folders in your path.
+   <!-- prettier-ignore -->
+!!! Предупреждение
+       Проследите за тем, чтобы между папками в указанном пути стояла косая черта.
 
-    <!-- To do that:
+   <!-- To do that:
            + Copy the path to the location where you want to create the project, e.g. `C:/Work/`.
            ![](../_img/download-git-dialog-copy-path.gif)
            + Then, in the **New Local Project Folder** field, select the part of the path up to the slash before the project folder and delete it.
@@ -128,18 +128,18 @@ To download the team project, follow these steps:
                Make sure there's a slash between the path that you paste and the project folder name.
        -->
 
-## Closing the project
+## Закрытие проекта
 
-When you are done working for the day, quit OmegaT (++ctrl+q++).
+В конце дня, закончив работу, закройте OmegaT (++ctrl+q++).
 
-## Re-opening an existing project
+## Повторное открытие существующего проекта
 
-After you have received and opened a project for the first time, the project exists in your machine and OmegaT will remember it.
+После того как вы получили и открыли проект в первый раз, он записан на вашем компьютере, и OmegaT будет помнить его местоположение.
 
-The next times you want to access the project in OmegaT, go to **Project** > **Open Recent Project**. The project you were working on will appear in the list:
+В следующий раз, когда вы захотите открыть проект в OmegaT, перейдите в меню **Project (Проект)** > **Open Recent Project** (Открыть последний проект). В списке появится проект, над которым вы работали:
 
 ![](../_img/04_open_recent_project.jpg)
 
 <!-- prettier-ignore -->
-!!! Примечание
-    Make sure the disctinction between _opening_ a **recent** project and _downloading_ or _unpacking_ a **new** project (depending on the distribution mode) is clear. You can open a project that already exists only after you have already unpacked it or downloaded it. In turn, you only need to download or unpack (once) a project that doesn't exist yet in your machine.
+!!! note "Примечание"
+    Вам следует четко различать _открытие_ **недавнего** проекта и _скачивание_ или _распаковку_ **нового** проекта (в зависимости от того, как именно распространяется проект). Открыть существующий проект можно только после его распаковки или загрузки. А скачивать или распаковывать нужно тот проект, который еще не сохранен у вас на компьютере (только один раз).
