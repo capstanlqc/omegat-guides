@@ -1847,24 +1847,61 @@
 
 
 <div><h1 id="omegat-572-setup-guide-for-macos">OmegaT 5.7.2 setup guide for macOS<a class="headerlink" href="#omegat-572-setup-guide-for-macos" title="Permanent link">¶</a></h1>
-<p>Depending on your starting point, <mark>choose your path here carefully</mark>:</p>
-<ul>
-<li>IF you already have a previous version (e.g. 5.7.1 or 4.2.0) of OmegaT installed, you'll have to update your configuration first: to do so please go to the <a href="#configuration">configuration section</a> (next section right down below).</li>
-<li>IF there is no current installation of OmegaT in your machine, you will need to install it first as described in the <a href="#installation">installation section</a>. After the installation, you will have to download and run the configuration script as described in the points 2 and 3 of the <a href="#configuration">configuration section</a> (next section right down below).</li>
-</ul>
-<h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">¶</a></h2>
-<p>This section applies to users that already have a previous version (e.g. 5.7.1 or 4.2.0) of OmegaT installed. Please follow the next steps to update your configuration.</p>
+<p>This document guides you through the process of installing OmegaT 5.7.3 in your machine. This is a custom version prepared by cApStAn which includes several enhancements and bug fixes not available in the official release.</p>
+<!-- prettier-ignore -->
+<details class="warning">
+<summary>Are you a Windows user?</summary>
+<p>Do not use this guide if you are a Windows user. In that case, please refer to the <a href="install-and-setup.md">guide</a> to install on Windows. </p>
+</details>
+<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">¶</a></h2>
 <ol>
 <li>
-<p>Run OmegaT and go to <strong>Tools</strong> &gt; <strong>Scripting</strong> to open your scripting console, In OmegaT 5.7.1, please open the scripting console. Check whethers you have a script called "<strong>Update Customisation Bundle (v572)</strong>":</p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>If you don't see the "<strong>v572</strong>" bit, then it's not the script we're looking for. See next step to fetch the script.</p>
-</div>
-<p><img alt="" src="../_img/custom-script-572-in-scripting-console_Mac.png"></p>
-<p>If the script "<strong>Update Customisation Bundle (v572)</strong>" is there, please click on it to select it and press the <strong>Run</strong> button (at the bottom left) to run it. The script will run to update your config files and will quit OmegaT. After that, skip the next step and jump directly to the <a href="#installation">installation section</a>.</p>
-<p>If the script is not there, you may download it yourself. See next steps for how to do that.</p>
+<p>Click on the button below to download OmegaT 5.7.3. </p>
+<p><a class="md-button md-button--primary" href="https://cat.capstan.be/OmegaT/exe/OmegaT_5.7.3_Mac.zip"> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7Z"></path></svg></span> Download OmegaT 5.7.3</a></p>
 </li>
+<li>
+<p>If you're using Safari, then the file will be unzipped automatically when the download ends.​ If you use another browser, double-click the file when the download ends to unzip it.</p>
+</li>
+<li>
+<p>A folder is created, open it to see its contents. You'll see that it contains the <strong>OmegaT.app</strong> file.</p>
+</li>
+<li>
+<p>Drag the <strong>OmegaT.app</strong> file to the <strong>Applications</strong> folder.</p>
+<p></p><div data-block-type="video" style="width: 480px; height: 304px; left: 400px; top: 326px;">
+    <div class="sl-block-content" style="z-index: 10;" data-media-id="8242406" data-video-thumb="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/Sjlk4rKG/1kx16dhvq0_thumb_00001.jpg"><video playsinline="" controls="controls" poster="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/Sjlk4rKG/1kx16dhvq0_thumb_00001.jpg" data-paused-by-reveal="" data-lazy-loaded="" src="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/Sjlk4rKG/1kx16dhvq0.mp4"></video></div>
+</div>
+</li>
+<li>
+<p>OmegaT is now installed. Go to the <strong>Applications</strong> folder and open <strong>OmegaT</strong> there.</p>
+</li>
+<li>
+<p>Your Mac might ask for confirmation that you want to open it. If that's the case, please press <strong>Open</strong>. OmegaT will now run.</p>
+<p></p><div data-block-type="video" style="width: 480px; height: 304px; left: 400px; top: 326px;">
+    <div class="sl-block-content" style="z-index: 10;" data-media-id="8242392" data-video-thumb="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/eXYV2O_T/oiepooibjr_thumb_00001.jpg"><video playsinline="" controls="controls" poster="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/eXYV2O_T/oiepooibjr_thumb_00001.jpg" data-lazy-loaded="" data-paused-by-reveal="" src="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/eXYV2O_T/oiepooibjr.mp4"></video></div>
+</div>
+</li>
+<li>
+<p>If you want to run a post-installation check to confirm that you have the correct version, you can check that in <strong>Help</strong> &gt; <strong>About</strong> &gt; <strong>Copy Support Info</strong>. You should see:</p>
+<pre><code>&gt; Version: OmegaT-5.7.3_0_57b1bb571
+&gt; Platform: Windows 10 10.0
+&gt; Java: 11.0.19 amd64
+</code></pre>
+</li>
+</ol>
+<h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">¶</a></h2>
+<p>The OmegaT installation must be configured with some custom files. Please follow the next steps to install or update your configuration.</p>
+<ol>
+<li>
+<p>Run OmegaT and go to <strong>Tools</strong> &gt; <strong>Scripting</strong> to open your scripting console, Check whether you have a script called "<strong>Update Customisation Bundle</strong>"</p>
+<p><img alt="" src="../_img/custom-script-572-in-scripting-console_Mac.png"></p>
+</li>
+<li>
+<p>If the script "<strong>Update Customisation Bundle</strong>" is there, please click on it to select it and press the <strong>Run</strong> button (at the bottom left) to run it. The script will run to update your config files and will quit OmegaT. </p>
+</li>
+</ol>
+<h5 id="if-you-dont-have-the-script-heres-a-fallback-plan">If you don't have the script, here's a fallback plan<a class="headerlink" href="#if-you-dont-have-the-script-heres-a-fallback-plan" title="Permanent link">¶</a></h5>
+<p>If the script is not there, you may download it yourself. See next steps for how to do that.</p>
+<ol>
 <li>
 <p>Right-click on the button below and select "Save Link As" to download the configuration script (e.g. to your Desktop)</p>
 <p><a class="md-button md-button--primary" href="https://cat.capstan.be/OmegaT/v572/customization/scripts/updateConfigBundle.groovy"> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7 7-7Z"></path></svg></span> Download UpdateConfigBundle.groovy</a></p>
@@ -1877,55 +1914,10 @@
 <li>press the <strong>Open</strong> button to open the script file and press <strong>Run</strong> button (on the bottom left)</li>
 </ul>
 <p><img alt="" src="../_img/omt-open-script-and-run_Mac.gif"></p>
-<p>The script will install the necessary config files for OmegaT 5.7.2 and delete old config files for OmegaT 5.7.1, and after that it will quit OmegaT.</p>
-</li>
-<li>
-<p>Uninstall your current version of OmegaT.</p>
-<p>To do that, simply move the installed <strong>OmegaT.app</strong> to Trash.</p>
-</li>
-<li>
-<p>Finally, proceed now to the <a href="#installation">installation section</a> (next step below).</p>
+<p>The script will install the necessary config files, and after that it will quit OmegaT.</p>
 </li>
 </ol>
-<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">¶</a></h2>
-<ol>
-<li>
-<p>Click on the button below to download OmegaT 5.7.2. This is a custom version prepared by cApStAn which includes several bug fixes and enhancements not available in other versions.</p>
-<p><a class="md-button md-button--primary" href="https://cat.capstan.be/OmegaT/exe/OmegaT_5.7.2_Mac.zip"> 📥 Download OmegaT 5.7.2</a></p>
-</li>
-<li>
-<p>If you're using Safari, then the file will be unzipped automatically when the download ends.​ If you use another browser, double-click the file when the download ends to unzip it.</p>
-</li>
-<li>
-<p>A folder is created, open it to see its contents. You'll see that it contains the <strong>OmegaT.app</strong> file.</p>
-</li>
-<li>
-<p>Drag the <strong>OmegaT.app</strong> file to the <strong>Applications</strong> folder.</p>
-</li>
-</ol>
-<div data-block-type="video" style="width: 480px; height: 304px; left: 400px; top: 326px;">
-     <div class="sl-block-content" style="z-index: 10;" data-media-id="8242406" data-video-thumb="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/Sjlk4rKG/1kx16dhvq0_thumb_00001.jpg"><video playsinline="" controls="controls" poster="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/Sjlk4rKG/1kx16dhvq0_thumb_00001.jpg" data-paused-by-reveal="" data-lazy-loaded="" src="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/Sjlk4rKG/1kx16dhvq0.mp4"></video></div>
-</div>
-
-<ol>
-<li>OmegaT is now installed. Go to the <strong>Applications</strong> folder and open <strong>OmegaT</strong> there.</li>
-<li>Your Mac might ask for confirmation that you want to open it. If that's the case, please press <strong>Open</strong>. OmegaT will now run.</li>
-</ol>
-<div data-block-type="video" style="width: 480px; height: 304px; left: 400px; top: 326px;">
-     <div class="sl-block-content" style="z-index: 10;" data-media-id="8242392" data-video-thumb="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/eXYV2O_T/oiepooibjr_thumb_00001.jpg"><video playsinline="" controls="controls" poster="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/eXYV2O_T/oiepooibjr_thumb_00001.jpg" data-lazy-loaded="" data-paused-by-reveal="" src="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/eXYV2O_T/oiepooibjr.mp4"></video></div>
-</div>
-
-<ol>
-<li>
-<p>If you want to run a post-installation check to confirm that you have the correct version, you can check that in <strong>Help</strong> &gt; <strong>About</strong> &gt; <strong>Copy Support Info</strong>. You should see:</p>
-<blockquote>
-<p>Version: OmegaT-5.7.2_0_a978d82ee<br>
-Platform: [your operating system]<br>
-Java: 11.0.19 amd64</p>
-</blockquote>
-</li>
-</ol>
-<p>You're done now. You can start using OmegaT 5.7.2.</p>
+<p>You're done now. You can start using OmegaT.</p>
 <!--
 To install OmegaT and set it up on a computer running Windows, please follow the OmegaT installation and setup guide below:
 
