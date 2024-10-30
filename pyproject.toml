@@ -3,6 +3,7 @@ name = "omegat-guides"
 version = "0.2.0"
 description = ""
 authors = ["Manuel Souto Pico <m.soutopico@gmail.com>"]
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.10"
