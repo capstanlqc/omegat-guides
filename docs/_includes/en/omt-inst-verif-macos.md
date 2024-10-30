@@ -1,4 +1,4 @@
-# OmegaT 5.7.2 setup guide for macOS
+# OmegaT 5.7.3 setup guide for macOS
 
 This document guides you through the process of installing OmegaT 5.7.3 in your machine. This is a custom version prepared by cApStAn which includes several enhancements and bug fixes not available in the official release.
 

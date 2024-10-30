@@ -121,7 +121,7 @@ If something is wrong and you don't have that script, you may also download it, 
 
     ![](../_img/omt-open-script-and-run.gif)
 
-    The script will install the necessary config files for OmegaT 5.7.2 and delete old config files for OmegaT 5.7.1, and after that it will quit OmegaT.
+    The script will install the necessary config files. After that it will quit OmegaT.
     
 See the section below to know how to run a few post-installation checks to confirm that everything is okay.
 
