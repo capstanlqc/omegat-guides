@@ -76,7 +76,7 @@ The OmegaT installation must be configured with some custom files.
 
 ### Automatically
 
-If you were installing from scratch in a machine where OmegaT had not been installed before, OmegaT should be configured automatically for you. The same thing will also happen every time an update of the custom configuration is released. 
+If you were installing from scratch in a machine where OmegaT had not been installed before, OmegaT should be configured automatically for you the next time you run it. The same thing will also happen every time an update of the custom configuration is released. 
 
 When a new configuration update is being installed, you will see the following dialog: 
 
