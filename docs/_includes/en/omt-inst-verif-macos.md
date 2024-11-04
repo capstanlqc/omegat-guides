@@ -24,11 +24,33 @@ This document guides you through the process of installing OmegaT 5.7.3 in your 
     </div>
 
 5. OmegaT is now installed. Go to the **Applications** folder and open **OmegaT** there.
+
 6. Your Mac might ask for confirmation that you want to open it. If that's the case, please press **Open**. OmegaT will now run.
 
     <div data-block-type="video" style="width: 480px; height: 304px; left: 400px; top: 326px;" >
         <div class="sl-block-content" style="z-index: 10;" data-media-id="8242392" data-video-thumb="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/eXYV2O_T/oiepooibjr_thumb_00001.jpg"><video playsinline="" controls="controls" poster="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/eXYV2O_T/oiepooibjr_thumb_00001.jpg" data-lazy-loaded="" data-paused-by-reveal="" src="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/eXYV2O_T/oiepooibjr.mp4"></video></div>
     </div>
+
+    On newer versions of macOS, you may need to Control-click (right click) on OmegaT and select **Open**. If it doesn't open, you might need to permit OmegaT to run using **System Settings...** > **Privacy and Security** > **Security** by clicking on **Open Anyway** next to OmegaT.
+
+    ![](../_img/omt_macos_privacy_security.png)
+
+    As of macOS Sequoia 15.1, it may be impossible to run OmegaT even with right clicking on the app and selecting **Open**. This might change in the future, but currently to work around that problem one needs to self-sign the downloaded application. Here are the steps to do that:
+        
+    * Open **Keychain Access** on your Mac. If you can't find **Keychain Access**, navigate to `/System/Library/CoreServices/Applications` in Finder, and open `Keychain Access.app`.
+        
+    * From the **Keychain Access** menu, go to **Certificate Assistant** > **Create a Certificate**.
+    
+    * Name your certificate (e.g., `My App Signing Certificate`), set the **Identity Type** to **Self-Signed Root**, and the **Certificate Type** to **Code Signing**.
+    
+    * Save the certificate in the **login** keychain.
+    
+    * Sign **OmegaT.app**.  
+    Open **Terminal** use the `codesign` command to sign **OmegaT.app** with the certificate you created. The basic command looks like this:
+    ```bash
+    codesign --deep --force --verify --verbose --sign "My App Signing Certificate" /Applications/OmegaT.app
+    ```  
+    If you gave your certificate a different name and/or copied **OmegaT.app** to a different location, change the above command accordingly.
 
 7. If you want to run a post-installation check to confirm that you have the correct version, you can check that in **Help** > **About** > **Copy Support Info**. You should see:
 
