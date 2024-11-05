@@ -57,9 +57,8 @@ This document guides you through the process of installing OmegaT 5.7.3 in your 
 If you want to run a post-installation check to confirm that you have the correct version, you can check that in **Help** > **About** > **Copy Support Info**. You should see:
 
     Version: OmegaT-5.7.3_0_57b1bb571
-    Platform: Windows 10 10.0
-    Java: 11.0.19 amd64
-
+    Platform: Mac OS X 15.1
+    Java: 11.0.23 x86_64
 
 ## Configuration
 
