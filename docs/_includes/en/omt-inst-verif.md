@@ -107,7 +107,7 @@ Alternatively, you may open the **Scripting** menu and run the script from there
 If something is wrong and you don't have that script, you may also download it, open it and run it manually.
 
 !!! info
-    Follow the steps in this section only if you cannot find the script as explained above.
+    Follow the steps in this section _only_ if you cannot find the script as explained above.
 
 1.  Right-click on the button below and select "Save Link As" to download the configuration script (e.g. to your Desktop)
 
@@ -133,9 +133,9 @@ The steps above will normally get up and running, but but it's always a good ide
 
     To confirm that you have the correct version, you can check that in **Help** > **About** > **Copy Support Info**. You should see:
 
-        > Version: OmegaT-5.7.3_0_57b1bb571
-        > Platform: Windows 10 10.0
-        > Java: 11.0.19 amd64
+        Version: OmegaT-5.7.3_0_57b1bb571
+        Platform: Windows 10 10.0
+        Java: 11.0.19 amd64
 
 2.  _Custom configuration version_
 
