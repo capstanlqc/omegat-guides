@@ -1879,15 +1879,40 @@
 <p></p><div data-block-type="video" style="width: 480px; height: 304px; left: 400px; top: 326px;">
     <div class="sl-block-content" style="z-index: 10;" data-media-id="8242392" data-video-thumb="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/eXYV2O_T/oiepooibjr_thumb_00001.jpg"><video playsinline="" controls="controls" poster="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/eXYV2O_T/oiepooibjr_thumb_00001.jpg" data-lazy-loaded="" data-paused-by-reveal="" src="https://s3.amazonaws.com/media-p.slid.es/videos/1129410/eXYV2O_T/oiepooibjr.mp4"></video></div>
 </div>
+<p>On newer versions of macOS, you may need to control-click (right click) on OmegaT and select <strong>Open</strong>. If it doesn't open, you might need to permit OmegaT to run by clicking on <strong>Open Anyway</strong> next to OmegaT in <strong>System Settings</strong> &gt; <strong>Privacy and Security</strong> &gt; <strong>Security</strong>.</p>
+<p><img alt="" src="../_img/omt_macos_privacy_security.png"></p>
+<div class="admonition info">
+<p class="admonition-title">Self-signing in macOS Sequoia 15.1</p>
+<p>As of macOS Sequoia 15.1, it may be impossible to run OmegaT even with right clicking on the app and selecting <strong>Open</strong>. This might change in the future, but currently to work around that problem one needs to self-sign the downloaded application. Here are the steps to do that:</p>
+<ul>
+<li>
+<p>Open <strong>Keychain Access</strong> on your Mac. If you can't find <strong>Keychain Access</strong>, navigate to <code>/System/Library/CoreServices/Applications</code> in Finder, and open <code>Keychain Access.app</code>.</p>
 </li>
 <li>
-<p>If you want to run a post-installation check to confirm that you have the correct version, you can check that in <strong>Help</strong> &gt; <strong>About</strong> &gt; <strong>Copy Support Info</strong>. You should see:</p>
-<pre><code>&gt; Version: OmegaT-5.7.3_0_57b1bb571
-&gt; Platform: Windows 10 10.0
-&gt; Java: 11.0.19 amd64
-</code></pre>
+<p>From the <strong>Keychain Access</strong> menu, go to <strong>Certificate Assistant</strong> &gt; <strong>Create a Certificate</strong>.</p>
+</li>
+<li>
+<p>Name your certificate (e.g., <code>My App Signing Cert</code>), set the <strong>Identity Type</strong> to <strong>Self-Signed Root</strong>, and the <strong>Certificate Type</strong> to <strong>Code Signing</strong>.</p>
+</li>
+<li>
+<p>Save the certificate in the <strong>login</strong> keychain.</p>
+</li>
+<li>
+<p>Run the <code>codesign</code> command in your <strong>Terminal</strong> to sign <strong>OmegaT.app</strong> with the certificate you created. The basic command looks like this:
+</p><div class="highlight"><pre><span></span><code>codesign<span class="w"> </span>--deep<span class="w"> </span>--force<span class="w"> </span>--verify<span class="w"> </span>--verbose<span class="w"> </span>--sign<span class="w"> </span><span class="s2">"My App Signing Cert"</span><span class="w"> </span>/Applications/OmegaT.app
+</code></pre></div>
+If you gave your certificate a different name and/or copied <strong>OmegaT.app</strong> to a different location, change the above command accordingly.
+</li>
+</ul>
+</div>
 </li>
 </ol>
+<h2 id="setup-checks">Setup checks<a class="headerlink" href="#setup-checks" title="Permanent link">¶</a></h2>
+<p>If you want to run a post-installation check to confirm that you have the correct version, you can check that in <strong>Help</strong> &gt; <strong>About</strong> &gt; <strong>Copy Support Info</strong>. You should see:</p>
+<pre><code>Version: OmegaT-5.7.3_0_57b1bb571
+Platform: Windows 10 10.0
+Java: 11.0.19 amd64
+</code></pre>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">¶</a></h2>
 <p>The OmegaT installation must be configured with some custom files. Please follow the next steps to install or update your configuration.</p>
 <ol>
