@@ -4,11 +4,17 @@ Once you have finished your task in the OmegaT project and have performed the re
 
 ## Online / team project (via repository)
 
-To deliver from a team project:
+To deliver from a team project, commit _all_ target files. To do that, do one of these two things:
+ 
+- Go to **Project** > **Commit Target Files**, or
+- In version 5.7.3 or higher: press ++ctrl+d++ to create target files and commit them (or go to **Project** > **Create Translated Documents**, if you don't like [shortcuts](../../misc/shortcuts/)).
 
-- Go to **Project** > **Commit Target Files**.
+Beware that it's also possible to commit one file at a time (in version 5.7.3 or higher):
 
-That's it! :smile:
+- Press ++ctrl+shift+d++ to create and commit the current target file (go to **Project** > **Create Current Translated Document**, if you don't like [shortcuts](../../misc/shortcuts/)).
+
+!!! info "Remote previewer"
+    If you want to use a remote previewer, you might need to commit only the file you want to preview, e.g. if you make an edit in a file and you want to see the result in that file in the remote previewer. In other words, you may want to commit one file at a time. If you're working on a large project and you commit all target files every time even though you only need to see changes in one file, the commit will take longer to process unnecessarily.
 
 ## Offline project (via package)
 
