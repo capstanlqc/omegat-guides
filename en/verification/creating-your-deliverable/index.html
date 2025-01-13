@@ -2206,11 +2206,19 @@
 <div><h1 id="delivery">Delivery<a class="headerlink" href="#delivery" title="Permanent link">¶</a></h1>
 <p>Once you have finished your task in the OmegaT project and have performed the relevant QA checks, you need to deliver the project. The delivery mode will vary depending on whether it's an <em>offline project</em> or a <em>team project</em>.</p>
 <h2 id="online-team-project-via-repository">Online / team project (via repository)<a class="headerlink" href="#online-team-project-via-repository" title="Permanent link">¶</a></h2>
-<p>To deliver from a team project:</p>
+<p>To deliver from a team project, commit <em>all</em> target files. To do that, do one of these two things:</p>
 <ul>
-<li>Go to <strong>Project</strong> &gt; <strong>Commit Target Files</strong>.</li>
+<li>Go to <strong>Project</strong> &gt; <strong>Commit Target Files</strong>, or</li>
+<li>In version 5.7.3 or higher: press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-d">D</kbd></span> to create target files and commit them (or go to <strong>Project</strong> &gt; <strong>Create Translated Documents</strong>, if you don't like <a href="../../misc/shortcuts/">shortcuts</a>).</li>
 </ul>
-<p>That's it! <img alt="😄" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f604.svg" title=":smile:"></p>
+<p>Beware that it's also possible to commit one file at a time (in version 5.7.3 or higher):</p>
+<ul>
+<li>Press <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-shift">Shift</kbd><span>+</span><kbd class="key-d">D</kbd></span> to create and commit the current target file (go to <strong>Project</strong> &gt; <strong>Create Current Translated Document</strong>, if you don't like <a href="../../misc/shortcuts/">shortcuts</a>).</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Remote previewer</p>
+<p>If you want to use a remote previewer, you might need to commit only the file you want to preview, e.g. if you make an edit in a file and you want to see the result in that file in the remote previewer. In other words, you may want to commit one file at a time. If you're working on a large project and you commit all target files every time even though you only need to see changes in one file, the commit will take longer to process unnecessarily.</p>
+</div>
 <h2 id="offline-project-via-package">Offline project (via package)<a class="headerlink" href="#offline-project-via-package" title="Permanent link">¶</a></h2>
 <ul>
 <li>
