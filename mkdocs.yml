@@ -412,6 +412,7 @@ plugins:
         - "**/misc/omt61-inst.md"
         - "**/misc/hidden/**"
         - "**/omt61-inst-setup"
+        - "**/install-and-setup-beta/"
   #- mkpdfs
   - tags:
       tags_file: en/misc/tags.md
