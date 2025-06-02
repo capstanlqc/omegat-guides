@@ -1,6 +1,6 @@
-# OmegaT 5.7.3 setup guide for Windows
+# OmegaT 5.7.4 setup guide for Windows
 
-This document guides you through the process of installing OmegaT 5.7.3 in your machine. This is a custom version prepared by cApStAn which includes several enhancements and bug fixes not available in the official release.
+This document guides you through the process of installing OmegaT 5.7.4 in your machine. OmegaT 5.7.4 is a custom version prepared by cApStAn which includes several enhancements and bug fixes not available (yet) in the official release.
 
 <!-- prettier-ignore -->
 ??? info "Mac and Linux operating systems"
@@ -10,16 +10,16 @@ This document guides you through the process of installing OmegaT 5.7.3 in your 
 ## Installation
 
 <!-- prettier-ignore -->
-!!! warning "Warning"
-    You must have a 64-bit machine to install OmegaT.
+!!! warning "A 64-bit machine is required to install OmegaT."
+    
 
-1.  Click on the button below to download OmegaT 5.7.3.
+1.  Click on the button below to download OmegaT 5.7.4.
 
-    [ :material-download: Download OmegaT 5.7.3](https://cat.capstan.be/OmegaT/exe/OmegaT_5.7.3_Windows_64_Signed.exe){ .md-button .md-button--primary }
+    [ :material-download: Download OmegaT 5.7.4](https://cat.capstan.be/OmegaT/exe/OmegaT_5.7.4_Windows_64_Signed.exe){ .md-button .md-button--primary }
 
     <!-- prettier-ignore -->
     ??? question "Trouble to download?"
-        Some browsers (e.g. Microsoft Edge) might ask you whether downloading the installer is safe. It is safe, and you can follow the following steps in the video below to let your browser download the file.
+        Some browsers (e.g. Microsoft Edge) might ask you whether downloading the installer is safe. It is safe, and you can follow the  steps in the video below to let your Edge browser download the file (or you can use another browser ;)
 
         ![](../_img/edge-keep-download.gif)
 
@@ -43,21 +43,21 @@ This document guides you through the process of installing OmegaT 5.7.3 in your 
 
     ![](../_img/omt572-install-04-accept.png)
 
-6.  OmegaT will propose the path `C:\Users\USER\AppData\Local\Programs\OmegaT` for the installation, where it should be possible for non-admin users to install. Do not change this path.
+6.  OmegaT will propose the path `C:\Users\USER\AppData\Local\Programs\OmegaT` for the installation, where it should be possible for non-admin users to install. **Do not change this path.**
+
+    ![](../_img/omt572-install-05-path.png)
 
     <!-- prettier-ignore -->
     !!! warning "Warning"
         Please do not modify this installation path unless you're IT personnel and you know what you're doing.
 
-    ![](../_img/omt572-install-05-path.png)
-
-7.  A desktop shortcut (launcher) will be created on your Desktop (which you can double-click later on to launch OmegaT). Do not uncheck that option.
-
-    ![](../_img/omt572-install-06-desktop-shortcut.png)
-
-8.  You may modify the name of the OmegaT folder in the start menu, but "OmegaT " is fine, no need to change it in a standard installation.
+7.  You may modify the name of the OmegaT folder in the start menu, but "OmegaT " is fine, no need to change it.
 
     ![](../_img/omt572-install-07-start-menu.png)
+
+8.  The setup wizard may create a desktop shortcut (launcher) on your Desktop, which you can double-click later on to launch OmegaT. Make sure this option is checked.
+
+    ![](../_img/omt572-install-06-desktop-shortcut.png)
 
 9.  You're ready to proceed with the installation, just press **Next**.
 
@@ -67,62 +67,46 @@ This document guides you through the process of installing OmegaT 5.7.3 in your 
 
     ![](../_img/omt572-install-09-done.png)
 
-11. Now your installation needs to be configured, please go through the **Configuration** section below.
+
+Please go through the **Configuration** section below.
 
 
 ## Configuration
 
-The OmegaT installation must be configured with some custom files. 
+Your OmegaT installation must be configured with some custom files. 
 
 ### Automatically
 
-If you were installing from scratch in a machine where OmegaT had not been installed before, OmegaT should be configured automatically for you the next time you run it. The same thing will also happen every time an update of the custom configuration is released. 
+If you have installed OmegaT from scratch in a machine where OmegaT had not been installed before, OmegaT should be configured automatically for you the first time you run it. The same thing will also happen every time an update of the custom configuration is released. 
 
 When a new configuration update is being installed, you will see the following dialog: 
 
 ![](../_img/customization-update-running.png)
 
-And you will see this dialog when the configuration is updated:
+And you will see a dialog like this when the configuration is updated:
 
 ![](../_img/customization-update-finished.png)
 
-If you saw the above dialog stating that a custom configuratoin update was installed right after installing OmegaT for the first time, you should be good to go. No need to do anything else (you may jump the next part called "Manually" and go directly to [Setup checks](#setup-checks) further down below) to know how to run a few post-installation checks to confirm that everything is okay.
+If you saw the above dialog stating that a custom configuration update was installed right after installing OmegaT for the first time, you should be good to go. Just go to the [Setup checks](#setup-checks) section further down below to know how to run a few post-installation checks to confirm that everything is okay.
+
+If you didn't see the above dialog, then something went wrong, but no worries, you can easily install the configuration manually. Just keep reading (the "Manually" section).
 
 ### Manually
 
-If for any reason the automatic update above does not work, you may run the configuration update manually. 
+If for any reason the automatic update above does not work, you may run the configuration script manually. 
 
-##### Most likely, you have the script: just run it
-
-You should already have the script that installs the latest configuration (called "Update Customization Bundle"). You may select the shortcut 12 at the bottom of the list of script shortcuts below the **Tools** > **Scripting** menu or press the keyboard combination ++ctrl+shift+f12++ to run the "Update Customization Bundle" script: 
+You should already have the script that installs the latest configuration (called "Update Customization Bundle"). You may select the shortcut 12 at the bottom of the list of script shortcuts below the **Tools** > **Scripting** menu to run the "Update Customization Bundle" script: 
 
 ![](../_img/script-shortcut-12.png)
 
-Alternatively, you may open the **Scripting** menu and run the script from there. Select the script "Update Customization Bundle" in the list and then press the **Run** button. 
+Alternatively (if for some reason you can't see shortcut #12), you may open the **Scripting** menu and run the script from there. Select the script "Update Customization Bundle" in the list and then press the **Run** button. 
 
 ![](../_img/config-script-run-manually.png)
 
-##### If you don't have the script, here's a fallback plan
+!!! warning
+    If something is wrong and you don't have that script, please get in touch in our Helpdesk.
 
-If something is wrong and you don't have that script, you may also download it, open it and run it manually.
-
-!!! info
-    Follow the steps in this section _only_ if you cannot find the script as explained above.
-
-1.  Right-click on the button below and select "Save Link As" to download the configuration script (e.g. to your Desktop)
-
-    [ :material-download: Download UpdateConfigBundle.groovy](https://cat.capstan.be/OmegaT/v572/customization/scripts/updateConfigBundle.groovy){ .md-button .md-button--primary }
-
-2.  In OmegaT, follow these steps to run the configuration script you have downloaded:
-
-    - **Tools** > **Scripting** > **File** > **Open script**
-    - browse to the folder where you have saved the script (e.g. your Desktop) and select the groovy file
-    - press the **Open** button to open the script file and press **Run** button (on the bottom left)
-
-    ![](../_img/omt-open-script-and-run.gif)
-
-    The script will install the necessary config files. After that it will quit OmegaT.
-    
+   
 See the section below to know how to run a few post-installation checks to confirm that everything is okay.
 
 ## Setup checks
@@ -133,7 +117,7 @@ The steps above will normally get up and running, but but it's always a good ide
 
     To confirm that you have the correct version, you can check that in **Help** > **About** > **Copy Support Info**. You should see:
 
-        Version: OmegaT-5.7.3_0_57b1bb571
+        Version: OmegaT-5.7.4_0_57b1bb571
         Platform: Windows 10 10.0
         Java: 11.0.19 amd64
 

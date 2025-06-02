@@ -1,6 +1,6 @@
-# OmegaT 5.7.3 setup guide for macOS
+# OmegaT 5.7.4 setup guide for macOS
 
-This document guides you through the process of installing OmegaT 5.7.3 in your machine. This is a custom version prepared by cApStAn which includes several enhancements and bug fixes not available in the official release.
+This document guides you through the process of installing OmegaT 5.7.4 on your Mac. OmegaT 5.7.4 is a custom version prepared by cApStAn which includes several enhancements and bug fixes not available in the official release.
 
 <!-- prettier-ignore -->
 ??? warning "Are you a Windows user?"
@@ -9,9 +9,9 @@ This document guides you through the process of installing OmegaT 5.7.3 in your 
 
 ## Installation
 
-1. Click on the button below to download OmegaT 5.7.3. 
+1. Click on the button below to download OmegaT 5.7.4. 
 
-    [ :material-download: Download OmegaT 5.7.3](https://cat.capstan.be/OmegaT/exe/OmegaT_5.7.3_Mac.zip){ .md-button .md-button--primary }
+    [ :material-download: Download OmegaT 5.7.4](https://cat.capstan.be/OmegaT/exe/OmegaT_5.7.4_Mac.zip){ .md-button .md-button--primary }
 
 2. If you're using Safari, then the file will be unzipped automatically when the download ends.​ If you use another browser, double-click the file when the download ends to unzip it.
 
@@ -56,7 +56,7 @@ This document guides you through the process of installing OmegaT 5.7.3 in your 
 
 If you want to run a post-installation check to confirm that you have the correct version, you can check that in **Help** > **About** > **Copy Support Info**. You should see:
 
-    Version: OmegaT-5.7.3_0_57b1bb571
+    Version: OmegaT-5.7.4_0_57b1bb571
     Platform: Mac OS X 15.1
     Java: 11.0.23 x86_64
 
@@ -70,26 +70,8 @@ The OmegaT installation must be configured with some custom files. Please follow
 
 2. If the script "**Update Customisation Bundle**" is there, please click on it to select it and press the **Run** button (at the bottom left) to run it. The script will run to update your config files and will quit OmegaT. 
 
-##### If you don't have the script, here's a fallback plan
-
-If the script is not there, you may download it yourself. See next steps for how to do that.
-
-2. Right-click on the button below and select "Save Link As" to download the configuration script (e.g. to your Desktop)
-
-    [ :material-download: Download UpdateConfigBundle.groovy](https://cat.capstan.be/OmegaT/v572/customization/scripts/updateConfigBundle.groovy){ .md-button .md-button--primary }
-
-3. In OmegaT, follow these steps to run the configuration script you have downloaded:
-
-    - **Tools** > **Scripting** > **File** > **Open script**
-    - browse to your Desktop (or the folder where you have saved the script) and select the groovy file
-    - press the **Open** button to open the script file and press **Run** button (on the bottom left)
-
-    ![](../_img/omt-open-script-and-run_Mac.gif)
-
-    The script will install the necessary config files, and after that it will quit OmegaT.
-
-
-You're done now. You can start using OmegaT.
+!!! warning
+    If something is wrong and you don't have that script, please get in touch in our Helpdesk.
 
 <!--
 To install OmegaT and set it up on a computer running Windows, please follow the OmegaT installation and setup guide below:
