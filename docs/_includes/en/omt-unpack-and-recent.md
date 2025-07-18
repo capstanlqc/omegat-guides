@@ -58,6 +58,8 @@ To unpack a project, follow these steps:
 
 ### Downloading a team project
 
+Team projects offer the flexibility to synchronize project resources among team members, while allowing easy resolution of conflicts between different translations.
+
 If you receive a URL to a git repository, you must download the team project from that repository to access the project for the first time.
 
 <!-- prettier-ignore -->

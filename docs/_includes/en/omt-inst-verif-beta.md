@@ -21,7 +21,7 @@ Everything else is just the same.
 
 1.  Click on the button below to download OmegaT 5.7.4_Beta.
 
-    [ :material-download: Download OmegaT 5.7.4_Beta](https://nextcloud.capstan.be/index.php/s/ocQ4g5GjWPGrc82){ .md-button .md-button--primary }
+    [ :material-download: Download OmegaT 5.7.4_Beta](https://nextcloud.capstan.be/index.php/s/d4c7T8LLLcjK2Jk){ .md-button .md-button--primary }
 
     <!-- prettier-ignore -->
     ??? question "Trouble to download?"
