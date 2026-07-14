@@ -80,10 +80,10 @@ Please remember to restore the default value when you're not reconciling.
 
 17. In match #1, select `Et encore d'autres fois, la première traduction avait une partie qui était bonne, `
 18. Press ++ctrl+i++ to insert the text you have selected.
-19. In match #2, select `, mais l'autre partie était meilleure dans la deuxième traduction, ou vice versa, donc il fallait les combiner les combiner.`
+19. In match #2, select `, mais l'autre partie était meilleure dans la deuxième traduction, ou vice versa, donc il fallait les combiner.`
 20. Press ++ctrl+i++ to insert the text you have selected now.
 
-    > Expected result: `Et encore d'autres fois, la première traduction avait une partie qui était bonne, mais l'autre partie était meilleure dans la deuxième traduction, ou vice versa, donc il fallait les combiner les combiner.`
+    > Expected result: `Et encore d'autres fois, la première traduction avait une partie qui était bonne, mais l'autre partie était meilleure dans la deuxième traduction, ou vice versa, donc il fallait les combiner.`
 
 You have combined two parts of two translations to create one single reconciled version. Congrats!
 
