@@ -6,6 +6,31 @@ OmegaT must be installed from a customized installer downloaded from these Omega
 
 The purpose of the present document is to provide information relevant for IT departments who must ensure that any software installed in their organization does not pose any security threads. 
 
+## Access requirements
+
+The following access should be allowed in the machine of the omegat user, bot for installing and running OmegaT:
+
+- Allow HTTPS access to whitelisted URLs or domains, either in the browser or from a whitelisted app.
+- Allow installation and/or on-demand execution of whitelisted apps.
+
+#### Whitelisted locations
+
+- `github.com/capstanlqc/*` (any url in this domain)
+- `*.capstan.be/*` (any url with this domain)
+- `*.teamviewer.com/*` (any url with this domain)
+- any other domain of a Git or Subversion repository server where team projects might be hosted
+
+#### Whitelisted applications
+
+- OmegaT and Java runtime bundled with OmegaT
+- TeamViewer QuickSupport
+
+#### References
+
+- [cApStAn's OmegaT fork](https://github.com/capstanlqc/omegat)
+- [cApStAn's OmegaT user configuration](https://github.com/capstanlqc/omegat-user-config-dev572)
+
+
 ## Updating Windows malware definitions
 
 Before downloading the setup files (OmegaT installer and custom configuration script), you may need to update Windows Defender's definitions. On the command prompt as administrator: 
@@ -20,7 +45,9 @@ Source: [https://www.microsoft.com/en-us/wdsi/definitions](https://www.microsoft
 
 You can check the integrity of the file to make sure that, after download, you have the same file that is available for download in the repository of OmegaT binaries. 
 
-On Windows, you can compute the cryptographic hash values of a binary file with the **File Checksum Integrity Verifier** utility (check [this](https://support.microsoft.com/en-us/help/889768/how-to-compute-the-md5-or-sha-1-cryptographic-hash-values-for-a-file) for further information and download the utility).
+On Windows, you can compute the cryptographic hash values of a binary file with the **File Checksum Integrity Verifier** utility (check [this](https://www.betaarchive.com/wiki/index.php/Microsoft_KB_Archive/889768?utm_source=chatgpt.com) for further information and download the utility).
+
+<!-- original File Checksum Integrity Verifier link: https://support.microsoft.com/en-us/help/889768/how-to-compute-the-md5-or-sha-1-cryptographic-hash-values-for-a-file -->
 
 The correct hashes of the OmegaT installer can be provided upon request. If you obtain the same values, you can be certain that you have the same file as it’s available for download and that it’s safe to whitelist it.
 
