@@ -66,7 +66,23 @@ If you receive a URL to a git repository, you must download the team project fro
 
 #### Authentication
 
-At some point during the steps below, or afterwards, OmegaT will ask you to authenticate, so please make sure you have your credentials at hand. OmegaT might ask you to authenticate one or more times (depending on the project settings), please just enter the same credentials as many time as requested.
+Most likely, OmegaT will ask you to authenticate, and for that you should have received your credentials. That might be a username and a password, or a `repositories.properties` file (possibly with a slightly different name) that you need to import.
+
+##### Importing a credentials file
+
+If you have received a credentials file, save it to a folder in your computer. Then, go to **Tools** > **Manage Credentials** to open the **Manage Credentials** dialog.
+
+![](../_img/manage-credentials-dialog.png)
+
+There, press **Import** to access your file system and browse to the location where you have saved the credentials file. Select it and press **Open**. That will import the credentials required for all the projects and resources you'll have to download in OmegaT.
+
+##### Entering credentials manually
+
+If you have received a username and a password, OmegaT will ask you to enter them the first time you try to download the project. So just copy the username and paste it in the username field, and then copy the password and paste it in the password file. Then press **OK**.
+
+![](../_img/insert-credentials.png)
+
+OmegaT might ask you to authenticate one or more times (depending on the project settings), please just enter the same credentials as many time as requested.
 
 #### How to download the project from the repository
 
