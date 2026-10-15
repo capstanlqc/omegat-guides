@@ -72,7 +72,7 @@ Most likely, OmegaT will ask you to authenticate, and for that you should have r
 
 If you have received a credentials file, save it to a folder in your computer. Then, go to **Tools** > **Manage Credentials** to open the **Manage Credentials** dialog.
 
-![](../_img/manage-credentials-dialog.png)
+![](../_img/manage-credentials-dialog.webp)
 
 There, press **Import** to access your file system and browse to the location where you have saved the credentials file. Select it and press **Open**. That will import the credentials required for all the projects and resources you'll have to download in OmegaT.
 
@@ -80,7 +80,7 @@ There, press **Import** to access your file system and browse to the location wh
 
 If you have received a username and a password, OmegaT will ask you to enter them the first time you try to download the project. So just copy the username and paste it in the username field, and then copy the password and paste it in the password file. Then press **OK**.
 
-![](../_img/insert-credentials.png)
+![](../_img/insert-credentials.webp)
 
 OmegaT might ask you to authenticate one or more times (depending on the project settings), please just enter the same credentials as many time as requested.
 
