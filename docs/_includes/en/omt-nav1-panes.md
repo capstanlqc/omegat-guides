@@ -9,4 +9,4 @@ When you open OmegaT you will notice the screen is split in several panes:
 
 See all panes below:
 
-![](../_img/05_omegat_panes.jpg)
+![](../../en/_img/05_omegat_panes.jpg)

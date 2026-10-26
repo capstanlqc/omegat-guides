@@ -6,7 +6,7 @@
 
 During the reconciliation task, the translations from **translator 1** and **translator 2** are handled as matches and are displayed in the **Matches** pane.
 
-![](../_img/12r2_fuzzy_matches_rec.jpg)
+![](../../en/_img/12r2_fuzzy_matches_rec.jpg)
 
 A reconciler's task in practice consists of one of these three options:
 
@@ -16,7 +16,7 @@ A reconciler's task in practice consists of one of these three options:
 
 By default, the *translation 1* match is activated. It is the first one in the list and it is **bolded**. If you want to use the match from translator 2, _double click_ on it to activate that one instead (the activated match will become **bolded**).
 
-![](../_img/13r_selected_match.jpg)
+![](../../en/_img/13r_selected_match.jpg)
 
 <!-- @todo: gif -->
 
@@ -29,7 +29,7 @@ Alternatively, you can also insert only part of a match or combine several match
 - Press ++ctrl+i++ on your keyboard to insert it
 - Select (part of) another match if appropriate or type the rest of the translation
 
-![](../_img/14_select_part_fuzzy.jpg)
+![](../../en/_img/14_select_part_fuzzy.jpg)
 
 ## Context properties
 
@@ -37,7 +37,7 @@ Translation 1 or translation 2 might be alternative translations, if the transla
 
 Context properties may help you discriminate between matches that are meant for different segments. For example, to reconcile segment with key `abc123` and file `file.md` you should consider any alternative translations with those context properties and ignore (or be wary about) any other.
 
-![](../_img/context-props-for-rec.png)
+![](../../en/_img/context-props-for-rec.png)
 
 <!-- @todo: gif -->
 

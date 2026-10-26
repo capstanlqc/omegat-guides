@@ -7,12 +7,12 @@ To ensure that all tags have been inserted correctly:
     <!-- prettier-ignore -->
     !!! tip inline end
         You may untick the other checks (Spelling, Terminology, LanguageTool) if you want to focus on tags only first.
-    ![](../_img/33_check_issues.jpg)
+    ![](../../en/_img/33_check_issues.jpg)
 
 - Press **OK**.
 - An error report will open.
 
-    ![](../_img/34_error_report.jpg)
+    ![](../../en/_img/34_error_report.jpg)
 
 - Go through the issues one by one. For every issue in the list, do the following:
 

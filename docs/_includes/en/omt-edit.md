@@ -8,7 +8,7 @@ Read every translation, while comparing with the source text, considering the re
 
 Press the ++enter++ key to move to the next segment. The segment you jump to becomes **active**{ .active } and ready for edits. This will also allow you to keep track of your progress.
 
-![](../_img/omt-enter.gif)
+![](../../en/_img/omt-enter.gif)
 
 If you need to move backwards, you can press ++ctrl+enter++.
 
@@ -24,7 +24,7 @@ segments with translations from
 
 To correct an error in the translation, you must edit the target text. To edit a translation, simply delete the text that must be removed and type the text that must be added.
 
-![](../_img/omt-edit.gif)
+![](../../en/_img/omt-edit.gif)
 
 You can only edit the translation of the **active**{ .active } segment. You must activate a segment to make it editable. The segment you jump to pressing ++enter++ becomes **active**{ .active } and ready for edits.
 

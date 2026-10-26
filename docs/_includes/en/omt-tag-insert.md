@@ -11,7 +11,7 @@ To insert **paired tags** in your translation, proceed as follows:
 3. Press ++ctrl+space++ to launch the auto-completer.
 4. In the tags section of the auto-completer, select the paired tags you want to insert.
 
-![](../_img/omt-tags-autocomplete-paired.gif)
+![](../../en/_img/omt-tags-autocomplete-paired.gif)
 
 <!-- prettier-ignore -->
 !!! info
@@ -25,6 +25,6 @@ To insert a **standalone tag**, proceed as follows:
 2. Press ++ctrl+space++ to launch the auto-completer.
 3. In the tags section of the auto-completer, select the standalone tag you want to insert.
 
-![](../_img/omt-tags-autocomplete-standalone.gif)
+![](../../en/_img/omt-tags-autocomplete-standalone.gif)
 
 You can also insert a tag one by one with shortcut ++ctrl+t++.

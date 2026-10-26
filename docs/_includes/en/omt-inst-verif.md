@@ -21,27 +21,27 @@ This document guides you through the process of installing OmegaT 5.7.3 in your 
     ??? question "Trouble to download?"
         Some browsers (e.g. Microsoft Edge) might ask you whether downloading the installer is safe. It is safe, and you can follow the following steps in the video below to let your browser download the file.
 
-        ![](../_img/edge-keep-download.gif)
+        ![](../../en/_img/edge-keep-download.gif)
 
 2.  When the download is complete, double-click the installer file to start the installation wizard.
 
 3.  Windows Defender might show a warning about running an unrecognized app.
 
-    ![](../_img/omegat-win-protected-your-pc-01.png) <!-- # omt572-install-01.png -->s
+    ![](../../en/_img/omegat-win-protected-your-pc-01.png) <!-- # omt572-install-01.png -->s
 
     If you see that, click on the <u>More info</u> link in that dialog. In the information displayed you should see that cApStAn is the publisher of this installer.
 
-    ![](../_img/omt572-install-02-run-anyway.png)
+    ![](../../en/_img/omt572-install-02-run-anyway.png)
 
     If that's the case, prease press the **Run anyway** button to proceed with the installation.
 
 4.  In the next dialog, you may choose the language of the installation, then press **Ok**.
 
-    ![](../_img/omt572-install-03-lang.png)
+    ![](../../en/_img/omt572-install-03-lang.png)
 
 5.  Please accept the GPL license agreement to proceed, and press **Next**.
 
-    ![](../_img/omt572-install-04-accept.png)
+    ![](../../en/_img/omt572-install-04-accept.png)
 
 6.  OmegaT will propose the path `C:\Users\USER\AppData\Local\Programs\OmegaT` for the installation, where it should be possible for non-admin users to install. Do not change this path.
 
@@ -49,23 +49,23 @@ This document guides you through the process of installing OmegaT 5.7.3 in your 
     !!! warning "Warning"
         Please do not modify this installation path unless you're IT personnel and you know what you're doing.
 
-    ![](../_img/omt572-install-05-path.png)
+    ![](../../en/_img/omt572-install-05-path.png)
 
 7.  A desktop shortcut (launcher) will be created on your Desktop (which you can double-click later on to launch OmegaT). Do not uncheck that option.
 
-    ![](../_img/omt572-install-06-desktop-shortcut.png)
+    ![](../../en/_img/omt572-install-06-desktop-shortcut.png)
 
 8.  You may modify the name of the OmegaT folder in the start menu, but "OmegaT " is fine, no need to change it in a standard installation.
 
-    ![](../_img/omt572-install-07-start-menu.png)
+    ![](../../en/_img/omt572-install-07-start-menu.png)
 
 9.  You're ready to proceed with the installation, just press **Next**.
 
-    ![](../_img/omt572-install-08-ready.png)
+    ![](../../en/_img/omt572-install-08-ready.png)
 
 10. After a couple of minutes, your installation should be complete.
 
-    ![](../_img/omt572-install-09-done.png)
+    ![](../../en/_img/omt572-install-09-done.png)
 
 11. Now your installation needs to be configured, please go through the **Configuration** section below.
 
@@ -80,11 +80,11 @@ If you were installing from scratch in a machine where OmegaT had not been insta
 
 When a new configuration update is being installed, you will see the following dialog: 
 
-![](../_img/customization-update-running.png)
+![](../../en/_img/customization-update-running.png)
 
 And you will see this dialog when the configuration is updated:
 
-![](../_img/customization-update-finished.png)
+![](../../en/_img/customization-update-finished.png)
 
 If you saw the above dialog stating that a custom configuratoin update was installed right after installing OmegaT for the first time, you should be good to go. No need to do anything else (you may jump the next part called "Manually" and go directly to [Setup checks](#setup-checks) further down below) to know how to run a few post-installation checks to confirm that everything is okay.
 
@@ -96,11 +96,11 @@ If for any reason the automatic update above does not work, you may run the conf
 
 You should already have the script that installs the latest configuration (called "Update Customization Bundle"). You may select the shortcut 12 at the bottom of the list of script shortcuts below the **Tools** > **Scripting** menu or press the keyboard combination ++ctrl+shift+f12++ to run the "Update Customization Bundle" script: 
 
-![](../_img/script-shortcut-12.png)
+![](../../en/_img/script-shortcut-12.png)
 
 Alternatively, you may open the **Scripting** menu and run the script from there. Select the script "Update Customization Bundle" in the list and then press the **Run** button. 
 
-![](../_img/config-script-run-manually.png)
+![](../../en/_img/config-script-run-manually.png)
 
 ##### If you don't have the script, here's a fallback plan
 
@@ -119,7 +119,7 @@ If something is wrong and you don't have that script, you may also download it, 
     - browse to the folder where you have saved the script (e.g. your Desktop) and select the groovy file
     - press the **Open** button to open the script file and press **Run** button (on the bottom left)
 
-    ![](../_img/omt-open-script-and-run.gif)
+    ![](../../en/_img/omt-open-script-and-run.gif)
 
     The script will install the necessary config files. After that it will quit OmegaT.
     
@@ -147,7 +147,7 @@ The steps above will normally get up and running, but but it's always a good ide
 
     Even if you don't use OMT packages, you should have three entries under the **Project** menu in OmegaT:
 
-    ![](../_img/omt-package-entries.png)
+    ![](../../en/_img/omt-package-entries.png)
 
     <!-- - Unpack project from OMT file...
     - Pack project as OMT file...
@@ -157,7 +157,7 @@ The steps above will normally get up and running, but but it's always a good ide
 
     In the **Tools** menu, under **Scripting**, you should see a list of 12 script shortcuts.
 
-    ![](../_img/omt-scripts-shortcuts.png)
+    ![](../../en/_img/omt-scripts-shortcuts.png)
 
     !!! note
         The script shortcuts might be updated occasionally, don't worry if your list is not identical to the screenshot above.

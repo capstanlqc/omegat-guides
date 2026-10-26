@@ -16,7 +16,3 @@ The following video shows how to handle tags, enjoy :octicons-heart-fill-24:{ .h
 
 <!-- section: tag fixing -->
 {% include 'en/omt-tag-iss.md' %}
-
-
-
-   

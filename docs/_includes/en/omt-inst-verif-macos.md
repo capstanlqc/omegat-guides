@@ -33,7 +33,7 @@ This document guides you through the process of installing OmegaT 5.7.3 in your 
 
     On newer versions of macOS, you may need to control-click (right click) on OmegaT and select **Open**. If it doesn't open, you might need to permit OmegaT to run by clicking on **Open Anyway** next to OmegaT in **System Settings** > **Privacy and Security** > **Security**.
 
-    ![](../_img/omt_macos_privacy_security.png)
+    ![](../../en/_img/omt_macos_privacy_security.png)
 
     !!! info "Self-signing in macOS Sequoia 15.1"
         As of macOS Sequoia 15.1, it may be impossible to run OmegaT even with right clicking on the app and selecting **Open**. This might change in the future, but currently to work around that problem one needs to self-sign the downloaded application. Here are the steps to do that:
@@ -66,7 +66,7 @@ The OmegaT installation must be configured with some custom files. Please follow
 
 1. Run OmegaT and go to **Tools** > **Scripting** to open your scripting console, Check whether you have a script called "**Update Customisation Bundle**"
 
-    ![](../_img/custom-script-572-in-scripting-console_Mac.png)
+    ![](../../en/_img/custom-script-572-in-scripting-console_Mac.png)
 
 2. If the script "**Update Customisation Bundle**" is there, please click on it to select it and press the **Run** button (at the bottom left) to run it. The script will run to update your config files and will quit OmegaT. 
 
@@ -84,7 +84,7 @@ If the script is not there, you may download it yourself. See next steps for how
     - browse to your Desktop (or the folder where you have saved the script) and select the groovy file
     - press the **Open** button to open the script file and press **Run** button (on the bottom left)
 
-    ![](../_img/omt-open-script-and-run_Mac.gif)
+    ![](../../en/_img/omt-open-script-and-run_Mac.gif)
 
     The script will install the necessary config files, and after that it will quit OmegaT.
 

@@ -8,4 +8,4 @@ If you have been asked to use "VER" in a specific project and you only work as a
 
 Then press OK.
 
-![](../_img/omt_team_name.png)
+![](../../en/_img/omt_team_name.png)

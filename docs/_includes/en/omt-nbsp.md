@@ -4,4 +4,4 @@ In order to insert non-breaking spaces in OmegaT, type `\nbsp`. The auto-complet
 
 <!-- update screenshot -->
 
-![](../_img/27_non-breaking_spaces.jpg)
+![](../../en/_img/27_non-breaking_spaces.jpg)

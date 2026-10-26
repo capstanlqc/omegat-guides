@@ -2,7 +2,7 @@
 
 <!-- prettier-ignore -->
 !!! tip
-    Please give some thought to the organization of your files and folders before you proceed with the steps below. We provide some tips [here](../misc/tips.md#file-organization){:target="\_blank"}.
+    Please give some thought to the organization of your files and folders before you proceed with the steps below. We provide some tips [here](../../en/misc/tips.md#file-organization){:target="\_blank"}.
 
 <!-- @todo: add file organization tips -->
 
@@ -41,18 +41,18 @@ To unpack a project, follow these steps:
 
     - Go to **Project** > **Unpack project from OMT file**:<!-- @todo: update screenshot -->
 
-        ![](../_img/01_import_omt_package.png)
+        ![](../../en/_img/01_import_omt_package.png)
         <!-- @todo: update screenshot, current version -->
 
-        <!-- ![](../_img/01_import_omt_package.jpg){ align=right } -->
+        <!-- ![](../../en/_img/01_import_omt_package.jpg){ align=right } -->
 
     - Navigate to the location where you stored the OMT package. Select the **OMT package** and click on Open:
 
-        ![](../_img/02_open_omt_package.png)
+        ![](../../en/_img/02_open_omt_package.png)
 
     - A pop up opens. Click **Yes**.
 
-        ![](../_img/03_delete_original_package.png)
+        ![](../../en/_img/03_delete_original_package.png)
 
 3. You can now perform your task in the project.
 
@@ -72,7 +72,7 @@ Most likely, OmegaT will ask you to authenticate, and for that you should have r
 
 If you have received a credentials file, save it to a folder in your computer. Then, go to **Tools** > **Manage Credentials** to open the **Manage Credentials** dialog.
 
-![](../_img/manage-credentials-dialog.webp)
+![](../../en/_img/manage-credentials-dialog.webp)
 
 There, press **Import** to access your file system and browse to the location where you have saved the credentials file. Select it and press **Open**. That will import the credentials required for all the projects and resources you'll have to download in OmegaT.
 
@@ -80,7 +80,7 @@ There, press **Import** to access your file system and browse to the location wh
 
 If you have received a username and a password, OmegaT will ask you to enter them the first time you try to download the project. So just copy the username and paste it in the username field, and then copy the password and paste it in the password file. Then press **OK**.
 
-![](../_img/insert-credentials.webp)
+![](../../en/_img/insert-credentials.webp)
 
 OmegaT might ask you to authenticate one or more times (depending on the project settings), please just enter the same credentials as many time as requested.
 
@@ -95,16 +95,16 @@ To download the team project, follow these steps:
         💀
         Make sure    that location is NOT inside a sync'ed folder such as Dropbox, OneDrive, Nextcloud, Google Drive, Syncthing or the like, or in a server or a network drive.
 
-2.  [Copy](../misc/tips.md#how-to-copy-paste-a-url){:target="\_blank"} the URL of the project repository to your clipboard (select it and press ++ctrl+c++ or right-click it and select Copy).
+2.  [Copy](../../en/misc/tips.md#how-to-copy-paste-a-url){:target="\_blank"} the URL of the project repository to your clipboard (select it and press ++ctrl+c++ or right-click it and select Copy).
 
-    ![](../_img/copy-url.gif)
+    ![](../../en/_img/copy-url.gif)
 
 3.  In OmegaT, go to **Project** > **Download Team Project**.
     <!-- @todo: update screenshot -->
-    <!-- ![](../_img/download-team-project.png) -->
+    <!-- ![](../../en/_img/download-team-project.png) -->
 
     <!-- That will open the **Download Team Project** dialog. -->
-    <!-- ![](../_img/download-git-dialog.png) -->
+    <!-- ![](../../en/_img/download-git-dialog.png) -->
 
 4.  In the **Download Team Project** dialog, click in the **Repository URL** field and then press ++ctrl+v++ to paste the URL from your clipboard.
 
@@ -114,12 +114,12 @@ To download the team project, follow these steps:
     !!! Failure
         DO NOT click on the `...` button.
 
-    <!-- ![](../_img/download-git-dialog-default-values.png) -->
-    <!-- ![](../_img/download-team-project.gif) -->
+    <!-- ![](../../en/_img/download-git-dialog-default-values.png) -->
+    <!-- ![](../../en/_img/download-team-project.gif) -->
 
     See the three steps above in the following animation:
 
-    ![](../_img/omt-download-team-proj-up-to-local-path.gif)
+    ![](../../en/_img/omt-download-team-proj-up-to-local-path.gif)
 
 6.  You might want to modify that path to create the folder in the location that you have defined in the first step above. For example:
 
@@ -128,7 +128,7 @@ To download the team project, follow these steps:
 
     For example:
 
-    ![](../_img/omt-download-team-proj-edit-local-path.gif)
+    ![](../../en/_img/omt-download-team-proj-edit-local-path.gif)
 
     <!-- prettier-ignore -->
     !!! Caution
@@ -136,10 +136,10 @@ To download the team project, follow these steps:
 
     <!-- To do that:
         + Copy the path to the location where you want to create the project, e.g. `C:/Work/`. 
-        ![](../_img/download-git-dialog-copy-path.gif)
+        ![](../../en/_img/download-git-dialog-copy-path.gif)
         + Then, in the **New Local Project Folder** field, select the part of the path up to the slash before the project folder and delete it.
         + Then, press ++ctrl+v++ to paste your path in replacement of the deleted part. 
-        ![](../_img/download-git-dialog-update-path.gif)
+        ![](../../en/_img/download-git-dialog-update-path.gif)
         !!! Caution
             Make sure there's a slash between the path that you paste and the project folder name.
     -->
@@ -154,7 +154,7 @@ After you have received and opened a project for the first time, the project exi
 
 The next times you want to access the project in OmegaT, go to **Project** > **Open Recent Project**. The project you were working on will appear in the list:
 
-![](../_img/04_open_recent_project.jpg)
+![](../../en/_img/04_open_recent_project.jpg)
 
 <!-- prettier-ignore -->
 !!! note
