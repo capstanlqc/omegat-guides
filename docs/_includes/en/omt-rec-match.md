@@ -1,5 +1,9 @@
 # Reconciling using matches
 
+<!-- Note: we use the term "activate a match" rather than "select a match" to distinguish between 
+     selecting the match (=activate the match) and selecting part of the match (=select it).
+-->
+
 During the reconciliation task, the translations from **translator 1** and **translator 2** are handled as matches and are displayed in the **Matches** pane.
 
 ![](../_img/12r2_fuzzy_matches_rec.jpg)
@@ -7,10 +11,10 @@ During the reconciliation task, the translations from **translator 1** and **tra
 A reconciler's task in practice consists of one of these three options:
 
 - Inserting one of the two matches (and then modify it if needed), **_OR_**
-- Inserting part of one of the two matches and then inserting part of the other match, **_OR_**
+- Combinining part(s) of the two matches, **_OR_**
 - Translating the segment from scratch if none of the two matches is suitable.
 
-By default, the match from translator 1 is activated. It is the first one in the list and it is **bolded**. If you want to use the match from translator 2, _double click_ on it to activate that one instead (the activated match will become **bolded**).
+By default, the *translation 1* match is activated. It is the first one in the list and it is **bolded**. If you want to use the match from translator 2, _double click_ on it to activate that one instead (the activated match will become **bolded**).
 
 ![](../_img/13r_selected_match.jpg)
 
@@ -27,8 +31,16 @@ Alternatively, you can also insert only part of a match or combine several match
 
 ![](../_img/14_select_part_fuzzy.jpg)
 
+## Context properties
+
+Translation 1 or translation 2 might be alternative translations, if the translators had a reason to prevent autopropagation of the default translation into the active segment. In that case, context properties (segment ID and file) will appear right after the match score.
+
+Context properties may help you discriminate between matches that are meant for different segments. For example, to reconcile segment with key `abc123` and file `file.md` you should consider any alternative translations with those context properties and ignore (or be wary about) any other.
+
+![](../_img/context-props-for-rec.png)
+
 <!-- @todo: gif -->
 
 <!-- prettier-ignore -->
 !!! tip "Remember"
-    It is important to make sure the final translation is **harmonized** as the two translators may use different terms and styles. To ensure this, make sure you preview the item prior to delivery and perform concordance searches on recurring instructions and terminology.
+    It is important to make sure the final translation is **harmonized** as the two translators may use different terms and styles. To ensure this, make sure you preview the item prior to delivery and perform concordance searches to ensure consistency through the project with other segments where the same phrases (e.g. instructions) or terms appear.

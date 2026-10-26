@@ -35,7 +35,7 @@ When you edit the translation of a repeated segment, as soon as the edit is save
 
 In some cases, two instances of a repeated segment might need to be translated differently in different contexts. In that situation, you may want to modify the translation of only one of the repetitions without altering the rest.
 
-In other words, you must create an **alternative translation** to prevent _auto-propagating_ your update.
+In other words, you must create an **alternative translation** to prevent _auto-propagating_ your update and/or to prevent the default translation from _auto-propagating_ into the segment you're translating or reviewing.
 
 To create an **alternative translation**:
 
