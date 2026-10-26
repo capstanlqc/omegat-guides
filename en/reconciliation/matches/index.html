@@ -928,9 +928,40 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Matches
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Matches
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#context-properties" class="md-nav__link">
+    Context properties
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -4341,15 +4372,19 @@
 <!-- section: fuzzy matches (tra) -->
 
 <h1 id="reconciling-using-matches">Reconciling using matches<a class="headerlink" href="#reconciling-using-matches" title="Permanent link">&para;</a></h1>
+<!-- Note: we use the term "activate a match" rather than "select a match" to distinguish between 
+     selecting the match (=activate the match) and selecting part of the match (=select it).
+-->
+
 <p>During the reconciliation task, the translations from <strong>translator 1</strong> and <strong>translator 2</strong> are handled as matches and are displayed in the <strong>Matches</strong> pane.</p>
 <p><img alt="" src="../../_img/12r2_fuzzy_matches_rec.jpg" /></p>
 <p>A reconciler's task in practice consists of one of these three options:</p>
 <ul>
 <li>Inserting one of the two matches (and then modify it if needed), <strong><em>OR</em></strong></li>
-<li>Inserting part of one of the two matches and then inserting part of the other match, <strong><em>OR</em></strong></li>
+<li>Combinining part(s) of the two matches, <strong><em>OR</em></strong></li>
 <li>Translating the segment from scratch if none of the two matches is suitable.</li>
 </ul>
-<p>By default, the match from translator 1 is activated. It is the first one in the list and it is <strong>bolded</strong>. If you want to use the match from translator 2, <em>double click</em> on it to activate that one instead (the activated match will become <strong>bolded</strong>).</p>
+<p>By default, the <em>translation 1</em> match is activated. It is the first one in the list and it is <strong>bolded</strong>. If you want to use the match from translator 2, <em>double click</em> on it to activate that one instead (the activated match will become <strong>bolded</strong>).</p>
 <p><img alt="" src="../../_img/13r_selected_match.jpg" /></p>
 <!-- @todo: gif -->
 
@@ -4362,12 +4397,16 @@
 <li>Select (part of) another match if appropriate or type the rest of the translation</li>
 </ul>
 <p><img alt="" src="../../_img/14_select_part_fuzzy.jpg" /></p>
+<h2 id="context-properties">Context properties<a class="headerlink" href="#context-properties" title="Permanent link">&para;</a></h2>
+<p>Translation 1 or translation 2 might be alternative translations, if the translators had a reason to prevent autopropagation of the default translation into the active segment. In that case, context properties (segment ID and file) will appear right after the match score.</p>
+<p>Context properties may help you discriminate between matches that are meant for different segments. For example, to reconcile segment with key <code>abc123</code> and file <code>file.md</code> you should consider any alternative translations with those context properties and ignore (or be wary about) any other.</p>
+<p><img alt="" src="../../_img/context-props-for-rec.png" /></p>
 <!-- @todo: gif -->
 
 <!-- prettier-ignore -->
 <div class="admonition tip">
 <p class="admonition-title">Remember</p>
-<p>It is important to make sure the final translation is <strong>harmonized</strong> as the two translators may use different terms and styles. To ensure this, make sure you preview the item prior to delivery and perform concordance searches on recurring instructions and terminology.</p>
+<p>It is important to make sure the final translation is <strong>harmonized</strong> as the two translators may use different terms and styles. To ensure this, make sure you preview the item prior to delivery and perform concordance searches to ensure consistency through the project with other segments where the same phrases (e.g. instructions) or terms appear.</p>
 </div>
 
 
