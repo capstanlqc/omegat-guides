@@ -115,117 +115,117 @@ nav:
       - About: en/misc/about.md
       # - OmegaT 6.1 (experimental): misc/omt61-inst.md
 
-  # Russian nav menu
-  - Содержание: ru/index.md
-  - Руководство по переводу:
-      - Перевод: ru/translation/index.md
-      - Установка и настройка: ru/translation/install-and-setup.md
-      - Доступ к проекту: ru/translation/accessing-the-project.md
-      - Навигация: ru/translation/navigation.md
-      - Теги: ru/translation/tags.md
-      - Нечеткие совпадения: ru/translation/matches.md
-      - Глоссарий: ru/translation/glossary.md
-      - Повторы: ru/translation/repetitions.md
-      - Другие полезные функции: ru/translation/other-useful-features.md
-      - Проверки качества (QA): ru/translation/qa-checks.md
-      - Создание переведенных файлов: ru/translation/creating-target-files.md
-      - Создание готовых материалов: ru/translation/creating-your-deliverable.md
-      - Сочетания клавиш: ru/translation/shortcuts.md
-  - Руководство по согласованию перевода:
-      - Согласование перевода: ru/reconciliation/index.md
-      - Установка и настройка: ru/reconciliation/install-and-setup.md
-      - Доступ к проекту: ru/reconciliation/accessing-the-project.md
-      - Навигация: ru/reconciliation/navigation.md
-      - Теги: ru/reconciliation/tags.md
-      - Нечеткие совпадения: ru/reconciliation/matches.md
-      - Глоссарий: ru/reconciliation/glossary.md
-      - Повторы: ru/reconciliation/repetitions.md
-      - Другие полезные функции: ru/reconciliation/other-useful-features.md
-      - Проверки качества (QA): ru/reconciliation/qa-checks.md
-      - Создание переведенных файлов: ru/reconciliation/creating-target-files.md
-      - Создание готовых материалов: ru/reconciliation/creating-your-deliverable.md
-      - Сочетания клавиш: ru/reconciliation/shortcuts.md
-  - Руководство по адаптации перевода:
-      - Адаптация: ru/adaptation/index.md
-      - Установка и настройка: ru/adaptation/install-and-setup.md
-      - Доступ к проекту: ru/adaptation/accessing-the-project.md
-      - Навигация: ru/adaptation/navigation.md
-      - Теги: ru/adaptation/tags.md
-      - Нечеткие совпадения: ru/adaptation/matches.md
-      - Глоссарий: ru/adaptation/glossary.md
-      - Повторы: ru/adaptation/repetitions.md
-      - Другие полезные функции: ru/adaptation/other-useful-features.md
-      - Проверки качества (QA): ru/adaptation/qa-checks.md
-      - Создание переведенных файлов: ru/adaptation/creating-target-files.md
-      - Создание готовых материалов: ru/adaptation/creating-your-deliverable.md
-      - Сочетания клавиш: ru/adaptation/shortcuts.md
-  - Руководство по верификация перевода:
-      - Верификация: ru/verification/index.md
-      - Установка и настройка: ru/verification/install-and-setup.md
-      - Доступ к проекту: ru/verification/accessing-the-project.md
-      - Навигация: ru/verification/navigation.md
-      - Редактирование: ru/verification/editing.md
-      - Теги: ru/verification/tags.md
-      - Нечеткие совпадения: ru/verification/matches.md
-      - Глоссарий: ru/verification/glossary.md
-      - Повторы: ru/verification/repetitions.md
-      - Другие полезные функции: ru/verification/other-useful-features.md
-      - Проверки качества (QA): ru/verification/qa-checks.md
-      - Создание переведенных файлов: ru/verification/creating-target-files.md
-      - Создание готовых материалов: ru/verification/creating-your-deliverable.md
-      - Сочетания клавиш: ru/verification/shortcuts.md
-  - Руководство по редактированию перевода:
-      - Редактирование: ru/editing/index.md
-      - Установка и настройка: ru/editing/install-and-setup.md
-      - Доступ к проекту: ru/editing/accessing-the-project.md
-      - Навигация: ru/editing/navigation.md
-      - Теги: ru/editing/tags.md
-      - Нечеткие совпадения: ru/editing/matches.md
-      - Глоссарий: ru/editing/glossary.md
-      - Повторы: ru/editing/repetitions.md
-      - Другие полезные функции: ru/editing/other-useful-features.md
-      - Проверки качества (QA): ru/editing/qa-checks.md
-      - Создание переведенных файлов: ru/editing/creating-target-files.md
-      - Создание готовых материалов: ru/editing/creating-your-deliverable.md
-      - Сочетания клавиш: ru/editing/shortcuts.md
-  - Руководство по рецензированию перевода:
-      - Рецензирование: ru/review/index.md
-      - Установка и настройка: ru/review/install-and-setup.md
-      - Доступ к проекту: ru/review/accessing-the-project.md
-      - Навигация: ru/review/navigation.md
-      - Теги: ru/review/tags.md
-      - Нечеткие совпадения: ru/review/matches.md
-      - Глоссарий: ru/review/glossary.md
-      - Повторы: ru/review/repetitions.md
-      - Другие полезные функции: ru/review/other-useful-features.md
-      - Проверки качества (QA): ru/review/qa-checks.md
-      - Создание переведенных файлов: ru/review/creating-target-files.md
-      - Создание готовых материалов: ru/review/creating-your-deliverable.md
-      - Сочетания клавиш: ru/review/shortcuts.md
-  - Упражнения:
-      - Начало работы: ru/exercises/index.md
-      - 01 - Навигация: ru/exercises/nav.md
-      - 02 - Нечеткие совпадения: ru/exercises/mat.md
-      - 03 - Согласование перевода: ru/exercises/rec.md
-      - 04 - Теги: ru/exercises/tag.md
-      - 05 - Повторы: ru/exercises/rep.md
-      - 06 - Альтернативные переводы: ru/exercises/alt.md
-      - 07 - Специальные символы: ru/exercises/aut.md
-      - 08 - Поиск: ru/exercises/fnd.md
-      - 09 - Проверки качества (QA): ru/exercises/qac.md
-      - 10 - Командные проекты: ru/exercises/tgt.md
-  - Разное:
-      - Разное: ru/misc/index.md
-      - ИТ-безопасность: ru/misc/security.md
-      - Видео: ru/misc/videos.md
-      - Автотекст: ru/misc/autotext.md
-      - Сочетания клавиш: ru/misc/shortcuts.md
-      - Двунаправленность текста: ru/misc/bidi.md
-      - Шрифты: ru/misc/fonts.md
-      - Часто задаваемые вопросы: ru/misc/faq.md
-      - Советы и рекомендации: ru/misc/tips.md
-      - Вспомогательные инструменты: ru/misc/aux.md
-      - Кто есть кто: ru/misc/about.md
+#  # Russian nav menu
+#  - Содержание: ru/index.md
+#  - Руководство по переводу:
+#      - Перевод: ru/translation/index.md
+#      - Установка и настройка: ru/translation/install-and-setup.md
+#      - Доступ к проекту: ru/translation/accessing-the-project.md
+#      - Навигация: ru/translation/navigation.md
+#      - Теги: ru/translation/tags.md
+#      - Нечеткие совпадения: ru/translation/matches.md
+#      - Глоссарий: ru/translation/glossary.md
+#      - Повторы: ru/translation/repetitions.md
+#      - Другие полезные функции: ru/translation/other-useful-features.md
+#      - Проверки качества (QA): ru/translation/qa-checks.md
+#      - Создание переведенных файлов: ru/translation/creating-target-files.md
+#      - Создание готовых материалов: ru/translation/creating-your-deliverable.md
+#      - Сочетания клавиш: ru/translation/shortcuts.md
+#  - Руководство по согласованию перевода:
+#      - Согласование перевода: ru/reconciliation/index.md
+#      - Установка и настройка: ru/reconciliation/install-and-setup.md
+#      - Доступ к проекту: ru/reconciliation/accessing-the-project.md
+#      - Навигация: ru/reconciliation/navigation.md
+#      - Теги: ru/reconciliation/tags.md
+#      - Нечеткие совпадения: ru/reconciliation/matches.md
+#      - Глоссарий: ru/reconciliation/glossary.md
+#      - Повторы: ru/reconciliation/repetitions.md
+#      - Другие полезные функции: ru/reconciliation/other-useful-features.md
+#      - Проверки качества (QA): ru/reconciliation/qa-checks.md
+#      - Создание переведенных файлов: ru/reconciliation/creating-target-files.md
+#      - Создание готовых материалов: ru/reconciliation/creating-your-deliverable.md
+#      - Сочетания клавиш: ru/reconciliation/shortcuts.md
+#  - Руководство по адаптации перевода:
+#      - Адаптация: ru/adaptation/index.md
+#      - Установка и настройка: ru/adaptation/install-and-setup.md
+#      - Доступ к проекту: ru/adaptation/accessing-the-project.md
+#      - Навигация: ru/adaptation/navigation.md
+#      - Теги: ru/adaptation/tags.md
+#      - Нечеткие совпадения: ru/adaptation/matches.md
+#      - Глоссарий: ru/adaptation/glossary.md
+#      - Повторы: ru/adaptation/repetitions.md
+#      - Другие полезные функции: ru/adaptation/other-useful-features.md
+#      - Проверки качества (QA): ru/adaptation/qa-checks.md
+#      - Создание переведенных файлов: ru/adaptation/creating-target-files.md
+#      - Создание готовых материалов: ru/adaptation/creating-your-deliverable.md
+#      - Сочетания клавиш: ru/adaptation/shortcuts.md
+#  - Руководство по верификация перевода:
+#      - Верификация: ru/verification/index.md
+#      - Установка и настройка: ru/verification/install-and-setup.md
+#      - Доступ к проекту: ru/verification/accessing-the-project.md
+#      - Навигация: ru/verification/navigation.md
+#      - Редактирование: ru/verification/editing.md
+#      - Теги: ru/verification/tags.md
+#      - Нечеткие совпадения: ru/verification/matches.md
+#      - Глоссарий: ru/verification/glossary.md
+#      - Повторы: ru/verification/repetitions.md
+#      - Другие полезные функции: ru/verification/other-useful-features.md
+#      - Проверки качества (QA): ru/verification/qa-checks.md
+#      - Создание переведенных файлов: ru/verification/creating-target-files.md
+#      - Создание готовых материалов: ru/verification/creating-your-deliverable.md
+#      - Сочетания клавиш: ru/verification/shortcuts.md
+#  - Руководство по редактированию перевода:
+#      - Редактирование: ru/editing/index.md
+#      - Установка и настройка: ru/editing/install-and-setup.md
+#      - Доступ к проекту: ru/editing/accessing-the-project.md
+#      - Навигация: ru/editing/navigation.md
+#      - Теги: ru/editing/tags.md
+#      - Нечеткие совпадения: ru/editing/matches.md
+#      - Глоссарий: ru/editing/glossary.md
+#      - Повторы: ru/editing/repetitions.md
+#      - Другие полезные функции: ru/editing/other-useful-features.md
+#      - Проверки качества (QA): ru/editing/qa-checks.md
+#      - Создание переведенных файлов: ru/editing/creating-target-files.md
+#      - Создание готовых материалов: ru/editing/creating-your-deliverable.md
+#      - Сочетания клавиш: ru/editing/shortcuts.md
+#  - Руководство по рецензированию перевода:
+#      - Рецензирование: ru/review/index.md
+#      - Установка и настройка: ru/review/install-and-setup.md
+#      - Доступ к проекту: ru/review/accessing-the-project.md
+#      - Навигация: ru/review/navigation.md
+#      - Теги: ru/review/tags.md
+#      - Нечеткие совпадения: ru/review/matches.md
+#      - Глоссарий: ru/review/glossary.md
+#      - Повторы: ru/review/repetitions.md
+#      - Другие полезные функции: ru/review/other-useful-features.md
+#      - Проверки качества (QA): ru/review/qa-checks.md
+#      - Создание переведенных файлов: ru/review/creating-target-files.md
+#      - Создание готовых материалов: ru/review/creating-your-deliverable.md
+#      - Сочетания клавиш: ru/review/shortcuts.md
+#  - Упражнения:
+#      - Начало работы: ru/exercises/index.md
+#      - 01 - Навигация: ru/exercises/nav.md
+#      - 02 - Нечеткие совпадения: ru/exercises/mat.md
+#      - 03 - Согласование перевода: ru/exercises/rec.md
+#      - 04 - Теги: ru/exercises/tag.md
+#      - 05 - Повторы: ru/exercises/rep.md
+#      - 06 - Альтернативные переводы: ru/exercises/alt.md
+#      - 07 - Специальные символы: ru/exercises/aut.md
+#      - 08 - Поиск: ru/exercises/fnd.md
+#      - 09 - Проверки качества (QA): ru/exercises/qac.md
+#      - 10 - Командные проекты: ru/exercises/tgt.md
+#  - Разное:
+#      - Разное: ru/misc/index.md
+#      - ИТ-безопасность: ru/misc/security.md
+#      - Видео: ru/misc/videos.md
+#      - Автотекст: ru/misc/autotext.md
+#      - Сочетания клавиш: ru/misc/shortcuts.md
+#      - Двунаправленность текста: ru/misc/bidi.md
+#      - Шрифты: ru/misc/fonts.md
+#      - Часто задаваемые вопросы: ru/misc/faq.md
+#      - Советы и рекомендации: ru/misc/tips.md
+#      - Вспомогательные инструменты: ru/misc/aux.md
+#      - Кто есть кто: ru/misc/about.md
 theme:
   language: en
   name: material
@@ -439,13 +439,13 @@ plugins:
 copyright: Copyright &copy; 2024 cApStAn
 extra:
   generator: true
-  alternate:
-    - name: English
-      link: /omegat-guides/en/
-      lang: en
-    - name: Русский
-      link: /omegat-guides/ru/
-      lang: ru
+#  alternate:
+#    - name: English
+#      link: /omegat-guides/en/
+#      lang: en
+#    - name: Русский
+#      link: /omegat-guides/ru/
+#      lang: ru
 # https://github.com/pawamoy/best-of-mkdocs#-snippets--includes-reusing-contents
 validation:
   nav:
