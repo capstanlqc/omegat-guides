@@ -284,8 +284,8 @@ markdown_extensions:
   - abbr
   - attr_list
   - pymdownx.emoji:
-      emoji_index: !!python/name:pymdownx.emoji.twemoji
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.snippets:
       auto_append:
         - en/_includes/abbreviations.md
