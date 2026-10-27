@@ -1,5 +1,5 @@
 site_name: OmegaT guides [cApStAn]
-site_url: https://capstanlqc.github.com/omegat-guides/
+site_url: https://capstanlqc.github.io/omegat-guides/
 docs_dir: docs # default
 nav:
   - Contents: en/index.md
@@ -408,7 +408,8 @@ plugins:
       exclude:
         - "**/hidden.md"
         - /**/page.md#section
-        - "**/_includes/*"
+        - "_includes/*"
+        - "/_includes/"
         - "**/misc/omt61-inst.md"
         - "**/misc/hidden/**"
         - "**/omt61-inst-setup"
