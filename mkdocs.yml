@@ -1,5 +1,5 @@
 site_name: OmegaT guides [cApStAn]
-site_url: https://capstanlqc.github.io/omegat-guides/
+site_url: https://capstanlqc.github.io/omegat-guides/en/
 docs_dir: docs # default
 nav:
   - Contents: en/index.md
@@ -439,6 +439,7 @@ plugins:
         - '.*\.(tmp|bin|tar)$'
 copyright: Copyright &copy; 2024 cApStAn
 extra:
+  homepage: https://capstanlqc.github.io/omegat-guides/
   generator: true
 #  alternate:
 #    - name: English
